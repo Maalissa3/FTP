@@ -4617,4 +4617,307 @@ The largest relative loads of about $30\%$ occur at the $\text{CP}$ and $\text{M
 \subsubsection{Concluding Note}
 Google unveiled the world's largest quantum computer processor to date. Dubbed Bristlecone, it's a 72-qubit gate-based superconducting system.
 
+\section{\textsuperscript{3}He solidification - Demagnetization - Others}
+
+\subsection{Outline}
+\begin{itemize}
+    \item \textsuperscript{3}He solidification refrigeration (Pomeranchuck cooling)
+    \item Refrigeration by Adiabatic Demagnetization (electronic, nuclear)
+    \item Other techniques for refrigeration below 1 K (Tunnel junction cooling, Laser cooling, Evaporative cooling)
+\end{itemize}
+
+\subsection{Refrigeration by Solidification of Liquid \textsuperscript{3}He: Pomeranchuck Cooling}
+
+Today this technique is no longer as important because above a few millikelvin this "one-shot" method offers essentially no advantage over continuously operating dilution refrigerators, and at lower temperatures nuclear demagnetization is much more powerful.
+However, this cooling method offers interesting insight into some important properties of matter, in particular liquid and solid \textsuperscript{3}He $\rightarrow$ some hints.
+
+Solidification of matter at the rate $\dot{n}$ usually results in the production of heat according to
+\begin{equation*}
+    \dot{Q}=\dot{n}T(S_{sol}-S_{liq})<0
+\end{equation*}
+because the liquid's entropy is usually larger than the solid's entropy, as the liquid state is a state of lower order than the solid state.
+
+In 1950, I. Pomeranchuk predicted that for \textsuperscript{3}He on the melting curve below about 0.3K the entropy of the liquid phase is smaller than the entropy of the solid phase (which means the liquid phase is more ordered, due to quantistic reasons connected to the nuclear spin), and that therefore adiabatic solidification of He along the melting line should result in cooling.
+
+\begin{center}
+    image
+Entropies (divided by the gas constant R) of solid and liquid \textsuperscript{3}He along the melting curve. The full disorder nuclear spin entropy of solid He, $S_{s}/R=\ln(2I+1)=\ln 2$ is marked. The entropy curves cross at the minimum of the melting curve at 315 mK, 29.31 bar. The anomaly in $S_{liq}$ at 2.44 mK is caused by the superfluid transition of liquid He. The kink in $S_{sol}$ at 0.90 mK is a result of the nuclear antiferromagnetic ordering of solid \textsuperscript{3}He.
+\end{center}
+
+\begin{center}
+    image
+ Phase diagram for \textsuperscript{3}He and melting curve pressure vs. temperature. This unusual negative slope of the melting curve is connected to the fact that here the liquid phase has a smaller entropy than the solid phase. If we move along the melting curve below the minimum, by increasing the pressure and so solidifying more and more \textsuperscript{3}He, the temperature has to decrease.
+\end{center}
+
+Cooling power (latent heat of solidification):
+\begin{equation*}
+    \dot{Q}=\dot{n}_{sol}T(S_{sol}-S_{liq})=\dot{n}_{sol}T(R~\ln 2-36T)\approx T
+\end{equation*}
+when $\dot{n}_{sol}$ moles are solidified per unit time.
+
+\begin{center}
+    image
+    Comparison of specific cooling powers of Pomeranchuk refrigeration and \textsuperscript{3}He-\textsuperscript{4}He dilution refrigeration.
+\end{center}
+
+\begin{center}
+    image
+    Plastic Pomeranchuck cell. Stretched Kapton tube as a pressure transmitter.
+\end{center}
+
+\noindent Disadvantage: its discontinuous nature. Pomeranchuk cooling is basically a "one-shot" method.
+
+\subsection{Refrigeration by Adiabatic Demagnetization of a Paramagnetic Salt}
+
+In 1926, a completely new refrigeration technology was proposed: lower temperatures could be reached by using the magnetic disorder entropy of electronic magnetic moments in paramagnetic salts, a method later called adiabatic demagnetization of paramagnetic salts.
+
+\noindent Consider paramagnetic ions with an electronic magnetic moment $\mu_{el}$ in a solid. Assume the energy $\mathcal{E}_{m}$ of interaction to be small compared to the thermal energy $k_{B}T$. This means that we are considering free paramagnetic ions with magnetic moment $\mu$ and total angular momentum $J$ with entropy contribution $S=R\ln(2J+1)$, if they are completely disordered in their $2J+1$ possible orientations with respect to a magnetic field.
+
+If the temperature is decreased, eventually the interactions between the magnetic moments will become comparable to the thermal energy $\rightarrow$ spontaneous magnetic order, e.g., ferromagnetic or antiferromagnetic orientation of the moments $\rightarrow$ the entropy will decrease and approach zero (as required by the third law of thermodynamics). An externally applied magnetic field will interact with the magnetic moments, at least partially orienting them along its axis to create a magnetized state of higher order. Therefore, in the presence of a field the entropy will start to decrease at a higher temperature.
+
+\begin{center}
+    image
+    Electronic magnetic entropy vs. temperature at different magnetic fields.
+\end{center}
+
+\subsubsection{Phases (Electronic Demagnetization)}
+\begin{itemize}
+    \item \textbf{Precooling:} Paramagnetic salt in contact with a precooling bath to precool it to a starting temperature $T_{i}$.
+    \item \textbf{Isothermal Magnetization:} A magnetic field $B_{i}$ is applied to perform an isothermal magnetization at $T_{i}$ from $B=0$ to $B=B_{i}.$ During this process the heat of magnetization is absorbed by the precooling bath.
+    \item \textbf{Adiabatic Demagnetization:} Thermal isolation of the paramagnetic salt from the surrounding bath which then allows the adiabatic demagnetization to be carried out by reducing the external field from its starting value $B_{i}$ to a final field $B_{f},$ which may be in the millitesla region $\rightarrow$ temperature decreases.
+    \item \textbf{Warming Up:} The cooling agent, the paramagnetic salt, will warm up along the entropy curve at $B_{f}=$ const. due to an external heat leak until its cooling power has been used up to refrigerate the sample.
+\end{itemize}
+
+Magnetic refrigeration is a "one-shot" technique, where the demagnetization ends at a low field and then sample and refrigerant warm up.
+
+The heat of isothermal magnetization released when the applied field is increased from zero to $B_{i}$ and which has to be absorbed by the precooling bath at constant temperature $T_{i}$ is given by
+\begin{equation*}
+    Q(T_{i})=nT_{i}[S(0,T_{i})-S(B_{i},T_{i})]
+\end{equation*}
+(The heat of magnetization is given by the rectangle $ABDS_{\infty}$ in the figure).
+
+\noindent \textbf{Adiabatic Demagnetization.} For free magnetic moments the entropy is a function of just the ratio of magnetic energy to thermal energy $\rightarrow$ for the adiabatic process $S(B_{i}/T_{i})=S(B_{f}/T_{f})$, which results in
+\begin{equation}
+    \frac{T_{f}}{B_{f}}=\frac{T_{i}}{B_{i}} \quad (*)
+\end{equation}
+Of course, we cannot reach $T_{f}\rightarrow 0$ by letting $B_{f}\rightarrow 0$ because eventually the condition $k_{B}T \gg \mathcal{E}_{m}$ is violated and the internal interactions will align the moments and the entropy vanishes.
+
+\noindent \textbf{Warming-up due to External Heating.} The cooling power of the salt after demagnetization to $B_{f}$, or the heat it can absorb as it is warming up, is given by
+\begin{equation*}
+    Q(B_{f})=n\int_{T_{f}}^{\infty}T(\partial S/\partial T)_{B_{f}}dT
+\end{equation*}
+(This hatched area is indicated in the figure).
+
+These results demonstrate that one has to find a compromise between a low final temperature $T_{f}$ [which would require a low final field $B_{f}$; see $(*)]$, and a large cooling power (which requires a large final field figure).
+
+More accurate calculations $\rightarrow$
+\begin{equation*}
+    T_{f}=\frac{T_{i}}{B_{i}}\sqrt{B_{f}^{2}+b^{2}}
+\end{equation*}
+where $b$ is an internal field resulting from the neighboring moments in the paramagnet.
+
+\subsubsection{Paramagnetic Salts and Magnetic Refrigerators}
+
+\begin{itemize}
+    \item The behavior of a magnetic refrigerator is mainly determined by the experimental starting conditions ($B_i$, $T_{i}$), the heat leaks, and the properties of the paramagnetic salt. Typical starting conditions for paramagnetic refrigeration, $B_{i}=0.1-1T,$ $T_{i}=0.1-1K$.
+    \item The paramagnetic refrigerant, the salt, should have a low magnetic ordering temperature $T_{c}$ and a large magnetic specific heat in order to achieve a large cooling power (which means a large angular momentum $J$).
+    \item The ordering temperature $T_{c}$ is determined by the interactions between the magnetic moments, which create the internal field $b$.
+    \item Suitable paramagnetic salts must contain ions with only partly filled electronic shells, i.e., either 3d transition elements or 4f rare earth elements.
+\end{itemize}
+
+\begin{center}
+    image Reduced entropy $S/R$ for different paramagnetic salts.
+\end{center}
+
+\noindent \textbf{Examples of Paramagnetic Salts}
+\begin{itemize}
+    \item "High"-temperature salts:
+    \begin{itemize}
+        \item \textbf{MAS} (Manganese ammonium sulphate: $Mn^{2+}SO_{4}\cdot(NH_{4})_{2}SO_{4}\cdot6H_{2}O$): $T_{c}\simeq0.17K$
+        \item \textbf{FAA} (Ferric ammonium alum: $Fe_{2}^{3+}(SO_{4})_{3}\cdot(NH_{4})_{2}SO_{4}\cdot24H_{2}O$): $T_{c}\simeq0.03~K$
+    \end{itemize}
+    \item "Low"-temperature salts:
+    \begin{itemize}
+        \item \textbf{CPA} (Chromium potassium alum: $Cr_{2}^{3+}(SO_{4})_{3}\cdot K_{2}SO_{4}\cdot24H_{2}O$): $T_{c}\simeq0.01~K$
+        \item \textbf{CMN} (Cerium magnesium nitrate: $2Ce^{3+}(NO_{3})_{3}\cdot3Mg(NO_{3})_{2}\cdot24H_{2}O$): $T_{c}\simeq0.002K$ (most used)
+    \end{itemize}
+\end{itemize}
+
+\noindent \textbf{Advantages of Paramagnetic Refrigeration}
+\begin{itemize}
+    \item The required starting conditions can be fairly easily achieved with simple dilution refrigerators and superconducting magnets.
+    \item The refrigerant can also be used as a thermometer by applying the Curie law $\chi=\lambda/T$ to determine the temperature $T$ by measurements of the susceptibility $\chi$ of the salt.
+\end{itemize}
+
+\begin{center}
+    image
+    Schematic drawing of a magnetic refrigerator.
+\end{center}
+
+\noindent \textbf{Drawbacks of Paramagnetic Refrigeration}
+\begin{itemize}
+    \item "One-shot" nature.
+    \item The thermal conductivity of dielectric salts is rather poor (a typical value is $10^{-4}\text{W}~\text{K}^{-1}\text{cm}^{-1}$ at 0.1 K).
+\end{itemize}
+
+
+\subsection{Nuclear Adiabatic Demagnetization}
+
+Nuclear magnetic moments are about 1,000 times smaller than electronic magnetic moments $\rightarrow$ they can be used for magnetic refrigeration in a similar way as the electronic magnetic moments $\rightarrow$ avoid the main disadvantages of electronic paramagnetic refrigeration, i.e. low thermal conductivities and "high" magnetic ordering temperatures $\rightarrow$ refrigeration into the micro-kelvin temperature range and below.
+
+\noindent The minimum temperature for magnetic refrigeration is given by spontaneous magnetic ordering. The interaction energy between magnetic moments in the simplest case (dipole-dipole interaction only) is given by $\mathcal{E}_{d}=\mu b$, where $b$ is the internal dipole field created by neighbors ($\sim \mu/r^{3}$) $\rightarrow$ the ordering temperature is $T_{c}\propto\mu^{2}/r^{3}$. The nuclear magnetic moments are of the order of the nuclear magneton $\mu_{n}=5.05\times10^{-27}\text{J}\text{T}^{-1}$, instead of the Bohr magneton $\mu_{B}=9.27\times10^{-24}\text{J}\text{T}^{-1}$ for the electronic magnetic moments $\rightarrow$ the ordering temperature due to nuclear dipole-dipole interaction is much lower, typically of the order of $0.1~\mu \text{K}$ or less.
+
+\noindent \textbf{Further advantages} (over electronic demagnetization)
+\begin{itemize}
+    \item For nuclear magnetic refrigeration we can use metals and can take advantage of their high thermal conductivity.
+    \item Higher density of moments $\rightarrow$ large nuclear entropy density.
+\end{itemize}
+
+\noindent \textbf{Advantages are counteracted by experimental problems} resulting from the small size of these moments: to achieve a reduction of the nuclear magnetic entropy of, at least, a few percent we need rather demanding starting conditions for the magnetic field and for the temperature.
+\begin{itemize}
+    \item E.g., for Cu (most used): with $B_{i}=8T$ and $T_{i}=10~\text{mK}$ $\Rightarrow \Delta S$ only $\cong 5\% R\ln 4$.
+\end{itemize}
+
+\begin{center}
+    image
+    Molar nuclear spin entropy vs. $B/T$.
+\end{center}
+
+The cooling power is given by $Q=n\int TdS$, and because we now also want to work at substantially lower temperature, $Q$ is typically a factor of 1,000 smaller than for electronic magnetic refrigeration.
+
+\noindent \textbf{Transfer of the spin temperature.} The nuclear spin system may reach a very low temperature, but how this is transferred to the rest of the system, to the electrons and to lattice vibrations, which determine the "temperature" of our refrigerant? (unless we are only interested in the cold nuclear spin system itself). Metals are suited because of their short spin-lattice relaxation time (see below). Very slow processes (hours, days).
+
+As for electronic demagnetization:
+\begin{equation*}
+    T_{f}=\frac{T_{i}}{B_{i}}\sqrt{B_{f}^{2}+b^{2}}
+\end{equation*}
+$\rightarrow$ e.g., for Cu: $b = 0.36~\text{mT}$.
+
+\subsubsection{Differences in Experimental Procedure (Nuclear vs. Electronic)}
+There are two ways to precool and polarize the nuclear moments.
+\begin{itemize}
+    \item \textbf{Superconducting solenoid operating in the persistent mode:}
+    \begin{itemize}
+        \item No current between the room temperature power supply and the low-temperature part during the long time of precooling, thus avoiding ohmic losses.
+        \item Usually produces a field which is more stable and ripple free than the field of a solenoid connected to a power supply.
+    \end{itemize}
+\end{itemize}
+The heavy lines indicate the superconducting wire of the magnet and its persistent shunt. A heater is connected which can drive this piece of superconductor into its resistive state, which is necessary for loading and unloading the current of the main solenoid.
+
+\begin{center}
+    image
+    Schematic drawing of a nuclear demagnetization refrigerator setup.
+\end{center}
+
+\subsubsection{Interaction Between Conduction Electrons and Nuclei}
+\begin{itemize}
+    \item \textbf{Nuclear Cooling vs. Nuclear Refrigeration:} Since $\tau_{1} \gg \tau_{2}$:
+    \begin{itemize}
+        \item It is possible to refrigerate just the nuclear spin system to low microkelvin temperatures and leave conduction electrons and phonons at higher temperatures, for studies of nuclear magnetic interactions (\textit{nuclear cooling}).
+        \item If the refrigeration is performed in such a way that the nuclei pull conduction electrons and phonons to low temperatures as well, the term used is \textit{nuclear refrigeration}.
+    \end{itemize}
+    \item \textbf{Nucleus–Electron Coupling:} Electromagnetic interaction between the nuclei and s-electrons, undergoing a mutual spin flip via hyperfine interaction.
+    \begin{itemize}
+        \item \textbf{Spin–Lattice Relaxation Time ($\tau_{1}$):} Time needed for thermal equilibrium at $T_{e}=$ const: $\tau_{1} = \kappa/T_{e}$ (Korringa law), where $\kappa$ is a material constant.
+    \end{itemize}
+    \item \textbf{Electron–Phonon Coupling:} The phonon temperature will always follow the electronic temperature within a very short relaxation time. Henceforth we can assume that lattice vibrations and conduction electrons are at the same temperature.
+    \item \textbf{Heat Transfer:} The way heat or cooling is transferred is: nuclei $\rightarrow$ conduction electrons $\rightarrow$ phonons.
+    \item \textbf{Spin–Spin Relaxation Time ($\tau_{2}$):} Thermal equilibrium among the nuclear magnetic moments at the temperature $T_{n}$ is established within $\tau_{2}$, which is rather short for metals, with typical values of less than 1ms.
+\end{itemize}
+
+\begin{center}
+    
+    image
+    Nuclear spin temperature $T_{n}$ and electronic temperature $T_{e}$ as a function of the magnetic field $B_{f}$ for the demagnetization stage.
+\end{center}
+
+The nuclear spin temperature $T_{n,f}$ is about proportional to the demagnetization field. Also, the electronic one $T_{e}$ is proportional to field as long as it is not too small: for small final fields $T_{e}$ increases, leading to an increasing difference between nuclear and electronic temperatures due to the heat flow between the two systems.
+\begin{itemize}
+    \item \textbf{Example:} $T_{e} = 2 T_{n}$ for 10 moles of Cu at $\dot{Q} = 1~\text{nW}$ and $B_{f,\text{opt}} = 6~\text{mT}$.
+\end{itemize}
+
+\noindent \textbf{Influence of an External Heat Load and the Optimum Final Magnetic Field.} There is an optimum final demagnetization field $B_{f,\text{opt}}$ if we are interested in achieving the minimum electronic temperature:
+\begin{equation*}
+    T_{e, \text{min}} \approx \frac{T_{i}}{\sqrt{B_{i}}} \sqrt[4]{\frac{\lambda_{n}\kappa}{4 \dot{Q} B_{i}}} \quad \text{where } \lambda_{n} \text{ is the Curie nuclear constant.}
+\end{equation*}
+
+\subsubsection{Heat Leaks}
+Because the cooling power of a refrigerator is smaller the lower its temperature regime of operation (nW), more than for all other refrigeration techniques, the success of a nuclear refrigerator depends on the reduction of heat leaks.
+\begin{itemize}
+    \item The latest best nuclear refrigerators reach values of total heat leaks of the order of $10^{-10} \text{ W}$.
+    \item Even cosmic rays or natural radioactivity cannot be neglected (e.g. $20~\text{pW}$ from background $\gamma$–radiation, $120~\text{pW}$ from cosmic rays).
+    \item \textbf{External heat leaks:} Conduction via residual gas atoms, along mechanical supports, via the heat switch, along electrical leads or fill capillaries for helium experiments. Because a nuclear refrigerator contains highly conducting metals in changing magnetic fields, we have to consider eddy current heating effects $\rightarrow$ slow processes.
+    \item \textbf{Internal leaks:} E.g., the exothermic ortho–para conversion of $\text{H}_{2}$ (typical concentrations of $10^{-1} \dots 10^{-2}$).
+\end{itemize}
+
+\begin{center}
+    image
+    Schematic of the low-temperature part of the nuclear refrigerator at the University of Bayreuth with the two superconducting magnets and their field profiles.
+\end{center}
+
+\noindent \textbf{Examples of Nuclear Demagnetization Refrigerators}
+\begin{itemize}
+    \item \textbf{University of Bayreuth:} The first nuclear stage contains 17.5 kg or 275 mol Cu, of which 6.6 kg or 104 mol Cu are effectively in a field of 8 T. The second nuclear stage contains 0.13 kg or 2 mol Cu in a field of 9T. Superconducting Al heat switches and Pt NMR thermometers are used in the low-field experimental spaces.
+    \item \textbf{Record:} $2~\mu \text{K}$ record.
+\end{itemize}
+
+\subsection{Other techniques for refrigeration below 1 K}
+
+\subsubsection{Tunnel Junction Cooling}
+\begin{itemize}
+    \item The basic principle of direct electronic cooling: an energy filter (gray wall) allows only high energy electrons (red circles) to be removed from the electron system. This ejection leads to sharpening of the electron distribution, i.e. cooling.
+    \item When a proper bias voltage is applied over a NIS (Normal metal-Insulator-Superconductor) junction, the most energetic electrons in the normal metal can tunnel into the superconductor, cooling the normal metal.
+\end{itemize}
+
+\subsubsection{Laser Cooling}
+\begin{itemize}
+    \item \textbf{Principle:} Based on the conservation of momentum when a photon is absorbed and emitted.
+    \item Particles are irradiated by a laser beam with a frequency ($\omega$) that is slightly detuned \textbf{below} their resonance frequencies ($\omega_{0}$).
+    \item When a photon traveling opposite to the particles becomes \textbf{blueshifted} by $\delta = \omega_{0} - \omega$ due to the Doppler effect, the photon can be absorbed by a particle. After that, the particle relaxes to its ground state and the particle experiences a recoil when it emits a photon in a random direction. This slows down the particles, achieving low temperatures.
+    \item \textbf{Record:} Ensemble of \textsuperscript{87}Rb atoms in two dimensions cooled to less than $50~\text{pK}$.
+\end{itemize}
+
+\subsubsection{Evaporative Cooling}
+\begin{itemize}
+    \item \textbf{Method:} This method is based on the preferential removal of those atoms from a confined sample with an energy higher than the average energy, followed by a rethermalization of the remaining gas by elastic collisions.
+    \item \textbf{Result:} Those that remain have much lower average energy (temperature) and so they occupy a smaller volume near the bottom of the trap, thereby increasing their density.
+    \item \textbf{Forced cooling:} The evaporative cooling can be "forced" by inducing radio-frequency fields that cause only the most energetic atoms to undergo transitions to magnetic states that are not trapped (the depth of the trap itself is gradually decreased).
+    \item \textbf{Record:} Bose–Einstein condensate of \textsuperscript{87}Rb atoms was obtained using evaporative cooling. The condensate fraction had a temperature of $170~\text{nK}$.
+\end{itemize}
+
+\subsection{Summary}
+
+\begin{table}[h]
+    \centering
+    \caption{Summary of Cryogenic Techniques}
+    \resizebox{\textwidth}{!}{\begin{tabular}{|l|l|l|}
+        \hline
+        \textbf{Temperature range} & \textbf{Physical principle} & \textbf{Technique} \\
+        \hline
+        $300 \text{ K} \rightarrow 240 \text{ K}$ & Evaporation of a proper fluid & Standard home or industrial refrigerator \\
+        \hline
+        $300 \text{ K} \rightarrow 50 \text{ K}$ & Stirling or modified Stirling cycle (regenerative cycles) & Single-stage closed-cycle cryocoolers \\
+        \hline
+        $300 \text{ K} \rightarrow 3 \text{ K}$ & Stirling or modified Stirling cycle, pulse-tube regenerative cycle & Two-stage closed-cycle cryocoolers \\
+        \hline
+        $300 \text{ K} \rightarrow 4.2 \text{ K}$ & Enthalpy or latent heat of a liquefied gas (\text{Ne}, \text{O}, \text{H}, \text{He}\textsuperscript{4}) & Cryostat with \text{VTI} (Variable Temperature Insert) \\
+        \hline
+        $4.2 \text{ K} \rightarrow 1.3 \text{ K}$ & Evaporation of liquid \textsuperscript{4}He & \textsuperscript{4}He Cryostat with 1K pot \\
+        \hline
+        $2.5 \text{ K} \rightarrow 0.25 \text{ K}$ & Evaporation of liquid \textsuperscript{3}He & \textsuperscript{4}He cryostat with 1K pot and \textsuperscript{3}He evaporation chamber \\
+        \hline
+        $4.2 \text{ K} \rightarrow 2 \text{ mK}$ & Mixing of \textsuperscript{3}He in \textsuperscript{4}He & Dilution refrigerator (continuous operation) \\
+        \hline
+        $3 \text{ K} \rightarrow 2 \text{ mK}$ & Adiabatic demagnetization of paramagnetic salts & Adiabatic demagn. refrigerator ("one-shot") \\
+        \hline
+        $10 \text{ mK} \rightarrow 0.1 \text{ }\mu \text{K}$ & Adiabatic demagnetization of nuclear spins & Nuclear magnetic refrigerator ("one-shot") \\
+        \hline
+        $1 \text{ K} \rightarrow 0.05 \text{ K}$ & Direct electron cooling (Normal metal-Insulator-Superconductor) & Tunnel junction cooling \\
+        \hline
+        $1 \text{ K} \rightarrow 50 \text{ pK}$ & Doppler effect of photons (\text{Cs}, \text{Rb} atoms) & Laser cooling \\
+        \hline
+        $1 \text{ mK} \rightarrow 170 \text{ nK}$ & Preferential removal of high energy atoms from a trap & Evaporative cooling \\
+        \hline
+    \end{tabular}}
+\end{table}
 \end{document}
