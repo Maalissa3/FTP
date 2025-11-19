@@ -317,6 +317,5 @@
 \contentsline {paragraph}{Required signal levels}{165}{}%
 \contentsline {paragraph}{Radiative load}{166}{}%
 \contentsline {subsubsection}{Cabling and Thermalization}{166}{}%
-\contentsline {subsubsection}{Passive Heat Load per Line (Measured/Estimated)}{167}{}%
-\contentsline {subsubsection}{Total Heat Load Budget}{167}{}%
-\contentsline {subsubsection}{Concluding Note}{168}{}%
+\contentsline {subsubsection}{Total Heat Load Budget}{166}{}%
+\contentsline {subsubsection}{Concluding Note}{167}{}%

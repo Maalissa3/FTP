@@ -1,9 +1,9 @@
-PWD /Users/martinapaolacalvi/Downloads/FTP (1)
+PWD /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP
 INPUT /usr/local/texlive/2025/texmf.cnf
 INPUT /usr/local/texlive/2025/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/martinapaolacalvi/Downloads/FTP (1)/main.tex
-OUTPUT main.log
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/main.tex
+OUTPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/main.log
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/report.cls
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/report.cls
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/size10.clo
@@ -45,10 +45,10 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/pdftex.def
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/pdftex.def
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-INPUT ./main.aux
-INPUT ./main.aux
-INPUT main.aux
-OUTPUT main.aux
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/main.aux
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/main.aux
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/main.aux
+OUTPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/main.aux
 INPUT /usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -83,14 +83,14 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
-OUTPUT main.pdf
+OUTPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/main.pdf
 INPUT /usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecrm2488.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecbx2488.tfm
-INPUT ./main.toc
-INPUT ./main.toc
-INPUT main.toc
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/main.toc
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/main.toc
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/main.toc
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecbx1000.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
@@ -105,7 +105,7 @@ INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecti0700.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecti0500.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecrm0700.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecrm0500.tfm
-OUTPUT main.toc
+OUTPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/main.toc
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecrm2074.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecbx2074.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecrm1440.tfm
@@ -113,181 +113,181 @@ INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecbx1440.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
-INPUT ./Screenshot 2025-10-02 at 19.07.28.png
-INPUT ./Screenshot 2025-10-02 at 19.07.28.png
-INPUT ./Screenshot 2025-10-02 at 19.07.28.png
-INPUT ./Screenshot 2025-10-02 at 19.07.28.png
-INPUT ./Screenshot 2025-10-02 at 19.07.28.png
-INPUT ./Bravais_lattices.png
-INPUT ./Bravais_lattices.png
-INPUT ./Bravais_lattices.png
-INPUT ./Bravais_lattices.png
-INPUT ./Bravais_lattices.png
-INPUT ./Screenshot 2025-10-03 115058.png
-INPUT ./Screenshot 2025-10-03 115058.png
-INPUT ./Screenshot 2025-10-03 115058.png
-INPUT ./Screenshot 2025-10-03 115058.png
-INPUT ./Screenshot 2025-10-03 115058.png
-INPUT ./Screenshot 2025-10-03 115459.png
-INPUT ./Screenshot 2025-10-03 115459.png
-INPUT ./Screenshot 2025-10-03 115459.png
-INPUT ./Screenshot 2025-10-03 115459.png
-INPUT ./Screenshot 2025-10-03 115459.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-02 at 19.07.28.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-02 at 19.07.28.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-02 at 19.07.28.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-02 at 19.07.28.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-02 at 19.07.28.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Bravais_lattices.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Bravais_lattices.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Bravais_lattices.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Bravais_lattices.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Bravais_lattices.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-03 115058.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-03 115058.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-03 115058.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-03 115058.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-03 115058.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-03 115459.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-03 115459.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-03 115459.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-03 115459.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-03 115459.png
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmbx7.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmbx5.tfm
-INPUT ./Screenshot 2025-10-04 at 14.09.29.png
-INPUT ./Screenshot 2025-10-04 at 14.09.29.png
-INPUT ./Screenshot 2025-10-04 at 14.09.29.png
-INPUT ./Screenshot 2025-10-04 at 14.09.29.png
-INPUT ./Screenshot 2025-10-04 at 14.09.29.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-04 at 14.09.29.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-04 at 14.09.29.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-04 at 14.09.29.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-04 at 14.09.29.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-04 at 14.09.29.png
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecbx0700.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecbx0500.tfm
-INPUT ./Screenshot 2025-10-05 at 15.05.01.png
-INPUT ./Screenshot 2025-10-05 at 15.05.01.png
-INPUT ./Screenshot 2025-10-05 at 15.05.01.png
-INPUT ./Screenshot 2025-10-05 at 15.05.01.png
-INPUT ./Screenshot 2025-10-05 at 15.05.01.png
-INPUT ./Progetto senza titolo.png
-INPUT ./Progetto senza titolo.png
-INPUT ./Progetto senza titolo.png
-INPUT ./Progetto senza titolo.png
-INPUT ./Progetto senza titolo.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-05 at 15.05.01.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-05 at 15.05.01.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-05 at 15.05.01.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-05 at 15.05.01.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-05 at 15.05.01.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Progetto senza titolo.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Progetto senza titolo.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Progetto senza titolo.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Progetto senza titolo.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Progetto senza titolo.png
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecbi1000.tfm
-INPUT ./Screenshot 2025-10-29 at 14.48.19.png
-INPUT ./Screenshot 2025-10-29 at 14.48.19.png
-INPUT ./Screenshot 2025-10-29 at 14.48.19.png
-INPUT ./Screenshot 2025-10-29 at 14.48.19.png
-INPUT ./Screenshot 2025-10-29 at 14.48.19.png
-INPUT ./Screenshot 2025-10-29 at 15.27.28.png
-INPUT ./Screenshot 2025-10-29 at 15.27.28.png
-INPUT ./Screenshot 2025-10-29 at 15.27.28.png
-INPUT ./Screenshot 2025-10-29 at 15.27.28.png
-INPUT ./Screenshot 2025-10-29 at 15.27.28.png
-INPUT ./Screenshot 2025-10-29 at 16.01.30.png
-INPUT ./Screenshot 2025-10-29 at 16.01.30.png
-INPUT ./Screenshot 2025-10-29 at 16.01.30.png
-INPUT ./Screenshot 2025-10-29 at 16.01.30.png
-INPUT ./Screenshot 2025-10-29 at 16.01.30.png
-INPUT ./Screenshot 2025-10-29 at 16.12.06.png
-INPUT ./Screenshot 2025-10-29 at 16.12.06.png
-INPUT ./Screenshot 2025-10-29 at 16.12.06.png
-INPUT ./Screenshot 2025-10-29 at 16.12.06.png
-INPUT ./Screenshot 2025-10-29 at 16.12.06.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-29 at 14.48.19.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-29 at 14.48.19.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-29 at 14.48.19.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-29 at 14.48.19.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-29 at 14.48.19.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-29 at 15.27.28.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-29 at 15.27.28.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-29 at 15.27.28.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-29 at 15.27.28.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-29 at 15.27.28.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-29 at 16.01.30.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-29 at 16.01.30.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-29 at 16.01.30.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-29 at 16.01.30.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-29 at 16.01.30.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-29 at 16.12.06.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-29 at 16.12.06.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-29 at 16.12.06.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-29 at 16.12.06.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-29 at 16.12.06.png
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmbx8.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmbx6.tfm
-INPUT ./Screenshot 2025-10-30 at 08.44.49.png
-INPUT ./Screenshot 2025-10-30 at 08.44.49.png
-INPUT ./Screenshot 2025-10-30 at 08.44.49.png
-INPUT ./Screenshot 2025-10-30 at 08.44.49.png
-INPUT ./Screenshot 2025-10-30 at 08.44.49.png
-INPUT ./Screenshot 2025-10-30 at 08.49.04.png
-INPUT ./Screenshot 2025-10-30 at 08.49.04.png
-INPUT ./Screenshot 2025-10-30 at 08.49.04.png
-INPUT ./Screenshot 2025-10-30 at 08.49.04.png
-INPUT ./Screenshot 2025-10-30 at 08.49.04.png
-INPUT ./Screenshot 2025-10-30 at 08.58.34.png
-INPUT ./Screenshot 2025-10-30 at 08.58.34.png
-INPUT ./Screenshot 2025-10-30 at 08.58.34.png
-INPUT ./Screenshot 2025-10-30 at 08.58.34.png
-INPUT ./Screenshot 2025-10-30 at 08.58.34.png
-INPUT ./Screenshot 2025-10-30 at 09.11.18.png
-INPUT ./Screenshot 2025-10-30 at 09.11.18.png
-INPUT ./Screenshot 2025-10-30 at 09.11.18.png
-INPUT ./Screenshot 2025-10-30 at 09.11.18.png
-INPUT ./Screenshot 2025-10-30 at 09.11.18.png
-INPUT ./Screenshot 2025-10-30 at 09.16.34.png
-INPUT ./Screenshot 2025-10-30 at 09.16.34.png
-INPUT ./Screenshot 2025-10-30 at 09.16.34.png
-INPUT ./Screenshot 2025-10-30 at 09.16.34.png
-INPUT ./Screenshot 2025-10-30 at 09.16.34.png
-INPUT ./Screenshot 2025-10-30 at 09.23.11.png
-INPUT ./Screenshot 2025-10-30 at 09.23.11.png
-INPUT ./Screenshot 2025-10-30 at 09.23.11.png
-INPUT ./Screenshot 2025-10-30 at 09.23.11.png
-INPUT ./Screenshot 2025-10-30 at 09.23.11.png
-INPUT ./Screenshot 2025-10-30 at 09.25.34.png
-INPUT ./Screenshot 2025-10-30 at 09.25.34.png
-INPUT ./Screenshot 2025-10-30 at 09.25.34.png
-INPUT ./Screenshot 2025-10-30 at 09.25.34.png
-INPUT ./Screenshot 2025-10-30 at 09.25.34.png
-INPUT ./Screenshot 2025-11-04 at 11.47.28.png
-INPUT ./Screenshot 2025-11-04 at 11.47.28.png
-INPUT ./Screenshot 2025-11-04 at 11.47.28.png
-INPUT ./Screenshot 2025-11-04 at 11.47.28.png
-INPUT ./Screenshot 2025-11-04 at 11.47.28.png
-INPUT ./Screenshot 2025-11-04 at 12.13.31.png
-INPUT ./Screenshot 2025-11-04 at 12.13.31.png
-INPUT ./Screenshot 2025-11-04 at 12.13.31.png
-INPUT ./Screenshot 2025-11-04 at 12.13.31.png
-INPUT ./Screenshot 2025-11-04 at 12.13.31.png
-INPUT ./Screenshot 2025-11-04 at 12.24.12.png
-INPUT ./Screenshot 2025-11-04 at 12.24.12.png
-INPUT ./Screenshot 2025-11-04 at 12.24.12.png
-INPUT ./Screenshot 2025-11-04 at 12.24.12.png
-INPUT ./Screenshot 2025-11-04 at 12.24.12.png
-INPUT ./Screenshot 2025-11-04 at 12.30.51.png
-INPUT ./Screenshot 2025-11-04 at 12.30.51.png
-INPUT ./Screenshot 2025-11-04 at 12.30.51.png
-INPUT ./Screenshot 2025-11-04 at 12.30.51.png
-INPUT ./Screenshot 2025-11-04 at 12.30.51.png
-INPUT ./Screenshot 2025-11-04 at 12.57.41.png
-INPUT ./Screenshot 2025-11-04 at 12.57.41.png
-INPUT ./Screenshot 2025-11-04 at 12.57.41.png
-INPUT ./Screenshot 2025-11-04 at 12.57.41.png
-INPUT ./Screenshot 2025-11-04 at 12.57.41.png
-INPUT ./Screenshot 2025-11-04 at 13.52.43.png
-INPUT ./Screenshot 2025-11-04 at 13.52.43.png
-INPUT ./Screenshot 2025-11-04 at 13.52.43.png
-INPUT ./Screenshot 2025-11-04 at 13.52.43.png
-INPUT ./Screenshot 2025-11-04 at 13.52.43.png
-INPUT ./Screenshot 2025-11-04 at 13.55.15.png
-INPUT ./Screenshot 2025-11-04 at 13.55.15.png
-INPUT ./Screenshot 2025-11-04 at 13.55.15.png
-INPUT ./Screenshot 2025-11-04 at 13.55.15.png
-INPUT ./Screenshot 2025-11-04 at 13.55.15.png
-INPUT ./Screenshot 2025-11-07 at 18.02.12.png
-INPUT ./Screenshot 2025-11-07 at 18.02.12.png
-INPUT ./Screenshot 2025-11-07 at 18.02.12.png
-INPUT ./Screenshot 2025-11-07 at 18.02.12.png
-INPUT ./Screenshot 2025-11-07 at 18.02.12.png
-INPUT ./Screenshot 2025-11-06 at 09.19.44.png
-INPUT ./Screenshot 2025-11-06 at 09.19.44.png
-INPUT ./Screenshot 2025-11-06 at 09.19.44.png
-INPUT ./Screenshot 2025-11-06 at 09.19.44.png
-INPUT ./Screenshot 2025-11-06 at 09.19.44.png
-INPUT ./Screenshot 2025-11-06 at 09.20.45.png
-INPUT ./Screenshot 2025-11-06 at 09.20.45.png
-INPUT ./Screenshot 2025-11-06 at 09.20.45.png
-INPUT ./Screenshot 2025-11-06 at 09.20.45.png
-INPUT ./Screenshot 2025-11-06 at 09.20.45.png
-INPUT ./Screenshot 2025-11-06 at 09.21.32.png
-INPUT ./Screenshot 2025-11-06 at 09.21.32.png
-INPUT ./Screenshot 2025-11-06 at 09.21.32.png
-INPUT ./Screenshot 2025-11-06 at 09.21.32.png
-INPUT ./Screenshot 2025-11-06 at 09.21.32.png
-INPUT ./Screenshot 2025-11-06 at 09.04.13.png
-INPUT ./Screenshot 2025-11-06 at 09.04.13.png
-INPUT ./Screenshot 2025-11-06 at 09.04.13.png
-INPUT ./Screenshot 2025-11-06 at 09.04.13.png
-INPUT ./Screenshot 2025-11-06 at 09.04.13.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-30 at 08.44.49.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-30 at 08.44.49.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-30 at 08.44.49.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-30 at 08.44.49.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-30 at 08.44.49.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-30 at 08.49.04.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-30 at 08.49.04.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-30 at 08.49.04.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-30 at 08.49.04.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-30 at 08.49.04.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-30 at 08.58.34.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-30 at 08.58.34.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-30 at 08.58.34.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-30 at 08.58.34.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-30 at 08.58.34.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-30 at 09.11.18.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-30 at 09.11.18.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-30 at 09.11.18.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-30 at 09.11.18.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-30 at 09.11.18.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-30 at 09.16.34.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-30 at 09.16.34.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-30 at 09.16.34.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-30 at 09.16.34.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-30 at 09.16.34.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-30 at 09.23.11.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-30 at 09.23.11.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-30 at 09.23.11.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-30 at 09.23.11.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-30 at 09.23.11.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-30 at 09.25.34.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-30 at 09.25.34.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-30 at 09.25.34.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-30 at 09.25.34.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-30 at 09.25.34.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-04 at 11.47.28.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-04 at 11.47.28.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-04 at 11.47.28.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-04 at 11.47.28.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-04 at 11.47.28.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-04 at 12.13.31.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-04 at 12.13.31.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-04 at 12.13.31.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-04 at 12.13.31.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-04 at 12.13.31.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-04 at 12.24.12.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-04 at 12.24.12.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-04 at 12.24.12.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-04 at 12.24.12.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-04 at 12.24.12.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-04 at 12.30.51.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-04 at 12.30.51.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-04 at 12.30.51.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-04 at 12.30.51.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-04 at 12.30.51.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-04 at 12.57.41.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-04 at 12.57.41.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-04 at 12.57.41.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-04 at 12.57.41.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-04 at 12.57.41.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-04 at 13.52.43.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-04 at 13.52.43.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-04 at 13.52.43.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-04 at 13.52.43.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-04 at 13.52.43.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-04 at 13.55.15.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-04 at 13.55.15.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-04 at 13.55.15.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-04 at 13.55.15.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-04 at 13.55.15.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-07 at 18.02.12.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-07 at 18.02.12.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-07 at 18.02.12.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-07 at 18.02.12.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-07 at 18.02.12.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-06 at 09.19.44.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-06 at 09.19.44.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-06 at 09.19.44.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-06 at 09.19.44.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-06 at 09.19.44.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-06 at 09.20.45.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-06 at 09.20.45.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-06 at 09.20.45.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-06 at 09.20.45.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-06 at 09.20.45.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-06 at 09.21.32.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-06 at 09.21.32.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-06 at 09.21.32.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-06 at 09.21.32.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-06 at 09.21.32.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-06 at 09.04.13.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-06 at 09.04.13.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-06 at 09.04.13.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-06 at 09.04.13.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-06 at 09.04.13.png
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/tcrm0700.tfm
-INPUT ./Screenshot 2025-11-06 at 09.22.12.png
-INPUT ./Screenshot 2025-11-06 at 09.22.12.png
-INPUT ./Screenshot 2025-11-06 at 09.22.12.png
-INPUT ./Screenshot 2025-11-06 at 09.22.12.png
-INPUT ./Screenshot 2025-11-06 at 09.22.12.png
-INPUT ./Screenshot 2025-11-06 at 09.23.18.png
-INPUT ./Screenshot 2025-11-06 at 09.23.18.png
-INPUT ./Screenshot 2025-11-06 at 09.23.18.png
-INPUT ./Screenshot 2025-11-06 at 09.23.18.png
-INPUT ./Screenshot 2025-11-06 at 09.23.18.png
-INPUT ./Screenshot 2025-11-07 at 18.05.09.png
-INPUT ./Screenshot 2025-11-07 at 18.05.09.png
-INPUT ./Screenshot 2025-11-07 at 18.05.09.png
-INPUT ./Screenshot 2025-11-07 at 18.05.09.png
-INPUT ./Screenshot 2025-11-07 at 18.05.09.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-06 at 09.22.12.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-06 at 09.22.12.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-06 at 09.22.12.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-06 at 09.22.12.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-06 at 09.22.12.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-06 at 09.23.18.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-06 at 09.23.18.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-06 at 09.23.18.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-06 at 09.23.18.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-06 at 09.23.18.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-07 at 18.05.09.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-07 at 18.05.09.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-07 at 18.05.09.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-07 at 18.05.09.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-07 at 18.05.09.png
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
@@ -295,261 +295,266 @@ INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT ./Screenshot 2025-11-06 at 09.35.56.png
-INPUT ./Screenshot 2025-11-06 at 09.35.56.png
-INPUT ./Screenshot 2025-11-06 at 09.35.56.png
-INPUT ./Screenshot 2025-11-06 at 09.35.56.png
-INPUT ./Screenshot 2025-11-06 at 09.35.56.png
-INPUT ./Screenshot 2025-11-06 at 09.34.59.png
-INPUT ./Screenshot 2025-11-06 at 09.34.59.png
-INPUT ./Screenshot 2025-11-06 at 09.34.59.png
-INPUT ./Screenshot 2025-11-06 at 09.34.59.png
-INPUT ./Screenshot 2025-11-06 at 09.34.59.png
-INPUT ./Screenshot 2025-11-06 at 09.41.17.png
-INPUT ./Screenshot 2025-11-06 at 09.41.17.png
-INPUT ./Screenshot 2025-11-06 at 09.41.17.png
-INPUT ./Screenshot 2025-11-06 at 09.41.17.png
-INPUT ./Screenshot 2025-11-06 at 09.41.17.png
-INPUT ./Screenshot 2025-11-15 182046.png
-INPUT ./Screenshot 2025-11-15 182046.png
-INPUT ./Screenshot 2025-11-15 182046.png
-INPUT ./Screenshot 2025-11-15 182046.png
-INPUT ./Screenshot 2025-11-15 182046.png
-INPUT ./Screenshot 2025-11-15 182805.png
-INPUT ./Screenshot 2025-11-15 182805.png
-INPUT ./Screenshot 2025-11-15 182805.png
-INPUT ./Screenshot 2025-11-15 182805.png
-INPUT ./Screenshot 2025-11-15 182805.png
-INPUT ./Screenshot 2025-11-15 182948.png
-INPUT ./Screenshot 2025-11-15 182948.png
-INPUT ./Screenshot 2025-11-15 182948.png
-INPUT ./Screenshot 2025-11-15 182948.png
-INPUT ./Screenshot 2025-11-15 182948.png
-INPUT ./Screenshot 2025-11-15 182948.png
-INPUT ./Screenshot 2025-11-15 182948.png
-INPUT ./Screenshot 2025-11-15 182948.png
-INPUT ./Screenshot 2025-11-15 182948.png
-INPUT ./image.png
-INPUT ./image.png
-INPUT ./image.png
-INPUT ./image.png
-INPUT ./image.png
-INPUT ./Screenshot 2025-10-02 at 15.11.36.png
-INPUT ./Screenshot 2025-10-02 at 15.11.36.png
-INPUT ./Screenshot 2025-10-02 at 15.11.36.png
-INPUT ./Screenshot 2025-10-02 at 15.11.36.png
-INPUT ./Screenshot 2025-10-02 at 15.11.36.png
-INPUT ./Screenshot 2025-10-02 at 15.13.35.png
-INPUT ./Screenshot 2025-10-02 at 15.13.35.png
-INPUT ./Screenshot 2025-10-02 at 15.13.35.png
-INPUT ./Screenshot 2025-10-02 at 15.13.35.png
-INPUT ./Screenshot 2025-10-02 at 15.13.35.png
-INPUT ./Screenshot 2025-10-02 at 15.23.12.png
-INPUT ./Screenshot 2025-10-02 at 15.23.12.png
-INPUT ./Screenshot 2025-10-02 at 15.23.12.png
-INPUT ./Screenshot 2025-10-02 at 15.23.12.png
-INPUT ./Screenshot 2025-10-02 at 15.23.12.png
-INPUT ./Screenshot 2025-10-02 at 15.25.09.png
-INPUT ./Screenshot 2025-10-02 at 15.25.09.png
-INPUT ./Screenshot 2025-10-02 at 15.25.09.png
-INPUT ./Screenshot 2025-10-02 at 15.25.09.png
-INPUT ./Screenshot 2025-10-02 at 15.25.09.png
-INPUT ./Screenshot 2025-10-02 at 15.26.59.png
-INPUT ./Screenshot 2025-10-02 at 15.26.59.png
-INPUT ./Screenshot 2025-10-02 at 15.26.59.png
-INPUT ./Screenshot 2025-10-02 at 15.26.59.png
-INPUT ./Screenshot 2025-10-02 at 15.26.59.png
-INPUT ./Screenshot 2025-10-02 at 15.29.27.png
-INPUT ./Screenshot 2025-10-02 at 15.29.27.png
-INPUT ./Screenshot 2025-10-02 at 15.29.27.png
-INPUT ./Screenshot 2025-10-02 at 15.29.27.png
-INPUT ./Screenshot 2025-10-02 at 15.29.27.png
-INPUT ./Screenshot 2025-10-02 at 15.30.45.png
-INPUT ./Screenshot 2025-10-02 at 15.30.45.png
-INPUT ./Screenshot 2025-10-02 at 15.30.45.png
-INPUT ./Screenshot 2025-10-02 at 15.30.45.png
-INPUT ./Screenshot 2025-10-02 at 15.30.45.png
-INPUT ./Screenshot 2025-10-02 at 15.32.24.png
-INPUT ./Screenshot 2025-10-02 at 15.32.24.png
-INPUT ./Screenshot 2025-10-02 at 15.32.24.png
-INPUT ./Screenshot 2025-10-02 at 15.32.24.png
-INPUT ./Screenshot 2025-10-02 at 15.32.24.png
-INPUT ./Screenshot 2025-10-02 at 15.34.01.png
-INPUT ./Screenshot 2025-10-02 at 15.34.01.png
-INPUT ./Screenshot 2025-10-02 at 15.34.01.png
-INPUT ./Screenshot 2025-10-02 at 15.34.01.png
-INPUT ./Screenshot 2025-10-02 at 15.34.01.png
-INPUT ./Screenshot 2025-10-02 at 18.34.21.png
-INPUT ./Screenshot 2025-10-02 at 18.34.21.png
-INPUT ./Screenshot 2025-10-02 at 18.34.21.png
-INPUT ./Screenshot 2025-10-02 at 18.34.21.png
-INPUT ./Screenshot 2025-10-02 at 18.34.21.png
-INPUT ./Screenshot 2025-10-11 170341.png
-INPUT ./Screenshot 2025-10-11 170341.png
-INPUT ./Screenshot 2025-10-11 170341.png
-INPUT ./Screenshot 2025-10-11 170341.png
-INPUT ./Screenshot 2025-10-11 170341.png
-INPUT ./Screenshot 2025-10-11 171416.png
-INPUT ./Screenshot 2025-10-11 171416.png
-INPUT ./Screenshot 2025-10-11 171416.png
-INPUT ./Screenshot 2025-10-11 171416.png
-INPUT ./Screenshot 2025-10-11 171416.png
-INPUT ./Screenshot 2025-10-14 at 17.39.32.png
-INPUT ./Screenshot 2025-10-14 at 17.39.32.png
-INPUT ./Screenshot 2025-10-14 at 17.39.32.png
-INPUT ./Screenshot 2025-10-14 at 17.39.32.png
-INPUT ./Screenshot 2025-10-14 at 17.39.32.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-06 at 09.35.56.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-06 at 09.35.56.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-06 at 09.35.56.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-06 at 09.35.56.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-06 at 09.35.56.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-06 at 09.34.59.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-06 at 09.34.59.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-06 at 09.34.59.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-06 at 09.34.59.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-06 at 09.34.59.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-06 at 09.41.17.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-06 at 09.41.17.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-06 at 09.41.17.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-06 at 09.41.17.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-06 at 09.41.17.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-15 182046.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-15 182046.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-15 182046.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-15 182046.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-15 182046.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-15 182805.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-15 182805.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-15 182805.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-15 182805.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-15 182805.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-15 182948.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-15 182948.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-15 182948.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-15 182948.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-15 182948.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-15 182948.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-15 182948.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-15 182948.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-15 182948.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/image.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/image.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/image.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/image.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/image.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-02 at 15.11.36.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-02 at 15.11.36.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-02 at 15.11.36.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-02 at 15.11.36.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-02 at 15.11.36.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-02 at 15.13.35.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-02 at 15.13.35.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-02 at 15.13.35.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-02 at 15.13.35.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-02 at 15.13.35.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-02 at 15.23.12.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-02 at 15.23.12.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-02 at 15.23.12.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-02 at 15.23.12.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-02 at 15.23.12.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-02 at 15.25.09.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-02 at 15.25.09.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-02 at 15.25.09.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-02 at 15.25.09.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-02 at 15.25.09.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-02 at 15.26.59.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-02 at 15.26.59.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-02 at 15.26.59.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-02 at 15.26.59.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-02 at 15.26.59.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-02 at 15.29.27.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-02 at 15.29.27.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-02 at 15.29.27.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-02 at 15.29.27.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-02 at 15.29.27.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-02 at 15.30.45.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-02 at 15.30.45.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-02 at 15.30.45.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-02 at 15.30.45.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-02 at 15.30.45.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-02 at 15.32.24.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-02 at 15.32.24.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-02 at 15.32.24.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-02 at 15.32.24.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-02 at 15.32.24.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-02 at 15.34.01.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-02 at 15.34.01.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-02 at 15.34.01.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-02 at 15.34.01.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-02 at 15.34.01.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-02 at 18.34.21.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-02 at 18.34.21.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-02 at 18.34.21.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-02 at 18.34.21.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-02 at 18.34.21.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-11 170341.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-11 170341.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-11 170341.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-11 170341.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-11 170341.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-11 171416.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-11 171416.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-11 171416.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-11 171416.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-11 171416.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-14 at 17.39.32.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-14 at 17.39.32.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-14 at 17.39.32.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-14 at 17.39.32.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-14 at 17.39.32.png
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecbi1200.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecbi0800.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecbi0600.tfm
-INPUT ./Screenshot 2025-10-16 at 08.43.36.png
-INPUT ./Screenshot 2025-10-16 at 08.43.36.png
-INPUT ./Screenshot 2025-10-16 at 08.43.36.png
-INPUT ./Screenshot 2025-10-16 at 08.43.36.png
-INPUT ./Screenshot 2025-10-16 at 08.43.36.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-16 at 08.43.36.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-16 at 08.43.36.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-16 at 08.43.36.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-16 at 08.43.36.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-16 at 08.43.36.png
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecbx0800.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecbx0600.tfm
-INPUT ./Screenshot 2025-10-16 at 08.56.15.png
-INPUT ./Screenshot 2025-10-16 at 08.56.15.png
-INPUT ./Screenshot 2025-10-16 at 08.56.15.png
-INPUT ./Screenshot 2025-10-16 at 08.56.15.png
-INPUT ./Screenshot 2025-10-16 at 08.56.15.png
-INPUT ./Screenshot 2025-10-16 at 09.01.24.png
-INPUT ./Screenshot 2025-10-16 at 09.01.24.png
-INPUT ./Screenshot 2025-10-16 at 09.01.24.png
-INPUT ./Screenshot 2025-10-16 at 09.01.24.png
-INPUT ./Screenshot 2025-10-16 at 09.01.24.png
-INPUT ./Screenshot 2025-10-16 at 09.03.03.png
-INPUT ./Screenshot 2025-10-16 at 09.03.03.png
-INPUT ./Screenshot 2025-10-16 at 09.03.03.png
-INPUT ./Screenshot 2025-10-16 at 09.03.03.png
-INPUT ./Screenshot 2025-10-16 at 09.03.03.png
-INPUT ./Screenshot 2025-10-16 at 09.09.56.png
-INPUT ./Screenshot 2025-10-16 at 09.09.56.png
-INPUT ./Screenshot 2025-10-16 at 09.09.56.png
-INPUT ./Screenshot 2025-10-16 at 09.09.56.png
-INPUT ./Screenshot 2025-10-16 at 09.09.56.png
-INPUT ./Screenshot 2025-10-16 at 09.13.09.png
-INPUT ./Screenshot 2025-10-16 at 09.13.09.png
-INPUT ./Screenshot 2025-10-16 at 09.13.09.png
-INPUT ./Screenshot 2025-10-16 at 09.13.09.png
-INPUT ./Screenshot 2025-10-16 at 09.13.09.png
-INPUT ./Screenshot 2025-10-16 at 09.18.21.png
-INPUT ./Screenshot 2025-10-16 at 09.18.21.png
-INPUT ./Screenshot 2025-10-16 at 09.18.21.png
-INPUT ./Screenshot 2025-10-16 at 09.18.21.png
-INPUT ./Screenshot 2025-10-16 at 09.18.21.png
-INPUT ./Screenshot 2025-10-16 at 09.22.21.png
-INPUT ./Screenshot 2025-10-16 at 09.22.21.png
-INPUT ./Screenshot 2025-10-16 at 09.22.21.png
-INPUT ./Screenshot 2025-10-16 at 09.22.21.png
-INPUT ./Screenshot 2025-10-16 at 09.22.21.png
-INPUT ./Screenshot 2025-10-16 at 09.23.36.png
-INPUT ./Screenshot 2025-10-16 at 09.23.36.png
-INPUT ./Screenshot 2025-10-16 at 09.23.36.png
-INPUT ./Screenshot 2025-10-16 at 09.23.36.png
-INPUT ./Screenshot 2025-10-16 at 09.23.36.png
-INPUT ./Screenshot 2025-10-16 at 09.31.45.png
-INPUT ./Screenshot 2025-10-16 at 09.31.45.png
-INPUT ./Screenshot 2025-10-16 at 09.31.45.png
-INPUT ./Screenshot 2025-10-16 at 09.31.45.png
-INPUT ./Screenshot 2025-10-16 at 09.31.45.png
-INPUT ./Screenshot 2025-10-16 at 10.48.22.png
-INPUT ./Screenshot 2025-10-16 at 10.48.22.png
-INPUT ./Screenshot 2025-10-16 at 10.48.22.png
-INPUT ./Screenshot 2025-10-16 at 10.48.22.png
-INPUT ./Screenshot 2025-10-16 at 10.48.22.png
-INPUT ./Screenshot 2025-10-23 at 08.47.31.png
-INPUT ./Screenshot 2025-10-23 at 08.47.31.png
-INPUT ./Screenshot 2025-10-23 at 08.47.31.png
-INPUT ./Screenshot 2025-10-23 at 08.47.31.png
-INPUT ./Screenshot 2025-10-23 at 08.47.31.png
-INPUT ./Screenshot 2025-10-23 at 08.48.15.png
-INPUT ./Screenshot 2025-10-23 at 08.48.15.png
-INPUT ./Screenshot 2025-10-23 at 08.48.15.png
-INPUT ./Screenshot 2025-10-23 at 08.48.15.png
-INPUT ./Screenshot 2025-10-23 at 08.48.15.png
-INPUT ./Screenshot 2025-10-23 at 08.54.06.png
-INPUT ./Screenshot 2025-10-23 at 08.54.06.png
-INPUT ./Screenshot 2025-10-23 at 08.54.06.png
-INPUT ./Screenshot 2025-10-23 at 08.54.06.png
-INPUT ./Screenshot 2025-10-23 at 08.54.06.png
-INPUT ./Screenshot 2025-10-23 at 09.11.35.png
-INPUT ./Screenshot 2025-10-23 at 09.11.35.png
-INPUT ./Screenshot 2025-10-23 at 09.11.35.png
-INPUT ./Screenshot 2025-10-23 at 09.11.35.png
-INPUT ./Screenshot 2025-10-23 at 09.11.35.png
-INPUT ./Screenshot 2025-10-23 at 09.21.23.png
-INPUT ./Screenshot 2025-10-23 at 09.21.23.png
-INPUT ./Screenshot 2025-10-23 at 09.21.23.png
-INPUT ./Screenshot 2025-10-23 at 09.21.23.png
-INPUT ./Screenshot 2025-10-23 at 09.21.23.png
-INPUT ./Screenshot 2025-10-23 at 09.22.18.png
-INPUT ./Screenshot 2025-10-23 at 09.22.18.png
-INPUT ./Screenshot 2025-10-23 at 09.22.18.png
-INPUT ./Screenshot 2025-10-23 at 09.22.18.png
-INPUT ./Screenshot 2025-10-23 at 09.22.18.png
-INPUT ./Screenshot 2025-10-23 at 09.23.59.png
-INPUT ./Screenshot 2025-10-23 at 09.23.59.png
-INPUT ./Screenshot 2025-10-23 at 09.23.59.png
-INPUT ./Screenshot 2025-10-23 at 09.23.59.png
-INPUT ./Screenshot 2025-10-23 at 09.23.59.png
-INPUT ./Screenshot 2025-10-23 at 09.25.39.png
-INPUT ./Screenshot 2025-10-23 at 09.25.39.png
-INPUT ./Screenshot 2025-10-23 at 09.25.39.png
-INPUT ./Screenshot 2025-10-23 at 09.25.39.png
-INPUT ./Screenshot 2025-10-23 at 09.25.39.png
-INPUT ./Screenshot 2025-10-23 at 09.27.05.png
-INPUT ./Screenshot 2025-10-23 at 09.27.05.png
-INPUT ./Screenshot 2025-10-23 at 09.27.05.png
-INPUT ./Screenshot 2025-10-23 at 09.27.05.png
-INPUT ./Screenshot 2025-10-23 at 09.27.05.png
-INPUT ./Screenshot 2025-10-23 at 09.28.37.png
-INPUT ./Screenshot 2025-10-23 at 09.28.37.png
-INPUT ./Screenshot 2025-10-23 at 09.28.37.png
-INPUT ./Screenshot 2025-10-23 at 09.28.37.png
-INPUT ./Screenshot 2025-10-23 at 09.28.37.png
-INPUT ./Screenshot 2025-10-23 at 09.30.36.png
-INPUT ./Screenshot 2025-10-23 at 09.30.36.png
-INPUT ./Screenshot 2025-10-23 at 09.30.36.png
-INPUT ./Screenshot 2025-10-23 at 09.30.36.png
-INPUT ./Screenshot 2025-10-23 at 09.30.36.png
-INPUT ./Screenshot 2025-10-23 at 09.34.36.png
-INPUT ./Screenshot 2025-10-23 at 09.34.36.png
-INPUT ./Screenshot 2025-10-23 at 09.34.36.png
-INPUT ./Screenshot 2025-10-23 at 09.34.36.png
-INPUT ./Screenshot 2025-10-23 at 09.34.36.png
-INPUT ./Screenshot 2025-10-23 at 09.36.11.png
-INPUT ./Screenshot 2025-10-23 at 09.36.11.png
-INPUT ./Screenshot 2025-10-23 at 09.36.11.png
-INPUT ./Screenshot 2025-10-23 at 09.36.11.png
-INPUT ./Screenshot 2025-10-23 at 09.36.11.png
-INPUT ./Screenshot 2025-10-23 at 09.37.22.png
-INPUT ./Screenshot 2025-10-23 at 09.37.22.png
-INPUT ./Screenshot 2025-10-23 at 09.37.22.png
-INPUT ./Screenshot 2025-10-23 at 09.37.22.png
-INPUT ./Screenshot 2025-10-23 at 09.37.22.png
-INPUT ./Screenshot 2025-10-23 at 09.37.58.png
-INPUT ./Screenshot 2025-10-23 at 09.37.58.png
-INPUT ./Screenshot 2025-10-23 at 09.37.58.png
-INPUT ./Screenshot 2025-10-23 at 09.37.58.png
-INPUT ./Screenshot 2025-10-23 at 09.37.58.png
-INPUT ./Screenshot 2025-10-23 at 09.40.24.png
-INPUT ./Screenshot 2025-10-23 at 09.40.24.png
-INPUT ./Screenshot 2025-10-23 at 09.40.24.png
-INPUT ./Screenshot 2025-10-23 at 09.40.24.png
-INPUT ./Screenshot 2025-10-23 at 09.40.24.png
-INPUT ./Screenshot 2025-10-23 at 09.43.45.png
-INPUT ./Screenshot 2025-10-23 at 09.43.45.png
-INPUT ./Screenshot 2025-10-23 at 09.43.45.png
-INPUT ./Screenshot 2025-10-23 at 09.43.45.png
-INPUT ./Screenshot 2025-10-23 at 09.43.45.png
-INPUT ./Screenshot 2025-10-23 at 09.44.40.png
-INPUT ./Screenshot 2025-10-23 at 09.44.40.png
-INPUT ./Screenshot 2025-10-23 at 09.44.40.png
-INPUT ./Screenshot 2025-10-23 at 09.44.40.png
-INPUT ./Screenshot 2025-10-23 at 09.44.40.png
-INPUT main.aux
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-16 at 08.56.15.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-16 at 08.56.15.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-16 at 08.56.15.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-16 at 08.56.15.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-16 at 08.56.15.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-16 at 09.01.24.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-16 at 09.01.24.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-16 at 09.01.24.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-16 at 09.01.24.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-16 at 09.01.24.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-16 at 09.03.03.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-16 at 09.03.03.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-16 at 09.03.03.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-16 at 09.03.03.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-16 at 09.03.03.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-16 at 09.09.56.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-16 at 09.09.56.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-16 at 09.09.56.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-16 at 09.09.56.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-16 at 09.09.56.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-16 at 09.13.09.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-16 at 09.13.09.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-16 at 09.13.09.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-16 at 09.13.09.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-16 at 09.13.09.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-16 at 09.18.21.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-16 at 09.18.21.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-16 at 09.18.21.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-16 at 09.18.21.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-16 at 09.18.21.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-16 at 09.22.21.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-16 at 09.22.21.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-16 at 09.22.21.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-16 at 09.22.21.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-16 at 09.22.21.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-16 at 09.23.36.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-16 at 09.23.36.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-16 at 09.23.36.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-16 at 09.23.36.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-16 at 09.23.36.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-16 at 09.31.45.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-16 at 09.31.45.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-16 at 09.31.45.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-16 at 09.31.45.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-16 at 09.31.45.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-16 at 10.48.22.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-16 at 10.48.22.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-16 at 10.48.22.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-16 at 10.48.22.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-16 at 10.48.22.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 08.47.31.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 08.47.31.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 08.47.31.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 08.47.31.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 08.47.31.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 08.48.15.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 08.48.15.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 08.48.15.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 08.48.15.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 08.48.15.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 08.54.06.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 08.54.06.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 08.54.06.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 08.54.06.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 08.54.06.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.11.35.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.11.35.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.11.35.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.11.35.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.11.35.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.21.23.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.21.23.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.21.23.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.21.23.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.21.23.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.22.18.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.22.18.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.22.18.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.22.18.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.22.18.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.23.59.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.23.59.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.23.59.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.23.59.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.23.59.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.25.39.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.25.39.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.25.39.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.25.39.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.25.39.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.27.05.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.27.05.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.27.05.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.27.05.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.27.05.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.28.37.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.28.37.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.28.37.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.28.37.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.28.37.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.30.36.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.30.36.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.30.36.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.30.36.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.30.36.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.34.36.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.34.36.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.34.36.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.34.36.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.34.36.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.36.11.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.36.11.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.36.11.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.36.11.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.36.11.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.37.22.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.37.22.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.37.22.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.37.22.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.37.22.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.37.58.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.37.58.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.37.58.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.37.58.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.37.58.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.40.24.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.40.24.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.40.24.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.40.24.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.40.24.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.43.45.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.43.45.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.43.45.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.43.45.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.43.45.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.44.40.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.44.40.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.44.40.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.44.40.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.44.40.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-19 at 15.11.49.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-19 at 15.11.49.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-19 at 15.11.49.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-19 at 15.11.49.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-19 at 15.11.49.png
+INPUT /Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/main.aux
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb

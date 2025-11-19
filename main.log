@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.11.15)  19 NOV 2025 14:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.11.15)  19 NOV 2025 15:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/Users/martinapaolacalvi/Downloads/FTP (1)/main.tex"
-(/Users/martinapaolacalvi/Downloads/FTP (1)/main.tex
+**"/Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/main.tex"
+(/Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/main.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (/usr/local/texlive/2025/texmf-dist/tex/latex/base/report.cls
@@ -125,7 +125,7 @@ File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count283
 \l__pdf_internal_box=\box54
-) (./main.aux)
+) (/Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
@@ -172,7 +172,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 [1
 
-{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}] (./main.toc
+{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}] (/Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/main.toc
 
 [1
 
@@ -215,7 +215,7 @@ Package pdftex.def Info: Screenshot 2025-10-02 at 19.07.28.png  used on input li
 (pdftex.def)             Requested size: 172.5pt x 108.30429pt.
 
 
-[7 <./Screenshot 2025-10-02 at 19.07.28.png>]
+[7 </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-02 at 19.07.28.png>]
 
 [8]
 
@@ -242,7 +242,7 @@ Package pdftex.def Info: Bravais_lattices.png  used on input line 344.
 
 ]
 
-[14 <./Bravais_lattices.png>]
+[14 </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Bravais_lattices.png>]
 <Screenshot 2025-10-03 115058.png, id=71, 228.855pt x 162.6075pt>
 File: Screenshot 2025-10-03 115058.png Graphic file (type png)
 <use Screenshot 2025-10-03 115058.png>
@@ -250,7 +250,7 @@ Package pdftex.def Info: Screenshot 2025-10-03 115058.png  used on input line 36
 (pdftex.def)             Requested size: 172.5pt x 122.57065pt.
 
 
-[15 <./Screenshot 2025-10-03 115058.png>]
+[15 </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-03 115058.png>]
 <Screenshot 2025-10-03 115459.png, id=76, 464.4853pt x 179.92218pt>
 File: Screenshot 2025-10-03 115459.png Graphic file (type png)
 <use Screenshot 2025-10-03 115459.png>
@@ -258,7 +258,7 @@ Package pdftex.def Info: Screenshot 2025-10-03 115459.png  used on input line 38
 (pdftex.def)             Requested size: 172.5pt x 66.81999pt.
 
 
-[16 <./Screenshot 2025-10-03 115459.png>]
+[16 </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-03 115459.png>]
 
 [17]
 <Screenshot 2025-10-04 at 14.09.29.png, id=87, 295.1025pt x 403.5075pt>
@@ -268,7 +268,7 @@ Package pdftex.def Info: Screenshot 2025-10-04 at 14.09.29.png  used on input li
 (pdftex.def)             Requested size: 137.9979pt x 188.69421pt.
 
 
-[18 <./Screenshot 2025-10-04 at 14.09.29.png>]
+[18 </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-04 at 14.09.29.png>]
 
 [19
 
@@ -282,7 +282,7 @@ Package pdftex.def Info: Screenshot 2025-10-05 at 15.05.01.png  used on input li
 (pdftex.def)             Requested size: 172.5pt x 67.31332pt.
 
 
-[21 <./Screenshot 2025-10-05 at 15.05.01.png>]
+[21 </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-05 at 15.05.01.png>]
 
 [22]
 
@@ -304,7 +304,7 @@ Package pdftex.def Info: Progetto senza titolo.png  used on input line 707.
 
 [27]
 
-[28 <./Progetto senza titolo.png>]
+[28 </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Progetto senza titolo.png>]
 
 [29]
 
@@ -326,7 +326,7 @@ Package pdftex.def Info: Screenshot 2025-10-29 at 14.48.19.png  used on input li
 
 [35]
 
-[36 <./Screenshot 2025-10-29 at 14.48.19.png>]
+[36 </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-29 at 14.48.19.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 951--952
 
  []
@@ -338,7 +338,7 @@ Package pdftex.def Info: Screenshot 2025-10-29 at 15.27.28.png  used on input li
 (pdftex.def)             Requested size: 172.5pt x 96.19194pt.
 
 
-[37 <./Screenshot 2025-10-29 at 15.27.28.png>]
+[37 </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-29 at 15.27.28.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 991--994
 
  []
@@ -363,7 +363,7 @@ Package pdftex.def Info: Screenshot 2025-10-29 at 16.12.06.png  used on input li
 (pdftex.def)             Requested size: 207.0021pt x 185.8887pt.
 
 
-[39 <./Screenshot 2025-10-29 at 16.01.30.png>]
+[39 </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-29 at 16.01.30.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 1070--1072
 
  []
@@ -375,7 +375,7 @@ Underfull \hbox (badness 1038) in paragraph at lines 1070--1072
 
 
 
-[40 <./Screenshot 2025-10-29 at 16.12.06.png>]
+[40 </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-29 at 16.12.06.png>]
 Underfull \hbox (badness 2221) in paragraph at lines 1093--1095
 []\T1/cmr/m/n/10 At long time, the growth rate is lim-ited by the rate of ox-i-dant
  []
@@ -442,7 +442,7 @@ Package pdftex.def Info: Screenshot 2025-10-30 at 08.44.49.png  used on input li
 (pdftex.def)             Requested size: 137.9979pt x 136.83406pt.
 
 
-[52 <./Screenshot 2025-10-30 at 08.44.49.png>]
+[52 </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-30 at 08.44.49.png>]
 <Screenshot 2025-10-30 at 08.49.04.png, id=221, 639.38875pt x 397.485pt>
 File: Screenshot 2025-10-30 at 08.49.04.png Graphic file (type png)
 <use Screenshot 2025-10-30 at 08.49.04.png>
@@ -463,7 +463,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1450--1458
 
 
 
-[54 <./Screenshot 2025-10-30 at 08.49.04.png> <./Screenshot 2025-10-30 at 08.58.34.png>]
+[54 </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-30 at 08.49.04.png> </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-30 at 08.58.34.png>]
 <Screenshot 2025-10-30 at 09.11.18.png, id=231, 331.2375pt x 244.915pt>
 File: Screenshot 2025-10-30 at 09.11.18.png Graphic file (type png)
 <use Screenshot 2025-10-30 at 09.11.18.png>
@@ -476,7 +476,7 @@ Package pdftex.def Info: Screenshot 2025-10-30 at 09.16.34.png  used on input li
 (pdftex.def)             Requested size: 172.5pt x 112.62953pt.
 
 
-[55 <./Screenshot 2025-10-30 at 09.11.18.png>]
+[55 </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-30 at 09.11.18.png>]
 <Screenshot 2025-10-30 at 09.23.11.png, id=237, 386.44376pt x 146.5475pt>
 File: Screenshot 2025-10-30 at 09.23.11.png Graphic file (type png)
 <use Screenshot 2025-10-30 at 09.23.11.png>
@@ -489,9 +489,9 @@ Package pdftex.def Info: Screenshot 2025-10-30 at 09.25.34.png  used on input li
 (pdftex.def)             Requested size: 172.5pt x 101.6636pt.
 
 
-[56 <./Screenshot 2025-10-30 at 09.16.34.png> <./Screenshot 2025-10-30 at 09.23.11.png>]
+[56 </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-30 at 09.16.34.png> </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-30 at 09.23.11.png>]
 
-[57 <./Screenshot 2025-10-30 at 09.25.34.png>]
+[57 </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-30 at 09.25.34.png>]
 <Screenshot 2025-11-04 at 11.47.28.png, id=247, 400.49625pt x 318.18875pt>
 File: Screenshot 2025-11-04 at 11.47.28.png Graphic file (type png)
 <use Screenshot 2025-11-04 at 11.47.28.png>
@@ -499,7 +499,7 @@ Package pdftex.def Info: Screenshot 2025-11-04 at 11.47.28.png  used on input li
 (pdftex.def)             Requested size: 172.5pt x 137.05153pt.
 
 
-[58 <./Screenshot 2025-11-04 at 11.47.28.png>]
+[58 </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-04 at 11.47.28.png>]
 
 [59]
 <Screenshot 2025-11-04 at 12.13.31.png, id=255, 377.41pt x 327.2225pt>
@@ -523,7 +523,7 @@ Package pdftex.def Info: Screenshot 2025-11-04 at 12.24.12.png  used on input li
 (pdftex.def)             Requested size: 172.5pt x 93.26273pt.
 
 
-[61 <./Screenshot 2025-11-04 at 12.13.31.png>]
+[61 </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-04 at 12.13.31.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 1600--1606
 
  []
@@ -535,7 +535,7 @@ Package pdftex.def Info: Screenshot 2025-11-04 at 12.30.51.png  used on input li
 (pdftex.def)             Requested size: 172.5pt x 68.37686pt.
 
 
-[62 <./Screenshot 2025-11-04 at 12.24.12.png> <./Screenshot 2025-11-04 at 12.30.51.png>]
+[62 </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-04 at 12.24.12.png> </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-04 at 12.30.51.png>]
 
 [63]
 <Screenshot 2025-11-04 at 12.57.41.png, id=273, 430.60875pt x 395.4775pt>
@@ -545,7 +545,7 @@ Package pdftex.def Info: Screenshot 2025-11-04 at 12.57.41.png  used on input li
 (pdftex.def)             Requested size: 172.5pt x 158.42957pt.
 
 
-[64 <./Screenshot 2025-11-04 at 12.57.41.png>]
+[64 </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-04 at 12.57.41.png>]
 
 [65]
 <Screenshot 2025-11-04 at 13.52.43.png, id=281, 481.8pt x 327.2225pt>
@@ -560,7 +560,7 @@ Package pdftex.def Info: Screenshot 2025-11-04 at 13.55.15.png  used on input li
 (pdftex.def)             Requested size: 120.7521pt x 100.44508pt.
 
 
-[66 <./Screenshot 2025-11-04 at 13.52.43.png> <./Screenshot 2025-11-04 at 13.55.15.png>]
+[66 </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-04 at 13.52.43.png> </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-04 at 13.55.15.png>]
 <Screenshot 2025-11-07 at 18.02.12.png, id=289, 253.94875pt x 213.79875pt>
 File: Screenshot 2025-11-07 at 18.02.12.png Graphic file (type png)
 <use Screenshot 2025-11-07 at 18.02.12.png>
@@ -578,7 +578,7 @@ Package pdftex.def Info: Screenshot 2025-11-06 at 09.19.44.png  used on input li
 (pdftex.def)             Requested size: 120.7521pt x 112.36792pt.
 
 
-[67 <./Screenshot 2025-11-07 at 18.02.12.png>]
+[67 </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-07 at 18.02.12.png>]
 <Screenshot 2025-11-06 at 09.20.45.png, id=298, 371.3875pt x 229.85875pt>
 File: Screenshot 2025-11-06 at 09.20.45.png Graphic file (type png)
 <use Screenshot 2025-11-06 at 09.20.45.png>
@@ -596,7 +596,7 @@ Package pdftex.def Info: Screenshot 2025-11-06 at 09.04.13.png  used on input li
 (pdftex.def)             Requested size: 172.5pt x 107.40527pt.
 
 
-[68 <./Screenshot 2025-11-06 at 09.19.44.png> <./Screenshot 2025-11-06 at 09.20.45.png> <./Screenshot 2025-11-06 at 09.21.32.png>]
+[68 </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-06 at 09.19.44.png> </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-06 at 09.20.45.png> </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-06 at 09.21.32.png>]
 <Screenshot 2025-11-06 at 09.22.12.png, id=307, 472.76625pt x 173.64874pt>
 File: Screenshot 2025-11-06 at 09.22.12.png Graphic file (type png)
 <use Screenshot 2025-11-06 at 09.22.12.png>
@@ -604,7 +604,7 @@ Package pdftex.def Info: Screenshot 2025-11-06 at 09.22.12.png  used on input li
 (pdftex.def)             Requested size: 172.5pt x 63.36139pt.
 
 
-[69 <./Screenshot 2025-11-06 at 09.04.13.png> <./Screenshot 2025-11-06 at 09.22.12.png>]
+[69 </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-06 at 09.04.13.png> </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-06 at 09.22.12.png>]
 <Screenshot 2025-11-06 at 09.23.18.png, id=313, 480.79625pt x 249.93375pt>
 File: Screenshot 2025-11-06 at 09.23.18.png Graphic file (type png)
 <use Screenshot 2025-11-06 at 09.23.18.png>
@@ -612,7 +612,7 @@ Package pdftex.def Info: Screenshot 2025-11-06 at 09.23.18.png  used on input li
 (pdftex.def)             Requested size: 172.5pt x 89.67097pt.
 
 
-[70 <./Screenshot 2025-11-06 at 09.23.18.png>]
+[70 </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-06 at 09.23.18.png>]
 <Screenshot 2025-11-07 at 18.05.09.png, id=318, 342.27875pt x 245.91875pt>
 File: Screenshot 2025-11-07 at 18.05.09.png Graphic file (type png)
 <use Screenshot 2025-11-07 at 18.05.09.png>
@@ -620,7 +620,7 @@ Package pdftex.def Info: Screenshot 2025-11-07 at 18.05.09.png  used on input li
 (pdftex.def)             Requested size: 172.5pt x 123.93845pt.
 
 
-[71 <./Screenshot 2025-11-07 at 18.05.09.png>]
+[71 </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-07 at 18.05.09.png>]
 <Screenshot 2025-11-06 at 09.35.56.png, id=323, 442.65375pt x 117.43875pt>
 File: Screenshot 2025-11-06 at 09.35.56.png Graphic file (type png)
 <use Screenshot 2025-11-06 at 09.35.56.png>
@@ -635,7 +635,7 @@ Package pdftex.def Info: Screenshot 2025-11-06 at 09.34.59.png  used on input li
 
 [72
 
- <./Screenshot 2025-11-06 at 09.35.56.png> <./Screenshot 2025-11-06 at 09.34.59.png>]
+ </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-06 at 09.35.56.png> </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-06 at 09.34.59.png>]
 <Screenshot 2025-11-06 at 09.41.17.png, id=332, 545.03625pt x 288.07625pt>
 File: Screenshot 2025-11-06 at 09.41.17.png Graphic file (type png)
 <use Screenshot 2025-11-06 at 09.41.17.png>
@@ -643,7 +643,7 @@ Package pdftex.def Info: Screenshot 2025-11-06 at 09.41.17.png  used on input li
 (pdftex.def)             Requested size: 172.5pt x 91.17087pt.
 
 
-[73 <./Screenshot 2025-11-06 at 09.41.17.png>]
+[73 </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-06 at 09.41.17.png>]
 
 [74]
 <Screenshot 2025-11-15 182046.png, id=340, 317.185pt x 258.9675pt>
@@ -658,7 +658,7 @@ Package pdftex.def Info: Screenshot 2025-11-15 182805.png  used on input line 20
 (pdftex.def)             Requested size: 137.9979pt x 86.56398pt.
 
 
-[75 <./Screenshot 2025-11-15 182046.png>]
+[75 </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-15 182046.png>]
 <Screenshot 2025-11-15 182948.png, id=346, 395.22656pt x 219.06844pt>
 File: Screenshot 2025-11-15 182948.png Graphic file (type png)
 <use Screenshot 2025-11-15 182948.png>
@@ -670,7 +670,7 @@ Package pdftex.def Info: Screenshot 2025-11-15 182948.png  used on input line 20
 (pdftex.def)             Requested size: 137.9979pt x 76.49124pt.
 
 
-[76 <./Screenshot 2025-11-15 182805.png> <./Screenshot 2025-11-15 182948.png>]
+[76 </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-15 182805.png> </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-15 182948.png>]
 
 [77]
 
@@ -793,7 +793,7 @@ Package pdftex.def Info: Screenshot 2025-10-02 at 15.11.36.png  used on input li
 (pdftex.def)             Requested size: 172.5pt x 124.70801pt.
 
 
-[96 <./image.png>]
+[96 </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/image.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 2788--2804
 
  []
@@ -810,7 +810,7 @@ Package pdftex.def Info: Screenshot 2025-10-02 at 15.13.35.png  used on input li
 (pdftex.def)             Requested size: 172.5pt x 144.38924pt.
 
 
-[97 <./Screenshot 2025-10-02 at 15.11.36.png>]
+[97 </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-02 at 15.11.36.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 2827--2828
 
  []
@@ -822,7 +822,7 @@ Package pdftex.def Info: Screenshot 2025-10-02 at 15.23.12.png  used on input li
 (pdftex.def)             Requested size: 103.50105pt x 151.16537pt.
 
 
-[98 <./Screenshot 2025-10-02 at 15.13.35.png> <./Screenshot 2025-10-02 at 15.23.12.png>]
+[98 </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-02 at 15.13.35.png> </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-02 at 15.23.12.png>]
 <Screenshot 2025-10-02 at 15.25.09.png, id=429, 241.90375pt x 225.84375pt>
 File: Screenshot 2025-10-02 at 15.25.09.png Graphic file (type png)
 <use Screenshot 2025-10-02 at 15.25.09.png>
@@ -840,7 +840,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2855--2862
 
 
 
-[99 <./Screenshot 2025-10-02 at 15.25.09.png>]
+[99 </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-02 at 15.25.09.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 2863--2881
 
  []
@@ -872,7 +872,7 @@ Package pdftex.def Info: Screenshot 2025-10-02 at 15.26.59.png  used on input li
 (pdftex.def)             Requested size: 172.5pt x 114.28821pt.
 
 
-[100 <./Screenshot 2025-10-02 at 15.26.59.png>]
+[100 </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-02 at 15.26.59.png>]
 <Screenshot 2025-10-02 at 15.29.27.png, id=440, 286.06876pt x 241.90375pt>
 File: Screenshot 2025-10-02 at 15.29.27.png Graphic file (type png)
 <use Screenshot 2025-10-02 at 15.29.27.png>
@@ -890,7 +890,7 @@ Package pdftex.def Info: Screenshot 2025-10-02 at 15.30.45.png  used on input li
 (pdftex.def)             Requested size: 172.5pt x 96.3209pt.
 
 
-[101 <./Screenshot 2025-10-02 at 15.29.27.png>]
+[101 </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-02 at 15.29.27.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 2930--2945
 
  []
@@ -902,7 +902,7 @@ Package pdftex.def Info: Screenshot 2025-10-02 at 15.32.24.png  used on input li
 (pdftex.def)             Requested size: 137.9979pt x 92.84349pt.
 
 
-[102 <./Screenshot 2025-10-02 at 15.30.45.png> <./Screenshot 2025-10-02 at 15.32.24.png>]
+[102 </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-02 at 15.30.45.png> </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-02 at 15.32.24.png>]
 <Screenshot 2025-10-02 at 15.34.01.png, id=453, 260.975pt x 315.1775pt>
 File: Screenshot 2025-10-02 at 15.34.01.png Graphic file (type png)
 <use Screenshot 2025-10-02 at 15.34.01.png>
@@ -945,7 +945,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2974--3020
 
 
 
-[103 <./Screenshot 2025-10-02 at 15.34.01.png>]
+[103 </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-02 at 15.34.01.png>]
 
 [104]
 <Screenshot 2025-10-02 at 18.34.21.png, id=461, 322.20375pt x 440.64626pt>
@@ -960,7 +960,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3063--3080
 
 
 
-[105 <./Screenshot 2025-10-02 at 18.34.21.png>]
+[105 </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-02 at 18.34.21.png>]
 <Screenshot 2025-10-11 170341.png, id=466, 393.72093pt x 179.92218pt>
 File: Screenshot 2025-10-11 170341.png Graphic file (type png)
 <use Screenshot 2025-10-11 170341.png>
@@ -983,14 +983,14 @@ Package pdftex.def Info: Screenshot 2025-10-11 171416.png  used on input line 31
 (pdftex.def)             Requested size: 172.5pt x 79.21576pt.
 
 
-[106 <./Screenshot 2025-10-11 170341.png>]
+[106 </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-11 170341.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 3127--3130
 
  []
 
 
 
-[107 <./Screenshot 2025-10-11 171416.png>]
+[107 </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-11 171416.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 3164--3189
 
  []
@@ -1075,7 +1075,7 @@ Package pdftex.def Info: Screenshot 2025-10-14 at 17.39.32.png  used on input li
 (pdftex.def)             Requested size: 172.5pt x 87.77043pt.
 
 
-[117 <./Screenshot 2025-10-14 at 17.39.32.png>]
+[117 </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-14 at 17.39.32.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 3499--3503
 
  []
@@ -1175,7 +1175,7 @@ Package pdftex.def Info: Screenshot 2025-10-16 at 08.43.36.png  used on input li
 
 [134
 
- <./Screenshot 2025-10-16 at 08.43.36.png>]
+ </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-16 at 08.43.36.png>]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 3911.
@@ -1195,9 +1195,9 @@ Package pdftex.def Info: Screenshot 2025-10-16 at 09.01.24.png  used on input li
 (pdftex.def)             Requested size: 172.5pt x 92.93793pt.
 
 
-[136 <./Screenshot 2025-10-16 at 08.56.15.png>]
+[136 </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-16 at 08.56.15.png>]
 
-[137 <./Screenshot 2025-10-16 at 09.01.24.png>]
+[137 </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-16 at 09.01.24.png>]
 <Screenshot 2025-10-16 at 09.03.03.png, id=580, 310.15875pt x 314.17375pt>
 File: Screenshot 2025-10-16 at 09.03.03.png Graphic file (type png)
 <use Screenshot 2025-10-16 at 09.03.03.png>
@@ -1205,7 +1205,7 @@ Package pdftex.def Info: Screenshot 2025-10-16 at 09.03.03.png  used on input li
 (pdftex.def)             Requested size: 120.7521pt x 122.31154pt.
 
 
-[138 <./Screenshot 2025-10-16 at 09.03.03.png>]
+[138 </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-16 at 09.03.03.png>]
 <Screenshot 2025-10-16 at 09.09.56.png, id=585, 574.145pt x 369.38pt>
 File: Screenshot 2025-10-16 at 09.09.56.png Graphic file (type png)
 <use Screenshot 2025-10-16 at 09.09.56.png>
@@ -1218,7 +1218,7 @@ Package pdftex.def Info: Screenshot 2025-10-16 at 09.13.09.png  used on input li
 (pdftex.def)             Requested size: 120.7521pt x 100.18765pt.
 
 
-[139 <./Screenshot 2025-10-16 at 09.09.56.png> <./Screenshot 2025-10-16 at 09.13.09.png>]
+[139 </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-16 at 09.09.56.png> </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-16 at 09.13.09.png>]
 <Screenshot 2025-10-16 at 09.18.21.png, id=591, 336.25626pt x 385.44pt>
 File: Screenshot 2025-10-16 at 09.18.21.png Graphic file (type png)
 <use Screenshot 2025-10-16 at 09.18.21.png>
@@ -1234,7 +1234,7 @@ Package pdftex.def Info: Screenshot 2025-10-16 at 09.22.21.png  used on input li
 (pdftex.def)             Requested size: 103.50105pt x 61.66194pt.
 
 
-[141 <./Screenshot 2025-10-16 at 09.18.21.png>]
+[141 </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-16 at 09.18.21.png>]
 Underfull \hbox (badness 1264) in paragraph at lines 4040--4041
 []\T1/cmr/m/n/10 A com-mer-cial su-per-con-duct-ing wire (e.g., $[]$ or a normal-
  []
@@ -1246,7 +1246,7 @@ Package pdftex.def Info: Screenshot 2025-10-16 at 09.23.36.png  used on input li
 (pdftex.def)             Requested size: 51.7479pt x 124.49535pt.
 
 
-[142 <./Screenshot 2025-10-16 at 09.22.21.png> <./Screenshot 2025-10-16 at 09.23.36.png>]
+[142 </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-16 at 09.22.21.png> </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-16 at 09.23.36.png>]
 <Screenshot 2025-10-16 at 09.31.45.png, id=606, 600.2425pt x 268.00125pt>
 File: Screenshot 2025-10-16 at 09.31.45.png Graphic file (type png)
 <use Screenshot 2025-10-16 at 09.31.45.png>
@@ -1258,7 +1258,7 @@ Package pdftex.def Info: Screenshot 2025-10-16 at 09.31.45.png  used on input li
 
 ]
 
-[144 <./Screenshot 2025-10-16 at 09.31.45.png>]
+[144 </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-16 at 09.31.45.png>]
 
 [145]
 <Screenshot 2025-10-16 at 10.48.22.png, id=617, 293.095pt x 425.59pt>
@@ -1268,7 +1268,7 @@ Package pdftex.def Info: Screenshot 2025-10-16 at 10.48.22.png  used on input li
 (pdftex.def)             Requested size: 86.25pt x 125.23624pt.
 
 
-[146 <./Screenshot 2025-10-16 at 10.48.22.png>]
+[146 </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-16 at 10.48.22.png>]
 
 [147]
 
@@ -1291,13 +1291,13 @@ LaTeX Warning: Command \textendash invalid in math mode on input line 4189.
 
 [148
 
- <./Screenshot 2025-10-23 at 08.47.31.png>]
+ </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 08.47.31.png>]
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 4192.
 
 
 
-[149 <./Screenshot 2025-10-23 at 08.48.15.png>]
+[149 </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 08.48.15.png>]
 <Screenshot 2025-10-23 at 08.54.06.png, id=636, 159.59625pt x 307.1475pt>
 File: Screenshot 2025-10-23 at 08.54.06.png Graphic file (type png)
 <use Screenshot 2025-10-23 at 08.54.06.png>
@@ -1305,7 +1305,7 @@ Package pdftex.def Info: Screenshot 2025-10-23 at 08.54.06.png  used on input li
 (pdftex.def)             Requested size: 86.25pt x 165.9884pt.
 
 
-[150 <./Screenshot 2025-10-23 at 08.54.06.png>]
+[150 </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 08.54.06.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 4240--4244
 
  []
@@ -1339,7 +1339,7 @@ LaTeX Warning: Command \textendash invalid in math mode on input line 4300.
 
 
 
-[153 <./Screenshot 2025-10-23 at 09.11.35.png> <./Screenshot 2025-10-23 at 09.21.23.png>]
+[153 </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.11.35.png> </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.21.23.png>]
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 4309.
 
@@ -1358,13 +1358,13 @@ LaTeX Warning: Command \textendash invalid in math mode on input line 4335.
 
 
 
-[154 <./Screenshot 2025-10-23 at 09.22.18.png>]
+[154 </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.22.18.png>]
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 4344.
 
 
 
-[155 <./Screenshot 2025-10-23 at 09.23.59.png>]
+[155 </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.23.59.png>]
 <Screenshot 2025-10-23 at 09.25.39.png, id=665, 177.66376pt x 303.1325pt>
 File: Screenshot 2025-10-23 at 09.25.39.png Graphic file (type png)
 <use Screenshot 2025-10-23 at 09.25.39.png>
@@ -1372,7 +1372,7 @@ Package pdftex.def Info: Screenshot 2025-10-23 at 09.25.39.png  used on input li
 (pdftex.def)             Requested size: 86.25pt x 147.16248pt.
 
 
-[156 <./Screenshot 2025-10-23 at 09.25.39.png>]
+[156 </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.25.39.png>]
 <Screenshot 2025-10-23 at 09.27.05.png, id=671, 304.13625pt x 259.97125pt>
 File: Screenshot 2025-10-23 at 09.27.05.png Graphic file (type png)
 <use Screenshot 2025-10-23 at 09.27.05.png>
@@ -1380,7 +1380,7 @@ Package pdftex.def Info: Screenshot 2025-10-23 at 09.27.05.png  used on input li
 (pdftex.def)             Requested size: 137.9979pt x 117.96182pt.
 
 
-[157 <./Screenshot 2025-10-23 at 09.27.05.png>]
+[157 </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.27.05.png>]
 <Screenshot 2025-10-23 at 09.28.37.png, id=676, 350.30875pt x 293.095pt>
 File: Screenshot 2025-10-23 at 09.28.37.png Graphic file (type png)
 <use Screenshot 2025-10-23 at 09.28.37.png>
@@ -1388,7 +1388,7 @@ Package pdftex.def Info: Screenshot 2025-10-23 at 09.28.37.png  used on input li
 (pdftex.def)             Requested size: 137.9979pt x 115.46042pt.
 
 
-[158 <./Screenshot 2025-10-23 at 09.28.37.png>]
+[158 </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.28.37.png>]
 <Screenshot 2025-10-23 at 09.30.36.png, id=681, 230.8625pt x 204.765pt>
 File: Screenshot 2025-10-23 at 09.30.36.png Graphic file (type png)
 <use Screenshot 2025-10-23 at 09.30.36.png>
@@ -1401,7 +1401,7 @@ Package pdftex.def Info: Screenshot 2025-10-23 at 09.34.36.png  used on input li
 (pdftex.def)             Requested size: 137.9979pt x 57.5234pt.
 
 
-[159 <./Screenshot 2025-10-23 at 09.30.36.png>]
+[159 </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.30.36.png>]
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 4462.
 
@@ -1422,9 +1422,9 @@ Package pdftex.def Info: Screenshot 2025-10-23 at 09.37.58.png  used on input li
 (pdftex.def)             Requested size: 103.50105pt x 126.5528pt.
 
 
-[160 <./Screenshot 2025-10-23 at 09.34.36.png> <./Screenshot 2025-10-23 at 09.36.11.png>]
+[160 </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.34.36.png> </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.36.11.png>]
 
-[161 <./Screenshot 2025-10-23 at 09.37.22.png> <./Screenshot 2025-10-23 at 09.37.58.png>]
+[161 </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.37.22.png> </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.37.58.png>]
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 4487.
 
@@ -1438,7 +1438,7 @@ Package pdftex.def Info: Screenshot 2025-10-23 at 09.40.24.png  used on input li
 (pdftex.def)             Requested size: 172.5pt x 74.27805pt.
 
 
-[162 <./Screenshot 2025-10-23 at 09.40.24.png>]
+[162 </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.40.24.png>]
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 4519.
 
@@ -1464,46 +1464,48 @@ Package pdftex.def Info: Screenshot 2025-10-23 at 09.44.40.png  used on input li
 (pdftex.def)             Requested size: 172.5pt x 127.60251pt.
 
 
-[164 <./Screenshot 2025-10-23 at 09.43.45.png>]
+[164 </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.43.45.png>]
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 4573.
 
 
 
-[165 <./Screenshot 2025-10-23 at 09.44.40.png>]
+[165 </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.44.40.png>]
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 4580.
 
 
-Overfull \hbox (155.30627pt too wide) in paragraph at lines 4598--4610
- [][] 
- []
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
 [166]
+<Screenshot 2025-11-19 at 15.11.49.png, id=722, 510.90875pt x 222.8325pt>
+File: Screenshot 2025-11-19 at 15.11.49.png Graphic file (type png)
+<use Screenshot 2025-11-19 at 15.11.49.png>
+Package pdftex.def Info: Screenshot 2025-11-19 at 15.11.49.png  used on input line 4611.
+(pdftex.def)             Requested size: 137.9979pt x 60.18597pt.
 
-[167]
 
-[168] (./main.aux)
+[167 </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-19 at 15.11.49.png>] (/Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 3483 strings out of 473190
- 65322 string characters out of 5715799
- 441433 words of memory out of 5000000
- 26695 multiletter control sequences out of 15000+600000
+ 3490 strings out of 473190
+ 66319 string characters out of 5715799
+ 439936 words of memory out of 5000000
+ 26702 multiletter control sequences out of 15000+600000
  587555 words of font info for 101 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,14n,65p,1220b,259s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,14n,65p,1252b,259s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbi1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbi1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx0700.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0500.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb>
-Output written on main.pdf (169 pages, 12907247 bytes).
+Output written on "/Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/main.pdf" (168 pages, 12983759 bytes).
 PDF statistics:
- 868 PDF objects out of 1000 (max. 8388607)
- 474 compressed objects within 5 object streams
+ 866 PDF objects out of 1000 (max. 8388607)
+ 471 compressed objects within 5 object streams
  0 named destinations out of 1000 (max. 500000)
- 411 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 416 words of extra memory for PDF output out of 10000 (max. 10000000)
 

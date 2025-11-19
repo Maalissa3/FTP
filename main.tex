@@ -4581,21 +4581,14 @@ Significant contribution only for the $50~\text{K}$ stage, amounting to $\sim 50
 Radiative loads at the lower temperature stages are insignificant.
 
 \subsubsection{Cabling and Thermalization}
-\begin{figure}[h]
-\centering
-\caption{slide 29: Components for thermalization of RF cables and attenuators, and pre-assembly of cable trees. (a) CAD drawing of the Cu plate used to mount and thermalize attenuators. To clamp the attenuators to the copper plate, an adapter as shown in (d) is used. The Cu plates are then fixed on the corresponding plate of the DR using screws. (b) Photograph of a mounting plate with cabling installed in the DR. (c) Photograph of the same plate, here used to clamp RF cables using the radiation tight Cu adapter pieces shown in (d). (d) Two-part Cu adapter which is pressed around an RF cable using the wedge shaped piece in the middle in combination with a screw (see also (a))). (e) Preassembly tool with mounted Cu plates and vacuum flange. (f) Vacuum flange with vacuum tight SMA adapters installed. (g) Mounting the preassembled cable tree into the DR using a custom mounting tool}.
-\end{figure}
+In slide 29 components for thermalization of RF cables and attenuators can be seen, as well as pre-assembly of cable trees. (a) CAD drawing of the Cu plate used to mount and thermalize attenuators. To clamp the attenuators to the copper plate, an adapter as shown in (d) is used. The Cu plates are then fixed on the corresponding plate of the DR using screws. (b) Photograph of a mounting plate with cabling installed in the DR. (c) Photograph of the same plate, here used to clamp RF cables using the radiation tight Cu adapter pieces shown in (d). (d) Two-part Cu adapter which is pressed around an RF cable using the wedge shaped piece in the middle in combination with a screw (see also (a))). (e) Preassembly tool with mounted Cu plates and vacuum flange. (f) Vacuum flange with vacuum tight SMA adapters installed. (g) Mounting the preassembled cable tree into the DR using a custom mounting tool.
 
-\begin{figure}[h]
-\centering
-\caption{Integration of four high-bandwidth output lines. (a) Components mounted on the MXC plate: readout signals from the quantum processor travel through a first 4-channel, magnetically shielded isolator array (right), followed by directional couplers, TWPAs and a second, identical isolator array (left). (b) Four HEMT amplifiers mounted on the 4 K plate. (c) Four bandpass filters, mounted and thermalized at the MXC plate, followed by four circulators mounted on the cold plate}.
-\end{figure}
+Integration of four high-bandwidth output lines. (a) Components mounted on the MXC plate: readout signals from the quantum processor travel through a first 4-channel, magnetically shielded isolator array (right), followed by directional couplers, TWPAs and a second, identical isolator array (left). (b) Four HEMT amplifiers mounted on the 4 K plate. (c) Four bandpass filters, mounted and thermalized at the MXC plate, followed by four circulators mounted on the cold plate.
 
-\subsubsection{Passive Heat Load per Line (Measured/Estimated)}
 \begin{table}[h]
 \centering
 \caption{Passive heat load per line. Passive heat load (HL) of cable types installed in the DR, as inferred from observed temperature increases after the installation of individual cable trees into the DR. The upper and middle sections of the table refer to 0.085" diameter stainless steel coaxial cable (UT-085-SS-SS) with attenuator configurations used in drive lines and flux lines, respectively. Indicated errors include statistical errors between different cooldowns and reflect run-to-run temperature variations on the stages of the DR. The intervals of estimated heat loads correspond to calculations of lower and upper bounds (see text for details)}
-\begin{tabular}{llllll}
+\resizebox{\textwidth}{!}{\begin{tabular}{llllll}
  & 50 K & 4 K & Still & CP & MXC \\
 Drive line UT-085-SS-SS & & & & & \\
 Measured HL & $45(34)~\text{mW}$ & $1.0(5)~\text{mW}$ & $4(3)~\mu\text{W}$ & $0.4(2)~\mu\text{W}$ & $0.013(6)~\mu\text{W}$ \\
@@ -4606,7 +4599,7 @@ Estimated HL & $24-27~\text{mW}$ & $0.4-1.9~\text{mW}$ & $1.6-2.1~\mu\text{W}$ &
 Output line UT-085-NbTi & & & & & \\
 Measured HL & & & & $0.3(3)~\mu\text{W}$ & $0.020(16)~\mu\text{W}$ \\
 Estimated HL & & & & $0.18-0.31~\mu\text{W}$ & $0.002-0.322~\mu\text{W}$ \\
-\end{tabular}
+\end{tabular}}
 \end{table}
 
 \subsubsection{Total Heat Load Budget}
@@ -4615,7 +4608,8 @@ Such a quantum processor requires a total of 124 RF lines (50 drive lines, 50 fl
 
 \begin{figure}[h]
 \centering
-\caption{Total heat load budget for the operation of a 50 qubit processor. Predicted passive and active heat loads for the operation of a 50 qubit processor with individual drive and flux control. The heat loads are normalized to the measured cooling powers as presented in Table 1 (Diagram shows $P_{load}/P_{cooling}$ vs. Temperature stage 50K, 4K, Still, CP, MXC. Load components: 50x passive load drive line, 50x passive load flux line, 8x passive load read-in line, 8x passive load output line, 8x passive load pump line, 50x active load drive line, 50x active load flux line, DC flux biasing, 50x active load flux line, flux pulses, 8x active load pump line)}.
+\includegraphics[width=0.4\textwidth]{Screenshot 2025-11-19 at 15.11.49.png}
+\caption{Total heat load budget for the operation of a 50 qubit processor. Predicted passive and active heat loads for the operation of a 50 qubit processor with individual drive and flux control. The heat loads are normalized to the measured cooling powers as presented in Table 2.5}.
 \end{figure}
 
 The largest relative loads of about $30\%$ occur at the $\text{CP}$ and $\text{MXC}$ stages, with about an equal share between passive and active loads. The load on $\text{MXC}$ corresponds to an operation temperature of $14~\text{mK}$.
