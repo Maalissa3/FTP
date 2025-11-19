@@ -4920,4 +4920,231 @@ Because the cooling power of a refrigerator is smaller the lower its temperature
         \hline
     \end{tabular}}
 \end{table}
+
+\clearpage 
+\section{Superconducting materials and technologies}
+
+\subsection{Introduction to the phenomenology of superconductivity}
+
+\subsubsection{Historical notes}
+\begin{itemize}
+    \item 1908: Kamerlingh-Onnes (Leiden) liquefaction of helium
+    \item 1911: first observation of superconductivity in Hg ("...Mercury had passed into a new state, which on account of its extraordinary electrical properties may be called the superconductive state.")
+    \item 1933: Meissner and Ochsenfeld (Germany) $\rightarrow$ ideal diamagnetism
+    \item 1941: niobium-nitride was found to superconduct at 16 K
+    \item 1957: The first widely-accepted theoretical understanding of superconductivity (John Bardeen, Leon Cooper, John Schrieffer, USA) $\rightarrow$ \textbf{BCS theory}
+    \item 1962: Brian D. Josephson, a graduate student at Cambridge University $\rightarrow$ \textbf{Josephson effect}
+    \item 1962: first commercial superconducting wire (NbTi)
+    \item 1960s: High-energy, particle-accelerator electromagnets made of copper-clad NbTi (Rutherford-Appleton Laboratory, UK) $\rightarrow$ first employed in a superconducting accelerator at the Fermilab Tevatron (USA) in 1987
+    \item 1986: Alex Müller and Georg Bednorz (IBM, Switzerland) $\rightarrow$ first \textbf{HTS} (30 K)
+    \item 1987: YBCO ($T_{c}=92K$)
+    \item 1989: the first company to capitalize on high-temperature superconductors, Illinois Superconductor (today ISCO International)
+    \item 2001: $MgB_{2}$ ($T_{c}=39K$), outperform NbTi and $Nb_{3}Sn$ wires in high magnetic field applications like MRI
+    \item 2003: Nobel prize to Abrikosov, Ginzburg, Legget, for pioneering contributions to the theory of superconductivity
+    \item 2006: pnictides, iron-based superconductors
+    \item 2015: hydrides (high pressure)
+\end{itemize}
+
+\begin{center}
+    Fig. 1 Superconductivity in lutetium-nitrogen-hydrogen at near-ambient pressures. a, Evolution of the superconducting transition temperature ($T_c$) of recompressed nitrogen-doped lutetium hydride as a function of pressure ($P$), illustrating a clear dome-shaped peak around 10 kbar with a $T_c$ of 294 K.
+\end{center}
+
+\subsubsection{Summary of the main properties of superconductors}
+
+\noindent \textbf{Perfect conductivity}
+
+\begin{center}
+    superconductor \quad normal metal
+\end{center}
+
+\noindent But superconductors are not just perfect conductors, because:
+
+\noindent \textbf{Meissner effect: perfect diamagnetism}
+
+\begin{center}
+    Perfect conductor \quad Superconductor \quad (Diagram comparing cooling ZFC vs FC for a perfect conductor vs a superconductor, showing levitation)
+\end{center}
+
+\begin{itemize}
+    \item \textbf{Conventional SC} $\rightarrow$ \textbf{BCS theory}
+    \begin{itemize}
+        \item Phonon-mediated superconductivity
+        \item \textbf{Cooper pairs} (bosons) formed from electrons (fermions), similar to a Bose-Einstein condensate
+        \item Characterized by an \textbf{Energy gap} ($\Delta$) in the density of states
+    \end{itemize}
+    \item \textbf{Unconventional SC} $\rightarrow$ at least one feature among:
+    \begin{itemize}
+        \item multiband superconductivity
+        \item triplet spin state
+        \item non-phononic coupling (e.g. spin fluctuations in SC contiguous to magnetic phases or even with a coexisting magnetic order, as for iron-based SCs)
+    \end{itemize}
+    \item The \textbf{superconducting order parameter} is a complex quantity $\Delta(k)e^{-i\phi(k)}$ where $\Delta$ is the magnitude of the superconducting gap and $\phi$ is the phase.
+\end{itemize}
+
+\subsection{Vortex dynamics, vortex pinning}
+
+\noindent Superconductivity is defined by a critical temperature ($T_c$), critical magnetic field ($H_c$), and critical current density ($J_c$).
+
+\noindent \textbf{Type I vs. Type II Superconductors}
+\begin{itemize}
+    \item The \textbf{Ginzburg-Landau (GL) parameter}, $\kappa(T)$, is microscopically defined as $\kappa=\lambda/\xi$, where $\lambda$ is the penetration depth of the magnetic field and $\xi$ is the coherence length of the Cooper pairs.
+    \item \textbf{Type I superconductor}: $\kappa < 1/\sqrt{2}$. Magnetic flux is expelled up to $H_{c}$ (normal state).
+    \item \textbf{Type II superconductor}: $\kappa > 1/\sqrt{2}$. Magnetic field penetrates in the form of quantized \textbf{vortices} between $H_{c1}$ and $H_{c2}$ (mixed state).
+\end{itemize}
+
+\noindent \textbf{CRITICAL CURRENT BY DESIGN}
+\begin{itemize}
+    \item To have SCs carrying significant currents, the \textbf{microstructure must be optimized by introduction of defects to pin the flux lines}, leading to so-called \textbf{hard superconductors}.
+    \item Examples of introduced defects: Heavy ion irradiation of HTS to create point-like defects or \textbf{columnar defects}. Columnar defects have a diameter ($\sim \xi$) that matches the vortex core, making them highly efficient, but they cause anisotropic pinning.
+\end{itemize}
+
+\subsection{Review on superconducting materials (relevant for applications) and preparation methods}
+
+\noindent None of the good conductors (Cu, Ag, Au, Pt) or the magnetic materials (Fe apart) is a superconductor.
+
+\noindent \textbf{Main classes of superconductors}:
+\begin{enumerate}
+    \item Simple metals (Nb, $T_c$=9 K)
+    \item Alloys ($Nb_{3}Ge$, $T_c$=23 K)
+    \item Organic SCs ($T_c$=12 K)
+    \item Molecular SCs ($C_{60}$, $T_c$=19 K)
+    \item $MgB_{2}$ ($T_c$=39 K)
+    \item Graphite intercalation compounds ($CaC_{6}$, $T_c$=12 K)
+    \item Cuprates (Hg-1223, $T_c$=134 K)
+\end{enumerate}
+
+\subsubsection{Low-Temperature Superconductors (LTS): Nb, NbTi, $Nb_{3}Sn$}
+\begin{itemize}
+    \item Superconductivity in Type I and Type II superconductor elements and alloys is \textbf{phonon-mediated} and the \textbf{BCS theory applies}.
+    \item Elemental superconductors are very sensitive to magnetic fields and cannot carry significant currents. Most metals are \textbf{Type I} superconductors.
+    \item Only three metals, among them \textbf{Nb}, exhibit \textbf{Type II} superconductivity $\rightarrow$ Nb is the only application-relevant superconductor metal.
+    \item \textbf{Nb}: Used in sensor technologies, metrology, digital electronics, and RF cavities for particle accelerators. For high RF performance, very pure Nb is needed, produced by multiple e-beam remelting, characterized by a Residual Resistivity Ratio (RRR) of 250–400.
+    \item \textbf{NbTi}: Alloying usually changes metals into Type II conductors and/or enhances the upper critical magnetic field. NbTi is an Nb-based alloy.
+    \item \textbf{$Nb_{3}Sn$}: Intermetallic compounds of specific composition and crystal structure, for example A15 structure, show much improved properties including higher $T_c$ than alloys. $Nb_{3}Sn$ is an Nb-based A15-type compound.
+    \item \textbf{A15-type intermetallic compounds}: Chemical formula $A_3B$ (where A is a transition metal and B can be any element). Highest $T_c$ values: $Nb_{3}Ge$ (23 K), $Nb_{3}Ga$ (20 K), $Nb_{3}Al$ (19 K), $Nb_{3}Sn$ (18 K), $V_{3}Si$ (17 K), and $V_{3}Ga$ (16 K).
+    \item \textbf{NbN}: Within conventional superconductors, NbN has:
+    \begin{itemize}
+        \item High critical temperature $T_c \sim 16$ K
+        \item Energy gap $\Delta \sim 2.5$ meV
+        \item Upper critical field $B_{c2} \sim 40$ T
+        \item Large penetration depth $\lambda \sim 200$ nm (vs $\lambda \sim 50$ nm for bulk Nb), resulting in higher kinetic inductance, useful for microwave kinetic inductance detectors
+        \item Short coherence length $\xi \sim 6.5$ nm (vs $\xi \sim 38$ nm for bulk Nb), allowing fabrication of few nm thick thin films with moderately high $T_c$
+    \end{itemize}
+    \item \textbf{Applications of NbN}: Josephson junctions, superconducting hot electron bolometers, superconducting single photon detectors, microwave kinetic inductance detectors.
+    \item \textbf{Wire Manufacturing Routes}: Pure Nb, the Nb-based alloy NbTi, and the Nb-based A15-type compound $Nb_{3}Sn$ are virtually the only SC materials industrially produced in large quantities as \textbf{multifilamentary wires} (with SC filaments embedded in a normal conducting matrix).
+\end{itemize}
+
+\subsubsection{Magnesium diboride ($MgB_{2}$)}
+\begin{itemize}
+    \item $MgB_{2}$ is a simple binary compound whose high-$T_c$ superconductivity was discovered in 2001.
+    \item \textbf{Crucial properties for applications}:
+    \begin{itemize}
+        \item Very simple structure, made of inexpensive elements
+        \item Relatively high $T_c$ (39 K)
+        \item Remarkable absence of \textbf{weak-links}, meaning no need for high degree texturing to transport high superconducting current
+        \item Possibility of enhancing $J_c$ and irreversibility field in thin films
+        \item Possibility of making superconducting wires by a simple \textbf{Powder-In-Tube (PIT) technique}
+    \end{itemize}
+    \item \textbf{Fundamental physical mechanisms}: $MgB_{2}$ is characterized by the presence of \textbf{two bands} and \textbf{two energy gaps}.
+    \item \textbf{Crystal Structure}: 2D honeycomb layers formed by Boron atoms are sandwiched by the triangular Mg layers (like intercalated graphite).
+    \item \textbf{Band Structure}: Two $\sigma$ bands (2D, hole-type) and two $\pi$ bands (3D, hole- and electron-type) cross the Fermi level.
+    \item \textbf{Two Nodeless Gaps}: These different carriers induce two different s-type nodeless gaps: $\Delta_{\sigma} \sim 7$ meV and $\Delta_{\pi} \sim 2$ meV.
+    \item \textbf{PIT Technique (Wire Fabrication)}:
+    \begin{itemize}
+        \item A metallic tube (Ni, Fe, and Ti alloys are preferred) is filled with pre-reacted $MgB_{2}$ (ex situ) or Mg and B precursors (in situ).
+        \item The tube is cold worked (rolling/drawing) into a wire or tape.
+        \item Intermediate heat treatments are performed to recover mechanical properties and release structural stress.
+        \item A final heat treatment is performed for the sintering of the $MgB_{2}$ powders.
+    \end{itemize}
+\end{itemize}
+
+\subsubsection{High-Temperature Superconductors (HTS) - cuprates: $YBa_{2}Cu_{3}O_{7-8}$ (YBCO)}
+\begin{itemize}
+    \item $YBa_{2}Cu_{3}O_{7-\delta}$ (YBCO) has a $T_c = 92$ K.
+    \item \textbf{Theory}: Models relate high-$T_c$ superconductivity to the presence of \textbf{fluctuating charge stripes}.
+    \begin{itemize}
+        \item \textbf{BCS-like mechanism}: fluctuating stripes act as the mediating boson ("glue") for the superconducting pairing.
+        \item \textbf{Strongly correlated electron picture}: fluctuations of one-dimensional charge stripes frustrate the dominant Charge Density Wave (CDW) order, allowing the subdominant superconducting order to prevail.
+    \end{itemize}
+    \item \textbf{Technological Challenges}:
+    \begin{itemize}
+        \item HTSs are complex materials with different heavy metals and exotic atoms, limiting deposition techniques that preserve stoichiometry.
+        \item Deposition of YBCO requires a substrate heated at high temperatures (over 700 K for PLD).
+        \item Cuprates are ceramic materials: prone to defects, brittle, and sometimes chemically reactive.
+        \item A crucial aspect of YBCO is \textbf{oxygen out-diffusion} (especially for p < 0.15) which alters SC properties and is difficult to control at the nanoscale.
+    \end{itemize}
+\end{itemize}
+
+\subsubsection{Iron-based superconductors (IBS)}
+\begin{itemize}
+    \item The discovery of IBS was unexpected due to the antagonistic relationship between superconductivity and magnetism.
+    \item \textbf{Four main families} with distinctive crystallographic structures:
+    \begin{enumerate}
+        \item "1111" family: $LnFeAsO$ ($Ln$, lanthanides)
+        \item "122" family: $AFe_{2}As_{2}$ ($A$, alkaline earth metal)
+        \item "111" family: $LiFeAs$
+        \item "11" family: $FeCh$ ($Ch$, chalcogen ion)
+    \end{enumerate}
+    \item \textbf{Shared Structure}: All share square lattices of iron atoms with tetrahedrally coordinated bonds to P, As, Se, or Te anions.
+    \item \textbf{Phase Diagram}: Reminiscent of high-$T_c$ cuprates, characterized by the \textbf{competition between magnetic and superconducting orders} (Spin Density Wave (SDW) order vs. SC order).
+    \item \textbf{Doping}: The superconducting ground state appears with increasing doping (electron or hole type), below a dome-shaped region, with maximum $T_c$ at optimal doping.
+    \item \textbf{Critical Currents}: IBSs have high and quite isotropic $J_c$ (weakly varying along crystal directions). $J_c$ shows only a weak decrease on application of a magnetic field at low temperatures (similar to YBCO).
+    \item \textbf{Nanometer-scale coherence lengths} result in exceptionally high $H_{c2}$ values and pinning associated with atomic-scale defects.
+    \item \textbf{Preparation of polycrystalline samples}: Solid-state reaction or high-pressure synthesis methods are used. Large and pure crystals grow in fluxes of binary FeAs (e.g., the \textbf{"self-flux" method} for Co-doped 122 compounds).
+    \item \textbf{Thin films}: Not easy to grow due to the volatile nature of As. High-quality epitaxial films of the 122 or 11 phase are grown by pulsed laser deposition (PLD).
+\end{itemize}
+
+\subsection{Superconducting film deposition}
+
+\noindent \textbf{Material Requirements vs. HTS}:
+\begin{itemize}
+    \item The improvement of superconducting properties in HTS (increase of $T_c$, $B_{c2}$, $\Delta$) is accompanied by a significant enhancement of: (i) the number of elements, (ii) structural complexity, and (iii) \textbf{anisotropy}.
+    \item \textbf{Anisotropy}: Whereas LTS materials like Nb or NbN are generally isotropic, the quasi 2D nature of the oxide SCs leads to a large anisotropy in nearly all parameters, with anisotropy factors $\gamma = \xi_{ab}/\xi_{c} = \lambda_{c}/\lambda_{ab} \approx 6$.
+\end{itemize}
+
+\noindent \textbf{Josephson Junctions Arrays}:
+\begin{itemize}
+    \item Can be produced via various techniques at high quality using classic materials (Nb, Pb, Al) and more complex compounds (NbN, YBCO).
+    \item For devices with a large number of Josephson junctions (JJs), reproducibility and a small spread of junction parameters are required.
+    \item This is currently only granted for the two \textbf{LTS technologies}: \textbf{Nb technology} and \textbf{NbN technology}.
+    \item Extremely high complexities have been achieved in LTS Josephson devices, including:
+    \begin{itemize}
+        \item RSFQ-RAMs up to 40,000 Nb/Al-oxide junctions (NEC)
+        \item Programmable voltage standards with up to 70,000 junctions (NIST, PTB, Supracon/IPHT)
+        \item A-to-D and D-to-A converters with $\sim$2,000 junctions (Hypres)
+    \end{itemize}
+\end{itemize}
+
+\subsection{Brief overview of applications of superconductivity}
+
+\noindent Applications include: Electric Power; Transportation; Medical Imaging and Diagnostics; NMR Applications in Pharmaceuticals, Biotechnology, Genomics and Materials Science; Industrial Processing; High-Energy Physics and Other Areas of Research; Wireless Communications; Instrumentation, Sensors, Standards and Radar; Large-Scale Computing; Renewable Energy.
+
+\subsubsection{Transportation}
+\begin{itemize}
+    \item Marine Ship Propulsion (e.g., 36MW HTS Ship Drive Motor)
+    \item Degaussing Coils
+    \item Magnetically Levitated Trains (Maglev) (e.g., JRC L-zero series SCMAGLEV)
+\end{itemize}
+
+\subsubsection{Medical Imaging and Diagnostics}
+\begin{itemize}
+    \item Magnetic Resonance Imaging (MRI)
+    \item Ultra-Low Field Magnetic Resonance Imaging (ULF-MRI)
+    \item Magnetoencephalography (MEG) and Magnetic Source Imaging (MSI)
+    \item Magnetocardiography (MCG)
+\end{itemize}
+
+\subsubsection{Renewable Energy}
+\begin{itemize}
+    \item Wind Energy (e.g., AMSC SeaTitan Wind Turbine Generator)
+    \item Energy Storage: Superconducting Magnetic Energy Storage (SMES)
+\end{itemize}
+
+\subsubsection{Neuromorphic Computing}
+\begin{itemize}
+    \item Computer hardware that works according to principles of the human brain.
+    \item The brain's activities of synaptic weighting, spiking, learning, optimization, and networking can all be made with superconducting electronics.
+    \item Spiking and thresholding are similar to neurons, except very fast.
+    \item Coupling through mutual inductance.
+\end{itemize}
 \end{document}

@@ -334,3 +334,19 @@
 \contentsline {subsubsection}{Laser Cooling}{176}{}%
 \contentsline {subsubsection}{Evaporative Cooling}{176}{}%
 \contentsline {subsection}{\numberline {2.9.6}Summary}{176}{}%
+\contentsline {section}{\numberline {2.10}Superconducting materials and technologies}{178}{}%
+\contentsline {subsection}{\numberline {2.10.1}Introduction to the phenomenology of superconductivity}{178}{}%
+\contentsline {subsubsection}{Historical notes}{178}{}%
+\contentsline {subsubsection}{Summary of the main properties of superconductors}{179}{}%
+\contentsline {subsection}{\numberline {2.10.2}Vortex dynamics, vortex pinning}{179}{}%
+\contentsline {subsection}{\numberline {2.10.3}Review on superconducting materials (relevant for applications) and preparation methods}{180}{}%
+\contentsline {subsubsection}{Low-Temperature Superconductors (LTS): Nb, NbTi, $Nb_{3}Sn$}{180}{}%
+\contentsline {subsubsection}{Magnesium diboride ($MgB_{2}$)}{181}{}%
+\contentsline {subsubsection}{High-Temperature Superconductors (HTS) - cuprates: $YBa_{2}Cu_{3}O_{7-8}$ (YBCO)}{182}{}%
+\contentsline {subsubsection}{Iron-based superconductors (IBS)}{183}{}%
+\contentsline {subsection}{\numberline {2.10.4}Superconducting film deposition}{183}{}%
+\contentsline {subsection}{\numberline {2.10.5}Brief overview of applications of superconductivity}{184}{}%
+\contentsline {subsubsection}{Transportation}{184}{}%
+\contentsline {subsubsection}{Medical Imaging and Diagnostics}{184}{}%
+\contentsline {subsubsection}{Renewable Energy}{184}{}%
+\contentsline {subsubsection}{Neuromorphic Computing}{185}{}%

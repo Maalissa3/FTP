@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1763569690.82973 "/Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/main.tex" "/Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/main.pdf" "main" 1763569700.48299 0
+["pdflatex"] 1763570875.6464 "/Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/main.tex" "/Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/main.pdf" "main" 1763570885.41825 0
   "/Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Bravais_lattices.png" 1763225406 177695 ae4d1e0cd47ec2dd99581fe7b58ab5f5 ""
   "/Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Progetto senza titolo.png" 1763225406 145290 89bb881a16fdaa6654001a6a9af65b38 ""
   "/Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-02 at 15.11.36.png" 1763225406 463333 39d73f15cde1902ac68d20e6ad013113 ""
@@ -83,9 +83,9 @@
   "/Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-15 182948.png" 1763225410 89186 5f9d8e35a212928d7cba22b03ac5dd3e ""
   "/Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-19 at 15.11.49.png" 1763561533.97386 104880 b07dac3fec40c00eae646375785ddc38 ""
   "/Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/image.png" 1763225406 267663 30ffe5380f88e6d269f6803da61272a6 ""
-  "/Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/main.aux" 1763569700.23814 53840 cc9f3ef7425139b3a0a6d049cd6fe759 "pdflatex"
-  "/Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/main.tex" 1763569680.29814 348324 69bf703bc669bc54e596d808e00a60b6 ""
-  "/Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/main.toc" 1763569700.24399 25712 ce9690dfe6ec7f7939acae83dc19dd1f "pdflatex"
+  "/Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/main.aux" 1763570885.17158 55878 38530f15a9c1a43d800a74460053f0d7 "pdflatex"
+  "/Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/main.tex" 1763570865.54752 364701 2b0b3cdacb887321004a0dbc271d1913 ""
+  "/Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/main.toc" 1763570885.17757 27094 546fd355c35c8ff50d16f401f319d792 "pdflatex"
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
