@@ -2112,7 +2112,7 @@ Positive ions & $10e8/cm^{3}$
     \caption{Content of typical plasma}
 \end{table}
 
-\subsection{Types of Dry Etching}
+\subsection{TODO:Types of Dry Etching}
 
 Neutral
 
@@ -2143,7 +2143,7 @@ Inhibitor
 
 e
 
-\subsubsection{Reactive Ion Etching (RIE)}
+\subsubsection{TODO:Reactive Ion Etching (RIE)}
 
 TOP ELECTRODE
 
@@ -2195,7 +2195,7 @@ Low Electric Field
 
 High Electric Field
 
-\subsubsection{Inductively Coupled Plasma (ICP-RIE) Reactor}
+\subsubsection{TODO:Inductively Coupled Plasma (ICP-RIE) Reactor}
 
 101
 
@@ -2253,272 +2253,347 @@ ICP
 13,56 MHz
 
 \subsection{DRY ETCH CHEMISTRIES}
+\begin{center}
+    \begin{tabular}{|l|l|}
+        \hline
+        Material & Etch Gases \\
+        \hline
+        Si, $SiO_{2}$, $Si_{3}N_{4}$ & $CF_{4}$, $SF_{6}$, $CHF_{3}$ $NF_{3}$ \\
+        Si & $Cl_{2}$, $CCl_{2}F_{2}$ \\
+        SiC & $CF_{4}$ $SF_{6}$, $CHF_{3}$ \\
+        Al & $BCl_{3}$, $CCl_{4}$, $SiCl_{4}$, $Cl_{2}$ \\
+        Organics & $O_{2},O_{2}+CF_{4}$ \\
+        Other: (W, Ta, Mo, ...) & $CF_{4}$ \\
+        \hline
+    \end{tabular}
+\end{center}
 
-\begin{tabular}{|l|l|}
-    \hline
-    Material & Etch Gases \\
-    \hline
-    Si, $SiO_{2}$, $Si_{3}N_{4}$ & $CF_{4}$, $SF_{6}$, $CHF_{3}$ $NF_{3}$ \\
-    Si & $Cl_{2}$, $CCl_{2}F_{2}$ \\
-    SiC & $CF_{4}$ $SF_{6}$, $CHF_{3}$ \\
-    Al & $BCl_{3}$, $CCl_{4}$, $SiCl_{4}$, $Cl_{2}$ \\
-    Organics & $O_{2},O_{2}+CF_{4}$ \\
-    Other: (W, Ta, Mo, ...) & $CF_{4}$ \\
-    \hline
-\end{tabular}
-
-\subsection{Selectivity}
-
+\subsection{TODO:Selectivity}
+\begin{center}
+    \includegraphics[width=0.6\textwidth]{Screenshot 2025-11-20 at 08.41.22.png}
+\end{center}
 \begin{itemize}
     \item $CF_{4}$ plasmas processes can be used to etch Si selectively to $SiO_{2}$ and $SiO_{2}$ selectively to Si
 \end{itemize}
 
-5000
-
-4000
-
-3000
-
-2000
-
+Addition of $H_{2}$ or $O_{2}$ enhances etch rates of one film over the other
 \begin{itemize}
-    \item Addition of $H_{2}$ or $O_{2}$ enhances etch rates of one film over the other
     \item Small additions of $O_{2}$ enhances Si etch rate more than $SiO_{2}$ etch rate
     \item Addition of $H_{2}$ decreases Si etch rate more than $SiO_{2}$ etch rate
 \end{itemize}
-Addition of small amount of $O_{2}$ in $CF_{4}$ plasma greatly increases Si etch rate.
-
+Addition of small amount of $O_{2}$ in $CF_{4}$ plasma greatly increases Si etch rate.\\
 Reactions between $O_{2}$ and $CF_{4}$ increase F concentration in the plasma (thanks to $CO_{2}$ generation).
 
-Si etch rate ($\AA/min$)
-
-5000
-
 Hydrogen reacts with fluorine forming HF in the gas phase (which slightly increase etching of $SiO_{2}$.
-
-4000
-
-3000
-
-2000
 
 This removes F from the plasma (hydrogen scavenges F atoms).
 Si etch rate nearly 0 at 40\% $H_{2}$ (while $SiO_{2}$ remains nearly constant)
 
-Si etch rate ($\AA/min$)
+The only etch rate that is being modified is the chemical, no physycal component is touched. The only way to change the physical component is by changing the voltage.
 
-1000
-
-0
-
-25
-
-50
-
-\% $O_{2}$ in $CF_{4}$
-
-1000
-
-0
-
-20
-
-40
-
-\% $H_{2}$ in $CF_{4}$
-
-Si
-
-etch
-
-rate
-
-$CF_{4}$
-
-Si
-etch
-
-rate
-
-$CF_{4}+O_{2}$
-
-$SiO_{2}$
-etch
-
-rate
-
-$SiO_{2}$
-etch
-
-rate
-
-Si
-
-etch
-
-rate
-
-$CF_{4}+H_{2}$
-
-$SiO_{2}$
-etch
-
-rate
-
-Silicon Etch Rate
-
-$R_{z}$
-
-\subsection{Anisotropy in Dry Etching}
-
-$bias=-150~volts$
-
-$R_{x}$
-
-A
-
-10
-
-20
-no bias
-
-30
-
-Percentage of $H_{2}$ $CF_{4}$
+\subsection{TODO:Anisotropy in Dry Etching}
 
 $$\frac{x}{z}=\frac{R_{x}}{R_{z}}$$
 
-Mask
-
-Si
-
-Mask
-
-Si
-
 \begin{itemize}
-    \item When $H_{2}$ is added to $CF_{4}$, the etch rate (isotropic) of Si is decreased
-    \item When bias is applied, the etch rate (anisotropic) is increased
+    \item When $H_{2}$ is added to $CF_{4}$, the etch rate (isotropic) of Si is decreased(lowering chemical component)
+    \item When bias is applied, the etch rate (anisotropic) is increased(enhance the physical component)
     \item By combining these two effects, a good anisotropic etch can be achieved
 \end{itemize}
+Useful when you have to transfer small portions.
 
-Pure $CF_{4}$ gas
+\subsubsection{TODO:ASPECT RATIO}
 
-10\% $H_{2}$ $CF_{4}$ Etch Gas
+$$Aspect Ratio =\frac{Height}{Width}$$
 
-\subsubsection{ASPECT RATIO}
 
-Height
-Aspect Ratio =
-Width
-
-High Aspect
-Ratio Structure
-
-Low Aspect
-Ratio Structure
-
-High Aspect
-Ratio Hole
-
-Low Aspect
-Ratio Hole
-
-000001 2.0K xibix 30
-
-100 $\mu m$
-
-Substrate
-
-50 $\mu m$
-
-\subsection{DEEP REACTIVE ION ETCHING (DRIE) TIME MULTIPLEXED DEEP ETCHING}
-
+\subsection{Deep reactive ion etching (DRIE)$\rightarrow$Time multiplexed deep etching}
+\begin{center}
+    \includegraphics[width=0.5\textwidth]{Screenshot 2025-11-20 at 08.54.47.png}
+\end{center}
 \begin{itemize}
     \item The etching step uses $SF_{6}$ with a substrate bias of 5 to 30 V so that the cations generated in the plasma are accelerated nearly vertically into the substrate being etched.
-    \item After etching for a short time, the polymerization process is started. A mixture of $C_{4}F_{8}$ (high C/F ratio) and argon is used and all exposed surfaces (side walls and horizontal surfaces) are coated with a Teflonlike (polymerized $CF_{2})$ polymer layer approximately 50 nm thick.
-\end{itemize}
-
-\begin{itemize}
-    \item If ion bombardment, due to a small applied bias voltage, is used during the polymerization step, the formation of polymer on the horizontal surfaces can essentially be prevented.
+    \item After etching for a short time, the polymerization process is started. A mixture of $C_{4}F_{8}$ (high C/F ratio) and argon is used and all exposed surfaces (side walls and horizontal surfaces) are coated with a \textbf{Teflonlike} (polymerized $CF_{2})$ polymer layer approximately 50 nm thick.
+    \item If ion bombardment, due to a small applied bias voltage, is used during the polymerization step, the formation of polymer on the \textbf{horizontal} surfaces can essentially be prevented, and can also be eliminated if formed.
     \item The etching step is then repeated, and the polymer deposited on the horizontal surfaces is rapidly moved due to the ion bombardment and the presence of reactive fluorine radicals.
 \end{itemize}
-(a)
+Summarizing:
+\begin{enumerate}
+    \item Start
+    \item Isotropic $SF_{6}$ Etch With Anisotropic Bombardment
+    \item Isotropic Polymer Formation with $C_{4}F_{8}$
+    \item $SF_{6}$ Etch Again
+\end{enumerate}
+Showing the sequential steps during TMDE. In (a) the masking material (photoresist or silicon dioxide) has been patterned. During the etch step in (b), a shallow, isotropic trench is formed. In the subsequent passivation step (c), a protective fluorocarbon film is deposited everywhere. During the next etch step (d), the fluorocarbon film is removed from all horizontal surfaces by directional ion bombardment, and another shallow trench is formed.
 
-Start
+\clearpage
+\section{Packaging}
 
-(c)
+Packaging is a critical stage in the manufacturing of integrated circuits. The process starts after the wafer has been fabricated and tested.
 
-Isotropic Polymer Formation with $C_{4}F_{8}$
+\subsection{Packaging Process Flow}
 
-90000000
+The process generally follows these steps:
+\begin{enumerate}
+    \item \textbf{Wafer Test}: The finished wafer undergoes testing. Defective dies are electrically identified.
+    \item \textbf{Defective die inked}: The defective dies are marked (inked) to distinguish them from functional dies, the eventually eliminated.
+    \item \textbf{Wafer Saw}: The wafer is cut into individual dies.
+    \item \textbf{Package only "good" die}: Only the dies that passed the test are prepared for packaging.
+    \item \textbf{Final Test}: The packaged integrated circuit undergoes a final test.
+\end{enumerate}
 
-(b)
+\subsection{Steps in Packaging}
 
-Isotropic $SF_{6}$ Etch With Anisotropic Bombardment
+The physical packaging process involves several key micro-assembly steps:
 
-(d)
-
-$SF_{6}$ Etch Again
-
-Figure 3. Cartoon showing the sequential steps during TMDE. In (a) the masking material (photoresist or silicon dioxide) has been patterned. During the etch step in (b), a shallow, isotropic trench is formed. In the subsequent passivation step (c), a protective fluorocarbon film is deposited everywhere. During the next etch step (d), the fluorocarbon film is removed from all horizontal surfaces by directional ion bombardment, and another shallow trench is formed.
-Flow Rate
-
-$SF_{6}$
-
-Passivation Overlap
-
-Etch Overlap
-
-5 $\mu m$
-
-T
-
-$C_{4}F_{8}$
-
-Time
-
-Passivation Etching Active
-
-Active Time Time
-
-Figure 1. Graph showing the gas flow cycles during plasma etching. Note the overlaps caused by the finite time response of the flow controllers.
-
-DRIE Yields High Aspect Ratio
-
-174X
-203UM
-
-25KU HD 16
-
-200 $\mu m$
-
-2008
-
-1.14KX 150 11
-
+\paragraph{Die Separation and Handling}
 \begin{itemize}
-    \item Etch Rate
+    \item \textbf{Saw wafers into dies}: The process of cutting the wafer into individual chips.
+    \item \textbf{Wafers mounted on mylar tape in stainless steel ring}: This is done to hold the dies in place during the sawing and subsequent handling.
 \end{itemize}
-Up to $\sim 3~\mu m/min$
 
+\paragraph{Die Bonding and Interconnection}
 \begin{itemize}
-    \item Selectivity
+    \item \textbf{Bond good dies into package}: The selected good die is attached to the package's heat sink or base. This is the \textbf{Die bond}.
+    \item \textbf{Wire bond die pads to package leads}: This process, known as \textbf{Wire Bond}, connects the on-chip aluminum or gold bond pads to the package's external leads using Au or Al wires.
+    \item This bonding is typically achieved through Heat or ultrasonic bonding.
 \end{itemize}
-$200~\mu m$
 
+\paragraph{Package Sealing (Encapsulation)}
 \begin{itemize}
-    \item Silicon-to-Photoresist: $\sim 70:1$
-    \item Silicon-to- $SiO_{2}$: $\sim 150:1$
+    \item \textbf{Seal package}: This step covers the die, providing protection and sealing the package.
+    \item \textbf{Ceramic/metal packages} use a metal lid and solder for sealing.
+    \item \textbf{Plastic packages} use encapsulant or injection molding, which must be cured in an oven.
 \end{itemize}
-DEEP MICRO-
-CHANNELS
 
-LEAF SPRING
+\paragraph{Final Inspection}
+\begin{itemize}
+    \item \textbf{Inspect}: The final packaged components are inspected for quality.
+\end{itemize}
 
-0009 20KV
+\subsection{Functions of Packaging}
 
-10m WD28
+Packaging provides several critical functions necessary for a chip to operate reliably within an electronic system:
+
+\begin{enumerate}
+    \item \textbf{Power Distribution}: Distributes power from the circuit board to the chip.
+    \item \textbf{Signal Distribution}: Distributes electrical signals to and from the chip.
+    \item \textbf{Dissipates Heat}: Manages thermal load. This involves structural and materials concerns to ensure the chip does not overheat.
+    \item \textbf{Houses and Protects Die}: Provides protection against mechanical stress, chemical attack, and electromagnetic interference.
+\end{enumerate}
+
+\subsection{Package Types}
+
+Packages are classified primarily by how they interface with the Printed Circuit Board (PCB).
+
+\subsubsection{Types of First-Level Packages}
+
+\paragraph{Through Hole Package}
+These packages have leads that are inserted through holes in the PCB. 
+\begin{itemize}
+    \item \textbf{DIP (Dual In-line Package)}: Two lines of leads electrically connect the die to the circuit board. Is a low performance package, but is simple and cheap
+    \item \textbf{SH-DIP} (Shrink DIP)
+    \item \textbf{SK-DIP, SL-DIP} (Skinny DIP, Slim DIP)
+    \item \textbf{SIP} (Single In-line Package): The hole and the metal surface are usually attached to a heat dissipator. It is commonly used in power electronics.
+    \item \textbf{ZIP} (Zig-zag In-line Package)
+\end{itemize}
+
+\paragraph{Surface Mounted Package}
+These packages are mounted directly onto the surface of the PCB.
+\begin{itemize}
+    \item \textbf{SO or SOP (Small Out-line Package)}
+    \item \textbf{QFP (Quad Flat Package)}
+    \item \textbf{LCC (Leadless Chip Carrier)}: Chip carrier with no leads, metal lines run along package sides.
+    \item \textbf{PLCC, SOJ} (Plastic Leaded Chip Carrier with Butt Leads)
+    \item \textbf{TAB (Tape Automated Bonding)}
+    \item \textbf{CSP (Chip Scale Package)}
+\end{itemize}
+
+\paragraph{Pin Array Packages}
+Electrical contact is made through an array of connections on the underside of the package. The advantage is a higher density of connections compared to traditional leaded packages, enabling more compact designs and better electrical performance.The difference between PGA and BGA is the shape.
+\begin{itemize}
+    \item \textbf{PGA (Pin Grid Array)} or Column Package: Pin array where contacts are pins.
+    \item \textbf{BGA (Ball Grid Array)}: Pin array where contacts are solder balls.
+\end{itemize}
+
+\subsection{Advanced Interconnection and Integration}
+
+\subsubsection{Flip-Chip Bonding}
+The flip-chip method is an alternative to wire bonding where the chip is inverted (flipped) and connected directly to the substrate using solder bumps.\\
+In this method, instead of using long gold wires, small pin contacts are utilized to establish electrical connections between the chip and the substrate. These pin contacts are directly bonded to the solder bumps on the chip, providing a compact and efficient interconnection. This approach reduces parasitic inductance and resistance, improving the overall electrical performance of the package.
+\begin{figure}[htbp]
+  \centering
+  \framebox{\parbox{0.8\textwidth}{\centering
+    \vspace{1cm}
+    \textbf{Figure Placeholder: Flip-Chip Bonding Diagrams and Phase Diagram} \\
+    \small\textit{Diagrams showing the structure of a flip-chip bond (contact to active region, passivation, solderable layer) and the tin-lead alloy phase diagram (Figure 6.3) with the $183^{\circ}\text{C}$ eutectic composition.}
+    \vspace{1cm}
+  }}
+  \caption{Illustration of Flip-Chip bonding structure and the $\text{Pb}:\text{Sn}$ phase diagram.}
+  \label{fig:flip_chip}
+\end{figure}
+
+The $\text{Pb}:\text{Sn}$ alloy system is critical for many solder processes. The phase diagram (Figure 6.3) shows a eutectic composition at $61.9\% \text{ Sn}$ melting at $183^{\circ}\text{C}~(362^{\circ}\text{F})$.
+
+\subsubsection{Multi-Chip Modules (MCMs)}
+The need for high density, high performance, and cost-effectiveness has spurred the development of Multi-Chip Modules (MCMs)(today called SiP). MCMs enable the integration of different chips with varied functions into a mini substrate, instead of inserting individual packages onto a large PCB (also known as second level package).
+
+\paragraph{Definitions}
+An MCM can be defined in a couple of ways:
+\begin{itemize}
+    \item A structure consisting of two or more integrated circuits electrically connected to a common circuit base and interconnected by conductors in that base.
+    \item A structure in which a \textbf{packaging efficiency} of greater than $30\%$ is achieved. \textbf{Packaging efficiency} is the ratio of silicon die area to printed circuit board area. This definition implies a particular technology that allows chips to be packed closely together.
+\end{itemize}
+
+\paragraph{Goals}
+The basic idea behind developing MCM technology is to decrease the average spacing between ICs in an electronic system. The goals are:
+\begin{itemize}
+    \item Higher performance resulting from reduced signal delays between chips.
+    \item Improved signal quality between chips.
+    \item Reduced overall size.
+    \item Reduced number of external components.
+\end{itemize}
+
+\paragraph{Structure}
+An MCM substrate can be composed of different layers, and their number depends on the MCM technology used. These layers provide all the interconnections between the different mounted ICs.
+
+\begin{figure}[htbp]
+  \centering
+  \framebox{\parbox{0.8\textwidth}{\centering
+    \vspace{1cm}
+    \textbf{Figure Placeholder: Multi-Chip Module Structures} \\
+    \small\textit{Diagrams showing a generic MCM package with chips attached via Wire Interconnection and Flip-chip bonding, resting on a multilayer substrate with terminals for Second Level Connection.}
+    \vspace{1cm}
+  }}
+  \caption{Structure of a typical Multi-Chip Module (MCM) showing first and second level connections.}
+  \label{fig:mcm_structure}
+\end{figure}
+
+\subsubsection{3D Packaging}
+As a result, 3D packaging technology has evolved as a natural progression from the 2D packaging technology (MCMs).\\
+3D packaging is achieved by stacking multiple chips vertically, one on top of the other. This stacking is facilitated by Through Silicon Vias (TSVs), which provide vertical electrical connections between the layers. The stacked configuration minimizes the footprint on the PCB while enabling high-density integration and improved performance. This approach is particularly useful in applications requiring compact designs, such as mobile devices and high-performance computing systems.
+As the requirements for high performance systems continually increase, even MCM technology is often not enough. 
+
+\paragraph{Advantages}
+\begin{itemize}
+    \item Footprint used by the 3D device is much smaller than the footprint used by every chip in a 2D MCM layout.
+    \item \textbf{Through Via Connection (TSV)}: Provides short interconnect length, high density interconnect, and a low profile (without a spacer).
+\end{itemize}
+
+\paragraph{Through Silicon Vias (TSV)}
+TSV via diameters typically range from $5~\mu \text{m}$ to several tens of $\mu \text{m}$. They provide vertical electrical connections through the chip.
+
+\begin{figure}[htbp]
+  \centering
+  \framebox{\parbox{0.8\textwidth}{\centering
+    \vspace{1cm}
+    \textbf{Figure Placeholder: 3D Packaging Diagrams} \\
+    \small\textit{Diagram showing stacked dies (e.g., ASIC and MEMS die) interconnected using Through Via Connection (TSV) for high-density, low-profile packaging.}
+    \vspace{1cm}
+  }}
+  \caption{Conceptual diagram of 3D Packaging utilizing Through Silicon Vias (TSV).}
+  \label{fig:3d_packaging}
+\end{figure}
+\clearpage
+\section{Complementary Technologies}
+
+\subsection{Bulk micromachining}
+Bulk micromachining is a foundational technique in micro-electro-mechanical systems (MEMS) fabrication.
+
+\subsubsection{Definition and Characteristics}
+Bulk micromachining involves the selective removal of the "bulk" substrate material to release suspended three-dimensional structures.
+\begin{itemize}
+    \item It is the most common micromachining technique and was one of the first to be developed, with initial experiments dating back to the 1970s for the fabrication of micro pressure sensors.
+    \item While it is generally less versatile and offers lower resolution compared to surface micromachining, it allows for the fabrication of structures with relatively "big" mass.
+\end{itemize}
+
+\subsubsection{Types of Bulk Micromachining}
+This technique is broadly categorized based on the side of the wafer being etched:
+\begin{itemize}
+    \item Front-Side Bulk Micromachining
+    \item Back-Side Bulk Micromachining
+\end{itemize}
+
+Typical resulting structures include square membranes, heating resistors, thermopiles, and piezoresistors. The process often involves layers of materials such as $Si_{3}N_{4}$, $SiO_{2}$, and the Silicon (Si) substrate, with typical dimensions in the $100\,\mu\text{m}$ to $500\,\mu\text{m}$ range.
+\label{chap:bulk_micromachining}
+
+
+\subsubsection{Bulk Micromachining Etching Techniques}
+
+The removal of the bulk substrate can be achieved through various etching methods.
+
+\subsubsection{Wet Etching}
+
+Wet etching involves submerging the substrate in a liquid chemical bath.
+
+\paragraph{Basic Wet Etching Procedure}
+The procedure follows these basic steps:
+\begin{enumerate}
+    \item The target material is masked with a protective material (e.g., $SiO_{2}$ or $Si_{3}N_{4}$ are commonly used etch masks).
+    \item The structure is submerged in an acid bath.
+    \item The exposed target material is completely removed.
+    \item The process often results in slight undercutting beneath the mask material.
+\end{enumerate}
+
+\paragraph{Vapour Etching}
+Vapour etching is a form of chemical etching where the etchant is in the gas phase. A common example is the use of Xenon Difluoride ($\text{XeF}_{2}$) for silicon etching.
+
+The key chemical reactions include:
+\begin{align*}
+    2\text{XeF}_{2} + \text{Si} &\rightarrow 2\text{Xe} + \text{SiF}_{4} \\
+    \text{SiO}_{2} + 4\text{HF} &\rightarrow \text{SiF}_{4} + 2\text{H}_{2}\text{O}
+\end{align*}
+
+\subsubsection{Dry (Plasma) Etching}
+
+Dry etching, or plasma etching, utilizes chemically reactive species generated in a plasma state. This technique is typically performed inside a vacuum chamber.
+
+\paragraph{Plasma Etching Components}
+The general setup for plasma etching, such as in a Reactive Ion Etching (RIE) system, includes:
+\begin{itemize}
+    \item Top and bottom electrodes
+    \item A vacuum pump to maintain the low-pressure environment
+    \item A source for etching gases
+    \item An RF power source to generate and maintain the plasma
+    \item Cooling (e.g., water) to regulate the temperature
+\end{itemize}
+
+\paragraph{Techniques}
+The two most prominent dry etching techniques are:
+\begin{itemize}
+    \item \textbf{RIE (Reactive Ion Etching):} Provides a balance of chemical and physical etching, resulting in good anisotropy.
+    \item \textbf{DRIE (Deep Reactive Ion Etching):} A highly anisotropic process capable of etching deep, vertical structures in silicon, often utilizing the Bosch process.
+\end{itemize}
+
+\subsection{SPM Machining}
+Scanning Probe Microscopy (SPM) techniques are highly versatile and offer ultra-high resolution capabilities for both additive and subtractive manufacturing at the nanoscale.
+
+\subsubsection{Thermal Scanning Probe Lithography}
+Thermal Scanning Probe Lithography (t-SPL) is a method that uses a heated AFM tip to locally modify a polymer resist layer, allowing for the patterning of features with nanometer resolution.
+
+\subsubsection{Scanning Probe Metal 3D Printing}
+
+Scanning Probe Metal 3D Printing, particularly demonstrated by the CERES system, enables true additive manufacturing with submicron resolution.
+
+\paragraph{The CERES System}
+The CERES system, developed by Exaddon AG, performs direct 3D printing of metal under ambient conditions. The system is capable of building complex structures through an additive manufacturing process.
+
+\paragraph{Voxel-Based Printing Process}
+The metal printing process is voxel-based, where voxels are elementary three-dimensional blocks.
+\begin{enumerate}
+    \item \textbf{Setup:} A small printing nozzle, called an iontip (a type of cantilever), is immersed in a supporting electrolyte bath.
+    \item \textbf{Flow:} A precisely regulated air pressure pushes a liquid containing metal ions through a microchannel inside the iontip. The liquid flow is highly controlled, reaching rates as low as femtoliters per second.
+    \item \textbf{Deposition:} At the end of the microchannel, the ion-containing liquid is released onto the print surface. The dissolved metal ions are then electrodeposited into solid metal atoms.
+    \item \textbf{Structure Building:} Stacked in a layer-by-layer sequence at defined coordinates, these voxels form the desired 2D or 3D geometry.
+\end{enumerate}
+
+
+
+\paragraph{Design Freedom and Feedback}
+The use of electrodeposition enables significant design freedom, as free-standing structures and $90^\circ$ overhanging angles are feasible without the need for support structures.
+
+The printing process is automated by real-time feedback of the deflection of the iontip. As a voxel reaches completion, the top side of the voxel interacts with the tip, deflecting the cantilever by a minute, measurable amount. This mechanism operates much like an Atomic Force Microscope (AFM) cantilever operating in contact-mode. Upon detection of the deflection, the tip is quickly retracted to a safe traveling height and moved to the next voxel coordinate.
+
 
 \chapter{Part 2: Cryogenic technology and Superconductivity} 
 \section{Introduction}

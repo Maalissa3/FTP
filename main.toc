@@ -174,179 +174,218 @@
 \contentsline {subsection}{\numberline {1.8.8}Vapor etching}{78}{}%
 \contentsline {subsubsection}{HF-vapor phase etching}{79}{}%
 \contentsline {subsection}{\numberline {1.8.9}RF plasma-based dry etching}{79}{}%
-\contentsline {subsection}{\numberline {1.8.10}Types of Dry Etching}{80}{}%
-\contentsline {subsubsection}{Reactive Ion Etching (RIE)}{80}{}%
-\contentsline {subsubsection}{Inductively Coupled Plasma (ICP-RIE) Reactor}{81}{}%
+\contentsline {subsection}{\numberline {1.8.10}TODO:Types of Dry Etching}{80}{}%
+\contentsline {subsubsection}{TODO:Reactive Ion Etching (RIE)}{80}{}%
+\contentsline {subsubsection}{TODO:Inductively Coupled Plasma (ICP-RIE) Reactor}{81}{}%
 \contentsline {subsection}{\numberline {1.8.11}DRY ETCH CHEMISTRIES}{81}{}%
-\contentsline {subsection}{\numberline {1.8.12}Selectivity}{82}{}%
-\contentsline {subsection}{\numberline {1.8.13}Anisotropy in Dry Etching}{83}{}%
-\contentsline {subsubsection}{ASPECT RATIO}{83}{}%
-\contentsline {subsection}{\numberline {1.8.14}DEEP REACTIVE ION ETCHING (DRIE) TIME MULTIPLEXED DEEP ETCHING}{84}{}%
-\contentsline {chapter}{\numberline {2}Part 2: Cryogenic technology and Superconductivity}{86}{}%
-\contentsline {section}{\numberline {2.1}Introduction}{86}{}%
-\contentsline {subsection}{\numberline {2.1.1}Elements of classical thermodynamics}{86}{}%
-\contentsline {subsubsection}{Microscopic vs. macroscopic points of view}{86}{}%
-\contentsline {subsubsection}{Examples of intensive and extensive thermodynamic coordinates:}{87}{}%
-\contentsline {subsection}{\numberline {2.1.2}Thermodynamic systems}{87}{}%
-\contentsline {subsection}{\numberline {2.1.3}Thermodynamic transformations}{88}{}%
-\contentsline {subsection}{\numberline {2.1.4}The Laws of Thermodynamics}{88}{}%
-\contentsline {subsection}{\numberline {2.1.5}Thermal equilibrium}{88}{}%
-\contentsline {subsection}{\numberline {2.1.6}Zeroth Law -- Temperature}{88}{}%
-\contentsline {subsubsection}{Heat}{89}{}%
-\contentsline {subsubsection}{Work and Heat}{89}{}%
-\contentsline {subsection}{\numberline {2.1.7}First Law of Thermodynamics}{89}{}%
-\contentsline {subsection}{\numberline {2.1.8}Second Law of Thermodynamics}{90}{}%
-\contentsline {subsection}{\numberline {2.1.9}Third Law of Thermodynamics}{90}{}%
-\contentsline {subsection}{\numberline {2.1.10}Entropy}{90}{}%
-\contentsline {subsubsection}{Entropy, thermodynamic definition}{92}{}%
-\contentsline {subsection}{\numberline {2.1.11}Principle of Increase of Entropy}{92}{}%
-\contentsline {subsubsection}{Entropy: mathematical definition}{93}{}%
-\contentsline {subsubsection}{Entropy and the Universe}{93}{}%
-\contentsline {subsubsection}{Entropy: statistical definition}{93}{}%
-\contentsline {subsection}{\numberline {2.1.12}Enthalpy}{94}{}%
-\contentsline {subsubsection}{Comparison of properties of the internal energy U and enthalpy H for a hydrostatic system (real and ideal gas)}{95}{}%
-\contentsline {section}{\numberline {2.2}The Thermodynamics of Refrigeration}{97}{}%
-\contentsline {subsection}{\numberline {2.2.1}Cryogenics}{97}{}%
-\contentsline {subsection}{\numberline {2.2.2}Historical development of refrigeration}{98}{}%
-\contentsline {subsection}{\numberline {2.2.3}Isentropic cooling}{99}{}%
-\contentsline {subsection}{\numberline {2.2.4}Use of a throttling process}{99}{}%
-\contentsline {subsection}{\numberline {2.2.5}Refrigerants}{101}{}%
-\contentsline {subsection}{\numberline {2.2.6}The throttling process}{102}{}%
-\contentsline {subsection}{\numberline {2.2.7}Enthalpy and throttling}{103}{}%
-\contentsline {subsection}{\numberline {2.2.8}Joule-Thomson expansion}{103}{}%
-\contentsline {subsection}{\numberline {2.2.9}Liquefaction of gases by the Joule-Thomson expansion}{105}{}%
-\contentsline {paragraph}{Double-walled pipe}{106}{}%
-\contentsline {subsection}{\numberline {2.2.10}Coolers using turbo-expanders}{107}{}%
-\contentsline {subsection}{\numberline {2.2.11}Countercurrent heat exchangers -- calculating desirable dimensions}{108}{}%
-\contentsline {subsubsection}{Calculation of pressure gradient}{108}{}%
-\contentsline {subsubsection}{Calculation of heat transfer}{109}{}%
-\contentsline {subsubsection}{Representative values for some gases}{109}{}%
-\contentsline {subsubsection}{Required length}{109}{}%
-\contentsline {subsubsection}{Methods of construction}{109}{}%
-\contentsline {section}{\numberline {2.3}Refrigeration machines}{111}{}%
-\contentsline {subsection}{\numberline {2.3.1}Coolers using regenerative heat exchangers}{111}{}%
-\contentsline {subsection}{\numberline {2.3.2}Stirling refrigerator cycle}{111}{}%
-\contentsline {subsection}{\numberline {2.3.3}Stirling cryocoolers}{111}{}%
-\contentsline {subsubsection}{Split-cycle cooler}{112}{}%
-\contentsline {subsubsection}{Special cryocoolers: High-power Stirling cryocoolers}{113}{}%
-\contentsline {subsubsection}{Special cryocoolers for space}{113}{}%
-\contentsline {subsection}{\numberline {2.3.4}Gifford-McMahon cryocoolers}{114}{}%
-\contentsline {subsection}{\numberline {2.3.5}Pulse tube refrigerators}{114}{}%
-\contentsline {subparagraph}{GM-type PTR:}{115}{}%
-\contentsline {subparagraph}{Regenerator: issues}{115}{}%
-\contentsline {section}{\numberline {2.4}Properties of cryogenic fluids}{116}{}%
-\contentsline {subsection}{\numberline {2.4.1}Properties of Cryoliquids}{116}{}%
-\contentsline {subsection}{\numberline {2.4.2}Liquid Air, Liquid Oxygen, Liquid Nitrogen}{116}{}%
-\contentsline {subsubsection}{Liquid Hydrogen}{116}{}%
-\contentsline {subsubsection}{Liquid Helium: \textit {Some Properties of the Helium Isotopes}}{117}{}%
-\contentsline {subsubsection}{Liquid Helium: \textit {Latent Heat of Evaporation and Vapour Pressure}}{118}{}%
-\contentsline {subsubsection}{Liquid Helium: \textit {Specific Heat}}{120}{}%
-\contentsline {subsection}{\numberline {2.4.3}Liquid Helium: \textit {Transport Properties of Liquid $^4\text {He}$}}{121}{}%
-\contentsline {subsubsection}{Thermal Conductivity}{121}{}%
-\contentsline {subsubsection}{Viscosity and Superfluid Film Flow}{121}{}%
-\contentsline {section}{\numberline {2.5}Thermal Contact and Thermal Isolation}{123}{}%
-\contentsline {subsection}{\numberline {2.5.1}Heat transfer}{123}{}%
-\contentsline {subsubsection}{Conduction of heat by a low-pressure gas}{123}{}%
-\contentsline {subsubsection}{Heat transfer through solids}{124}{}%
-\contentsline {subsection}{\numberline {2.5.2}Radiation}{126}{}%
-\contentsline {subsection}{\numberline {2.5.3}Other causes of heat transfer}{127}{}%
-\contentsline {subsubsection}{Joule heating}{127}{}%
-\contentsline {subsubsection}{Gas adsorption/desorption}{128}{}%
-\contentsline {subsubsection}{Inadequate anchoring of leads}{128}{}%
-\contentsline {subsubsection}{He film creep and thermal oscillations}{128}{}%
-\contentsline {subsubsection}{Mechanical vibrations}{128}{}%
-\contentsline {subsubsection}{Electrical losses (induced currents)}{128}{}%
-\contentsline {subsection}{\numberline {2.5.4}Selection of the Material with the Appropriate Cryogenic Thermal Conductivity}{130}{}%
-\contentsline {subsection}{\numberline {2.5.5}Heat Switches}{131}{}%
-\contentsline {subsubsection}{Gaseous Heat Switches}{131}{}%
-\contentsline {subsubsection}{Mechanical Heat Switches}{132}{}%
-\contentsline {subsubsection}{Superconducting Heat Switches}{132}{}%
-\contentsline {subsection}{\numberline {2.5.6}Thermal Boundary Resistance}{132}{}%
-\contentsline {subsubsection}{Boundary Resistance Between Metals}{132}{}%
-\contentsline {subsubsection}{Boundary Resistance Between Liquid Helium and Solids}{133}{}%
-\contentsline {section}{\numberline {2.6}${}^4\text {He}$ Cryostats and Cryogenic Technology}{135}{}%
-\contentsline {subsection}{\numberline {2.6.1}Key Technological Requirements and Challenges}{135}{}%
-\contentsline {subsection}{\numberline {2.6.2}Use of Liquid ${}^{4}\text {He}$ in Low-Temperature Equipment}{135}{}%
-\contentsline {subsubsection}{Cool-Down Phase Efficiency}{135}{}%
-\contentsline {subsubsection}{Precooling}{136}{}%
-\contentsline {subsubsection}{Running Phase}{136}{}%
-\contentsline {subsection}{\numberline {2.6.3}Cryostat Types}{136}{}%
-\contentsline {subsubsection}{Double-Walled Glass Dewars}{136}{}%
-\contentsline {subsubsection}{Metal Dewars}{137}{}%
-\contentsline {subsubsection}{He Gas-Flow Cryostats ($T > 4.2~\text {K}$)}{138}{}%
-\contentsline {subsubsection}{Use of the Temperature Gradient Above the LHe Bath (Dipper Probes)}{139}{}%
-\contentsline {subsection}{\numberline {2.6.4}Cryostats for Variable Low Temperatures ($1.3~\text {K} \le T \le 4.2~\text {K}$)}{140}{}%
-\contentsline {subsubsection}{Pumping on the Main ${}^{4}\text {He}$ Bath}{140}{}%
-\contentsline {subsubsection}{Continuously Operating ${}^{4}\text {He}$ Evaporation Cryostat}{141}{}%
-\contentsline {subsection}{\numberline {2.6.5}Auxiliary Equipment}{141}{}%
-\contentsline {subsubsection}{Storage Vessels}{141}{}%
-\contentsline {subsubsection}{Transfer Tube}{142}{}%
-\contentsline {subsubsection}{Level Detectors}{142}{}%
-\contentsline {section}{\numberline {2.7}${}^3He$ cryostats: refrigeration below 1K}{144}{}%
-\contentsline {subsection}{\numberline {2.7.1}Advantages and Disadvantages of $\text {}^3\text {He}$ Refrigeration}{144}{}%
-\contentsline {subsection}{\numberline {2.7.2}Types of $\text {}^3\text {He}$ Cryostats}{144}{}%
-\contentsline {subsubsection}{Cryostats with External Pumps}{145}{}%
-\contentsline {subsubsection}{Cryostats with Internal Adsorption Pumps}{146}{}%
-\contentsline {subsubsection}{Example: $\text {}^3\text {He}$ Cryostat with Two Internal Adsorption Pumps}{147}{}%
-\contentsline {section}{\numberline {2.8}Dilution Refrigerator}{149}{}%
-\contentsline {subsection}{\numberline {2.8.1}The $^3\text {He}-^4\text {He}$ Dilution Refrigerator}{149}{}%
-\contentsline {subsubsection}{Liquid $^3\text {He}-^4\text {He}$ Mixtures}{149}{}%
-\contentsline {subsubsection}{Phase Diagram and Solubility}{149}{}%
-\contentsline {subsubsection}{$^3\text {He}-^4\text {He}$ Mixtures as Quantum Liquids}{150}{}%
-\contentsline {subsection}{\numberline {2.8.2}Finite Solubility of $^3\text {He}$ in $^4\text {He}$}{151}{}%
-\contentsline {subsubsection}{One $^3\text {He}$ Atom in Liquid $^4\text {He}$ ($x\approx 0$)}{151}{}%
-\contentsline {subsubsection}{Many $^3\text {He}$ Atoms in Liquid $^4\text {He}$ ($x>0$)}{152}{}%
-\contentsline {subsection}{\numberline {2.8.3}Cooling Power of the Dilution Process}{152}{}%
-\contentsline {subsection}{\numberline {2.8.4}Osmotic Pressure}{153}{}%
-\contentsline {subsection}{\numberline {2.8.5}Realization of a $^3\text {He}–^4\text {He}$ Dilution Refrigerator}{155}{}%
-\contentsline {subsection}{\numberline {2.8.6}Properties of the Main Components of a $^3\text {He}–^4\text {He}$ Dilution Refrigerator:}{157}{}%
-\contentsline {subsubsection}{Mixing Chamber}{157}{}%
-\contentsline {subsubsection}{Still}{158}{}%
-\contentsline {subsubsection}{Heat exchangers}{158}{}%
-\contentsline {paragraph}{Simple Heat Exchangers}{159}{}%
-\contentsline {paragraph}{Step Exchangers}{159}{}%
-\contentsline {paragraph}{Minimum Temperature Calculation}{160}{}%
-\contentsline {subsection}{\numberline {2.8.7}Examples of $^3\text {He}–^4\text {He}$ Dilution Refrigerators}{161}{}%
-\contentsline {subsection}{\numberline {2.8.8}Developments}{163}{}%
-\contentsline {subsection}{\numberline {2.8.9}$^3\text {He}–^4\text {He}$ Dilution Refrigerator: Addendum: Example}{163}{}%
-\contentsline {subsubsection}{Managing the heat budget of large-scale quantum computers based on superconducting circuits}{163}{}%
-\contentsline {subsubsection}{Typical cabling for experiments with superconducting circuits}{164}{}%
-\contentsline {subsubsection}{Sources of heat loads}{165}{}%
-\contentsline {paragraph}{Passive load}{165}{}%
-\contentsline {paragraph}{Active load}{165}{}%
-\contentsline {paragraph}{Required signal levels}{166}{}%
-\contentsline {paragraph}{Radiative load}{167}{}%
-\contentsline {subsubsection}{Cabling and Thermalization}{167}{}%
-\contentsline {subsubsection}{Total Heat Load Budget}{167}{}%
-\contentsline {subsubsection}{Concluding Note}{168}{}%
-\contentsline {section}{\numberline {2.9}\textsuperscript {3}He solidification - Demagnetization - Others}{169}{}%
-\contentsline {subsection}{\numberline {2.9.1}Outline}{169}{}%
-\contentsline {subsection}{\numberline {2.9.2}Refrigeration by Solidification of Liquid \textsuperscript {3}He: Pomeranchuck Cooling}{169}{}%
-\contentsline {subsection}{\numberline {2.9.3}Refrigeration by Adiabatic Demagnetization of a Paramagnetic Salt}{170}{}%
-\contentsline {subsubsection}{Phases (Electronic Demagnetization)}{170}{}%
-\contentsline {subsubsection}{Paramagnetic Salts and Magnetic Refrigerators}{171}{}%
-\contentsline {subsection}{\numberline {2.9.4}Nuclear Adiabatic Demagnetization}{173}{}%
-\contentsline {subsubsection}{Differences in Experimental Procedure (Nuclear vs. Electronic)}{174}{}%
-\contentsline {subsubsection}{Interaction Between Conduction Electrons and Nuclei}{174}{}%
-\contentsline {subsubsection}{Heat Leaks}{175}{}%
-\contentsline {subsection}{\numberline {2.9.5}Other techniques for refrigeration below 1 K}{176}{}%
-\contentsline {subsubsection}{Tunnel Junction Cooling}{176}{}%
-\contentsline {subsubsection}{Laser Cooling}{176}{}%
-\contentsline {subsubsection}{Evaporative Cooling}{176}{}%
-\contentsline {subsection}{\numberline {2.9.6}Summary}{176}{}%
-\contentsline {section}{\numberline {2.10}Superconducting materials and technologies}{178}{}%
-\contentsline {subsection}{\numberline {2.10.1}Introduction to the phenomenology of superconductivity}{178}{}%
-\contentsline {subsubsection}{Historical notes}{178}{}%
-\contentsline {subsubsection}{Summary of the main properties of superconductors}{179}{}%
-\contentsline {subsection}{\numberline {2.10.2}Vortex dynamics, vortex pinning}{179}{}%
-\contentsline {subsection}{\numberline {2.10.3}Review on superconducting materials (relevant for applications) and preparation methods}{180}{}%
-\contentsline {subsubsection}{Low-Temperature Superconductors (LTS): Nb, NbTi, $Nb_{3}Sn$}{180}{}%
-\contentsline {subsubsection}{Magnesium diboride ($MgB_{2}$)}{181}{}%
-\contentsline {subsubsection}{High-Temperature Superconductors (HTS) - cuprates: $YBa_{2}Cu_{3}O_{7-8}$ (YBCO)}{182}{}%
-\contentsline {subsubsection}{Iron-based superconductors (IBS)}{183}{}%
-\contentsline {subsection}{\numberline {2.10.4}Superconducting film deposition}{183}{}%
-\contentsline {subsection}{\numberline {2.10.5}Brief overview of applications of superconductivity}{184}{}%
-\contentsline {subsubsection}{Transportation}{184}{}%
-\contentsline {subsubsection}{Medical Imaging and Diagnostics}{184}{}%
-\contentsline {subsubsection}{Renewable Energy}{184}{}%
-\contentsline {subsubsection}{Neuromorphic Computing}{185}{}%
+\contentsline {subsection}{\numberline {1.8.12}TODO:Selectivity}{82}{}%
+\contentsline {subsection}{\numberline {1.8.13}TODO:Anisotropy in Dry Etching}{82}{}%
+\contentsline {subsubsection}{TODO:ASPECT RATIO}{82}{}%
+\contentsline {subsection}{\numberline {1.8.14}Deep reactive ion etching (DRIE)$\rightarrow $Time multiplexed deep etching}{83}{}%
+\contentsline {section}{\numberline {1.9}Packaging}{84}{}%
+\contentsline {subsection}{\numberline {1.9.1}Packaging Process Flow}{84}{}%
+\contentsline {subsection}{\numberline {1.9.2}Steps in Packaging}{84}{}%
+\contentsline {paragraph}{Die Separation and Handling}{84}{}%
+\contentsline {paragraph}{Die Bonding and Interconnection}{84}{}%
+\contentsline {paragraph}{Package Sealing (Encapsulation)}{85}{}%
+\contentsline {paragraph}{Final Inspection}{85}{}%
+\contentsline {subsection}{\numberline {1.9.3}Functions of Packaging}{85}{}%
+\contentsline {subsection}{\numberline {1.9.4}Package Types}{85}{}%
+\contentsline {subsubsection}{Types of First-Level Packages}{85}{}%
+\contentsline {paragraph}{Through Hole Package}{85}{}%
+\contentsline {paragraph}{Surface Mounted Package}{86}{}%
+\contentsline {paragraph}{Pin Array Packages}{86}{}%
+\contentsline {subsection}{\numberline {1.9.5}Advanced Interconnection and Integration}{86}{}%
+\contentsline {subsubsection}{Flip-Chip Bonding}{86}{}%
+\contentsline {subsubsection}{Multi-Chip Modules (MCMs)}{86}{}%
+\contentsline {paragraph}{Definitions}{87}{}%
+\contentsline {paragraph}{Goals}{87}{}%
+\contentsline {paragraph}{Structure}{87}{}%
+\contentsline {subsubsection}{3D Packaging}{87}{}%
+\contentsline {paragraph}{Advantages}{88}{}%
+\contentsline {paragraph}{Through Silicon Vias (TSV)}{88}{}%
+\contentsline {section}{\numberline {1.10}Complementary Technologies}{89}{}%
+\contentsline {subsection}{\numberline {1.10.1}Bulk micromachining}{89}{}%
+\contentsline {subsubsection}{Definition and Characteristics}{89}{}%
+\contentsline {subsubsection}{Types of Bulk Micromachining}{89}{}%
+\contentsline {subsubsection}{Bulk Micromachining Etching Techniques}{89}{}%
+\contentsline {subsubsection}{Wet Etching}{89}{}%
+\contentsline {paragraph}{Basic Wet Etching Procedure}{89}{}%
+\contentsline {paragraph}{Vapour Etching}{90}{}%
+\contentsline {subsubsection}{Dry (Plasma) Etching}{90}{}%
+\contentsline {paragraph}{Plasma Etching Components}{90}{}%
+\contentsline {paragraph}{Techniques}{90}{}%
+\contentsline {subsection}{\numberline {1.10.2}SPM Machining}{90}{}%
+\contentsline {subsubsection}{Thermal Scanning Probe Lithography}{90}{}%
+\contentsline {subsubsection}{Scanning Probe Metal 3D Printing}{91}{}%
+\contentsline {paragraph}{The CERES System}{91}{}%
+\contentsline {paragraph}{Voxel-Based Printing Process}{91}{}%
+\contentsline {paragraph}{Design Freedom and Feedback}{91}{}%
+\contentsline {chapter}{\numberline {2}Part 2: Cryogenic technology and Superconductivity}{92}{}%
+\contentsline {section}{\numberline {2.1}Introduction}{92}{}%
+\contentsline {subsection}{\numberline {2.1.1}Elements of classical thermodynamics}{92}{}%
+\contentsline {subsubsection}{Microscopic vs. macroscopic points of view}{92}{}%
+\contentsline {subsubsection}{Examples of intensive and extensive thermodynamic coordinates:}{93}{}%
+\contentsline {subsection}{\numberline {2.1.2}Thermodynamic systems}{93}{}%
+\contentsline {subsection}{\numberline {2.1.3}Thermodynamic transformations}{94}{}%
+\contentsline {subsection}{\numberline {2.1.4}The Laws of Thermodynamics}{94}{}%
+\contentsline {subsection}{\numberline {2.1.5}Thermal equilibrium}{94}{}%
+\contentsline {subsection}{\numberline {2.1.6}Zeroth Law -- Temperature}{94}{}%
+\contentsline {subsubsection}{Heat}{95}{}%
+\contentsline {subsubsection}{Work and Heat}{95}{}%
+\contentsline {subsection}{\numberline {2.1.7}First Law of Thermodynamics}{95}{}%
+\contentsline {subsection}{\numberline {2.1.8}Second Law of Thermodynamics}{96}{}%
+\contentsline {subsection}{\numberline {2.1.9}Third Law of Thermodynamics}{96}{}%
+\contentsline {subsection}{\numberline {2.1.10}Entropy}{96}{}%
+\contentsline {subsubsection}{Entropy, thermodynamic definition}{98}{}%
+\contentsline {subsection}{\numberline {2.1.11}Principle of Increase of Entropy}{98}{}%
+\contentsline {subsubsection}{Entropy: mathematical definition}{99}{}%
+\contentsline {subsubsection}{Entropy and the Universe}{99}{}%
+\contentsline {subsubsection}{Entropy: statistical definition}{99}{}%
+\contentsline {subsection}{\numberline {2.1.12}Enthalpy}{100}{}%
+\contentsline {subsubsection}{Comparison of properties of the internal energy U and enthalpy H for a hydrostatic system (real and ideal gas)}{101}{}%
+\contentsline {section}{\numberline {2.2}The Thermodynamics of Refrigeration}{103}{}%
+\contentsline {subsection}{\numberline {2.2.1}Cryogenics}{103}{}%
+\contentsline {subsection}{\numberline {2.2.2}Historical development of refrigeration}{104}{}%
+\contentsline {subsection}{\numberline {2.2.3}Isentropic cooling}{105}{}%
+\contentsline {subsection}{\numberline {2.2.4}Use of a throttling process}{105}{}%
+\contentsline {subsection}{\numberline {2.2.5}Refrigerants}{107}{}%
+\contentsline {subsection}{\numberline {2.2.6}The throttling process}{108}{}%
+\contentsline {subsection}{\numberline {2.2.7}Enthalpy and throttling}{109}{}%
+\contentsline {subsection}{\numberline {2.2.8}Joule-Thomson expansion}{109}{}%
+\contentsline {subsection}{\numberline {2.2.9}Liquefaction of gases by the Joule-Thomson expansion}{111}{}%
+\contentsline {paragraph}{Double-walled pipe}{112}{}%
+\contentsline {subsection}{\numberline {2.2.10}Coolers using turbo-expanders}{113}{}%
+\contentsline {subsection}{\numberline {2.2.11}Countercurrent heat exchangers -- calculating desirable dimensions}{114}{}%
+\contentsline {subsubsection}{Calculation of pressure gradient}{114}{}%
+\contentsline {subsubsection}{Calculation of heat transfer}{115}{}%
+\contentsline {subsubsection}{Representative values for some gases}{115}{}%
+\contentsline {subsubsection}{Required length}{115}{}%
+\contentsline {subsubsection}{Methods of construction}{115}{}%
+\contentsline {section}{\numberline {2.3}Refrigeration machines}{117}{}%
+\contentsline {subsection}{\numberline {2.3.1}Coolers using regenerative heat exchangers}{117}{}%
+\contentsline {subsection}{\numberline {2.3.2}Stirling refrigerator cycle}{117}{}%
+\contentsline {subsection}{\numberline {2.3.3}Stirling cryocoolers}{117}{}%
+\contentsline {subsubsection}{Split-cycle cooler}{118}{}%
+\contentsline {subsubsection}{Special cryocoolers: High-power Stirling cryocoolers}{119}{}%
+\contentsline {subsubsection}{Special cryocoolers for space}{119}{}%
+\contentsline {subsection}{\numberline {2.3.4}Gifford-McMahon cryocoolers}{120}{}%
+\contentsline {subsection}{\numberline {2.3.5}Pulse tube refrigerators}{120}{}%
+\contentsline {subparagraph}{GM-type PTR:}{121}{}%
+\contentsline {subparagraph}{Regenerator: issues}{121}{}%
+\contentsline {section}{\numberline {2.4}Properties of cryogenic fluids}{122}{}%
+\contentsline {subsection}{\numberline {2.4.1}Properties of Cryoliquids}{122}{}%
+\contentsline {subsection}{\numberline {2.4.2}Liquid Air, Liquid Oxygen, Liquid Nitrogen}{122}{}%
+\contentsline {subsubsection}{Liquid Hydrogen}{122}{}%
+\contentsline {subsubsection}{Liquid Helium: \textit {Some Properties of the Helium Isotopes}}{123}{}%
+\contentsline {subsubsection}{Liquid Helium: \textit {Latent Heat of Evaporation and Vapour Pressure}}{124}{}%
+\contentsline {subsubsection}{Liquid Helium: \textit {Specific Heat}}{126}{}%
+\contentsline {subsection}{\numberline {2.4.3}Liquid Helium: \textit {Transport Properties of Liquid $^4\text {He}$}}{127}{}%
+\contentsline {subsubsection}{Thermal Conductivity}{127}{}%
+\contentsline {subsubsection}{Viscosity and Superfluid Film Flow}{127}{}%
+\contentsline {section}{\numberline {2.5}Thermal Contact and Thermal Isolation}{129}{}%
+\contentsline {subsection}{\numberline {2.5.1}Heat transfer}{129}{}%
+\contentsline {subsubsection}{Conduction of heat by a low-pressure gas}{129}{}%
+\contentsline {subsubsection}{Heat transfer through solids}{130}{}%
+\contentsline {subsection}{\numberline {2.5.2}Radiation}{132}{}%
+\contentsline {subsection}{\numberline {2.5.3}Other causes of heat transfer}{133}{}%
+\contentsline {subsubsection}{Joule heating}{133}{}%
+\contentsline {subsubsection}{Gas adsorption/desorption}{134}{}%
+\contentsline {subsubsection}{Inadequate anchoring of leads}{134}{}%
+\contentsline {subsubsection}{He film creep and thermal oscillations}{134}{}%
+\contentsline {subsubsection}{Mechanical vibrations}{134}{}%
+\contentsline {subsubsection}{Electrical losses (induced currents)}{134}{}%
+\contentsline {subsection}{\numberline {2.5.4}Selection of the Material with the Appropriate Cryogenic Thermal Conductivity}{136}{}%
+\contentsline {subsection}{\numberline {2.5.5}Heat Switches}{137}{}%
+\contentsline {subsubsection}{Gaseous Heat Switches}{137}{}%
+\contentsline {subsubsection}{Mechanical Heat Switches}{138}{}%
+\contentsline {subsubsection}{Superconducting Heat Switches}{138}{}%
+\contentsline {subsection}{\numberline {2.5.6}Thermal Boundary Resistance}{138}{}%
+\contentsline {subsubsection}{Boundary Resistance Between Metals}{138}{}%
+\contentsline {subsubsection}{Boundary Resistance Between Liquid Helium and Solids}{139}{}%
+\contentsline {section}{\numberline {2.6}${}^4\text {He}$ Cryostats and Cryogenic Technology}{141}{}%
+\contentsline {subsection}{\numberline {2.6.1}Key Technological Requirements and Challenges}{141}{}%
+\contentsline {subsection}{\numberline {2.6.2}Use of Liquid ${}^{4}\text {He}$ in Low-Temperature Equipment}{141}{}%
+\contentsline {subsubsection}{Cool-Down Phase Efficiency}{141}{}%
+\contentsline {subsubsection}{Precooling}{142}{}%
+\contentsline {subsubsection}{Running Phase}{142}{}%
+\contentsline {subsection}{\numberline {2.6.3}Cryostat Types}{142}{}%
+\contentsline {subsubsection}{Double-Walled Glass Dewars}{142}{}%
+\contentsline {subsubsection}{Metal Dewars}{143}{}%
+\contentsline {subsubsection}{He Gas-Flow Cryostats ($T > 4.2~\text {K}$)}{144}{}%
+\contentsline {subsubsection}{Use of the Temperature Gradient Above the LHe Bath (Dipper Probes)}{145}{}%
+\contentsline {subsection}{\numberline {2.6.4}Cryostats for Variable Low Temperatures ($1.3~\text {K} \le T \le 4.2~\text {K}$)}{146}{}%
+\contentsline {subsubsection}{Pumping on the Main ${}^{4}\text {He}$ Bath}{146}{}%
+\contentsline {subsubsection}{Continuously Operating ${}^{4}\text {He}$ Evaporation Cryostat}{147}{}%
+\contentsline {subsection}{\numberline {2.6.5}Auxiliary Equipment}{147}{}%
+\contentsline {subsubsection}{Storage Vessels}{147}{}%
+\contentsline {subsubsection}{Transfer Tube}{148}{}%
+\contentsline {subsubsection}{Level Detectors}{148}{}%
+\contentsline {section}{\numberline {2.7}${}^3He$ cryostats: refrigeration below 1K}{150}{}%
+\contentsline {subsection}{\numberline {2.7.1}Advantages and Disadvantages of $\text {}^3\text {He}$ Refrigeration}{150}{}%
+\contentsline {subsection}{\numberline {2.7.2}Types of $\text {}^3\text {He}$ Cryostats}{150}{}%
+\contentsline {subsubsection}{Cryostats with External Pumps}{151}{}%
+\contentsline {subsubsection}{Cryostats with Internal Adsorption Pumps}{152}{}%
+\contentsline {subsubsection}{Example: $\text {}^3\text {He}$ Cryostat with Two Internal Adsorption Pumps}{153}{}%
+\contentsline {section}{\numberline {2.8}Dilution Refrigerator}{155}{}%
+\contentsline {subsection}{\numberline {2.8.1}The $^3\text {He}-^4\text {He}$ Dilution Refrigerator}{155}{}%
+\contentsline {subsubsection}{Liquid $^3\text {He}-^4\text {He}$ Mixtures}{155}{}%
+\contentsline {subsubsection}{Phase Diagram and Solubility}{155}{}%
+\contentsline {subsubsection}{$^3\text {He}-^4\text {He}$ Mixtures as Quantum Liquids}{156}{}%
+\contentsline {subsection}{\numberline {2.8.2}Finite Solubility of $^3\text {He}$ in $^4\text {He}$}{157}{}%
+\contentsline {subsubsection}{One $^3\text {He}$ Atom in Liquid $^4\text {He}$ ($x\approx 0$)}{157}{}%
+\contentsline {subsubsection}{Many $^3\text {He}$ Atoms in Liquid $^4\text {He}$ ($x>0$)}{158}{}%
+\contentsline {subsection}{\numberline {2.8.3}Cooling Power of the Dilution Process}{158}{}%
+\contentsline {subsection}{\numberline {2.8.4}Osmotic Pressure}{159}{}%
+\contentsline {subsection}{\numberline {2.8.5}Realization of a $^3\text {He}–^4\text {He}$ Dilution Refrigerator}{161}{}%
+\contentsline {subsection}{\numberline {2.8.6}Properties of the Main Components of a $^3\text {He}–^4\text {He}$ Dilution Refrigerator:}{163}{}%
+\contentsline {subsubsection}{Mixing Chamber}{163}{}%
+\contentsline {subsubsection}{Still}{164}{}%
+\contentsline {subsubsection}{Heat exchangers}{164}{}%
+\contentsline {paragraph}{Simple Heat Exchangers}{165}{}%
+\contentsline {paragraph}{Step Exchangers}{165}{}%
+\contentsline {paragraph}{Minimum Temperature Calculation}{166}{}%
+\contentsline {subsection}{\numberline {2.8.7}Examples of $^3\text {He}–^4\text {He}$ Dilution Refrigerators}{167}{}%
+\contentsline {subsection}{\numberline {2.8.8}Developments}{169}{}%
+\contentsline {subsection}{\numberline {2.8.9}$^3\text {He}–^4\text {He}$ Dilution Refrigerator: Addendum: Example}{169}{}%
+\contentsline {subsubsection}{Managing the heat budget of large-scale quantum computers based on superconducting circuits}{169}{}%
+\contentsline {subsubsection}{Typical cabling for experiments with superconducting circuits}{170}{}%
+\contentsline {subsubsection}{Sources of heat loads}{171}{}%
+\contentsline {paragraph}{Passive load}{171}{}%
+\contentsline {paragraph}{Active load}{171}{}%
+\contentsline {paragraph}{Required signal levels}{172}{}%
+\contentsline {paragraph}{Radiative load}{173}{}%
+\contentsline {subsubsection}{Cabling and Thermalization}{173}{}%
+\contentsline {subsubsection}{Total Heat Load Budget}{173}{}%
+\contentsline {subsubsection}{Concluding Note}{174}{}%
+\contentsline {section}{\numberline {2.9}\textsuperscript {3}He solidification - Demagnetization - Others}{175}{}%
+\contentsline {subsection}{\numberline {2.9.1}Outline}{175}{}%
+\contentsline {subsection}{\numberline {2.9.2}Refrigeration by Solidification of Liquid \textsuperscript {3}He: Pomeranchuck Cooling}{175}{}%
+\contentsline {subsection}{\numberline {2.9.3}Refrigeration by Adiabatic Demagnetization of a Paramagnetic Salt}{176}{}%
+\contentsline {subsubsection}{Phases (Electronic Demagnetization)}{176}{}%
+\contentsline {subsubsection}{Paramagnetic Salts and Magnetic Refrigerators}{177}{}%
+\contentsline {subsection}{\numberline {2.9.4}Nuclear Adiabatic Demagnetization}{179}{}%
+\contentsline {subsubsection}{Differences in Experimental Procedure (Nuclear vs. Electronic)}{180}{}%
+\contentsline {subsubsection}{Interaction Between Conduction Electrons and Nuclei}{180}{}%
+\contentsline {subsubsection}{Heat Leaks}{181}{}%
+\contentsline {subsection}{\numberline {2.9.5}Other techniques for refrigeration below 1 K}{182}{}%
+\contentsline {subsubsection}{Tunnel Junction Cooling}{182}{}%
+\contentsline {subsubsection}{Laser Cooling}{182}{}%
+\contentsline {subsubsection}{Evaporative Cooling}{182}{}%
+\contentsline {subsection}{\numberline {2.9.6}Summary}{182}{}%
+\contentsline {section}{\numberline {2.10}Superconducting materials and technologies}{184}{}%
+\contentsline {subsection}{\numberline {2.10.1}Introduction to the phenomenology of superconductivity}{184}{}%
+\contentsline {subsubsection}{Historical notes}{184}{}%
+\contentsline {subsubsection}{Summary of the main properties of superconductors}{185}{}%
+\contentsline {subsection}{\numberline {2.10.2}Vortex dynamics, vortex pinning}{185}{}%
+\contentsline {subsection}{\numberline {2.10.3}Review on superconducting materials (relevant for applications) and preparation methods}{186}{}%
+\contentsline {subsubsection}{Low-Temperature Superconductors (LTS): Nb, NbTi, $Nb_{3}Sn$}{186}{}%
+\contentsline {subsubsection}{Magnesium diboride ($MgB_{2}$)}{187}{}%
+\contentsline {subsubsection}{High-Temperature Superconductors (HTS) - cuprates: $YBa_{2}Cu_{3}O_{7-8}$ (YBCO)}{188}{}%
+\contentsline {subsubsection}{Iron-based superconductors (IBS)}{189}{}%
+\contentsline {subsection}{\numberline {2.10.4}Superconducting film deposition}{189}{}%
+\contentsline {subsection}{\numberline {2.10.5}Brief overview of applications of superconductivity}{190}{}%
+\contentsline {subsubsection}{Transportation}{190}{}%
+\contentsline {subsubsection}{Medical Imaging and Diagnostics}{190}{}%
+\contentsline {subsubsection}{Renewable Energy}{190}{}%
+\contentsline {subsubsection}{Neuromorphic Computing}{191}{}%
