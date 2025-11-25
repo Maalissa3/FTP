@@ -382,10 +382,29 @@
 \contentsline {subsubsection}{Low-Temperature Superconductors (LTS): Nb, NbTi, $Nb_{3}Sn$}{186}{}%
 \contentsline {subsubsection}{Magnesium diboride ($MgB_{2}$)}{187}{}%
 \contentsline {subsubsection}{High-Temperature Superconductors (HTS) - cuprates: $YBa_{2}Cu_{3}O_{7-8}$ (YBCO)}{188}{}%
-\contentsline {subsubsection}{Iron-based superconductors (IBS)}{189}{}%
-\contentsline {subsection}{\numberline {2.10.4}Superconducting film deposition}{189}{}%
-\contentsline {subsection}{\numberline {2.10.5}Brief overview of applications of superconductivity}{190}{}%
-\contentsline {subsubsection}{Transportation}{190}{}%
-\contentsline {subsubsection}{Medical Imaging and Diagnostics}{190}{}%
-\contentsline {subsubsection}{Renewable Energy}{190}{}%
-\contentsline {subsubsection}{Neuromorphic Computing}{191}{}%
+\contentsline {subsection}{\numberline {2.10.4}Iron-based superconductors (IBS)}{189}{}%
+\contentsline {subsubsection}{SC mechanism}{189}{}%
+\contentsline {subsubsection}{Phase diagram and main properties}{189}{}%
+\contentsline {subsubsection}{Critical magnetic fields}{190}{}%
+\contentsline {subsubsection}{Material preparation}{190}{}%
+\contentsline {subsubsection}{Wires and tapes}{191}{}%
+\contentsline {paragraph}{Powder in tube}{191}{}%
+\contentsline {paragraph}{Coated conductors}{191}{}%
+\contentsline {paragraph}{Applications of IBS Wires and Tapes}{191}{}%
+\contentsline {subsection}{\numberline {2.10.5}Hints on Superconducting Film Deposition}{191}{}%
+\contentsline {subsection}{\numberline {2.10.6}Brief overview of applications of superconductivity}{192}{}%
+\contentsline {subsubsection}{Transportation}{192}{}%
+\contentsline {subsubsection}{Medical Imaging and Diagnostics}{193}{}%
+\contentsline {subsubsection}{Renewable Energy}{193}{}%
+\contentsline {subsubsection}{Neuromorphic Computing}{193}{}%
+\contentsline {section}{\numberline {2.11}Josephson Junctions: Main Concepts and Phenomenology}{194}{}%
+\contentsline {subsection}{\numberline {2.11.1}The Josephson Effect}{194}{}%
+\contentsline {subsection}{\numberline {2.11.2}Josephson Equations}{194}{}%
+\contentsline {subsection}{\numberline {2.11.3}Energy in a Josephson Junction}{195}{}%
+\contentsline {subsection}{\numberline {2.11.4}Josephson Junction as Nonlinear Inductance}{196}{}%
+\contentsline {subsection}{\numberline {2.11.5}Hamiltonian of a Josephson Junction}{196}{}%
+\contentsline {section}{\numberline {2.12}Current-Phase Relation and Junction Types}{196}{}%
+\contentsline {subsection}{\numberline {2.12.1}Different Types of Josephson Junctions}{196}{}%
+\contentsline {subsection}{\numberline {2.12.2}Microscopic Mechanisms (Proximity Effect and Andreev Reflection)}{197}{}%
+\contentsline {subsection}{\numberline {2.12.3}Micro-restrictions and Grain Boundaries}{197}{}%
+\contentsline {section}{\numberline {2.13}Other Topics and Applications}{198}{}%

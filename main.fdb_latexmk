@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1763627997.89394 "/Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/main.tex" "/Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/main.pdf" "main" 1763628008.23784 0
+["pdflatex"] 1764070106.75447 "/Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/main.tex" "/Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/main.pdf" "main" 1764070117.06786 0
   "/Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Bravais_lattices.png" 1763225406 177695 ae4d1e0cd47ec2dd99581fe7b58ab5f5 ""
   "/Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Progetto senza titolo.png" 1763225406 145290 89bb881a16fdaa6654001a6a9af65b38 ""
   "/Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-02 at 15.11.36.png" 1763225406 463333 39d73f15cde1902ac68d20e6ad013113 ""
@@ -85,9 +85,9 @@
   "/Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-20 at 08.41.22.png" 1763624501.96484 312680 e66054c2c72fcb382feba366bdf0032a ""
   "/Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-20 at 08.54.47.png" 1763625292.4985 160171 d663ce6e8e03637913567bce3c43d606 ""
   "/Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/image.png" 1763225406 267663 30ffe5380f88e6d269f6803da61272a6 ""
-  "/Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/main.aux" 1763628007.97674 60758 8946a1bbac1c8f55090d7a47d2752613 "pdflatex"
-  "/Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/main.tex" 1763627997.74154 379936 2f2ea4f4071d973c26992cc02a9ea7ba ""
-  "/Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/main.toc" 1763628007.98332 29558 1d6d4b63a3aa1abb7e224197f9639295 "pdflatex"
+  "/Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/main.aux" 1764070116.80223 63062 c47fa2c76b32d8ac51fd6a5ffc06733b "pdflatex"
+  "/Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/main.tex" 1764070096.09044 394633 cd1ccb2e6d10b5355fbb85dcfbeccd39 ""
+  "/Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/main.toc" 1764070116.80905 31083 4bad32a5f84a3e449b399817087190b2 "pdflatex"
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -168,6 +168,8 @@
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb" 1248133631 32716 08e384dc442464e7285e891af9f45947 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb" 1248133631 30457 bc0868ebece724ed7c3d37e3d9bff7bd ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb" 1248133631 33366 60462f3d16c3d0f024f1f856e64b09cd ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb" 1248133631 34694 ad62b13721ee8eda1dcc8993c8bd7041 ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb" 1248133631 35309 940e81a5b9e04201a07e8b33a3ae6e64 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbi1000.pfb" 1215737283 193571 dce9a978093738902238b3e227edef6c ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbi1200.pfb" 1215737283 205875 5958bf9326f04501f7006947acfbcae1 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx0700.pfb" 1215737283 144215 c89c56d5c5b828c5c1657b4326c29df7 ""
