@@ -4701,7 +4701,7 @@ Google unveiled the world's largest quantum computer processor to date. Dubbed B
     \item Other techniques for refrigeration below 1 K (Tunnel junction cooling, Laser cooling, Evaporative cooling)
 \end{itemize}
 
-\subsection{Refrigeration by Solidification of Liquid \textsuperscript{3}He: Pomeranchuck Cooling}
+\subsection{TODO:Refrigeration by Solidification of Liquid \textsuperscript{3}He: Pomeranchuck Cooling}
 
 Today this technique is no longer as important because above a few millikelvin this "one-shot" method offers essentially no advantage over continuously operating dilution refrigerators, and at lower temperatures nuclear demagnetization is much more powerful.
 However, this cooling method offers interesting insight into some important properties of matter, in particular liquid and solid \textsuperscript{3}He $\rightarrow$ some hints.
@@ -4742,7 +4742,7 @@ when $\dot{n}_{sol}$ moles are solidified per unit time.
 
 \noindent Disadvantage: its discontinuous nature. Pomeranchuk cooling is basically a "one-shot" method.
 
-\subsection{Refrigeration by Adiabatic Demagnetization of a Paramagnetic Salt}
+\subsection{TODO:Refrigeration by Adiabatic Demagnetization of a Paramagnetic Salt}
 
 In 1926, a completely new refrigeration technology was proposed: lower temperatures could be reached by using the magnetic disorder entropy of electronic magnetic moments in paramagnetic salts, a method later called adiabatic demagnetization of paramagnetic salts.
 
@@ -4836,7 +4836,7 @@ where $b$ is an internal field resulting from the neighboring moments in the par
 \end{itemize}
 
 
-\subsection{Nuclear Adiabatic Demagnetization}
+\subsection{TODO:Nuclear Adiabatic Demagnetization}
 
 Nuclear magnetic moments are about 1,000 times smaller than electronic magnetic moments $\rightarrow$ they can be used for magnetic refrigeration in a similar way as the electronic magnetic moments $\rightarrow$ avoid the main disadvantages of electronic paramagnetic refrigeration, i.e. low thermal conductivities and "high" magnetic ordering temperatures $\rightarrow$ refrigeration into the micro-kelvin temperature range and below.
 
@@ -4936,7 +4936,7 @@ Because the cooling power of a refrigerator is smaller the lower its temperature
     \item \textbf{Record:} $2~\mu \text{K}$ record.
 \end{itemize}
 
-\subsection{Other techniques for refrigeration below 1 K}
+\subsection{TODO:Other techniques for refrigeration below 1 K}
 
 \subsubsection{Tunnel Junction Cooling}
 \begin{itemize}
@@ -4960,7 +4960,7 @@ Because the cooling power of a refrigerator is smaller the lower its temperature
     \item \textbf{Record:} Bose–Einstein condensate of \textsuperscript{87}Rb atoms was obtained using evaporative cooling. The condensate fraction had a temperature of $170~\text{nK}$.
 \end{itemize}
 
-\subsection{Summary}
+\subsection{TODO:Summary}
 
 \begin{table}[h]
     \centering
@@ -4999,7 +4999,7 @@ Because the cooling power of a refrigerator is smaller the lower its temperature
 \clearpage 
 \section{Superconducting materials and technologies}
 
-\subsection{Introduction to the phenomenology of superconductivity}
+\subsection{TODO:Introduction to the phenomenology of superconductivity}
 
 \subsubsection{Historical notes}
 \begin{itemize}
@@ -5056,7 +5056,7 @@ Because the cooling power of a refrigerator is smaller the lower its temperature
     \item The \textbf{superconducting order parameter} is a complex quantity $\Delta(k)e^{-i\phi(k)}$ where $\Delta$ is the magnitude of the superconducting gap and $\phi$ is the phase.
 \end{itemize}
 
-\subsection{Vortex dynamics, vortex pinning}
+\subsection{TODO:Vortex dynamics, vortex pinning}
 
 \noindent Superconductivity is defined by a critical temperature ($T_c$), critical magnetic field ($H_c$), and critical current density ($J_c$).
 
@@ -5073,7 +5073,7 @@ Because the cooling power of a refrigerator is smaller the lower its temperature
     \item Examples of introduced defects: Heavy ion irradiation of HTS to create point-like defects or \textbf{columnar defects}. Columnar defects have a diameter ($\sim \xi$) that matches the vortex core, making them highly efficient, but they cause anisotropic pinning.
 \end{itemize}
 
-\subsection{Review on superconducting materials (relevant for applications) and preparation methods}
+\subsection{TODO:Review on superconducting materials (relevant for applications) and preparation methods}
 
 \noindent None of the good conductors (Cu, Ag, Au, Pt) or the magnetic materials (Fe apart) is a superconductor.
 
@@ -5210,28 +5210,51 @@ Potential applications include MRI magnets, high-field research magnets, and mag
     \item \textbf{Anisotropy}: Whereas LTS materials like Nb or NbN are generally isotropic, the quasi 2D nature of the oxide SCs leads to a large anisotropy in nearly all parameters, with anisotropy factors $\gamma = \xi_{ab}/\xi_{c} = \lambda_{c}/\lambda_{ab} \approx 6$.
 \end{itemize}
 
-\noindent \textbf{Josephson Junctions Arrays}:
+\subsection{Cryoelectronic devices}
+\noindent \textbf{Josephson Junctions-based devices}:
 \begin{itemize}
-    \item Can be produced via various techniques at high quality using classic materials (Nb, Pb, Al) and more complex compounds (NbN, YBCO).
-    \item For devices with a large number of Josephson junctions (JJs), reproducibility and a small spread of junction parameters are required.
-    \item This is currently only granted for the two \textbf{LTS technologies}: \textbf{Nb technology} and \textbf{NbN technology}.
-    \item Extremely high complexities have been achieved in LTS Josephson devices, including:
+    \item SQUIDs (Superconducting Quantum Interference Devices) for ultra-sensitive magnetometry; used in biomagnetism, geophysics, and nondestructive evaluation, neurology and medical diagnostics. (Nb/AI/AIOx/Nb tunnel junctions)
+    \item Arrays of Josephson junctions for voltage standards (programmable Josephson voltage standard, PJVS); used in metrology laboratories worldwide. 
     \begin{itemize}
-        \item RSFQ-RAMs up to 40,000 Nb/Al-oxide junctions (NEC)
-        \item Programmable voltage standards with up to 70,000 junctions (NIST, PTB, Supracon/IPHT)
-        \item A-to-D and D-to-A converters with $\sim$2,000 junctions (Hypres)
+        \item SQIFs (Superconducting Quantum Interference Filters) for high precision and wide-band microwave detection and amplification. (Nb/AI/AIOx/Nb tunnel junctions). 
+        \item RSFQ (Rapid Single Flux Quantum) digital electronics for high-speed, low-power digital circuits; used in specialized computing applications. (Nb/AI/AIOx/Nb tunnel junctions)
     \end{itemize}
+    \item Teraheartz (THz) detectors and mixers for high-frequency applications; used in astronomy, security screening, and spectroscopy. (NbN/MgO/NbN tunnel junctions)
 \end{itemize}
+\noindent \textbf{Superconducting bolometers and calorimeters}:
+Used to study cosmic microwave background radiation, X-ray astronomy, and particle physics. (Transition Edge Sensors (TES) based on Mo/Cu or Ti/Au bilayers; Kinetic Inductance Detectors (KIDs) based on NbN or TiN thin films).
+\noindent \textbf{Microwave devices}:
+Used for mobile communications, satellite communications, and radar systems. (HTS filters based on YBCO thin films).
+\noindent \textbf{Fluxonix devices}:
+Representing a new class of superconducting electronics based on the manipulation of magnetic flux quanta (fluxons) in long Josephson junctions; potential applications in high-speed digital circuits and signal processing. (Nb/AI/AIOx/Nb tunnel junctions).
+
+\subsubsection{Power applications}
+\noindent \textbf{Coated conductors}:
+Might provide the basis for future HTS power applications, such as power cables, fault current limiters, transformers, and motors/generators. (YBCO thin films on flexible metal substrates with buffer layers).
+\noindent \textbf{Coating of RF cavities}: 
+For particles accelerators, to improve performance and reduce losses. (Nb thin films on copper substrates).
+
+\subsection{TODO:state of the art}
+\subsection{TODO:Material requirements}
+\subsection{TODO:Substrate Requirements}
 
 \subsection{Brief overview of applications of superconductivity}
 
 \noindent Applications include: Electric Power; Transportation; Medical Imaging and Diagnostics; NMR Applications in Pharmaceuticals, Biotechnology, Genomics and Materials Science; Industrial Processing; High-Energy Physics and Other Areas of Research; Wireless Communications; Instrumentation, Sensors, Standards and Radar; Large-Scale Computing; Renewable Energy.
+\subsubsection{Electric Power}
+\begin{itemize}
+    \item Power Cables (e.g., AmpaCity Project in Essen, Germany). Cables can carry up to 10 times the current of conventional copper or aluminum cables of the same diameter, thanks to the zero-resistance property of superconductors. It's useful because aeral space for cables is limited in urban areas, and underground cables can be installed.
+    \item Fault Current Limiters (FCLs) (e.g., ABB's 9MVA FCL)
+    \item Transformers (e.g., ABB's 1 MVA HTS Transformer)
+    \item Motors and Generators (e.g., Superconducting Wind Turbine Generator by AMSC)
+\end{itemize}
+Nowadays, we are subject to energy fluctuations and shortages, so the use of superconductors in power applications can help improve efficiency and reliability in power transmission and distribution systems.
 
 \subsubsection{Transportation}
 \begin{itemize}
-    \item Marine Ship Propulsion (e.g., 36MW HTS Ship Drive Motor)
+    \item Marine Ship Propulsion (e.g., 36MW HTS Ship Drive Motor). This propulsion system offers significant advantages over conventional systems, including reduced weight and volume, higher efficiency, and lower maintenance requirements. IT has been successfully tested on a naval vessel, demonstrating its potential for future maritime applications and aerospatial propulsion systems.
     \item Degaussing Coils
-    \item Magnetically Levitated Trains (Maglev) (e.g., JRC L-zero series SCMAGLEV)
+    \item Magnetically Levitated Trains (Maglev) (e.g., JRC L-zero series SCMAGLEV). The SCMAGLEV system uses superconducting magnets to create strong magnetic fields that levitate and propel the train along the guideway. This technology allows for high-speed travel with minimal friction, resulting in a smooth and efficient ride. The SCMAGLEV trains have achieved speeds of over 600 km/h in test runs, showcasing their potential for revolutionizing high-speed rail transportation.
 \end{itemize}
 
 \subsubsection{Medical Imaging and Diagnostics}
@@ -5241,20 +5264,63 @@ Potential applications include MRI magnets, high-field research magnets, and mag
     \item Magnetoencephalography (MEG) and Magnetic Source Imaging (MSI)
     \item Magnetocardiography (MCG)
 \end{itemize}
-
-\subsubsection{Renewable Energy}
+It's done measuring the magnetic fields produced by the electrical activity of the brain and heart, respectively, using highly sensitive SQUID sensors. These techniques provide non-invasive ways to study brain function and diagnose cardiac conditions.
+Current is induced in the body by magnetic fields, and the resulting signals are detected by SQUIDs.
+From 1990s cryocoolers are used to cool the sensors instead of liquid helium.
+\subsubsection{NMR Applications in Pharmaceuticals, Biotechnology, Genomics and Materials Science}
 \begin{itemize}
-    \item Wind Energy (e.g., AMSC SeaTitan Wind Turbine Generator)
-    \item Energy Storage: Superconducting Magnetic Energy Storage (SMES)
+    \item High-Resolution Nuclear Magnetic Resonance (NMR) Spectroscopy.
+    \item Magnetic Resonance Spectroscopic Imaging (MRSI)
 \end{itemize}
 
-\subsubsection{Neuromorphic Computing}
+\subsubsection{Industrial Processing}
+\begin{itemize}
+    \item Magnetic Separation 
+    \item Induction Heating
+\end{itemize}
+
+\subsubsection{High-Energy Physics and Other Areas of Research}
+\begin{itemize}
+    \item Particle Accelerators (e.g., Large Hadron Collider at CERN)
+    \item Fusion Energy (e.g., ITER Tokamak)
+    \item Space Applications (e.g., Superconducting Magnetic Energy Storage for satellites)
+\end{itemize}
+
+\subsubsection{Wireless Communications}
+\begin{itemize}
+    \item Superconducting Filters for Base Stations (e.g., NGK Insulators Ltd. HTS Filters)
+    \item Superconducting Mixers and Detectors for Satellite Communications
+\end{itemize}
+
+\subsubsection{Instrumentation, Sensors, Standards and Radar}
+\begin{itemize}
+    \item Superconducting Quantum Interference Devices (SQUIDs) for Ultra-Sensitive Magnetometry
+    \item Josephson Voltage Standards
+    \item Superconducting Mixers and Detectors for Radar Systems
+\end{itemize}
+
+\subsubsection{Large-Scale Computing}
+\begin{itemize}
+    \item Superconducting Digital Electronics (e.g., Rapid Single Flux Quantum (RSFQ) Technology)
+    \item Quantum Computing (e.g., Superconducting Qubits used by IBM, Google, and Rigetti)
+\end{itemize}
+
+\subsubsection{TODO:Neuromorphic Computing}
 \begin{itemize}
     \item Computer hardware that works according to principles of the human brain.
     \item The brain's activities of synaptic weighting, spiking, learning, optimization, and networking can all be made with superconducting electronics.
     \item Spiking and thresholding are similar to neurons, except very fast.
     \item Coupling through mutual inductance.
 \end{itemize}
+
+\subsubsection{Renewable Energy}
+\begin{itemize}
+    \item Wind Energy (e.g., AMSC SeaTitan Wind Turbine Generator)
+    \item Energy Storage: Superconducting Magnetic Energy Storage (SMES)
+    \item ARC: Affordable Robust Compact fusion reactors.
+\end{itemize}
+
+\clearpage 
 
 \chapter*{The Technology of Josephson Junctions}
 
