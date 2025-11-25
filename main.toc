@@ -409,14 +409,14 @@
 \contentsline {subsubsection}{Large-Scale Computing}{195}{}%
 \contentsline {subsubsection}{TODO:Neuromorphic Computing}{195}{}%
 \contentsline {subsubsection}{Renewable Energy}{195}{}%
-\contentsline {section}{\numberline {2.11}Josephson Junctions: Main Concepts and Phenomenology}{196}{}%
-\contentsline {subsection}{\numberline {2.11.1}The Josephson Effect}{196}{}%
-\contentsline {subsection}{\numberline {2.11.2}Josephson Equations}{196}{}%
-\contentsline {subsection}{\numberline {2.11.3}Energy in a Josephson Junction}{197}{}%
-\contentsline {subsection}{\numberline {2.11.4}Josephson Junction as Nonlinear Inductance}{198}{}%
-\contentsline {subsection}{\numberline {2.11.5}Hamiltonian of a Josephson Junction}{198}{}%
-\contentsline {section}{\numberline {2.12}Current-Phase Relation and Junction Types}{198}{}%
-\contentsline {subsection}{\numberline {2.12.1}Different Types of Josephson Junctions}{198}{}%
-\contentsline {subsection}{\numberline {2.12.2}Microscopic Mechanisms (Proximity Effect and Andreev Reflection)}{199}{}%
-\contentsline {subsection}{\numberline {2.12.3}Micro-restrictions and Grain Boundaries}{199}{}%
-\contentsline {section}{\numberline {2.13}Other Topics and Applications}{200}{}%
+\contentsline {section}{\numberline {2.11}The Technology of Josephson Junctions}{196}{}%
+\contentsline {subsection}{\numberline {2.11.1}Josephsons Junctions:main concepts and phenomenology}{196}{}%
+\contentsline {subsubsection}{The Josephson Effect: see the course "Quantum Condensed Matter Physics"}{196}{}%
+\contentsline {subsubsection}{Josephson Equations}{196}{}%
+\contentsline {subsubsection}{TODO:Energy in a Josephson Junction}{197}{}%
+\contentsline {subsubsection}{Josephson Junction as Nonlinear Inductance}{197}{}%
+\contentsline {subsubsection}{Hamiltonian of a Josephson Junction: see the course "Quantum Devices"}{198}{}%
+\contentsline {subsection}{\numberline {2.11.2}Current-Phase Relation and Junction Types}{198}{}%
+\contentsline {subsubsection}{Different Types of Josephson Junctions: see the course "Quantum Condensed Matter Physics"}{198}{}%
+\contentsline {subsubsection}{Microscopic Mechanisms (Proximity Effect and Andreev Reflection)}{199}{}%
+\contentsline {subsubsection}{Micro-restrictions and Grain Boundaries}{201}{}%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.11.15)  25 NOV 2025 13:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.11.15)  25 NOV 2025 14:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1608,37 +1608,56 @@ Underfull \hbox (badness 2245) in paragraph at lines 5222--5223
 [194]
 
 [195]
+Underfull \hbox (badness 2671) in paragraph at lines 5326--5326
+[]\T1/cmr/bx/n/12 Josephsons Junc-tions:main con-cepts and phe-
+ []
+
+
 
 [196
-
 
 ]
 
 [197]
 
 [198]
+<Screenshot 2025-11-25 at 14.14.33.png, id=836, 324.21124pt x 377.41pt>
+File: Screenshot 2025-11-25 at 14.14.33.png Graphic file (type png)
+<use Screenshot 2025-11-25 at 14.14.33.png>
+Package pdftex.def Info: Screenshot 2025-11-25 at 14.14.33.png  used on input line 5448.
+(pdftex.def)             Requested size: 172.5pt x 200.80377pt.
+<Screenshot 2025-11-25 at 14.15.52.png, id=837, 418.56375pt x 306.14375pt>
+File: Screenshot 2025-11-25 at 14.15.52.png Graphic file (type png)
+<use Screenshot 2025-11-25 at 14.15.52.png>
+Package pdftex.def Info: Screenshot 2025-11-25 at 14.15.52.png  used on input line 5453.
+(pdftex.def)             Requested size: 207.0021pt x 151.40381pt.
+
 
 [199]
 
-[200] (/Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/main.aux)
+[200 </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-25 at 14.14.33.png>]
+
+[201 </Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-11-25 at 14.15.52.png>]
+
+[202] (/Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 3527 strings out of 473190
- 67201 string characters out of 5715799
- 440173 words of memory out of 5000000
- 26731 multiletter control sequences out of 15000+600000
+ 3541 strings out of 473190
+ 67815 string characters out of 5715799
+ 441021 words of memory out of 5000000
+ 26745 multiletter control sequences out of 15000+600000
  591546 words of font info for 111 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,14n,65p,1252b,294s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbi1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbi1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx0700.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx0800.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0500.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti0900.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb>
-Output written on "/Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/main.pdf" (201 pages, 13430064 bytes).
+Output written on "/Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/main.pdf" (203 pages, 14155718 bytes).
 PDF statistics:
- 1007 PDF objects out of 1200 (max. 8388607)
- 562 compressed objects within 6 object streams
+ 1017 PDF objects out of 1200 (max. 8388607)
+ 566 compressed objects within 6 object streams
  0 named destinations out of 1000 (max. 500000)
- 426 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 436 words of extra memory for PDF output out of 10000 (max. 10000000)
 

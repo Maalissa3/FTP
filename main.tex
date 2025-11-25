@@ -5322,11 +5322,9 @@ From 1990s cryocoolers are used to cool the sensors instead of liquid helium.
 
 \clearpage 
 
-\chapter*{The Technology of Josephson Junctions}
-
-\section{Josephson Junctions: Main Concepts and Phenomenology}
-
-\subsection{The Josephson Effect}
+\section{The Technology of Josephson Junctions}
+\subsection{Josephsons Junctions:main concepts and phenomenology}
+\subsubsection{The Josephson Effect: see the course "Quantum Condensed Matter Physics"}
 
 In 1962, Brian Josephson predicted the dissipationless supercurrent flow between two superconductors (SCs) separated by a thin insulating barrier, a phenomenon quickly confirmed experimentally. The Josephson effect is fundamentally rooted in the macroscopic quantum coherence of the superconducting condensate. 
 
@@ -5336,13 +5334,13 @@ $$
 $$
 where $n$ is the Cooper-pair density and $\phi$ is the phase.
 
-The phase's gradient governs the supercurrent flow, as the quantum mechanical expression for the probability current density is $\vec{J}\propto \text{Im}[\psi^{*}\nabla\psi]$. For a uniform Cooper-pair density, this simplifies to:
+The phase's gradient governs the supercurrent flow, as the quantum mechanical expression for the probability current density is $\vec{J}\propto \text{Im}[\psi^{*}\nabla\psi]$. \\For a uniform Cooper-pair density, this simplifies to:
 $$
 \vec{J}\propto\nabla\phi
 $$
 When two SCs are weakly coupled through a tunneling barrier, the phase difference $\delta\phi$ drives a dissipationless supercurrent.
 
-\subsection{Josephson Equations}
+\subsubsection{Josephson Equations}
 
 Due to the single-valuedness and time-reversal symmetry of the condensate wavefunction, the current is a periodic and odd function of the phase difference, $\varphi\equiv\delta\phi$. This leads to the characteristic sinusoidal current-phase relation (d.c. Josephson effect):
 \begin{equation}
@@ -5350,14 +5348,15 @@ I=I_{c}\sin(\varphi)
 \end{equation}
 where $I_{c}$ is the critical current.
 
-The Josephson effect also encompasses a dynamical component that links the time derivative of the phase difference to the voltage $V$ across the junction, which follows from the Schr{\"o}dinger equation and Faraday's law:
+The Josephson effect also encompasses a dynamical component that links the time derivative of the phase difference to the voltage $V$ across the junction, which follows from the Schr{\"o}dinger equation and Faraday's law of electromagnetic induction:
 \begin{equation}
 \dot{\varphi}=\frac{2eV}{\hbar}
 \end{equation}
-This establishes a direct connection between the quantum phase and observable electrical quantities.
+This establishes a direct connection between the quantum phase and observable electrical quantities.\\
+We have the Josephson effect as long as the macroscopic wavefunctions of the two electrodes overlap in the barrier region.
 
 \subsubsection*{a.c. Josephson Effect and Shapiro Steps}
-
+The effect extends beyond Josephson’s predictions for SIS junctions, and can exist if SCs are connected by a “weak link” of any physical nature (normal metal, semiconductor, SC with smaller critical temperature, geometrical constriction, etc.)\\
 For a finite voltage $V\ne0$, the phase $\varphi$ varies linearly in time: $\varphi=\varphi_{0}+(\frac{2e}{\hbar}) Vt$. Consequently, an alternating current appears:
 $$
 I=I_{c}\sin\left(\varphi_{o}+\frac{2e}{\hbar}Vt\right)
@@ -5378,7 +5377,7 @@ $$
 \Phi=n\Phi_{0}, \quad \text{where } \Phi_{0}=\frac{h}{2e}\approx SI 2.07e-15 weber
 $$
 
-\subsection{Energy in a Josephson Junction}
+\subsubsection{TODO:Energy in a Josephson Junction}
 
 The energy stored in the junction associated with the phase difference $\varphi$ is the Josephson energy $E_{J}$:
 \begin{equation}
@@ -5386,10 +5385,10 @@ E=E_{J}(1-\cos\varphi)
 \end{equation}
 where $E_{J}$ is defined as:
 $$
-E_{J}=\frac{\Phi_{0}I_{c}}{2\pi}=\frac{\hbar I_{c}}{2e}
+E_{J}=\int_{0}^tI(t')Vdt'=TODO
 $$
 
-\subsection{Josephson Junction as Nonlinear Inductance}
+\subsubsection{Josephson Junction as Nonlinear Inductance}
 
 A Josephson junction can be considered to have a nonlinear inductance $L$. Starting from the classical relation $V=L\frac{dI}{dt}$ and substituting the Josephson equations, the inductance is derived as:
 $$
@@ -5401,7 +5400,7 @@ L_{J}=\frac{\Phi_{o}}{2\pi I_{c}}=\frac{\hbar}{2eI_{c}}
 $$
 This also implies the relation $E_{J}=L_{J}{I_{c}}^{2}$.
 
-\subsection{Hamiltonian of a Josephson Junction}
+\subsubsection{Hamiltonian of a Josephson Junction: see the course "Quantum Devices"}
 
 The passage from the classical to the quantum description involves replacing classical variables with corresponding quantum operators. The circuit Hamiltonian is built from three main energy components, all expressed in terms of the phase $\varphi$:
 \begin{itemize}
@@ -5417,9 +5416,9 @@ H=E_{C0}n^{2}-E_{J}\cos\varphi-\frac{\hbar}{2e}I_{b}\varphi
 $$
 where $I_{b}$ is the applied bias current, $E_{C}=E_{C0}n^{2}=\frac{(2en)^{2}}{2C}$ is the charging energy, and $n$ is the Cooper pair charge number operator conjugate to $\varphi$.
 
-\section{Current-Phase Relation and Junction Types}
+\subsection{Current-Phase Relation and Junction Types}
 
-\subsection{Different Types of Josephson Junctions}
+\subsubsection{Different Types of Josephson Junctions: see the course "Quantum Condensed Matter Physics"}
 
 The Josephson effect extends beyond the original Superconductor-Insulator-Superconductor (SIS) prediction to exist wherever SCs are connected by a ``weak link.'' 
 
@@ -5429,48 +5428,51 @@ The Josephson effect extends beyond the original Superconductor-Insulator-Superc
     $$
     \xi_{n} = \left(\frac{\hbar D_{diff}}{k_{B}T}\right)^{1/2}
     $$
-    where $T$ is the temperature, $D_{diff}$ is the normal metal diffusion constant, and $k_{B}$ is the Boltzmann's constant.
+    where $T$ is the temperature, $D_{diff}=\frac{v_Fl}{3}$ is the normal metal diffusion constant, and $k_{B}$ is the Boltzmann's constant.
+    \item \textbf{Consequence of replacing an I with an N as a barrier:}
+    \begin{itemize}
+        \item Change in the resistance $R_n$ of the junction.
+        \item Change in the effective capacitance of the junction.
+        \item New physical processes dominate over tunneling effects:
+        \begin{itemize}
+            \item \textbf{Proximity Effect:} The mutual influence of a superconducting layer in contact with a normal metal (N). The superconducting properties are weaker in the S within a length of the order of its coherence length $\xi$ from the interface. The proximity effect is controlled by the nature of the interface, its effective transparency, and by the boundary conditions, which involve both $\xi$ and $\xi_{n}$, as well as the thickness of the N and S layers.
+            \item \textbf{Andreev Reflection:} A microscopic process where a dissipative electrical current is converted at an N/S interface into dissipation-free supercurrent.
+        \end{itemize}
+        \item For poorly transparent interfaces, an S-N-S junction can effectively behave as an \textbf{S-I-N-I-S} type.
+    \end{itemize}
     \item \textbf{Alternative Configurations:} The barrier can be realized using materials like graphene, topological insulators, or nanowires. In these cases, the distance between the SC electrodes $L$ is a critical parameter and must be of the order of $\xi_{n}$.
     \item \textbf{Edge-Type Bridges:} Configurations where the barrier is deposited on the edge of a superconductor, advantageous for submicron junctions and high-temperature superconductors (HTS).
 \end{itemize}
-
-\subsection{Microscopic Mechanisms (Proximity Effect and Andreev Reflection)}
+\begin{figure}
+    \centering
+    \includegraphics[width=0.5\textwidth]{Screenshot 2025-11-25 at 14.14.33.png}
+    \caption{(a) Energy representation of the Andreev reflection (AR) process: an electron excitation slightly above the Fermi level in the normal metal is reflected at the interface as a hole excitation slightly below the Fermi level. (b) Spatial representation of AR at the S/N interface. (c) Spatial representation of normal reflection by an insulator. Normal reflection conserves charge but does not conserve momentum, while AR conserves momentum but does not conserve charge. The electron is reflected as a hole with the same momentum and opposite velocity. The missing charge of $2e$ is absorbed as a Cooper pair by the superconducting condensate. (d) Energy representation of Andreev reflections in SNS junctions.}
+\end{figure}
+\begin{figure}
+    \centering
+    \includegraphics[width=0.6\textwidth]{Screenshot 2025-11-25 at 14.15.52.png}
+    \caption{(e) A flake of graphene or a topological insulator used as a barrier. (f) A suspended nanowire deposited on the superconductor. (g) A nanowire as a barrier. (h) Suspended configuration with a trench separating the two electrodes. These configurations assemble pre-built blocks and may circumvent material science incompatibilities due to critical deposition conditions. The distance between the electrodes, $L$, is a critical parameter and must be of the order of the coherence length in N, $\xi_n$.}
+\end{figure}
+\subsubsection{Microscopic Mechanisms (Proximity Effect and Andreev Reflection)}
 
 In SNS junctions, new physical processes occur that dominate over simple tunneling:
-
 \begin{itemize}
     \item \textbf{Proximity Effect:} The mutual influence of a superconducting layer in contact with a normal metal (N). The superconducting properties are weakened in the SC (S) layer within a length of the order of its coherence length $\xi$ from the interface.
     \item \textbf{Andreev Reflection (AR):} A microscopic process where a dissipative electrical current is converted at an N/S interface into a dissipation-free supercurrent. An electron excitation in the normal metal is reflected as a hole excitation, with the missing charge of $2e$ absorbed by the superconducting condensate as a Cooper pair. 
 \end{itemize}
 
-\subsection{Micro-restrictions and Grain Boundaries}
+\subsubsection{Micro-restrictions and Grain Boundaries}
 
 \begin{itemize}
-    \item \textbf{Point Contacts and Micro-restrictions:} Another practical way to form a junction is by creating a micro-restriction in a superconducting thin film. For widths of a few times $\xi_{s}$, the microbridge behaves as a Josephson weak-link. A phase diagram exists where the behavior transitions from the Josephson effect (JE) to one-dimensional depairing (1d-dp, generated by phase-slips) or Abrikosov vortex motion (AVM) depending on the dimensions (width $W$, length $L$).
-    \item \textbf{Grain Boundaries (GBs):} Josephson coupling can occur at grain boundaries, a property widely used to produce HTS Josephson junctions. GBs can be categorized by the fundamental operations that define them: $001$ tilt, $100$ tilt (tilt of the c-axis), or $100$ twist. In HTS, the $d$-wave order-parameter symmetry generates unconventional features at these interfaces.
-\end{itemize}
-
-\section{Other Topics and Applications}
-
-The technology of Josephson junctions is extensive and includes:
-
-\begin{itemize}
-    \item \textbf{Materials for Fabrication:} A survey on the materials used for the realization of superconducting junctions.
-    \item \textbf{Advanced Junctions:} Revisiting the current-phase relation for $d$-wave HTS and Superconductor-Ferromagnet-Superconductor (SFS) junctions, including the study of $\pi$-JJs and hybrid JJs.
-    \item \textbf{I-V Characteristics:} Modeling the current-voltage characteristics, notably through the Resistively Shunted Junction (RSJ) model. 
-    \item \textbf{Applications in Metrology and SQUIDs:}
+    \item \textbf{Point Contacts and Micro-restrictions:} Another practical way to form a Josephson junction is through a point contact or by creating a micro-restriction in a superconducting thin film. Scanning Tunnel Microscopy and atomic point contacts represent advanced and refined versions of the original point contact technique, and they are commonly used for tunneling spectroscopy. For widths of the order of a few times $\xi_s$, the microbridge will behave as a Josephson weak-link. This type of junction depends very critically on the dimensions of the microbridge and its characteristic lengths, ranging from a Josephson junction to a bridge hosting phase slip events or Abrikosov vortex motion, respectively. A kind of ‘phase diagram’ can be derived as a function of their dimensions (width $W$, length $L$). In the limit of long microbridges, Josephson behavior substantially disappears in favor of a regime of strong superconductivity. The critical current is controlled by standard depairing processes without any Josephson coherence.   
+    \item \textbf{Grain Boundaries (GBs):} Josephson coupling can also take place at grain boundaries (GBs), and this property has been widely used to produce HTS JJs. Any GB can be considered as the result of three fundamental operations:
     \begin{itemize}
-        \item Voltage Metrology, exploiting the a.c. Josephson effect.
-        \item Nano-junctions and nano-SQUIDS (Superconducting Quantum Interference Devices).
+        \item One electrode can be tilted with respect to the other electrode around the c-axis (001 tilt),
+        \item Or tilted around the a or b direction (tilt of the c-axis, 100 tilt),
+        \item Or twisted along the junction interface (100 twist).
     \end{itemize}
-    \item \textbf{Quantum Devices (Qubits):} A propaedeutic to quantum devices, focusing on Josephson-junction-based qubits.
-    \begin{itemize}
-        \item The three basic JJ Qubits: Charge Qubit, Flux Qubit, and Phase Qubit.
-        \item The Transmon Qubit and extensions/refinements of the basic designs.
-        \item Examples of JJ Qubit realization, control (e.g., with SFQ pulses), and readout.
-        \item Rf SQUID Qubit and its application in Quantum Annealers.
-    \end{itemize}
-    \item \textbf{Intrinsic and Stacks of JJs:} Stacks of Josephson junctions and intrinsic JJs in HTS for the generation of THz radiation.
+    GBs can realize quite special atomically flat interface configurations. In HTS, a d-wave order-parameter symmetry generates quite unconventional features.
 \end{itemize}
+\clearpage
 
 \end{document}
