@@ -420,3 +420,60 @@
 \contentsline {subsubsection}{Different Types of Josephson Junctions: see the course "Quantum Condensed Matter Physics"}{198}{}%
 \contentsline {subsubsection}{Microscopic Mechanisms (Proximity Effect and Andreev Reflection)}{199}{}%
 \contentsline {subsubsection}{Micro-restrictions and Grain Boundaries}{201}{}%
+\contentsline {subsection}{\numberline {2.11.3}Revisiting the Current-Phase Relation (CPR)}{202}{}%
+\contentsline {paragraph}{Andreev Bound States (ABS):}{202}{}%
+\contentsline {paragraph}{Generalized Current-Phase Relation:}{202}{}%
+\contentsline {paragraph}{Anisotropic Order Parameter Symmetry:}{203}{}%
+\contentsline {paragraph}{Second Harmonic Contributions:}{203}{}%
+\contentsline {subsection}{\numberline {2.11.4}SFS Josephson Junctions: The $\pi $ Junction}{203}{}%
+\contentsline {paragraph}{Spatial Oscillations of the Order Parameter}{203}{}%
+\contentsline {paragraph}{The $\pi $ Junction State}{204}{}%
+\contentsline {paragraph}{Spontaneous Current and Magnetic Flux}{204}{}%
+\contentsline {paragraph}{Applications in Superconducting Qubits}{205}{}%
+\contentsline {subsection}{\numberline {2.11.5}More on the SFS Junctions}{205}{}%
+\contentsline {subsubsection}{High Harmonics in SFS Junctions}{205}{}%
+\contentsline {subsubsection}{The $\phi $ Junction}{206}{}%
+\contentsline {paragraph}{Critical Currents of the $\phi $ Junction}{206}{}%
+\contentsline {subsection}{\numberline {2.11.6}The $\pi $-ring Tricrystal Experiment with d-wave Superconductors}{206}{}%
+\contentsline {paragraph}{Phase Shift and Supercurrent Orientation}{206}{}%
+\contentsline {paragraph}{Tricrystal Geometry and Half-Integer Flux Quantization}{206}{}%
+\contentsline {paragraph}{Observation with Scanning SQUID Microscopy}{207}{}%
+\contentsline {subsection}{\numberline {2.11.7}TODO:Applications of $\pi $-JJs: $\pi $-SQUIDs and Beyond}{207}{}%
+\contentsline {paragraph}{Self-Biasing $\pi $-SQUIDs}{207}{}%
+\contentsline {paragraph}{Charge and Spin Transport in SFS Junctions}{207}{}%
+\contentsline {paragraph}{Flip-Flopping Fractional Flux Quanta}{207}{}%
+\contentsline {paragraph}{Toggle Flip-Flop (TFF)}{208}{}%
+\contentsline {paragraph}{Applications in Superconducting Digital and Quantum Circuits}{208}{}%
+\contentsline {paragraph}{Future Directions}{208}{}%
+\contentsline {subsection}{\numberline {2.11.8}Serial Junctions}{209}{}%
+\contentsline {paragraph}{SFsFS and SIsFS Structures}{209}{}%
+\contentsline {paragraph}{Complex Current-Phase Relation (CPR)}{209}{}%
+\contentsline {paragraph}{Applications}{209}{}%
+\contentsline {subsection}{\numberline {2.11.9}Hybrid Josephson Junctions (Hybrid JJs)}{209}{}%
+\contentsline {paragraph}{Superconducting Hybrid Devices}{210}{}%
+\contentsline {paragraph}{Gate Voltage Control}{210}{}%
+\contentsline {paragraph}{Emerging Materials and Layouts}{210}{}%
+\contentsline {paragraph}{Advantages of Graphene and 2D Materials}{210}{}%
+\contentsline {subsection}{\numberline {2.11.10}The Resistively Shunted Junction (RSJ) Model}{210}{}%
+\contentsline {subsubsection}{Tilted Washboard Potential}{211}{}%
+\contentsline {subsubsection}{Thermal Activation and Macroscopic Quantum Tunneling}{211}{}%
+\contentsline {subsubsection}{McCumber-Stewart Parameter}{211}{}%
+\contentsline {subsubsection}{Temperature Dependence of $I_c$}{212}{}%
+\contentsline {subsubsection}{Field Dependence of $I_c$}{212}{}%
+\contentsline {subsubsection}{Josephson Penetration Depth $\lambda _J$}{212}{}%
+\contentsline {subsubsection}{Spatial Distribution of the Current}{212}{}%
+\contentsline {subsubsection}{Experimental Observations}{213}{}%
+\contentsline {subsection}{\numberline {2.11.11}The Evolution of Josephson Junction Technology}{213}{}%
+\contentsline {subsubsection}{Early Developments: Soft Superconductors and Thermal Oxidation}{213}{}%
+\contentsline {subsubsection}{Lead-Alloy Technology and Sputter-Oxidation}{213}{}%
+\contentsline {subsubsection}{Transition to Rigid Superconductors: Nb and Artificial Barriers}{213}{}%
+\contentsline {subsubsection}{Modern Multilayer SIS Thin-Film Junctions}{213}{}%
+\contentsline {subsubsection}{Other Rigid Superconductors}{213}{}%
+\contentsline {subsection}{\numberline {2.11.12}High-Temperature Superconducting Junctions (HTS JJs)}{214}{}%
+\contentsline {subsubsection}{YBa$_2$Cu$_3$O$_{7-x}$ (YBCO): The Most Studied HTS Compound}{214}{}%
+\contentsline {subsubsection}{Challenges and Recent Progress}{214}{}%
+\contentsline {subsubsection}{Unique Features of HTS JJs}{214}{}%
+\contentsline {subsection}{\numberline {2.11.13}Applications of Josephson Junctions}{214}{}%
+\contentsline {subsubsection}{Voltage Metrology}{214}{}%
+\contentsline {subsubsection}{Nano-JJs and Nano-SQUIDs}{214}{}%
+\contentsline {subsubsection}{Future Directions}{214}{}%

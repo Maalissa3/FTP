@@ -5473,6 +5473,324 @@ In SNS junctions, new physical processes occur that dominate over simple tunneli
     \end{itemize}
     GBs can realize quite special atomically flat interface configurations. In HTS, a d-wave order-parameter symmetry generates quite unconventional features.
 \end{itemize}
-\clearpage
 
+\subsection{Revisiting the Current-Phase Relation (CPR)}
+
+The d.c. Josephson equation $I = I_c \sin(\varphi)$ reflects an idealized tunneling limit in which only the first harmonic is significant. However, in more general weak-links (e.g., more transmissive barriers), the CPR can exhibit substantial higher-order Josephson harmonics, depending on the microscopic properties of the junction.
+
+\paragraph{Andreev Bound States (ABS):}
+A dissipationless Josephson current arises from quasiparticle excitations confined within the weak link. These quasiparticles occupy Andreev bound states (ABS), which form due to multiple Andreev reflections at the interfaces between the superconductors and the weak link. At energies within the superconducting gap, the Andreev reflection process leads to the formation of discrete resonant states (ABS) of entangled electron-hole pairs confined between the superconductors. ABS are electronic analogues to the resonances in an optical Fabry–Pérot cavity. The energies of the ABS depend periodically on the superconducting phase difference $\varphi = \varphi_1 - \varphi_2$, analogous to the optical cavity length.
+
+\paragraph{Generalized Current-Phase Relation:}
+The $I(\varphi)$ expression should include higher-order contributions in the coupling, originating from the ABS. Summing over all conduction channels and applying the second Josephson relation, we arrive at the generalized CPR:
+\begin{equation}
+I(\varphi) = \sum_i\sum_k I_{ki} \sin(k\varphi),
+\end{equation}
+where the higher harmonic $k$-contributions are manifestations of multi-Cooper-pair tunneling processes, depending on the barrier transparency (k-multiple Andreev reflection process). 
+\begin{center}
+    \includegraphics[width=0.5\textwidth]{Screenshot 2025-12-02 at 11.57.15.png}
+\end{center}
+\paragraph{Anisotropic Order Parameter Symmetry:}
+The CPR may also depend on the angles $\theta_1$ and $\theta_2$ of the crystallographic axes with respect to the junction interface of the left and right electrodes, for anisotropic order parameter symmetry. Examples of the occurrence of a second harmonic contribution are given by high-temperature superconductors (HTS) with d-wave symmetry and by particular junctions with ferromagnetic barriers.
+
+\paragraph{Second Harmonic Contributions:}
+Second-order contributions, which correspond to simultaneous tunneling of two Cooper pairs, are particularly relevant in certain junctions. For instance:
+\begin{itemize}
+    \item HTS d-wave Josephson junctions, where the anisotropic order parameter symmetry leads to higher harmonic contributions.
+    \item Superconductor–Ferromagnet–Superconductor (SFS) junctions, where the interplay between superconductivity and ferromagnetism modifies the CPR.
+\end{itemize}
+These higher-order terms highlight the need to reconsider the CPR in non-ideal junctions.
+
+\subsection{SFS Josephson Junctions: The $\pi$ Junction}
+
+Superconductor-Ferromagnet-Superconductor (SFS) junctions exhibit unique properties due to the interplay between superconductivity and ferromagnetism. The superconducting order parameter (OP) penetrates into the ferromagnetic layer via the proximity effect, but with distinct characteristics compared to normal metals.
+
+\begin{center}
+    \includegraphics[width=0.4\textwidth]{Screenshot 2025-12-02 at 11.56.02.png}
+\end{center}
+
+\paragraph{Spatial Oscillations of the Order Parameter}
+In SFS junctions, the correlated electron-hole pairs, with opposite spin directions, experience the exchange field of the ferromagnet. This leads to spatial oscillations of the superconducting OP within the ferromagnetic layer. The oscillation period is determined by the exchange field. Unlike in NS bilayers, where the OP decays monotonically, the oscillations in the F-layer can result in a sign change of the OP amplitude.
+\begin{center}
+    \includegraphics[width=0.5\textwidth]{Screenshot 2025-12-02 at 11.58.07.png}
+\end{center}
+\paragraph{The $\pi$ Junction State}
+The sign change of the OP amplitude corresponds to periodic $0$–$\pi$ phase jumps at certain points in the F-layer. By choosing appropriate values for the exchange field and the thickness $d_F$ of the F-layer, the OP amplitude on both sides of the junction can become negative. This results in a $\pi$ phase shift in the current-phase relation (CPR):
+\[
+I = -I_c \sin\varphi = I_c \sin(\varphi + \pi).
+\]
+Such junctions are called $\pi$ junctions because the minimum of the free energy occurs at $\varphi = \pi$ instead of $\varphi = 0$, as in standard $0$-state junctions.
+
+\paragraph{Spontaneous Current and Magnetic Flux}
+A superconducting ring with an inserted $\pi$ junction (or an odd number of $\pi$ junctions) exhibits a spontaneous supercurrent and a corresponding magnetic flux of half a flux quantum $\Phi_0$ in the ground state. This arises from the fluxoid quantization condition:
+\[
+\varphi_i + \varphi = 2\pi n,
+\]
+where $\varphi = (2e/\hbar)\Phi = 2\pi\Phi/\Phi_0$ is the phase difference associated with the magnetic field, and $\varphi_i$ is the phase shift across the junction. For a $\pi$ junction:
+\[
+\pi + \varphi = 2\pi \quad \Rightarrow \quad \varphi = \pi \quad \Rightarrow \pi=\frac{2\pi\Phi}{\Phi_0}\Rightarrow \quad \Phi = \Phi_0/2.
+\]
+\begin{center}
+    \includegraphics[width=0.4\textwidth]{Screenshot 2025-12-02 at 11.59.40.png}
+\end{center}
+\paragraph{Applications in Superconducting Qubits}
+The ground state of a loop with a single $\pi$ junction is doubly degenerate with respect to the spontaneous current direction. This property makes $\pi$ junctions promising candidates for superconducting flux qubits. The free energy of such a loop as a function of the magnetic flux exhibits a double-well structure, enabling the realization of qubits with well-defined states.
+
+
+
+\subsection{More on the SFS Junctions}
+A $\phi_0$ junction is a Josephson junction that exhibits an arbitrary finite phase shift $\phi_0$ in the current-phase relation (CPR):
+\[
+I = I_c \sin(\varphi + \phi_0).
+\]
+The energy profile of such a junction shows a minimum at $\varphi = \phi_0 \neq 0, \pi$. This phase shift can arise due to various mechanisms, such as spin-orbit coupling or the presence of magnetic fields in systems with broken time-reversal symmetry. $\phi_0$ junctions are of interest for applications in superconducting circuits and quantum computing.
+\begin{center}
+    \includegraphics[width=0.4\textwidth]{Screenshot 2025-12-02 at 12.04.12.png}
+\end{center}
+\subsubsection{High Harmonics in SFS Junctions}
+In SFS junctions with transparent boundaries between the superconducting (S) and ferromagnetic (F) layers, the current through the structure can approach the depairing current of the suppressed superconducting regions. This process leads to the appearance of high harmonics in the CPR:
+\[
+I = \sum_{k=1}^\infty I_k \sin(k\varphi).
+\]
+The presence of high harmonics significantly modifies the junction's dynamics and can lead to novel effects, such as the coexistence of multiple stable states.
+
+\subsubsection{The $\phi$ Junction}
+One of the most promising types of SFS junctions is the $\phi$ junction, which can be realized with a CPR containing two harmonics:
+\[
+I = I_{c1} \sin\varphi + I_{c2} \sin(2\varphi),
+\]
+where $I_{c2} < -|I_{c1}|/2$. The distinctive feature of the $\phi$ junction is that its energy profile has two degenerate ground states at $\varphi = \pm\varphi'$, where $0 < \varphi' < \pi$. The energy minima correspond to the two stable states of the junction, making it a candidate for use in superconducting qubits.
+
+\paragraph{Critical Currents of the $\phi$ Junction}
+The $\phi$ junction has two critical currents, corresponding to the escape of the Josephson phase from the $+\varphi'$ and $-\varphi'$ wells. These critical currents have different amplitudes, reflecting the asymmetry introduced by the second harmonic in the CPR. The ability to tune the CPR and the energy landscape makes $\phi$ junctions highly versatile for applications in superconducting electronics and quantum information processing.
+
+\subsection{The $\pi$-ring Tricrystal Experiment with d-wave Superconductors}
+
+In the case of high-temperature superconductors (HTS) with an anisotropic d-wave order parameter, the intrinsic phase shift of the superconducting wavefunction can lead to $\pi$ phase shifts in particular configurations. These $\pi$ shifts result in the presence of spontaneous supercurrents and vortices with fractional flux quanta.
+
+\paragraph{Phase Shift and Supercurrent Orientation}
+The sign of the supercurrent in a junction containing a d-wave superconductor depends on the relative orientation of the crystallographic axes with respect to the junction interface. The pair tunneling current between two superconducting grains $i$ and $j$ is given by:
+\[
+I_{ij} \propto \cos(2\theta_i) \cos(2\theta_j) \sin(\varphi_{ij}),
+\]
+where $\theta_i$ and $\theta_j$ are the angles of the crystallographic axes of the superconductors relative to the junction interface, and $\varphi_{ij}$ is the phase difference across the junction. Certain combinations of $\theta_i$ and $\theta_j$ result in a negative supercurrent, which can be interpreted as a $\pi$ phase shift at the junction.
+
+\paragraph{Tricrystal Geometry and Half-Integer Flux Quantization}
+In a $\pi$-ring tricrystal experiment, three superconducting grains are arranged such that the relative orientations of their crystallographic axes lead to a $\pi$ phase shift at one or more of the junctions. This configuration creates a closed superconducting loop with a net phase shift of $\pi$, resulting in the spontaneous generation of a supercurrent. The fluxoid quantization condition then requires the magnetic flux through the loop to be quantized in half-integer multiples of the flux quantum $\Phi_0$:
+\[
+\Phi = \left(n + \frac{1}{2}\right)\Phi_0, \quad n \in \mathbb{Z}.
+\]
+
+\paragraph{Observation with Scanning SQUID Microscopy}
+High-resolution Scanning SQUID Microscopy has been used to directly observe the half-integer flux quantization in $\pi$-ring tricrystal experiments. The presence of vortices with fractional flux quanta provides compelling evidence for the d-wave symmetry of the order parameter in HTS. These experiments highlight the interplay between the anisotropic superconducting order parameter and the geometry of the junctions, leading to novel quantum phenomena.
+
+\subsection{TODO:Applications of $\pi$-JJs: $\pi$-SQUIDs and Beyond}
+
+\paragraph{Self-Biasing $\pi$-SQUIDs}
+The $\pi$-SQUID is a superconducting loop incorporating a $\pi$-junction, which introduces a built-in fractional phase bias approaching $\pi$ for large-inductance loops. This self-biasing property eliminates the need for external connections, simplifying design and operation. The absence of external bias reduces size, enhances tolerance to random parameter variations, and minimizes magnetic noise, making $\pi$-SQUIDs smaller and more robust than their all-niobium counterparts. 
+\\High-temperature superconducting $\pi$-junctions are emerging as key components in phase qubits. The permanent phase shift introduced by the $\pi$-junction minimizes dephasing interactions with the environment, enhancing qubit coherence. This property is particularly advantageous for scalable quantum computing architectures, where environmental noise is a critical challenge.
+
+\paragraph{Charge and Spin Transport in SFS Junctions}
+There is a continuously growing interest in charge and spin transport in contacts between superconductors and ferromagnets (F). The first experimental observation of supercurrents in SFS junctions and the crossover from $0$- to $\pi$-state in Nb/Cu$_x$Ni$_{1-x}$/Nb Josephson junctions was reported by Ryazanov et al. in 2000. A variety of systems exhibiting $\pi$-states includes planar SFS proximity effect structures, tunnel junctions with magnetic insulators or magnetically active interfaces, and structures with barriers containing more than one magnetic layer. These systems provide a rich platform for exploring the interplay between superconductivity and magnetism, with potential applications in spintronics and quantum technologies.
+
+\paragraph{Flip-Flopping Fractional Flux Quanta}
+The introduction of additional phase-shifting elements in superconducting loops leads to a twofold degenerate state, which would otherwise require the application of a magnetic flux of exactly $\frac{1}{2}\Phi_0$. This bistable state functions as a flip-flop, a crucial universal circuit element capable of dividing digital pulse trains by two and acting as a binary storage element. To compensate for this built-in phase shift, a spontaneous circulating current flows in the ring in either the clockwise or counterclockwise direction. The magnetic flux associated with this persistent circulating current is a fraction of a flux quantum, growing asymptotically to a half flux quantum in the large inductance limit. The polarity of this spontaneous flux can be used to store information.
+
+\paragraph{Toggle Flip-Flop (TFF)}
+The TFF toggles between two stable states when a single flux quantum (SFQ) pulse is applied. The SFQ pulses are transferred via a Josephson transmission line (JTL) to the input junction J1 of the flip-flop. 
+\\
+Presume that the flip-flop is in the state with a clockwise current in the storage loop. When an SFQ pulse enters through J1, the associated currents give rise to a switching of J3 and J4, causing the flux state in the storage inductor $L_{\text{store}}$ to reverse. If a second pulse arrives at the input, it causes a switching of J2 and J5, which toggles the flip-flop back to its original state.
+\\
+The TFF is typically made of Josephson junctions (JJs), inductors to store magnetic flux, and a bias current source to place the JJ near its switching threshold. When a current or trigger input slightly exceeds the critical current of a JJ, the JJ switches to the voltage state for an extremely brief time (~1–2 ps). This creates a voltage pulse whose time integral equals exactly one flux quantum. The inductive loop then returns the JJ to the superconducting state, completing the cycle. This mechanism is fundamental for superconducting digital circuits.
+
+\paragraph{Applications in Superconducting Digital and Quantum Circuits}
+SFS $\pi$-shifters are integral to superconducting digital and quantum circuits. Controllable $0$–$\pi$ Josephson junctions containing ferromagnetic spin valves, which are more complex than simple two-junction $\pi$-SQUIDs with additional junctions and drive and readout circuitry, enable advanced circuit designs. In quantum computing, incorporating $\pi$-junctions in flux qubit loops addresses the magnetic flux uniformity problem. Large-scale integration of flux qubits is challenging due to the need for external half-flux bias for optimal operation. Realistic variations in qubit loop areas make it practically impossible to bias a large number of qubits on the same chip uniformly. By incorporating $\pi$-junctions, the optimal operation can be achieved at zero external flux bias, solving this issue. This approach also reduces magnetic noise, as finite applied fields inherently have fluctuations that act as noise on the qubits, thereby enhancing qubit coherence times and scalability for large-scale integration.
+
+\paragraph{Future Directions}
+The versatility of $\pi$-junctions in creating self-biasing circuits, bistable memory elements, and noise-resilient qubits highlights their potential in next-generation superconducting technologies. Continued research into controllable $\pi$-junctions and their integration into complex circuits will further expand their applications in quantum computing and digital electronics.
+
+\subsection{Serial Junctions}
+
+Serial junctions with multiple layers connected through thin superconducting buffers have recently gained significant attention. These structures allow for the combination of the mutual properties of the interlayers while preserving the critical current of the individual junctions.
+
+\paragraph{SFsFS and SIsFS Structures}
+\begin{itemize}
+    \item \textbf{SFsFS Devices:} These operate as pseudo spin-valve structures, where the mutual magnetization of the ferromagnetic (F) layers determines the effective exchange field and the critical current of the device. The thin superconducting layer (s) acts as a buffer, enabling the coupling between the F-layers.
+    \item \textbf{SIsFS Junctions:} These provide high-performance tunnel SIS junctions with the added capability of switching between $0$ and $\pi$ states. The thin superconducting layer (s) enhances the tunability of the junction's properties.
+\end{itemize}
+
+\paragraph{Complex Current-Phase Relation (CPR)}
+Systems of serially connected junctions exhibit a complex, hysteretic current-phase relation (CPR) with possible multiple branches. This behavior arises from the interplay between the individual junctions and the coupling layers, leading to rich and tunable dynamics.
+
+\paragraph{Applications}
+Serial junctions are promising for advanced superconducting devices, including:
+\begin{itemize}
+    \item Tunable qubits for quantum computing.
+    \item High-performance superconducting circuits with controllable $0$–$\pi$ transitions.
+    \item Spintronic devices leveraging the pseudo spin-valve behavior of SFsFS structures.
+\end{itemize}
+
+\subsection{Hybrid Josephson Junctions (Hybrid JJs)}
+
+Hybrid Josephson Junctions (JJs) represent a class of superconducting devices where the barrier between the superconducting electrodes is made of materials with special functionalities, such as semiconductors, graphene, or topological insulators. These devices combine the properties of superconductors with those of the barrier material, enabling novel functionalities and tunability.
+
+\paragraph{Superconducting Hybrid Devices}
+A hybrid JJ typically consists of a coplanar structure where a barrier material, such as a semiconductor (e.g., In$_x$Ga$_{1-x}$As, InAs), is deposited and treated before the patterning of the superconducting banks. The induced coherence length $\xi_{sm}$ in the semiconducting barrier depends on the carrier density, which is influenced by the diffusion constant. For high-transmittance S-Sm interfaces, $\xi_{sm}$ can be tuned by applying a gate voltage.
+
+\paragraph{Gate Voltage Control}
+The application of a gate voltage strongly modifies the current-voltage ($I$-$V$) characteristics and the amplitude of the hysteresis in hybrid JJs. This tunability has made these devices promising candidates for the realization of a superconducting Josephson field-effect transistor (Jo-FET), a long-standing goal in the field.
+
+\paragraph{Emerging Materials and Layouts}
+Recent advancements in the fabrication and handling of quasi-2D materials, such as graphene, topological insulators, nanotubes, and nanowires, have enabled the development of new families of hybrid JJs. In a standard configuration, a nanowire or a 2D flake is placed on a substrate, and the sample is patterned using e-beam lithography to define the regions where superconducting electrodes will be deposited.
+
+\paragraph{Advantages of Graphene and 2D Materials}
+Graphene and other 2D conducting materials offer the unique advantage of tunability over a wide range via gate voltage. This tunability arises from changes in the chemical potential $\mu$, electron concentration, sheet resistance, and density of states. These properties make graphene-based hybrid JJs highly versatile for various applications.
+
+\begin{table}[h]
+\centering
+\caption{Examples of Materials and Layouts for Hybrid JJs}
+\begin{tabular}{|l|l|l|}
+\hline
+\textbf{Barrier Material} & \textbf{Superconducting Electrodes} & \textbf{Key Features} \\
+\hline
+Semiconductors (e.g., InAs) & Nb, Al & Tunable $\xi_{sm}$ via gate voltage \\
+Graphene & Nb, Pb & Wide tunability of $\mu$ and $I_c$ \\
+Topological Insulators & Nb, Al & Robust edge states, Majorana modes \\
+Nanowires (e.g., InSb) & NbTiN, Al & Strong spin-orbit coupling, gate control \\
+\hline
+\end{tabular}
+\end{table}
+
+\subsection{The Resistively Shunted Junction (RSJ) Model}
+
+The Resistively Shunted Junction (RSJ) model provides a framework to describe the dynamics of a Josephson junction by considering it as an ideal non-linear element in parallel with a resistance $R$ and a capacitance $C$. The total current $I$ through the junction is given by:
+\begin{equation}
+I = I_s + I_n + I_d = I_c \sin \varphi + \frac{V}{R} + C \frac{dV}{dt},
+\end{equation}
+where $I_s$ is the supercurrent, $I_n$ is the quasiparticle current, and $I_d$ is the displacement current. Using the Josephson relations, this can be rewritten as:
+\begin{equation}
+I = I_c \sin \varphi + \frac{\Phi_0}{2\pi R_n} \frac{\partial \varphi}{\partial t} + C \frac{\Phi_0}{2\pi} \frac{\partial^2 \varphi}{\partial t^2},
+\end{equation}
+where $R_n$ is the normal state resistance. The dynamics of the phase $\varphi$ is then governed by:
+\begin{equation}
+\frac{\Phi_0}{2\pi} C \frac{\partial^2 \varphi}{\partial t^2} + \frac{\Phi_0}{2\pi R_n} \frac{\partial \varphi}{\partial t} + \frac{\partial U}{\partial \varphi} = 0,
+\end{equation}
+with the potential energy $U$ given by:
+\begin{equation}
+U = -\frac{\Phi_0}{2\pi} \left(I_c \cos \varphi + I \varphi \right).
+\end{equation}
+
+\subsubsection{Tilted Washboard Potential}
+
+The dynamics of the junction can be visualized as a particle moving in a "tilted washboard" potential $U(\varphi)$. The term involving $C$ represents the mass of the particle, the $1/R_n$ term represents damping (friction), and the tilt of the washboard is proportional to the bias current $I$. The equation of motion is analogous to:
+\begin{equation}
+m \frac{d^2 x}{dt^2} + \eta \frac{dx}{dt} + \frac{\partial U}{\partial x} = 0,
+\end{equation}
+where $m$ is the mass, $\eta$ is the damping coefficient, and $x$ corresponds to the phase $\varphi$.
+
+\subsubsection{Thermal Activation and Macroscopic Quantum Tunneling}
+
+For $I < I_c$, the particle is confined to one of the potential wells. However, due to thermal activation (TA) or macroscopic quantum tunneling (MQT), the junction may switch to the finite voltage state even for $I < I_c$. The relative importance of these escape processes depends on the temperature of the system.
+
+\subsubsection{McCumber-Stewart Parameter}
+
+The McCumber-Stewart parameter $\beta_c$ quantifies the damping in the junction:
+\begin{equation}
+\beta_c = \frac{2\pi I_c R_n^2 C}{\Phi_0}.
+\end{equation}
+\begin{itemize}
+    \item $\beta_c > 1$: Underdamped regime. High capacitance, tunnel-like junctions, characterized by hysteretic behavior and switching currents.
+    \item $\beta_c < 1$: Overdamped regime. Non-hysteretic behavior.
+\end{itemize}
+The presence of a second harmonic in the current-phase relation (e.g., in SFS junctions) modifies the potential $U(\varphi)$, introducing secondary wells and altering the dynamics of the particle.
+
+\subsubsection{Temperature Dependence of $I_c$}
+In the tunnel limit, the temperature dependence of the critical current $I_c$ is described by the Ambegaokar-Baratoff model:
+\begin{equation}
+I_c(T) = I_c(0) \frac{\Delta(T)}{\Delta(0)} \tanh\left(\frac{\Delta(T)}{2k_B T}\right),
+\end{equation}
+where $\Delta(T)$ is the superconducting energy gap, $k_B$ is the Boltzmann constant, and $T$ is the temperature. At $T = 0$, $I_c$ is proportional to the energy gap $\Delta(0)$.
+
+\subsubsection{Field Dependence of $I_c$}
+The dependence of the critical current $I_c$ on the magnetic induction $B$ (or external magnetic flux $\Phi$) for an ideal rectangular junction geometry follows a Fraunhofer-like pattern:
+\begin{equation}
+I_c(B) = I_c(0) \left| \frac{\sin(\pi \Phi / \Phi_0)}{\pi \Phi / \Phi_0} \right|,
+\end{equation}
+where $\Phi_0$ is the magnetic flux quantum. The critical current exhibits a central maximum at $B = 0$ and decreases with oscillatory minima at integer multiples of $\Phi_0$.
+
+\subsubsection{Josephson Penetration Depth $\lambda_J$}
+The Josephson penetration depth $\lambda_J$ measures the distance over which Josephson currents are confined:
+\begin{equation}
+\lambda_J = \sqrt{\frac{\Phi_0}{2\pi \mu_0 d J_c}},
+\end{equation}
+where $\mu_0$ is the permeability of free space, $d$ is the effective barrier thickness, and $J_c$ is the critical current density. For wide junctions ($W > 10\lambda_J$), the Fraunhofer pattern is smeared out, and the interferometric behavior is lost.
+
+\subsubsection{Spatial Distribution of the Current}
+The spatial distribution of the critical current density $J_c(x)$ across the junction barrier is influenced by:
+\begin{itemize}
+    \item The geometry of the junction.
+    \item The nature of the electrodes and the barrier.
+    \item Inhomogeneities, Meissner screening, and vortex formation.
+\end{itemize}
+These effects lead to distinctive magnetic fingerprints in the $I_c(B)$ dependence and $I$-$V$ curves. For example, junctions with d-wave electrodes or ferromagnetic barriers exhibit unique magnetic interference patterns.
+
+\subsubsection{Experimental Observations}
+For d-wave corner junctions (e.g., Pb/YBCO), the $I_c(B)$ dependence shows symmetric maxima at finite magnetic fields. The transition from a Fraunhofer pattern to this behavior depends on the ratio $\gamma$ between the $\pi$ and $0$ components of the junction.
+
+\begin{center}
+    image
+\end{center}
+
+\subsection{The Evolution of Josephson Junction Technology}
+
+The development of Josephson junctions (JJs) has undergone significant advancements since their inception in the 1960s. Below is a summary of the key milestones and materials used in their realization:
+
+\subsubsection{Early Developments: Soft Superconductors and Thermal Oxidation}
+The first SIS tunnel JJs were fabricated using soft superconductors such as Sn, In, and Pb, with thermal oxidation employed to create the insulating barrier. This marked the beginning of Josephson technology.
+
+\subsubsection{Lead-Alloy Technology and Sputter-Oxidation}
+The introduction of lead-alloy technology brought the first self-limiting sputter-oxidation process, which improved the reproducibility and performance of JJs.
+
+\subsubsection{Transition to Rigid Superconductors: Nb and Artificial Barriers}
+The use of rigid superconductors like Nb revolutionized JJ technology. Artificial barriers replaced native Nb oxide barriers, addressing issues such as defects, conducting sub-oxides, and magnetism. Al emerged as the ideal solution, forming a natural, self-limiting, high-quality insulating oxide.
+
+\subsubsection{Modern Multilayer SIS Thin-Film Junctions}
+Modern Josephson electronics, including high-speed digital logic circuits, qubits, SQUIDs, and photon detectors, utilize multilayer SIS thin-film junctions. Examples include:
+\begin{itemize}
+    \item Nb/Al-Al$_2$O$_3$/Nb
+    \item Nb/Al-Al$_2$O$_3$/Al/Nb
+\end{itemize}
+The Al overlayer approach has been a key advancement, enabling thermally and mechanically stable tunnel junctions with Nb.
+
+\subsubsection{Other Rigid Superconductors}
+Other rigid superconductors, such as NbN, Nb$_3$Sn, V$_3$Si, and Nb$_3$Ge, have also been explored. These materials require artificial barriers for JJ fabrication.
+
+\subsection{High-Temperature Superconducting Junctions (HTS JJs)}
+
+\subsubsection{YBa$_2$Cu$_3$O$_{7-x}$ (YBCO): The Most Studied HTS Compound}
+YBCO has been extensively studied for JJ fabrication. Most YBCO junctions have their supercurrent flow parallel to the substrate, where the coherence length is more favorable for junction performance. This topology facilitates the production of sub-micron-area junctions.
+
+\subsubsection{Challenges and Recent Progress}
+The lack of a reliable HTS trilayer junction process has hindered the development of applications requiring multi-layer integrated circuitry, such as digital circuits. However, recent progress has been made in this area.
+
+\subsubsection{Unique Features of HTS JJs}
+HTS JJs exhibit unique features, including:
+\begin{itemize}
+    \item Supercurrent between phase-coherent electrodes up to $\sim$100 K.
+    \item Unexpected energy and length scales, dimensionality, strong correlations, and d-wave order parameter symmetry.
+\end{itemize}
+These properties have inspired the development of Josephson-based devices using unconventional superconductors discovered after HTS.
+
+\subsection{Applications of Josephson Junctions}
+
+\subsubsection{Voltage Metrology}
+Josephson junctions are widely used in voltage metrology, providing highly accurate voltage standards.
+
+\subsubsection{Nano-JJs and Nano-SQUIDs}
+Nano-JJs and nano-SQUIDs have been developed for applications requiring ultra-sensitive magnetic field detection and nanoscale precision.
+
+\subsubsection{Future Directions}
+The continued development of Josephson junction technology, including the integration of HTS and unconventional superconductors, holds promise for advancing quantum computing, metrology, and other cutting-edge applications.
+
+\clearpage
 \end{document}
