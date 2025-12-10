@@ -5,6 +5,12 @@
 \usepackage{amsfonts}
 \usepackage{amssymb}
 \usepackage{graphicx}
+\usepackage{mathtools}
+\usepackage{geometry}
+\DeclarePairedDelimiter\bra{\langle}{\rvert}
+\DeclarePairedDelimiter\ket{\lvert}{\rangle}
+\DeclarePairedDelimiterX\braket[2]{\langle}{\rangle}{#1\,\delimsize\vert\,\mathopen{}#2}
+
 
 \begin{document}
 \sloppy % Permette di evitare overfull hboxes con linee lunghe e interruzioni forzate
@@ -51,13 +57,6 @@ Sand is reduced in an arc furnace with coal, coke, and wood chips at $2000^{\cir
 The reaction is:
 $$SiO_{2}+2~C\rightarrow Si(solid)+2CO(gas)$$
 This forms \textbf{metallurgical grade silicon (MGS)}. Its purity is $\sim 98\%$. Major impurities (metals) include: $Fe$ $0.8\%$, $Al$ $0.3\%$, $Cr$ $0.04\%$, $Ti$ $0.03\%$, $Mn$ \& $V$ $0.02\%$. \textbf{MGS} is used in Steel, Semiconductor, Silicones, and Aluminium alloys.
-
-The furnace structure includes quartzite, coal, coke, wood chips, and a submerged electrode. Intermediate reactions occur, such as:
-$Si0+CO\rightarrow SiO_{2}+C$ @ $1600^{\circ}C$.
-$SiO+{2}_{SiC+CO}$ from $SiO$ and $C$.
-$SiO_{2}^{+}C\rightarrow CO$ at $1780^{\circ}C$ (to melt $SiO_{2}$).
-$SiC+SiO_{2}\rightarrow Si+SiO+CO$.
-Total production is $\sim 900,000$ tonnes/p.a.
 
 \paragraph*{Trichlorosilane (TCS) Production}
 MGS is crushed and reacted with $HCl$ to obtain trichlorosilane (TCS).
@@ -322,26 +321,9 @@ Examples of microstructure components include:
 
 Atoms are arranged on a regular grid called a \textbf{lattice}. A Bravais lattice is an infinite array of points that appears the same from any lattice point, and there are \textbf{only 14 unique lattices possible in three dimensions}.(Figure 1.2)
 
-\subsubsection{The 14 Bravais Lattices}
-\begin{enumerate}
-    \item Simple Cubic
-    \item Body Centered Cubic (bcc)
-    \item Face Centered Cubic (fcc)
-    \item Simple Tetragonal
-    \item Centered Tetragonal
-    \item Simple Orthorhombic
-    \item Base Centered Orthorombic
-    \item Body Centered Orthorhombic
-    \item Face Centered Orthorhombic
-    \item Simple Monoclinic
-    \item Centered Monoclinic
-    \item Triclinic
-    \item Rhombohedral
-    \item Hexagonal
-\end{enumerate}
 \begin{figure}
 \centering
-    \includegraphics[width=1\textwidth]{Bravais_lattices.png}
+    \includegraphics[width=0.8\textwidth]{Bravais_lattices.png}
     \caption{14 Bravais Lattices}
 \end{figure}
 These lattices correspond to 7 Crystal families/Lattice systems: triclinic, monoclinic ($\beta\ne90^{\circ}$), orthorhombic ($a\ne b\ne c$), tetragonal, rhombohedral, hexagonal ($\gamma=120^{\circ}$), and cubic ($a=b=c$, $\alpha=\beta=\gamma=90^{\circ}$).
@@ -465,18 +447,6 @@ A cleanroom is defined as \textbf{an environment where particulate concentration
     \item \textbf{Pose a health risk:} Contamination can endanger employees, customers, and the environment, greatly increasing costs, and potentially leading to litigation, insurance issues, and compliance with safety issues.
 \end{itemize}
 
-\subsection{Contamination Induced Problems}
-
-\textbf{Particles} are defined as undesired objects (size between $\sim 0.06~\mu \text{m}$ and a few microns) whose composition depends on the contamination source. Particles adhere to surfaces by van der Waals forces, condensation of vapour, or the formation of chemical bonds.
-
-Contamination leads to various issues in semiconductor manufacturing:
-\begin{itemize}
-    \item \textbf{Mobile ions in oxides} (e.g., Gate (+5V), Source (OV), Drain (OV)) can change electric fields and voltages at the semiconductor/dielectric interface.
-    \item \textbf{Unintentional films between layers} can create open circuits or short circuits between layers. They can also impede adhesion between films.
-    \item \textbf{Effect on photolithography:} Dust particles can create defects (cuts or protrusions) through shadowing.
-    \item \textbf{Effect on movable microstructures:} Contamination can cause jamming.
-\end{itemize}
-
 \subsection{Sources of Contamination}
 
 \textbf{Humans} cause most of the contamination. People continuously exfoliate skin and replace hair. Sources associated with people include dirt and oils tracked into labs on shoe soles, widespread use of make-up, perfume, and hair gels.
@@ -518,6 +488,18 @@ Smoke & 0.01-1 \\
 \hline
 \end{tabular}
 \end{center}
+
+\subsection{Contamination Induced Problems}
+
+\textbf{Particles} are defined as undesired objects (size between $\sim 0.06~\mu \text{m}$ and a few microns) whose composition depends on the contamination source. Particles adhere to surfaces by van der Waals forces, condensation of vapour, or the formation of chemical bonds.
+
+Contamination leads to various issues in semiconductor manufacturing:
+\begin{itemize}
+    \item \textbf{Mobile ions in oxides} (e.g., Gate (+5V), Source (OV), Drain (OV)) can change electric fields and voltages at the semiconductor/dielectric interface.
+    \item \textbf{Unintentional films between layers} can create open circuits or short circuits between layers. They can also impede adhesion between films.
+    \item \textbf{Effect on photolithography:} Dust particles can create defects (cuts or protrusions) through shadowing.
+    \item \textbf{Effect on movable microstructures:} Contamination can cause jamming.
+\end{itemize}
 
 \subsection{Classification Standards and Measurement}
 
@@ -5793,4 +5775,356 @@ Nano-JJs and nano-SQUIDs have been developed for applications requiring ultra-se
 The continued development of Josephson junction technology, including the integration of HTS and unconventional superconductors, holds promise for advancing quantum computing, metrology, and other cutting-edge applications.
 
 \clearpage
+
+\section{Quantum Bits with Josephson Junctions}
+
+\subsection{Basics of Superconducting Quantum Circuits with Josephson Junctions}
+
+Superconducting quantum circuits based on Josephson junctions have opened up new prospects for both quantum information processing and the study of quantum optics. These systems leverage the unique properties of Josephson junctions to create and manipulate quantum bits (qubits).
+
+\subsection{Qubit: The Quantum Bit}
+
+\begin{itemize}
+    \item \textbf{Classical Computer:} The most basic unit of information is a bit, which can take two values: 0 and 1.
+    \item \textbf{Quantum Computer:} The laws of quantum physics allow phenomena like superposition and entanglement. The most basic unit is a quantum bit, usually called a qubit, which is a two-level quantum system with a ground state $\ket{0}$ and an excited state $\ket{1}$.
+    \item \textbf{Superposition:} Unlike a classical bit, which only has two possible states, a qubit has infinitely many states: all superpositions of $\ket{0}$ and $\ket{1}$:
+    \[
+    \psi = \alpha \ket{0} + \beta \ket{1},
+    \]
+    where $\alpha$ and $\beta$ are complex numbers satisfying $|\alpha|^2 + |\beta|^2 = 1$.
+    \item \textbf{Visualization:} A qubit state can be visualized on the Bloch sphere, where the north and south poles correspond to the classical states $\ket{0}$ and $\ket{1}$, respectively. Any point on the surface of the sphere represents a valid quantum state.
+    \item \textbf{Multi-Qubit Systems:} For a system of $N$ qubits, the total state can be a superposition of $2^N$ different states:
+    \[
+    \ket{000 \dots 00}, \ket{100 \dots 00}, \ket{010 \dots 00}, \dots, \ket{111 \dots 1}.
+    \]
+    This implies that at least $2^N$ classical bits are required to represent the quantum system.
+\end{itemize}
+\subsection{Physical Implementation of Qubits: Why Josephson-Junction Qubits?}
+
+\begin{itemize}
+    \item \textbf{Natural Quantum Systems:} Single atoms or ions are well-known quantum systems with fixed parameters determined by nature. However, these systems are challenging to control and manipulate.
+    \item \textbf{Artificial Atoms:} Research has shifted to circuits fabricated on a chip, similar to classical computer processors. These circuits, often referred to as artificial atoms, allow for greater design flexibility and the ability to tune parameters in situ during experiments.
+    \item \textbf{Superconducting Circuits:} To minimize losses, the circuits are made from superconducting materials and operated at temperatures below the critical temperature $T_c$, avoiding resistive losses.
+    \item \textbf{Nonlinear Element:} A nonlinear element is essential for the circuit to function as a qubit. The Josephson junction provides the required nonlinearity, enabling the transformation of a superconducting circuit into a qubit.
+\end{itemize}
+
+\subsection{Why is a nonlinear element needed?}
+
+An LC resonator, which is a harmonic oscillator with a resonance frequency $\omega_r = 1/\sqrt{LC}$, has equally spaced energy levels. When operated at low temperatures $T$ such that $\hbar \omega_r \gg k_B T$, the circuit can be treated as a quantum harmonic oscillator. However, the equal spacing of energy levels means that the same energy excites transitions between any two adjacent states. This makes the LC resonator unsuitable as a qubit, as energy input at the resonance frequency will excite higher states ($|2\rangle$ and above) outside the computational subspace spanned by $|0\rangle$ and $|1\rangle$.
+
+To address this limitation, a nonlinear element is introduced. In circuits dominated by the Josephson junction, the potential energy is a cosine function, leading to anharmonic energy level spacing. This anharmonicity ensures that the $|0\rangle \to |1\rangle$ transition can be addressed separately, enabling precise manipulation of the qubit state.
+
+For example, in a transmon qubit, the transition frequencies between states $|0\rangle \to |1\rangle$ and $|1\rangle \to |2\rangle$ are significantly different (e.g., 5 GHz and 4.7 GHz, respectively). This anharmonicity allows selective control of the computational subspace.
+
+\subsection{Operating Conditions for Josephson-Junction Qubits}
+
+Josephson-junction qubits typically operate at transition frequencies in the range of 1–10 GHz, which is well below the plasma frequency of the Josephson junctions and matches commercially available electronics. To ensure $\hbar \omega_r \gg k_B T$ and $T \ll T_c$, these qubits are operated at temperatures around 10 mK, achievable with modern dilution refrigerators.
+
+\subsection{Applications of Josephson Junctions in Qubits}
+
+Josephson junctions are integral to the operation of superconducting qubits. They enable:
+\begin{itemize}
+    \item Anharmonic energy level spacing for selective state manipulation.
+    \item Rotations on the Bloch sphere for $|0\rangle \to |1\rangle$ transitions.
+    \item Integration into devices for qubit readout and control, such as amplifiers, mixers, and switches.
+\end{itemize}
+
+To understand the dynamics of Josephson-junction qubits, it is essential to:
+\begin{itemize}
+    \item Quantize electrical circuits to derive their Hamiltonians.
+    \item Analyze the Hamiltonians for charge qubits, flux qubits, and phase qubits.
+\end{itemize}
+
+\subsection{Quantizing Electrical Circuits}
+
+To quantize an electrical circuit, we follow these steps:
+
+\subsubsection{Classical Lagrangian for the Circuit}
+The classical Lagrangian $\mathcal{L}$ is defined as the difference between the kinetic and potential energies of the circuit:
+\[
+\mathcal{L} = T - U,
+\]
+where $T$ is the kinetic energy (associated with capacitors) and $U$ is the potential energy (associated with inductors and Josephson junctions).
+
+For example, in a circuit with a Josephson junction and a capacitor in parallel, the Lagrangian is:
+\[
+\mathcal{L} = \frac{1}{2}C\dot{\Phi}^2 + E_J \cos\left(\frac{2\pi\Phi}{\Phi_0}\right),
+\]
+where $\Phi$ is the flux, $C$ is the capacitance, $E_J$ is the Josephson energy, and $\Phi_0$ is the flux quantum.
+
+\subsubsection{Generalized Coordinates and Momenta}
+The generalized coordinate is the node flux $\Phi$, and the generalized momentum is:
+\[
+Q = \frac{\partial \mathcal{L}}{\partial \dot{\Phi}} = C\dot{\Phi},
+\]
+where $Q$ is the charge on the capacitor.
+
+\subsubsection{Hamiltonian of the Circuit}
+The Hamiltonian $\mathcal{H}$ is obtained via a Legendre transformation:
+\[
+\mathcal{H} = Q\dot{\Phi} - \mathcal{L}.
+\]
+Substituting $\dot{\Phi} = Q / C$, the Hamiltonian becomes:
+\[
+\mathcal{H} = \frac{Q^2}{2C} - E_J \cos\left(\frac{2\pi\Phi}{\Phi_0}\right).
+\]
+
+\subsubsection{Quantization}
+Promote $\Phi$ and $Q$ to operators obeying the commutation relation:
+\[
+[\Phi, Q] = i\hbar.
+\]
+The Hamiltonian operator is:
+\[
+\hat{\mathcal{H}} = \frac{\hat{Q}^2}{2C} - E_J \cos\left(\frac{2\pi\hat{\Phi}}{\Phi_0}\right).
+\]
+
+\subsubsection{Examples of Josephson-Junction Qubits}
+\paragraph{Charge Qubit:}
+For a charge qubit, the Hamiltonian is:
+\[
+\hat{\mathcal{H}} = 4E_C(\hat{n} - n_g)^2 - E_J \cos\hat{\varphi},
+\]
+where $E_C = e^2 / 2C$ is the charging energy, $\hat{n}$ is the Cooper pair number operator, $n_g$ is the gate-induced offset charge, and $\hat{\varphi}$ is the phase operator.
+
+\paragraph{Flux Qubit:}
+For a flux qubit, the Hamiltonian is:
+\[
+\hat{\mathcal{H}} = \frac{\hat{Q}^2}{2C} + \frac{(\Phi - \Phi_{\text{ext}})^2}{2L} - E_J \cos\left(\frac{2\pi\Phi}{\Phi_0}\right),
+\]
+where $\Phi_{\text{ext}}$ is the external flux and $L$ is the inductance.
+
+These Hamiltonians form the basis for understanding the dynamics of Josephson-junction qubits.
+
+\subsection{Charge Qubit}
+The charge qubit, also known as the Cooper-pair box (CPB), consists of a small superconducting island connected to a superconducting reservoir through a Josephson junction. Cooper pairs can tunnel on and off the island via this junction. Additionally, the island is connected to a voltage source $V_g$ through a gate capacitance $C_g$, which induces a background charge $n_g = C_g V_g / (2e)$ on the island.
+
+The Hamiltonian of the charge qubit is:
+\[
+\hat{\mathcal{H}} = 4E_C (\hat{n} - n_g)^2 - E_J \cos\hat{\varphi},
+\]
+where:
+\begin{itemize}
+    \item $E_C = e^2 / 2C_\Sigma$ is the charging energy, with $C_\Sigma = C_J + C_g$ being the total capacitance.
+    \item $\hat{n}$ is the number operator for Cooper pairs on the island.
+    \item $\hat{\varphi}$ is the phase operator across the Josephson junction.
+    \item $E_J$ is the Josephson energy.
+\end{itemize}
+
+The energy levels of the system can be tuned by adjusting $n_g$ via the gate voltage $V_g$. Further tunability of $E_J$ is possible by replacing the Josephson junction with a SQUID.
+
+\subsection{Flux Qubit}
+The flux qubit consists of a superconducting loop interrupted by three Josephson junctions. Two of the junctions are identical, with Josephson energy $E_J$, while the third is smaller, with Josephson energy $\alpha E_J$, where $\alpha$ is typically in the range $0.6$–$0.7$.
+
+The Hamiltonian of the flux qubit is:
+\[
+\hat{\mathcal{H}} = 4E_C \hat{p}^2 + U(\phi_p, \phi_m),
+\]
+where:
+\begin{itemize}
+    \item $\hat{p}$ is the conjugate momentum operator.
+    \item $\phi_p = \phi_1 + \phi_2$ and $\phi_m = \phi_1 - \phi_2$ are the phase differences across the two larger junctions.
+    \item $U(\phi_p, \phi_m)$ is the potential energy, which depends on the external flux $\Phi_{\text{ext}}$ and the Josephson energies.
+\end{itemize}
+
+The potential energy landscape can be tuned by adjusting $\Phi_{\text{ext}}$. The use of three junctions reduces sensitivity to charge noise and allows for the creation of a double-well potential suitable for qubit operation.
+
+\subsection{Phase Qubit}
+The phase qubit is the oldest member of the Josephson-junction qubit family. It consists of a large Josephson junction with $E_J / E_C \approx 10^6$, controlled by an applied bias current $I_b$. The bias current sets the tilt of the "tilted washboard" potential.
+
+The Hamiltonian of the phase qubit is:
+\[
+\hat{\mathcal{H}} = \frac{\hat{p}^2}{2m} + U(\phi),
+\]
+where:
+\begin{itemize}
+    \item $\hat{p}$ is the momentum operator, related to the charge $Q = 2e\hat{p} / \hbar$ on the junction capacitance.
+    \item $U(\phi)$ is the tilted washboard potential, which depends on the bias current $I_b$.
+\end{itemize}
+
+The large $E_J / E_C$ ratio makes the phase qubit less sensitive to charge noise. The qubit is defined by the two lowest energy levels in the potential well.
+\subsection{The Transmon Qubit}
+
+The transmon qubit, short for "transmission-line shunted plasma oscillation qubit," is an evolution of the charge qubit designed to reduce sensitivity to charge noise. This is achieved by adding a large shunting capacitance $C_B$ in parallel with the Josephson junction, which decreases the charging energy $E_C$.
+
+\paragraph{Key Features:}
+\begin{itemize}
+    \item \textbf{Reduced $E_C$:} The addition of $C_B$ reduces $E_C$, leading to a higher $E_J / E_C$ ratio (from $\sim 10^{-1}$ to $\sim 10^2$). This transition shifts the qubit from having a well-defined $n$ (charge) to a well-defined $\phi$ (phase).
+    \item \textbf{Insensitivity to $n_g$:} The energy levels of the transmon qubit are largely insensitive to fluctuations in the offset charge $n_g$, improving coherence times.
+    \item \textbf{Tunable $E_J$:} If the Josephson junction is replaced by a SQUID, $E_J / E_C$ can be tuned by an external magnetic flux.
+\end{itemize}
+
+\paragraph{Implementation:}
+The transmon qubit is a Cooper-pair box where the superconducting island is connected to the ground via a SQUID. The island is capacitively coupled to the voltage antinode of a coplanar waveguide (CPW) resonator, which is used for readout.
+
+\paragraph{Fabrication Procedure:}
+\begin{enumerate}
+    \item \textbf{Trilayer Growth:} A NbN/AlN/NbN trilayer is grown on a single-crystal MgO(100) substrate using room-temperature magnetron sputtering, allowing epitaxial growth lattice-matched in the (100) direction.
+    \item \textbf{Top Layer Etching:} The top NbN layer is etched using reactive ion etching (RIE) with CF$_4$ plasma, stopping at the AlN surface.
+    \item \textbf{Bottom Electrodes:} The bottom electrodes are defined by Ar ion milling and CF$_4$ RIE.
+    \item \textbf{Top Electrodes:} The top electrodes are defined by CF$_4$ RIE.
+    \item \textbf{Isolation Layer:} SiO$_2$ is sputter-deposited for isolation, and a lift-off process is used to create contact holes for the junctions. This is a self-aligned process using the same resist pattern as the previous step.
+    \item \textbf{Via Opening:} Contact holes for vias are opened through the SiO$_2$ layer using CHF$_3$ RIE and Ar ion milling.
+    \item \textbf{Wiring Layer:} A 300-nm thick NbTiN wiring layer is sputter-deposited. NbTiN is chosen for its smaller gap energy compared to NbN, ensuring non-equilibrium quasiparticles are trapped in the wiring layer and do not diffuse into the junctions.
+    \item \textbf{Wiring Layer Etching:} The wiring layer is etched using CF$_4$ RIE. Most of the SiO$_2$ isolation layer is then etched away by CHF$_3$ RIE, leaving some around the junctions.
+\end{enumerate}
+
+\paragraph{Advantages:}
+The transmon qubit's reduced sensitivity to charge noise and improved coherence times make it a leading candidate for scalable quantum computing architectures.
+
+\subsection{Extensions and Refinements of the Three Basic Josephson-Junction Qubits}
+
+To scale up Josephson-junction qubits for large-scale quantum computation, maintaining quantum coherence for as long as possible is essential. Over the years, many refinements of the three basic circuit designs—charge, flux, and phase qubits—have been proposed and tested. These refinements aim to improve coherence, increase connectivity, and enhance tunability of parameters. Additionally, novel qubit designs have been introduced that do not directly build on the three basic circuits.
+
+\subsubsection{Quantronium Qubit}
+The quantronium qubit combines features of charge and flux qubits, operating in an intermediate regime where $E_J / E_C \approx 1$. This design boosted coherence times to about 500 ns, marking a significant improvement over earlier charge and flux qubits.
+
+\subsubsection{Transmon Qubit}
+The transmon qubit, an evolution of the charge qubit, has achieved coherence times on the order of 100 $\mu$s. By adding a large shunting capacitance, the transmon reduces sensitivity to charge noise while maintaining sufficient anharmonicity for qubit operation.
+
+\subsubsection{Fluxonium Qubit}
+The fluxonium qubit introduces an array of Josephson junctions to shunt a single junction. This design suppresses charge noise through large capacitances and achieves high anharmonicity via a large inductance. As a result, the fluxonium qubit is protected from energy relaxation for more than one millisecond.
+
+\subsubsection{Design Developments for Scaling Up}
+Building on the noise-resistant transmon qubit, several designs have been proposed to facilitate scaling to circuits with many coupled qubits:
+\begin{itemize}
+    \item \textbf{Xmon Qubit:} By making the superconducting island cross-shaped, the xmon qubit can be capacitively coupled to multiple other qubits and/or control lines, enabling increased connectivity.
+    \item \textbf{Gmon Circuit:} The gmon circuit allows for direct coupling between two transmon qubits, with tunability provided by an inductive element that can be adjusted during experiments.
+\end{itemize}
+
+\subsubsection{Novel Qubit Designs}
+In addition to refinements of the basic qubit designs, new types of Josephson-junction qubits have been proposed:
+\begin{itemize}
+    \item \textbf{Phase-Slip Qubits:} These qubits exploit quantum phase-slip phenomena in superconducting nanowires.
+    \item \textbf{Andreev-Level Qubits:} These qubits utilize Andreev bound states in hybrid superconducting-normal systems.
+    \item \textbf{D-Wave Qubits:} These qubits leverage the d-wave symmetry of high-temperature superconductors to achieve unique properties.
+\end{itemize}
+
+\subsubsection{Motivation for Improved Qubit Design}
+The primary motivation for improving qubit design has been to extend qubit coherence times, which were limited to a few nanoseconds in early charge and flux qubits. Advances such as the transmon and fluxonium qubits have significantly enhanced coherence times, paving the way for scalable quantum computing architectures.
+
+\subsection{Example of a JJ Qubit Realization, Control, and Readout}
+\subsubsection{Xmon Qubit capacitively coupled to a quarter-wave resonator for readout}
+The Xmon qubit is a variant of the transmon qubit, designed for enhanced connectivity and scalability. It is capacitively coupled to a quarter-wave resonator, which is used for readout.
+
+\paragraph{Design and Realization}
+The Xmon qubit consists of a cross-shaped superconducting island, which allows for capacitive coupling to multiple control lines and other qubits. The quarter-wave resonator is implemented as a coplanar waveguide resonator, with one end shorted to ground and the other end capacitively coupled to the qubit.
+
+\paragraph{Equivalent Circuit}
+The equivalent circuit of the Xmon qubit coupled to a resonator includes:
+\begin{itemize}
+    \item A Josephson junction shunted by a large capacitance, representing the qubit.
+    \item A parallel LC circuit, representing the quarter-wave resonator.
+    \item A coupling capacitance between the qubit and the resonator.
+\end{itemize}
+
+\paragraph{Readout}
+In the dispersive regime, where the qubit-resonator detuning $\Delta = \omega_q - \omega_r$ is much larger than the coupling strength $g$, the qubit induces a frequency shift in the resonator. This shift depends on the qubit state and can be detected by measuring the transmission of a probe signal through the resonator.
+
+The feedline transmission $S_{21}$ is given by:
+\[
+S_{21}(\omega) = \frac{\kappa}{\kappa + i(\omega - \omega_r)},
+\]
+where $\kappa$ is the resonator linewidth and $\omega_r$ is the resonator frequency, which shifts depending on the qubit state.
+
+\subsubsection{Example of a JJ Tunable Qubit Realization, Control, and Readout}
+
+\paragraph{Tunability}
+The qubit frequency $\omega_q$ can be tuned by replacing the Josephson junction with a SQUID. The effective Josephson energy $E_J$ is controlled by an external magnetic flux $\Phi_{\text{ext}}$:
+\[
+E_J = E_{J0} \cos\left(\frac{\pi \Phi_{\text{ext}}}{\Phi_0}\right),
+\]
+where $E_{J0}$ is the maximum Josephson energy and $\Phi_0$ is the flux quantum.
+
+\paragraph{Control}
+Qubit control is achieved using microwave pulses. The Rabi cycle describes the cyclic behavior of a two-level quantum system under an oscillatory driving electromagnetic field. For an on-resonant drive ($\Delta_d = 0$), the population of the excited state oscillates at the Rabi frequency $\Omega_R$:
+\[
+P_e(t) = \sin^2\left(\frac{\Omega_R t}{2}\right).
+\]
+To fully rotate the qubit from the ground to the excited state, a $\pi$ pulse is applied, with duration $t_\pi = \pi / \Omega_R$.
+
+\paragraph{Readout in the Dispersive Limit}
+In the dispersive limit, the qubit induces a state-dependent frequency shift $\chi$ in the resonator:
+\[
+\omega_r \to \omega_r \pm \chi,
+\]
+where $\chi = g^2 / \Delta$. The qubit state is inferred by measuring the feedline transmission at the shifted resonator frequency.
+
+\begin{center}
+    image
+\end{center}
+
+\subsection{Qubit Control with SFQ Pulses}
+
+The hardware overhead associated with microwave control is a major obstacle to the scale-up of superconducting quantum computing. An alternative approach involves the irradiation of qubits with trains of single-flux-quantum (SFQ) pulses. These pulses are voltage pulses whose time integral is precisely equal to the superconducting flux quantum $\Phi_0$. This method allows the qubit control system to be moved into the cold chamber, reducing the complexity of room-temperature electronics and cabling.
+
+\paragraph{Advantages of SFQ Pulses:}
+\begin{itemize}
+    \item \textbf{Compact Control:} SFQ pulses enable the integration of the control system within the cryogenic environment, minimizing thermal load and simplifying wiring.
+    \item \textbf{Precise Timing:} The quantized nature of SFQ pulses ensures precise control over qubit operations.
+    \item \textbf{Scalability:} The reduced hardware overhead facilitates the scaling of superconducting quantum processors.
+\end{itemize}
+
+\paragraph{Implementation:}
+SFQ pulses are generated using Josephson junction-based circuits. The pulses are delivered to the qubits via transmission lines, and their interaction with the qubits induces transitions between quantum states. The control fidelity depends on the timing and amplitude of the SFQ pulses, which can be optimized for specific qubit designs.
+
+\paragraph{Applications:}
+SFQ-based control has been demonstrated in various superconducting qubit architectures, including transmons and flux qubits. This approach is particularly promising for large-scale quantum information processors, where minimizing hardware complexity is critical.
+
+\subsection{rf-SQUID Qubit}
+
+The rf-SQUID qubit is a superconducting loop containing a single Josephson junction (JJ) with critical current $I_c$, shunted by an inductor $L$. Unlike the dc-SQUID, the rf-SQUID is operated by applying an rf current via a tank circuit inductively coupled to the SQUID loop and measuring the time-averaged rf voltage of the tank circuit.
+
+\paragraph{Advantages:}
+\begin{itemize}
+    \item \textbf{No Current Leads:} The absence of current leads ensures safe operation and protection against current spikes.
+    \item \textbf{Two-State System:} The rf-SQUID can be operated as a symmetric two-state quantum system when $1 < 2\pi L I_c / \Phi_0 < 5\pi/2$ and a magnetic flux $\Phi = \Phi_0 / 2$ is applied to the loop.
+\end{itemize}
+
+\paragraph{Limitations:}
+The energy resolution of the rf-SQUID is limited by the readout electronics, making it less sensitive than dc-SQUIDs.
+
+\paragraph{Evolution:}
+\begin{itemize}
+    \item \textbf{Compound Josephson-Junction (CJJ) rf-SQUID:} The single junction is replaced by a flux-biased dc-SQUID, allowing in situ tuning of the critical current.
+    \item \textbf{Compound-Compound Josephson-Junction (CCJJ) rf-SQUID:} Each junction of the CJJ is replaced by a dc-SQUID, making the design robust against fabrication variations. Static flux biases can tune out variations, which is advantageous for large-scale quantum processors.
+\end{itemize}
+
+\subsection{TODO:Quantum Annealing and the D-Wave Quantum Annealer}
+
+Quantum annealing (QA) is a quantum optimization process designed to find the global minimum of an objective function over a discrete set of candidate solutions. It is particularly effective for problems with many local minima, such as finding the ground state of a spin glass.
+
+\subsubsection{Principles of Quantum Annealing}
+QA begins with a quantum-mechanical superposition of all possible states (candidate solutions) with equal weights. During the annealing process:
+\begin{itemize}
+    \item Couplers and qubit biases are introduced, causing the qubits to become entangled.
+    \item The system evolves according to the time-dependent Schrödinger equation, following natural quantum-mechanical evolution.
+    \item By the end of the anneal, each qubit collapses into a classical state representing the minimum energy state of the problem.
+\end{itemize}
+This process typically occurs within microseconds.
+
+\subsubsection{D-Wave Quantum Annealers}
+D-Wave Systems has developed commercial quantum annealers, with significant advancements in scalability and complexity:
+\begin{itemize}
+    \item \textbf{2015: D-Wave 2X Processor.} This system featured a 2048-qubit chip.
+    \item \textbf{2019: Advantage Quantum Processing Unit (QPU).} The Advantage system increased the total number of qubits to over 5000, with 35,000 couplers. It incorporates over 1,000,000 Josephson junctions, making it the most complex superconducting integrated circuit ever built.
+\end{itemize}
+
+\subsubsection{Fabrication and Technology}
+The D-Wave devices are fabricated using advanced superconducting technology:
+\begin{itemize}
+    \item The qubits are based on CCJJ-type rf-SQUIDs, which allow for robust and scalable designs.
+    \item The devices are constructed on oxidized Si wafers with Nb/Al/Al$_2$O$_3$/Nb trilayer junctions and multiple Nb wiring layers, separated by planarized SiO$_2$ deposited via plasma-enhanced chemical vapor deposition.
+\end{itemize}
+
+\subsubsection{Applications of Quantum Annealing}
+Quantum annealing is particularly suited for solving optimization problems in fields such as:
+\begin{itemize}
+    \item Machine learning and artificial intelligence.
+    \item Logistics and supply chain optimization.
+    \item Financial modeling and risk analysis.
+    \item Material science and drug discovery.
+\end{itemize}
+The ability to handle large-scale optimization problems makes quantum annealing a powerful tool for tackling complex computational challenges.
+
 \end{document}
