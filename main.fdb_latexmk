@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1765578748.78591 "/Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/main.tex" "/Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/main.pdf" "main" 1765578759.74441 0
+["pdflatex"] 1765624959.06762 "/Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/main.tex" "/Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/main.pdf" "main" 1765624969.86203 0
   "/Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Bravais_lattices.png" 1763225406 177695 ae4d1e0cd47ec2dd99581fe7b58ab5f5 ""
   "/Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Progetto senza titolo.png" 1763225406 145290 89bb881a16fdaa6654001a6a9af65b38 ""
   "/Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-02 at 15.11.36.png" 1763225406 463333 39d73f15cde1902ac68d20e6ad013113 ""
@@ -50,7 +50,6 @@
   "/Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.43.45.png" 1763225408 49339 c095407f3bceb8de6cd9664c45bc0264 ""
   "/Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-23 at 09.44.40.png" 1763225408 577082 33cdef79128548ea82bd6e9142953e4e ""
   "/Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-29 at 14.48.19.png" 1763225408 634815 418d85fa1ac04d1c970e416b0d33e538 ""
-  "/Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-29 at 15.27.28.png" 1763225408 124367 c8d9f22231edf222014b8992b633fb2d ""
   "/Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-29 at 16.01.30.png" 1763225408 352011 3b5b890a96caeb369d5e088ff521aca0 ""
   "/Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-29 at 16.12.06.png" 1763225408 576185 dc165f45ad5439007b2b9f6e85461a45 ""
   "/Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-10-30 at 08.44.49.png" 1763225408 338875 ebdbb91686dfde06f60443d6106c6ba1 ""
@@ -92,9 +91,9 @@
   "/Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-12-02 at 11.59.40.png" 1764673183.39431 91655 569b29868d7b67b8a5d56cbf98cd445a ""
   "/Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/Screenshot 2025-12-02 at 12.04.12.png" 1764673454.7157 76428 04c588406af32adbfd12d86f932fe32b ""
   "/Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/image.png" 1763225406 267663 30ffe5380f88e6d269f6803da61272a6 ""
-  "/Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/main.aux" 1765578759.4655 84475 40ce6449cf27462d725126019cad1dad "pdflatex"
-  "/Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/main.tex" 1765578737.62701 453212 134b28d8f4cf53c1b6f56e583dec321f ""
-  "/Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/main.toc" 1765578759.47445 44007 a24688516b51b560b89a7a9b89b3e9f1 "pdflatex"
+  "/Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/main.aux" 1765624969.5827 85215 8cbf4452aa149080105125371b4487b8 "pdflatex"
+  "/Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/main.tex" 1765624947.77392 464352 f7a4f3225582502a249eca11721f6157 ""
+  "/Users/martinapaolacalvi/Desktop/Università-QuantumEng/First Year/ftp/FTP/main.toc" 1765624969.59169 44605 da1492f740dea6bf236f02521760e67f "pdflatex"
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
