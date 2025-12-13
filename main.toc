@@ -1,147 +1,150 @@
-\contentsline {part}{I\hspace {1em}Micro and Nano Technologies}{10}{}%
-\contentsline {chapter}{\numberline {1}Wafer Production and Monocrystals Growth}{11}{}%
-\contentsline {section}{\numberline {1.1}Monocrystals growth for miniatursed devices technology}{11}{}%
-\contentsline {section}{\numberline {1.2}Starting Material Purification}{11}{}%
-\contentsline {subsubsection}{Silicon Refining}{11}{}%
-\contentsline {subsection}{\numberline {1.2.1}Trichlorosilane (TCS) Production}{12}{}%
-\contentsline {subsubsection}{TCS Purification}{12}{}%
-\contentsline {subsection}{\numberline {1.2.2}Fractioned distillation}{12}{}%
-\contentsline {section}{\numberline {1.3}Electronic-Grade Silicon (EGS) Production}{12}{}%
-\contentsline {section}{\numberline {1.4}Czochralski Process (CZ)}{13}{}%
-\contentsline {subsection}{\numberline {1.4.1}Ingot Characteristics and Parts}{13}{}%
-\contentsline {subsection}{\numberline {1.4.2}Doping from the Melt}{13}{}%
-\contentsline {subsection}{\numberline {1.4.3}III-V Monocrystals Growth: Liquid Encapsulated CZ (LEC)}{14}{}%
-\contentsline {section}{\numberline {1.5}From Boule to Wafers}{14}{}%
-\contentsline {subsection}{\numberline {1.5.1}Ingot cropping}{14}{}%
-\contentsline {subsection}{\numberline {1.5.2}Ingot inspection}{14}{}%
-\contentsline {subsection}{\numberline {1.5.3}Shaping of ingot (Outer Diameter Grinding)}{14}{}%
-\contentsline {subsection}{\numberline {1.5.4}Flat(s) grinding}{14}{}%
-\contentsline {subsection}{\numberline {1.5.5}Ingot sawing (Wafer Slicing)}{14}{}%
-\contentsline {subsection}{\numberline {1.5.6}Edge grinding}{15}{}%
-\contentsline {subsection}{\numberline {1.5.7}Wafer lapping and grinding}{15}{}%
-\contentsline {subsection}{\numberline {1.5.8}Wafer polishing}{15}{}%
-\contentsline {subsection}{\numberline {1.5.9}Wafer cleaning}{15}{}%
-\contentsline {subsection}{\numberline {1.5.10}Laser marking for ID}{15}{}%
-\contentsline {section}{\numberline {1.6}Wafer Evolution and Advantages of Larger Diameters}{15}{}%
-\contentsline {subsection}{\numberline {1.6.1}Wafer Evolution}{15}{}%
-\contentsline {subsection}{\numberline {1.6.2}Advantages of Larger Diameter Wafers}{16}{}%
-\contentsline {chapter}{\numberline {2}Crystallography and crystalline defects}{17}{}%
-\contentsline {section}{\numberline {2.1}3 types of solids}{17}{}%
-\contentsline {subsection}{\numberline {2.1.1}Microstructure of electronic materials}{17}{}%
-\contentsline {section}{\numberline {2.2}Crystal structure}{17}{}%
-\contentsline {subsection}{\numberline {2.2.1}Cubic Crystal Structure}{17}{}%
-\contentsline {subsection}{\numberline {2.2.2}Silicon lattice (Diamond Structure)}{17}{}%
-\contentsline {subsubsection}{Zincoblend Structure}{19}{}%
-\contentsline {section}{\numberline {2.3}Miller indices}{19}{}%
-\contentsline {subsubsection}{General Procedure}{19}{}%
-\contentsline {subsection}{\numberline {2.3.1}Anisotropic Wet Etching and Surface Properties}{19}{}%
-\contentsline {section}{\numberline {2.4}Crystalline defects}{19}{}%
-\contentsline {subsection}{\numberline {2.4.1}Defects Classification}{20}{}%
-\contentsline {subsection}{\numberline {2.4.2}Point Defects}{20}{}%
-\contentsline {subsection}{\numberline {2.4.3}Line Defects: Edge Dislocation}{20}{}%
-\contentsline {subsection}{\numberline {2.4.4}Surface Defects}{20}{}%
-\contentsline {subsubsection}{Grain Boundaries}{20}{}%
-\contentsline {subsubsection}{Gemination}{20}{}%
-\contentsline {subsection}{\numberline {2.4.5}Volume Defects}{20}{}%
-\contentsline {chapter}{\numberline {3}Cleanroom Technology}{22}{}%
-\contentsline {section}{\numberline {3.1}Why Cleanroom Technology is Important}{22}{}%
-\contentsline {section}{\numberline {3.2}Sources of Contamination}{22}{}%
-\contentsline {subsection}{\numberline {3.2.1}Examples of Common Air Contaminants and Size (in microns)}{23}{}%
-\contentsline {section}{\numberline {3.3}Contamination Induced Problems}{23}{}%
-\contentsline {section}{\numberline {3.4}Classification Standards and Measurement}{23}{}%
-\contentsline {subsection}{\numberline {3.4.1}Classification Details (Fed. Std. 209 E)}{23}{}%
-\contentsline {section}{\numberline {3.5}Environmental Control and Airflow}{24}{}%
-\contentsline {subsection}{\numberline {3.5.1}Controlled Parameters}{24}{}%
-\contentsline {subsection}{\numberline {3.5.2}Airflow and Design}{24}{}%
-\contentsline {subsection}{\numberline {3.5.3}Cleanroom Air Filters}{24}{}%
-\contentsline {section}{\numberline {3.6}Cleanroom Clothing (Gowning)}{24}{}%
-\contentsline {section}{\numberline {3.7}Deionized Water (DI Water)}{25}{}%
-\contentsline {chapter}{\numberline {4}Introduction to Lithography}{26}{}%
-\contentsline {section}{\numberline {4.1}Masks and Alignment}{26}{}%
-\contentsline {subsection}{\numberline {4.1.1}Mask Generation}{26}{}%
-\contentsline {subsection}{\numberline {4.1.2}Alignment}{26}{}%
-\contentsline {section}{\numberline {4.2}Photoresist Components and Properties}{27}{}%
-\contentsline {subsection}{\numberline {4.2.1}Components}{27}{}%
-\contentsline {subsection}{\numberline {4.2.2}Properties: Polarity (Positive vs. Negative)}{27}{}%
-\contentsline {subsection}{\numberline {4.2.3}Properties: Resolution and Thickness}{27}{}%
-\contentsline {subsection}{\numberline {4.2.4}Properties: Sensitivity and Exposure Energy}{27}{}%
-\contentsline {subsection}{\numberline {4.2.5}Properties: Contrast ($\gamma $)}{27}{}%
-\contentsline {section}{\numberline {4.3}The Photolithography Process Flow}{28}{}%
-\contentsline {subsection}{\numberline {4.3.1}Wafer Preparation and Priming}{28}{}%
-\contentsline {subsection}{\numberline {4.3.2}Resist Spin-On Coating}{28}{}%
-\contentsline {subsection}{\numberline {4.3.3}Soft Bake}{29}{}%
-\contentsline {subsection}{\numberline {4.3.4}Resist Exposure}{29}{}%
-\contentsline {subsubsection}{Exposure Sources}{29}{}%
-\contentsline {subsubsection}{Exposure Tools}{30}{}%
-\contentsline {subsection}{\numberline {4.3.5}Post-Exposure Processing and Pattern Transfer}{30}{}%
-\contentsline {subsubsection}{Reflections and Standing Waves}{30}{}%
-\contentsline {subsubsection}{Fixing: Post Exposure Bake (PEB)}{31}{}%
-\contentsline {subsubsection}{Prevention: Antireflective Coatings (ARC)}{31}{}%
-\contentsline {subsection}{\numberline {4.3.6}Developing}{31}{}%
-\contentsline {subsection}{\numberline {4.3.7}Hard Bake}{31}{}%
-\contentsline {subsection}{\numberline {4.3.8}Pattern Transfer Methods}{31}{}%
-\contentsline {section}{\numberline {4.4}Models and Simulation}{32}{}%
-\contentsline {chapter}{\numberline {5}Silicon Oxidation}{33}{}%
-\contentsline {section}{\numberline {5.1}Thermal Oxidation of Silicon}{33}{}%
-\contentsline {section}{\numberline {5.2}Properties of Silicon Dioxide}{33}{}%
-\contentsline {section}{\numberline {5.3}How Does Silicon Oxidize?}{34}{}%
-\contentsline {subsection}{\numberline {5.3.1}Oxidation Occurs at the $\text {Si}-\text {SiO}_{2}$ Interface}{34}{}%
-\contentsline {subsection}{\numberline {5.3.2}Molecular Density Ratio of Oxide to Silicon}{34}{}%
-\contentsline {subsection}{\numberline {5.3.3}Oxidation Equipment}{35}{}%
-\contentsline {section}{\numberline {5.4}Key Variables in Oxidation}{35}{}%
-\contentsline {section}{\numberline {5.5}Modeling Thermal Oxidation of Silicon}{36}{}%
-\contentsline {subsection}{\numberline {5.5.1}Diffusion-Limited Process}{36}{}%
-\contentsline {subsection}{\numberline {5.5.2}Fick's First Law of Diffusion}{37}{}%
-\contentsline {subsection}{\numberline {5.5.3}Oxidation Growth Rate}{37}{}%
-\contentsline {subsection}{\numberline {5.5.4}General Relationship for Oxidation}{37}{}%
-\contentsline {section}{\numberline {5.6}Oxidation Graphs}{38}{}%
-\contentsline {subsection}{\numberline {5.6.1}Multiple Oxidations (Tracking $\tau $)}{38}{}%
-\contentsline {section}{\numberline {5.7}Growth Rate Regimes}{39}{}%
-\contentsline {subsection}{\numberline {5.7.1}Short-Time Regime (Reaction-Limited Growth)}{39}{}%
-\contentsline {subsection}{\numberline {5.7.2}Long-Time Regime (Diffusion-Limited Growth)}{39}{}%
-\contentsline {section}{\numberline {5.8}Rapid Thermal Oxidation (RTO)}{39}{}%
-\contentsline {chapter}{\numberline {6}Epitaxy, CVD, ALD, PVD, electroplating}{40}{}%
-\contentsline {section}{\numberline {6.1}Conditions and Types}{40}{}%
-\contentsline {section}{\numberline {6.2}Classification by Mother Phase}{40}{}%
-\contentsline {section}{\numberline {6.3}Why is Epitaxy important?}{40}{}%
-\contentsline {section}{\numberline {6.4}Vapor Phase Epitaxy (VPE) / Chemical Vapor Deposition (CVD)}{41}{}%
-\contentsline {subsection}{\numberline {6.4.1}VPE Details}{41}{}%
-\contentsline {subsection}{\numberline {6.4.2}CVD Hazards}{41}{}%
-\contentsline {subsection}{\numberline {6.4.3}VPE Reactors}{41}{}%
-\contentsline {section}{\numberline {6.5}Liquid Phase Epitaxy (LPE)}{41}{}%
-\contentsline {subsection}{\numberline {6.5.1}LPE Reactor}{42}{}%
-\contentsline {section}{\numberline {6.6}Molecular Beam Epitaxy (MBE)}{42}{}%
-\contentsline {section}{\numberline {6.7}Chemical Vapor Deposition (CVD)}{42}{}%
-\contentsline {subsection}{\numberline {6.7.1}Acceptance Angle and Conformality (Non-Conformal Deposition)}{43}{}%
-\contentsline {section}{\numberline {6.8}Types of Chemical Vapor Deposition (CVD) Reactors}{43}{}%
-\contentsline {subsection}{\numberline {6.8.1}Atmospheric Pressure CVD (APCVD)}{43}{}%
-\contentsline {subsection}{\numberline {6.8.2}Low Pressure CVD (LPCVD)}{43}{}%
-\contentsline {subsection}{\numberline {6.8.3}Plasma Enhanced CVD (PECVD)}{43}{}%
-\contentsline {subsection}{\numberline {6.8.4}Collision Processes}{43}{}%
-\contentsline {subsection}{\numberline {6.8.5}Plasma Generation}{44}{}%
-\contentsline {section}{\numberline {6.9}PECVD process control parameters}{44}{}%
-\contentsline {subsection}{\numberline {6.9.1}PECVD Pros and Cons}{45}{}%
-\contentsline {section}{\numberline {6.10}Atomic Layer Deposition(ALD)}{45}{}%
-\contentsline {subsection}{\numberline {6.10.1}ALD Characteristics}{45}{}%
-\contentsline {section}{\numberline {6.11}Silicon Dioxide (CVD)}{45}{}%
+\contentsline {part}{I\hspace {1em}Micro and Nano Technologies}{9}{}%
+\contentsline {chapter}{\numberline {1}Wafer Production and Monocrystals Growth}{10}{}%
+\contentsline {section}{\numberline {1.1}Monocrystals growth for miniatursed devices technology}{10}{}%
+\contentsline {section}{\numberline {1.2}Starting Material Purification}{10}{}%
+\contentsline {subsubsection}{Silicon Refining}{10}{}%
+\contentsline {subsection}{\numberline {1.2.1}Trichlorosilane (TCS) Production}{11}{}%
+\contentsline {subsubsection}{TCS Purification}{11}{}%
+\contentsline {subsection}{\numberline {1.2.2}Fractioned distillation}{11}{}%
+\contentsline {section}{\numberline {1.3}Electronic-Grade Silicon (EGS) Production}{11}{}%
+\contentsline {section}{\numberline {1.4}Czochralski Process (CZ)}{12}{}%
+\contentsline {subsection}{\numberline {1.4.1}Ingot Characteristics and Parts}{12}{}%
+\contentsline {subsection}{\numberline {1.4.2}Doping from the Melt}{12}{}%
+\contentsline {subsection}{\numberline {1.4.3}III-V Monocrystals Growth: Liquid Encapsulated CZ (LEC)}{13}{}%
+\contentsline {section}{\numberline {1.5}From Boule to Wafers}{13}{}%
+\contentsline {subsection}{\numberline {1.5.1}Ingot cropping}{13}{}%
+\contentsline {subsection}{\numberline {1.5.2}Ingot inspection}{13}{}%
+\contentsline {subsection}{\numberline {1.5.3}Shaping of ingot (Outer Diameter Grinding)}{13}{}%
+\contentsline {subsection}{\numberline {1.5.4}Flat(s) grinding}{13}{}%
+\contentsline {subsection}{\numberline {1.5.5}Ingot sawing (Wafer Slicing)}{13}{}%
+\contentsline {subsection}{\numberline {1.5.6}Edge grinding}{14}{}%
+\contentsline {subsection}{\numberline {1.5.7}Wafer lapping and grinding}{14}{}%
+\contentsline {subsection}{\numberline {1.5.8}Wafer polishing}{14}{}%
+\contentsline {subsection}{\numberline {1.5.9}Wafer cleaning}{14}{}%
+\contentsline {subsection}{\numberline {1.5.10}Laser marking for ID}{14}{}%
+\contentsline {section}{\numberline {1.6}Wafer Evolution and Advantages of Larger Diameters}{14}{}%
+\contentsline {subsection}{\numberline {1.6.1}Wafer Evolution}{14}{}%
+\contentsline {subsection}{\numberline {1.6.2}Advantages of Larger Diameter Wafers}{15}{}%
+\contentsline {chapter}{\numberline {2}Crystallography and crystalline defects}{16}{}%
+\contentsline {section}{\numberline {2.1}3 types of solids}{16}{}%
+\contentsline {subsection}{\numberline {2.1.1}Microstructure of electronic materials}{16}{}%
+\contentsline {section}{\numberline {2.2}Crystal structure}{16}{}%
+\contentsline {subsection}{\numberline {2.2.1}Cubic Crystal Structure}{16}{}%
+\contentsline {subsection}{\numberline {2.2.2}Silicon lattice (Diamond Structure)}{16}{}%
+\contentsline {subsubsection}{Zincoblend Structure}{18}{}%
+\contentsline {section}{\numberline {2.3}Miller indices}{18}{}%
+\contentsline {subsubsection}{General Procedure}{18}{}%
+\contentsline {subsection}{\numberline {2.3.1}Anisotropic Wet Etching and Surface Properties}{18}{}%
+\contentsline {section}{\numberline {2.4}Crystalline defects}{18}{}%
+\contentsline {subsection}{\numberline {2.4.1}Defects Classification}{19}{}%
+\contentsline {subsection}{\numberline {2.4.2}Point Defects}{19}{}%
+\contentsline {subsection}{\numberline {2.4.3}Line Defects: Edge Dislocation}{19}{}%
+\contentsline {subsection}{\numberline {2.4.4}Surface Defects}{19}{}%
+\contentsline {subsubsection}{Grain Boundaries}{19}{}%
+\contentsline {subsubsection}{Gemination}{19}{}%
+\contentsline {subsection}{\numberline {2.4.5}Volume Defects}{19}{}%
+\contentsline {chapter}{\numberline {3}Cleanroom Technology}{21}{}%
+\contentsline {section}{\numberline {3.1}Why Cleanroom Technology is Important}{21}{}%
+\contentsline {section}{\numberline {3.2}Sources of Contamination}{21}{}%
+\contentsline {subsection}{\numberline {3.2.1}Examples of Common Air Contaminants and Size (in microns)}{22}{}%
+\contentsline {section}{\numberline {3.3}Contamination Induced Problems}{22}{}%
+\contentsline {section}{\numberline {3.4}Classification Standards and Measurement}{22}{}%
+\contentsline {subsection}{\numberline {3.4.1}Classification Details (Fed. Std. 209 E)}{22}{}%
+\contentsline {section}{\numberline {3.5}Environmental Control and Airflow}{23}{}%
+\contentsline {subsection}{\numberline {3.5.1}Controlled Parameters}{23}{}%
+\contentsline {subsection}{\numberline {3.5.2}Airflow and Design}{23}{}%
+\contentsline {subsection}{\numberline {3.5.3}Cleanroom Air Filters}{23}{}%
+\contentsline {section}{\numberline {3.6}Cleanroom Clothing (Gowning)}{23}{}%
+\contentsline {section}{\numberline {3.7}Deionized Water (DI Water)}{24}{}%
+\contentsline {chapter}{\numberline {4}Introduction to Lithography}{25}{}%
+\contentsline {section}{\numberline {4.1}Masks and Alignment}{25}{}%
+\contentsline {subsection}{\numberline {4.1.1}Mask Generation}{25}{}%
+\contentsline {subsection}{\numberline {4.1.2}Alignment}{25}{}%
+\contentsline {section}{\numberline {4.2}Photoresist Components and Properties}{26}{}%
+\contentsline {subsection}{\numberline {4.2.1}Components}{26}{}%
+\contentsline {subsection}{\numberline {4.2.2}Properties: Polarity (Positive vs. Negative)}{26}{}%
+\contentsline {subsection}{\numberline {4.2.3}Properties: Resolution and Thickness}{26}{}%
+\contentsline {subsection}{\numberline {4.2.4}Properties: Sensitivity and Exposure Energy}{26}{}%
+\contentsline {subsection}{\numberline {4.2.5}Properties: Contrast ($\gamma $)}{26}{}%
+\contentsline {section}{\numberline {4.3}The Photolithography Process Flow}{27}{}%
+\contentsline {subsection}{\numberline {4.3.1}Wafer Preparation and Priming}{27}{}%
+\contentsline {subsection}{\numberline {4.3.2}Resist Spin-On Coating}{27}{}%
+\contentsline {subsection}{\numberline {4.3.3}Soft Bake}{28}{}%
+\contentsline {subsection}{\numberline {4.3.4}Resist Exposure}{28}{}%
+\contentsline {subsubsection}{Exposure Sources}{28}{}%
+\contentsline {subsubsection}{Exposure Tools}{29}{}%
+\contentsline {subsection}{\numberline {4.3.5}Post-Exposure Processing and Pattern Transfer}{29}{}%
+\contentsline {subsubsection}{Reflections and Standing Waves}{29}{}%
+\contentsline {subsubsection}{Fixing: Post Exposure Bake (PEB)}{30}{}%
+\contentsline {subsubsection}{Prevention: Antireflective Coatings (ARC)}{30}{}%
+\contentsline {subsection}{\numberline {4.3.6}Developing}{30}{}%
+\contentsline {subsection}{\numberline {4.3.7}Hard Bake}{30}{}%
+\contentsline {subsection}{\numberline {4.3.8}Pattern Transfer Methods}{30}{}%
+\contentsline {section}{\numberline {4.4}Models and Simulation}{31}{}%
+\contentsline {chapter}{\numberline {5}Silicon Oxidation}{32}{}%
+\contentsline {section}{\numberline {5.1}Thermal Oxidation of Silicon}{32}{}%
+\contentsline {section}{\numberline {5.2}Properties of Silicon Dioxide}{32}{}%
+\contentsline {section}{\numberline {5.3}How Does Silicon Oxidize?}{33}{}%
+\contentsline {subsection}{\numberline {5.3.1}Oxidation Occurs at the $\text {Si}-\text {SiO}_{2}$ Interface}{33}{}%
+\contentsline {subsection}{\numberline {5.3.2}Molecular Density Ratio of Oxide to Silicon}{33}{}%
+\contentsline {subsection}{\numberline {5.3.3}Oxidation Equipment}{34}{}%
+\contentsline {section}{\numberline {5.4}Key Variables in Oxidation}{34}{}%
+\contentsline {section}{\numberline {5.5}Modeling Thermal Oxidation of Silicon}{35}{}%
+\contentsline {subsection}{\numberline {5.5.1}Diffusion-Limited Process}{35}{}%
+\contentsline {subsection}{\numberline {5.5.2}Fick's First Law of Diffusion}{36}{}%
+\contentsline {subsection}{\numberline {5.5.3}Oxidation Growth Rate}{36}{}%
+\contentsline {subsection}{\numberline {5.5.4}General Relationship for Oxidation}{36}{}%
+\contentsline {section}{\numberline {5.6}Oxidation Graphs}{37}{}%
+\contentsline {subsection}{\numberline {5.6.1}Multiple Oxidations (Tracking $\tau $)}{37}{}%
+\contentsline {section}{\numberline {5.7}Growth Rate Regimes}{38}{}%
+\contentsline {subsection}{\numberline {5.7.1}Short-Time Regime (Reaction-Limited Growth)}{38}{}%
+\contentsline {subsection}{\numberline {5.7.2}Long-Time Regime (Diffusion-Limited Growth)}{38}{}%
+\contentsline {section}{\numberline {5.8}Rapid Thermal Oxidation (RTO)}{38}{}%
+\contentsline {chapter}{\numberline {6}Epitaxy, CVD, PVD, electroplating}{39}{}%
+\contentsline {section}{\numberline {6.1}Epitaxy}{39}{}%
+\contentsline {subsection}{\numberline {6.1.1}Conditions and Types}{39}{}%
+\contentsline {subsection}{\numberline {6.1.2}Classification by Mother Phase}{39}{}%
+\contentsline {subsection}{\numberline {6.1.3}Why is Epitaxy important?}{39}{}%
+\contentsline {subsection}{\numberline {6.1.4}Vapor Phase Epitaxy (VPE) / Chemical Vapor Deposition (CVD)}{40}{}%
+\contentsline {subsubsection}{VPE Details}{40}{}%
+\contentsline {subsubsection}{CVD Hazards}{40}{}%
+\contentsline {subsubsection}{VPE Reactors}{41}{}%
+\contentsline {subsection}{\numberline {6.1.5}Liquid Phase Epitaxy (LPE)}{41}{}%
+\contentsline {subsubsection}{LPE Reactor}{41}{}%
+\contentsline {subsection}{\numberline {6.1.6}Molecular Beam Epitaxy (MBE)}{41}{}%
+\contentsline {section}{\numberline {6.2}Chemical Vapor Deposition (CVD)}{42}{}%
+\contentsline {subsection}{\numberline {6.2.1}Acceptance Angle and Conformality (Non-Conformal Deposition)}{43}{}%
+\contentsline {subsection}{\numberline {6.2.2}Types of Chemical Vapor Deposition (CVD) Reactors}{43}{}%
+\contentsline {subsubsection}{Atmospheric Pressure CVD (APCVD)}{43}{}%
+\contentsline {subsubsection}{Low Pressure CVD (LPCVD)}{43}{}%
+\contentsline {subsubsection}{Plasma Enhanced CVD (PECVD)}{43}{}%
+\contentsline {paragraph}{Collision Processes:}{44}{}%
+\contentsline {paragraph}{Plasma Generation}{44}{}%
+\contentsline {paragraph}{PECVD Process Control Parameters}{44}{}%
+\contentsline {paragraph}{PECVD Advantages and Disadvantages}{45}{}%
+\contentsline {subsection}{\numberline {6.2.3}Atomic Layer Deposition(ALD)}{45}{}%
+\contentsline {subsubsection}{ALD Process Steps (Example: $Al_{2}O_{3}$)}{45}{}%
+\contentsline {subsubsection}{ALD Characteristics}{45}{}%
+\contentsline {subsection}{\numberline {6.2.4}Silicon Dioxide (CVD)}{46}{}%
 \contentsline {subsubsection}{Silicon Dioxide Deposition Methods Comparison}{46}{}%
-\contentsline {section}{\numberline {6.12}Polycrystalline Silicon ("Poly")}{47}{}%
-\contentsline {section}{\numberline {6.13}PVD (Physical Vapor Deposition)}{47}{}%
-\contentsline {section}{\numberline {6.14}PVD-Thermal Evaporation}{47}{}%
-\contentsline {subsection}{\numberline {6.14.1}Conformality}{48}{}%
-\contentsline {section}{\numberline {6.15}PVD-Thermal Evaporation}{48}{}%
-\contentsline {subsection}{\numberline {6.15.1}Thermal Evaporation}{48}{}%
-\contentsline {subsection}{\numberline {6.15.2}E-beam Evaporation}{49}{}%
-\contentsline {section}{\numberline {6.16}PVD- Sputtering}{50}{}%
-\contentsline {subsection}{\numberline {6.16.1}DC Sputtering}{50}{}%
-\contentsline {subsection}{\numberline {6.16.2}Sputtering Conformality}{51}{}%
-\contentsline {subsection}{\numberline {6.16.3}RF Sputtering}{51}{}%
-\contentsline {subsection}{\numberline {6.16.4}Magnetron Sputtering}{51}{}%
-\contentsline {subsection}{\numberline {6.16.5}Reactive Sputtering}{51}{}%
-\contentsline {subsection}{\numberline {6.16.6}Ionized Sputtering (HDP Sputtering)}{52}{}%
-\contentsline {section}{\numberline {6.17}Electroplating – Electrodeposition-Galvanic Deposition}{52}{}%
-\contentsline {subsection}{\numberline {6.17.1}Processes}{52}{}%
-\contentsline {subsection}{\numberline {6.17.2}Characteristics and Applications}{52}{}%
+\contentsline {subsection}{\numberline {6.2.5}Polycrystalline Silicon ("Poly")}{46}{}%
+\contentsline {section}{\numberline {6.3}PVD (Physical Vapor Deposition)}{46}{}%
+\contentsline {subsection}{\numberline {6.3.1}PVD-Thermal Evaporation}{47}{}%
+\contentsline {subsubsection}{Conformality}{47}{}%
+\contentsline {subsection}{\numberline {6.3.2}PVD-Thermal Evaporation Techniques}{47}{}%
+\contentsline {subsubsection}{Thermal Evaporation}{47}{}%
+\contentsline {subsubsection}{E-beam Evaporation}{48}{}%
+\contentsline {subsection}{\numberline {6.3.3}PVD- Sputtering}{49}{}%
+\contentsline {subsubsection}{DC Sputtering}{49}{}%
+\contentsline {subsubsection}{Sputtering Conformality}{50}{}%
+\contentsline {subsubsection}{RF Sputtering}{50}{}%
+\contentsline {subsubsection}{Magnetron Sputtering}{51}{}%
+\contentsline {subsubsection}{Reactive Sputtering}{51}{}%
+\contentsline {subsubsection}{Ionized Sputtering (HDP Sputtering)}{51}{}%
+\contentsline {section}{\numberline {6.4}Electroplating - Electrodeposition-Galvanic Deposition}{52}{}%
+\contentsline {subsection}{\numberline {6.4.1}Processes}{52}{}%
+\contentsline {subsection}{\numberline {6.4.2}Characteristics and Applications}{52}{}%
+\contentsline {subsection}{\numberline {6.4.3}Key Considerations}{53}{}%
 \contentsline {chapter}{\numberline {7}Implantation}{54}{}%
 \contentsline {section}{\numberline {7.1}Silicon Doping}{54}{}%
 \contentsline {section}{\numberline {7.2}Dopant Species: P-Type, N-Type}{54}{}%

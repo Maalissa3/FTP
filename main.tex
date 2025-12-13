@@ -1090,11 +1090,11 @@ From a kinetic perspective, RTO is influenced by both thermally activated proces
 
 RTO is widely used for applications requiring thin oxide layers with excellent electrical properties, such as gate dielectrics in advanced MOSFETs.
 
-\chapter{Epitaxy, CVD, ALD, PVD, electroplating}
-
+\chapter{Epitaxy, CVD, PVD, electroplating}
+\section{Epitaxy}
 \textbf{Epitaxy} is a growth technique involving monocrystalline layers grown on a monocrystalline substrate, ensuring structural continuity. The substrate acts as a crystal seed, and the film is grown by progressively adding atoms.
 
-\section{Conditions and Types}
+\subsection{Conditions and Types}
 For successful epitaxial growth, \textbf{the crystalline structure and lattice parameter should be similar}, generally having a maximum mismatch of approximately $2\%$.
 Epitaxial techniques are categorized based on the substrate (A) and the grown layer (S):
 \begin{itemize}
@@ -1104,7 +1104,7 @@ Epitaxial techniques are categorized based on the substrate (A) and the grown la
 
 Epitaxy is used to control the doping profile, such as adding a lightly doped or undoped layer on a heavily doped substrate to increase the breakdown voltage of the junction, or creating isolation junctions with opposing doping. Epi-layers often have a smoother surface than the substrate and are generally oxygen and carbon-free, unlike semiconductive substrates. Epi-layers can also be deposited over heavily doped areas called \textbf{buried layers}, which serve as low-resistance contacts.
 
-\section{Classification by Mother Phase}
+\subsection{Classification by Mother Phase}
 Epitaxial techniques are divided according to the characteristic of the Mother Phase (This is the source of the atoms that will form the new crystal layer):
 
 \begin{enumerate}
@@ -1112,25 +1112,45 @@ Epitaxial techniques are divided according to the characteristic of the Mother P
     \item \textbf{Liquid Phase Epitaxy (LPE)}: The mother phase is a solution of the active material with a suitable diluent.
     \item \textbf{Molecular Beam Epitaxy (MBE)}: The mother phase is a gas at a very reduced pressure, where collisions between molecules are practically absent.
 \end{enumerate}
+\subsection{Why is Epitaxy important?}
+Epitaxy plays a crucial role in the fabrication of advanced semiconductor devices and integrated circuits. Its importance stems from the ability to precisely control the crystalline structure, doping profile, and physical properties of the deposited layers. Below are the key reasons why epitaxy is significant:
 
-\section{Why is Epitaxy important?}
 \begin{itemize}
-    \item Add a lightly doped (or totally undoped) layer on a heavily doped substrate $\rightarrow$ increases breakdown voltage of the junction
-    \item Substrates and epi-layer with opposing doping $\rightarrow$ isolation (reverse polarization junction)
-    \item Deposited over patterned heavily doped areas called \textbf{buried layers} (which serves as a low-resistance contact)
-    \item Epi-layer $\rightarrow$ smoother surface than the substrate
-    \item One (or more) epi-layers on a substrate offer the device designer a further means of controlling the doping profile in a device structure (beyond that available with doping by diffusion or ion implantation)
-    \item Physical properties of epi-layers differ from those of bulk material (i.e. epi-layers are generally oxygen and carbon-free, situation not obtained with semiconductive substrates)
+    \item \textbf{Enhanced Breakdown Voltage:} 
+    Epitaxy allows the addition of a lightly doped or completely undoped layer on top of a heavily doped substrate. This configuration increases the breakdown voltage of the junction, which is essential for high-power and high-voltage applications. The lightly doped layer reduces the electric field intensity at the junction, thereby improving the device's ability to withstand higher voltages without breakdown.
+
+    \item \textbf{Electrical Isolation:} 
+    By depositing an epitaxial layer with doping opposite to that of the substrate, it is possible to create isolation junctions. These reverse-polarized junctions act as barriers, electrically isolating different regions of the device. This is particularly useful in complex integrated circuits where multiple components need to operate independently.
+
+    \item \textbf{Buried Layers for Low-Resistance Contacts:} 
+    Epitaxial layers can be deposited over patterned, heavily doped regions known as \textbf{buried layers}. These buried layers serve as low-resistance contacts, improving the electrical performance of the device. The epitaxial layer ensures that the buried layer is encapsulated, providing a smooth surface for further processing.
+
+    \item \textbf{Smoother Surface for Subsequent Processing:} 
+    Epitaxial layers typically have a smoother surface compared to the substrate. This smoothness is advantageous for subsequent fabrication steps, such as lithography and etching, as it reduces defects and improves the overall yield of the manufacturing process.
+
+    \item \textbf{Precise Doping Profile Control:} 
+    Epitaxy provides an additional means of controlling the doping profile in a device structure, beyond what is achievable through doping by diffusion or ion implantation. By carefully controlling the doping concentration and distribution during the epitaxial growth process, device designers can achieve highly tailored electrical characteristics.
+
+    \item \textbf{Superior Material Quality:} 
+    The physical properties of epitaxial layers often differ from those of bulk materials. For instance, epitaxial layers are generally free from oxygen and carbon impurities, which are commonly present in semiconductive substrates. This high purity enhances the electrical and optical properties of the material, making it suitable for high-performance applications.
+
+    \item \textbf{Flexibility in Device Design:} 
+    The ability to grow one or more epitaxial layers on a substrate provides device designers with greater flexibility in creating complex structures. This flexibility is critical for the development of advanced devices such as heterojunction bipolar transistors (HBTs), high-electron-mobility transistors (HEMTs), and multi-junction solar cells.
+
+    \item \textbf{Compatibility with Advanced Materials:} 
+    Epitaxy enables the integration of materials with different properties, such as III-V compounds on silicon, through heteroepitaxy. This compatibility opens up new possibilities for combining the advantages of different materials in a single device, such as high mobility and low-cost manufacturing.
+
 \end{itemize}
 
-\section{Vapor Phase Epitaxy (VPE) / Chemical Vapor Deposition (CVD)}
 
-\subsection{VPE Details}
+\subsection{Vapor Phase Epitaxy (VPE) / Chemical Vapor Deposition (CVD)}
+
+\subsubsection{VPE Details}
 VPE consists of growing the crystal from \textbf{gaseous precursors} (gas sources) including the material and its associated doping. It is the \textit{most used} epitaxial growth technique, especially for Si.
 
 For VPE, \textbf{gases are dissociated} in the chamber to produce atoms (e.g., silicon atoms) that move towards and bond with the pre-existing lattice. Substrates must be heated, typically at \textbf{high temperatures} (e.g., around $1100^{\circ}\text{C}$) to ensure epitaxial growth. An example reaction is $\text{SiCl}_4 + 2\text{H}_2 \Leftrightarrow \text{Si} + 4\text{HCl}$.
 
-\subsection{CVD Hazards}
+\subsubsection{CVD Hazards}
 Many gases utilized in CVD systems present significant hazards.
 
 \begin{table}[h]
@@ -1145,60 +1165,58 @@ Pyrophoric & Spontaneously burns or explodes in air, moisture, or when exposed t
 \end{tabular}
 \end{table}
 
-\subsection{VPE Reactors}
+\subsubsection{VPE Reactors}
 VPE reactors consist of a gas inlet/control system, a deposition chamber, and an exhaust (e.g., scrubber). Wafers are typically loaded onto graphite susceptors that are heated via RF induction. This RF heating warms the susceptor while the chamber walls remain cold, limiting outgassing and contamination. Common reactor shapes include \textbf{Horizontal, Vertical, Barrel, Pancake,} and \textbf{Rotating Disk (Planetary)} reactors.
-\section{Liquid Phase Epitaxy (LPE)}
+\subsection{Liquid Phase Epitaxy (LPE)}
+Liquid Phase Epitaxy (LPE) is a technique that involves the growth of crystalline layers from a liquid phase, typically a \textbf{metallic solution}, onto a \textbf{crystalline substrate}. This process relies on the principle of \textbf{oversaturation}, where the solution becomes supersaturated, leading to the precipitation of the solute onto the substrate in an epitaxial manner. The substrate acts as a \textbf{template}, ensuring that the deposited layer maintains the same crystalline structure.
+
+One of the key aspects of LPE is the \textbf{absence of wetting} between the liquid solution and the crucible, which ensures that the growth occurs exclusively on the substrate. The growth mechanism involves the direct precipitation of the solute from the liquid phase as the solution is cooled. During this cooling process, the oversaturated solution deposits the excess solute onto the crystalline substrate, forming an epitaxial layer.
+
+The growth conditions in LPE are carefully controlled to maintain \textbf{near-equilibrium conditions}. This is achieved by ensuring that the relative temperature difference ($\Delta T/T$) is kept within the range of $10^{-3}$ to $10^{-2}$. Such precise control minimizes \textbf{defects} and promotes high-quality epitaxial growth.
+
+LPE is particularly suited for the growth of III-V compound semiconductors, silicon carbide (SiC), and multilayered epitaxial structures with varying properties, such as different \textbf{doping levels}. The choice of solvent plays a crucial role in the process. Typically, a low melting point metal component of the compound is used as the solvent. For example:
 \begin{itemize}
-    \item \textbf{Key Concepts:} Oversaturation, epitaxy, substrate, spontaneous nucleation, liquid, metallic homogeneous solution.
-    \item \textbf{Conditions:} No wetting of crucible.
-    \item \textbf{Growth Mechanism:}
-    \begin{itemize}
-        \item Direct precipitation from liquid phase due to cooling down.
-        \item Oversaturated solution on a crystalline substrate $\rightarrow$ solute excess precipitates \textbf{epitaxially} during cooling.
-    \end{itemize}
-    \item \textbf{Growth Conditions:}
-    \begin{itemize}
-        \item Near equilibrium growth conditions $\rightarrow \Delta T/T \approx 10^{-3} - 10^{-2}$.
-    \end{itemize}
-    \item \textbf{Applications:} Particularly used for \textbf{III-V} compounds, \textbf{SiC}, or \textbf{multilayered epitaxies} with different characteristics (i.e., doping).
-    \item \textbf{Solvent:}
-    \begin{itemize}
-        \item Low melting point metal component of the compound, for instance:
-        \begin{itemize}
-            \item Ga (m.p. $30^\circ\text{C}$) for the growth of \textbf{GaAs} and \textbf{GaAlAs} on GaAs substrates.
-            \item In (m.p. $156^\circ\text{C}$) for the growth of \textbf{InP}, \textbf{InGaAs} and \textbf{InGaAsP} on InP substrates.
-        \end{itemize}
-    \end{itemize}
-    \item \textbf{Growth Temperature ($T_\text{growth}$):} Compromise between salt solubility (increases with $T$) and risk of thermal degradation of substrates.
-    \begin{itemize}
-        \item About $800^\circ\text{C}$ for epitaxy on \textbf{GaAs}.
-        \item About $600^\circ\text{C}$ for epitaxy on \textbf{InP}.
-    \end{itemize}
+    \item \textbf{Gallium (Ga)}, with a melting point of $30^\circ\text{C}$, is commonly used for the growth of GaAs and GaAlAs on GaAs substrates.
+    \item \textbf{Indium (In)}, with a melting point of $156^\circ\text{C}$, is used for the growth of In, InGaAs, and InGaAsP on InP substrates.
 \end{itemize}
 
-\subsection{LPE Reactor}
+The \textbf{growth temperature} ($T_\text{growth}$) is another critical parameter and is chosen to balance the \textbf{solubility} of the solute in the solvent and the risk of \textbf{thermal degradation} of the substrate. For instance:
+\begin{itemize}
+    \item Epitaxy on \textbf{GaAs substrates} is typically performed at around $800^\circ\text{C}$.
+    \item Epitaxy on \textbf{InP substrates} is carried out at a lower temperature, around $600^\circ\text{C}$.
+\end{itemize}
+
+Overall, LPE is a versatile and precise technique for producing high-quality epitaxial layers, making it invaluable in the fabrication of advanced semiconductor devices.
+
+\subsubsection{LPE Reactor}
 Growth takes place under a flux of purified $\text{H}_2$ (passed through a $\text{Pd}$ barrier) at atmospheric pressure to avoid oxidation of the solution and the substrate.\\ The apparatus utilizes a \textbf{Graphite crucible} which features fixed wells for the liquid growth solutions and a sliding part that hosts the substrate.\\ The substrate is pushed under the oversaturated solutions. The temperature ($T$) is then slowly lowered ($\approx 1^\circ\text{C}/\text{min}$), and the substrate is kept in position for the time necessary to achieve the desired layer thickness.\\ Growth stop is obtained by removing the substrate from the solution. This is possible because molten metallic solutions do not wet graphite and substrates $\rightarrow$ \textbf{sliding off} of the substrate is enough to remove the solution and immediately stop the growth.
 
-\section{Molecular Beam Epitaxy (MBE)}
-\textbf{General Conditions:} Low pressure gaseous mother phase in molecular flux conditions. An $\text{UHV}$ (Ultra-High Vacuum) deposition chamber where the heated substrate faces a certain number of furnaces. Pressure is one of the most tedious thing to measure and so vacuum in nearly impossible to obtain.
+\subsection{Molecular Beam Epitaxy (MBE)}
+\textbf{General Conditions:} Molecular Beam Epitaxy (MBE) is a highly controlled epitaxial growth technique that operates under ultra-high vacuum (UHV) conditions. The mother phase consists of a low-pressure gaseous molecular flux, which ensures precise deposition of materials. The process takes place in a specialized UHV deposition chamber, where the substrate is heated and positioned to face multiple furnaces. Achieving and maintaining UHV conditions is critical for the success of MBE, as it minimizes contamination and ensures high-quality epitaxial growth.
+
 \textbf{Key Components:}
-    \begin{itemize}
-        \item Furnaces (Knudsen Cells): Thermally controlled and host the elements and dopants to be deposited. They generate fluxes of atoms (for metals) and molecules (for non-metals) necessary for the growth.
-        \item Substrate: Kept in rotation for growth uniformity.
-        \item Sliding Shutter: Located in front of every furnace and used to stop the flux \textbf{abruptly} $\rightarrow$ allows for rapid change of flux composition (to obtain a layered epitaxy surface).
-        \item Liquid $\text{N}_2$ Panels and Pumps: Used to achieve the necessary $\text{UHV}$ conditions (along with the pumps).
-        \item Loading Chamber (LOAD-LOCK): Used to load substrates without breaking the $\text{UHV}$ conditions. Is not always present, but frequently is: it's a sort of preloading chamber. Used to, for example, introduce a new wafer and lower the preassure.
-    \end{itemize}
+\begin{itemize}
+    \item \textbf{Furnaces (Knudsen Cells):} These are thermally controlled sources that contain the elements and dopants to be deposited. The furnaces generate fluxes of atoms (for metals) or molecules (for non-metals) that are directed toward the substrate. The precise thermal control of these cells allows for accurate regulation of the flux rates.
+    \item \textbf{Substrate:} The substrate is heated to a specific temperature suitable for epitaxial growth and is kept in constant rotation to ensure uniform deposition across its surface. This rotation is essential for achieving consistent film thickness and composition.
+    \item \textbf{Sliding Shutters:} Each furnace is equipped with a sliding shutter that can abruptly stop the flux of material. This feature allows for rapid changes in the flux composition, enabling the growth of layered structures with sharp interfaces. The shutters are crucial for creating complex multilayered epitaxial structures.
+    \item \textbf{Liquid $\text{N}_2$ Panels and Pumps:} Liquid nitrogen-cooled panels and high-performance pumps are used to achieve and maintain the UHV conditions required for MBE. These components work together to minimize the presence of unwanted gases and contaminants in the chamber.
+    \item \textbf{Loading Chamber (LOAD-LOCK):} The load-lock chamber is a secondary chamber used to introduce substrates into the system without breaking the UHV conditions of the main deposition chamber. This feature is particularly useful for maintaining the vacuum integrity of the system while allowing for the addition of new substrates or materials.
+\end{itemize}
+
 \textbf{Importance of UHV:}
-    \begin{itemize}
-        \item $\text{UHV}$ is necessary to maintain molecular flux conditions. We can deposit with a very small flux, granting a high resolution (few nanometers). This implies it's terrible in terms of productivity.$\rightarrow$ Can be used for very complex compounds.
-        \item $\text{UHV}$ reduces the incorporation of unwanted species that could dope the material.
-    \end{itemize}
-\textbf{Advantages/Control:}
-    \begin{itemize}
-        \item Optimal technique for the control of \textbf{thickness} (atomic layers are feasible).
-        \item Optimal technique for the control of \textbf{chemical composition} ($\pm 1\%$ of doping variation).
-    \end{itemize}
+\begin{itemize}
+    \item \textbf{Molecular Flux Conditions:} UHV is essential for maintaining molecular flux conditions, which are characterized by the free movement of atoms and molecules without significant collisions. This ensures that the deposition process is highly controlled and precise.
+    \item \textbf{Minimized Contamination:} The UHV environment significantly reduces the incorporation of unwanted species, such as residual gases, that could unintentionally dope or contaminate the material. This is critical for achieving high-purity epitaxial layers.
+\end{itemize}
+
+\textbf{Advantages and Control:}
+\begin{itemize}
+    \item \textbf{Thickness Control:} MBE is renowned for its ability to control the thickness of deposited layers with atomic-scale precision. This makes it ideal for applications requiring ultrathin films and quantum structures.
+    \item \textbf{Chemical Composition Control:} The technique allows for precise control of the chemical composition of the deposited layers, with variations as small as $\pm 1\%$. This level of control is essential for tailoring the electronic and optical properties of the material.
+    \item \textbf{High Resolution:} The small molecular flux used in MBE enables the growth of highly complex compounds with nanometer-scale resolution. However, this also means that the process is relatively slow and less productive compared to other deposition techniques.
+\end{itemize}
+
+\textbf{Applications:} MBE is widely used in research and development for the fabrication of advanced semiconductor devices, quantum wells, superlattices, and heterostructures. Its ability to produce high-quality materials with precise control over thickness and composition makes it invaluable for cutting-edge technologies.
 
 \vspace{0.5cm}
 \noindent \textit{Reference Atmosphere Conversion:}
@@ -1211,6 +1229,9 @@ All CVD involves using an energy source to break reactant gases into reactive sp
 
 
 \subsection{Acceptance Angle and Conformality (Non-Conformal Deposition)}
+\begin{center}
+    \includegraphics[width=0.3 \textwidth]{Screenshot 2025-12-13 at 15.46.10.png}
+\end{center}
 The growth rate is dependent on the flux density of gas molecules incident on the surface, which is a function of the \textbf{acceptance angle}.\\ \textbf{Not uniform coverage $\rightarrow$ NOT CONFORMAL.} This occurs because the reagent is adsorbed and reacts without significant surface migration.\\ \textbf{Deposition Rate and Incidence Angle:} The deposition rate is proportional to the incidence angle of molecules:
     \begin{itemize}
         \item $180^\circ$ for the upper surface (maximum deposition rate).
@@ -1221,23 +1242,21 @@ This angular dependence leads to a \textbf{reduced thickness} on the side walls 
 
 Step coverage is defined using ratios like $\text{Conformity} = b/c$, $\text{Sidewall Step Coverage} = b/a$, and $\text{Bottom Step Coverage} = d/a$, where $a, b, c, d$ are thickness measurements at specific points. High aspect ratio ($h/w$) structures are more difficult to fill without forming \textbf{voids} or \textbf{keyholes}.\\ Sometimes you want your film to be not conformal <3.
 
-\section{Types of Chemical Vapor Deposition (CVD) Reactors}
+\subsection{Types of Chemical Vapor Deposition (CVD) Reactors}
 
 Chemical Vapor Deposition (\text{CVD}) is a foundational technique in semiconductor fabrication, with different reactor types offering various trade-offs in performance, dictated primarily by operating pressure and temperature. The three major types are Atmospheric Pressure CVD (\text{APCVD}), Low Pressure CVD (\text{LPCVD}), and Plasma Enhanced CVD (\text{PECVD}).
 
-\subsection{Atmospheric Pressure CVD (APCVD)}
+\subsubsection{Atmospheric Pressure CVD (APCVD)}
 
 \textbf{APCVD} operates at high temperatures, typically between $350^\circ\text{C}$ and $1200^\circ\text{C}$, and near atmospheric pressure ($10$ to $100~\text{kPa}$). Its main appeal lies in its operational simplicity, resulting in \textbf{very high deposition rates} and high throughput. However, the high pressure environment leads to severe limitations, namely \textbf{poor uniformity} and \textbf{poor conformality} (step coverage), and the resulting film purity is lower compared to other methods. $\text{APCVD}$ is primarily used for less demanding applications, such as depositing low-temperature oxides.
 
-\subsection{Low Pressure CVD (LPCVD)}
-
+\subsubsection{Low Pressure CVD (LPCVD)}
 \textbf{LPCVD} operates at high temperatures, usually between $550^\circ\text{C}$ and $600^\circ\text{C}$, but at a much lower pressure of approximately $100~\text{Pa}$. This low-pressure environment significantly improves the quality of the deposited film. $\text{LPCVD}$ is highly valued for its \textbf{excellent uniformity}, high film \textbf{purity}, and \textbf{good conformity} across complex topographies. The primary drawback compared to $\text{APCVD}$ is its \textbf{lower deposition rate}. It is the workhorse for depositing crucial films like \textbf{polysilicon}, \textbf{nitride}, and high-quality \textbf{oxide} layers.
 
-\subsection{Plasma Enhanced CVD (PECVD)}
+\subsubsection{Plasma Enhanced CVD (PECVD)}
 
-\textbf{PECVD} is distinguished by its use of plasma (that is a complex mixture resulting from the ionization and excitation of gas atoms) to supply the energy needed for the chemical reactions, which allows it to operate at much \textbf{lower temperatures} ($150^\circ\text{C}$ to $450^\circ\text{C}$). This low-temperature capability is critical for depositing films over substrates that cannot withstand high heat, such as those with pre-deposited metallization. $\text{PECVD}$ also offers \textbf{good step coverage} (conformality) and a deposition rate that is higher than $\text{LPCVD}$. However, the use of plasma introduces potential drawbacks, including \textbf{plasma damage} to the underlying device structures and possible \textbf{chemical contamination}. The tool itself is also more complex. $\text{PECVD}$ is often used for creating low-temperature oxides and for \textbf{passivation} layers.\\
-
-\subsection{Collision Processes}:
+\textbf{PECVD} is distinguished by its use of plasma (that is a complex mixture resulting from the ionization and excitation of gas atoms) to supply the energy needed for the chemical reactions, which allows it to operate at much \textbf{lower temperatures} ($150^\circ\text{C}$ to $450^\circ\text{C}$). This low-temperature capability is critical for depositing films over substrates that cannot withstand high heat, such as those with pre-deposited metallization. $\text{PECVD}$ also offers \textbf{good step coverage} (conformality) and a deposition rate that is higher than $\text{LPCVD}$. However, the use of plasma introduces potential drawbacks, including \textbf{plasma damage} to the underlying device structures and possible \textbf{chemical contamination}. The tool itself is also more complex. $\text{PECVD}$ is often used for creating low-temperature oxides and for \textbf{passivation} layers.
+\paragraph{Collision Processes:} In a plasma, several key collision processes occur that are fundamental to its behavior and applications:
 \begin{itemize}
     \item \textbf{Ionization}: $e^{-}+\text{Ar}\rightarrow 2e^{-}+\text{Ar}^{+}$ (sustains the plasma).
     \item \textbf{Dissociation}: $e^{-}+\text{SiH}_4\rightarrow e^{-}+\text{SiH}_3^{\bullet}+\text{H}^{\bullet}$ (generates highly reactive free radicals).
@@ -1249,66 +1268,65 @@ Chemical Vapor Deposition (\text{CVD}) is a foundational technique in semiconduc
     \end{itemize}
 \end{itemize}
 
-\subsection{Plasma Generation} Applying voltage to a neutral gas accelerates free electrons. When voltage is increased, energetic electrons ionize or excite gas atoms (cascading collisions), sustaining the reaction. The glow visible in a plasma is emitted when excited gas atoms return to the ground state.The process causes:
+\paragraph{Plasma Generation} Plasma is created by applying voltage to a neutral gas, which accelerates free electrons. As the voltage increases, these electrons gain enough energy to ionize or excite gas atoms through cascading collisions, sustaining the plasma. The visible glow in a plasma is emitted when excited gas atoms return to their ground state. The process involves the following steps:
+
 \begin{itemize}
-    \item \textbf{No Applied Voltage}: gas consists of neutral atoms.
-    \item \textbf{Apply Voltage}: free electrons are accelerated, elastically collide with atoms.
-    \item \textbf{Increase Voltage \& Field}:
+    \item \textbf{Initial State:} The gas consists of neutral atoms with no applied voltage.
+    \item \textbf{Voltage Application:} Free electrons are accelerated, causing elastic collisions with gas atoms.
+    \item \textbf{Increased Voltage and Field:}
     \begin{itemize}
-        \item energetic electrons ionize or excite gas atoms and contribute another electron to the process (cascading collisions) $\rightarrow$ sustained reaction.
-        \item excited gas atoms returning to ground state emit visible photons (e.g., the glow that is visible).
-        \item oxygen plasmas are blue, nitrogen purple ....
+        \item Energetic electrons ionize or excite gas atoms, producing additional free electrons (cascading collisions), which sustain the plasma.
+        \item Excited gas atoms emit photons as they return to their ground state, creating the characteristic glow (e.g., oxygen plasmas appear blue, nitrogen plasmas purple).
     \end{itemize}
-\end{itemize}
-\begin{itemize}
-    \item Chamber is evacuated
-    \item Chamber is filled with gas(es)
-    \item RF energy is applied to a pair of electrodes (typically $13.56\ \text{MHz}$) (The electric field is switched more than thirteen milliens times per second)
-    \item Applied energy accelerates electrons increasing kinetic energy
-    \item Electrons collide with neutral gas molecules, forming ions and more electrons $\rightarrow$ Electrons oscillating in the glow region acquire enough energy to cause ionization (the alternating potential polarity affects the electrons, sending them into an oscillatory path). Gas ions are too massive to respond to the high-frequency field (ions, being much heavier and therefore slower, don't keep up with the alternating field).
-    \item Steady state is reached (plasma); ionization = recombination
+    \item \textbf{Chamber Preparation:} The chamber is evacuated and then filled with the desired gas(es).
+    \item \textbf{RF Energy Application:} RF energy (typically $13.56\ \text{MHz}$) is applied to electrodes, switching the electric field more than 13 million times per second.
+    \item \textbf{Electron Acceleration:} The applied energy accelerates electrons, increasing their kinetic energy.
+    \item \textbf{Ionization:} Electrons collide with neutral gas molecules, forming ions and additional electrons. The alternating electric field causes electrons to oscillate, gaining enough energy to sustain ionization. Gas ions, being much heavier, do not respond to the high-frequency field.
+    \item \textbf{Steady State:} A steady-state plasma is achieved when the rates of ionization and recombination balance.
 \end{itemize}
 Plasmas are used to force reactions that would not be possible at low temperature (plasma is the energy source generating reactive gases).
     \begin{itemize}
         \item\textbf{Advantages:} uses lower temperatures ($150 - 450^\circ\text{C}$) necessary for near end processing or deposition on $\text{T}$ sensitive materials, more degrees of freedom to achieve film properties (good step coverage, density, composition), higher deposition rate than $\text{LPCVD}$.
         \item \textbf{Disadvantages:} plasma damage or chemical contamination typically results.
 \end{itemize}
-The following is the content starting from slide 22, presented in LaTeX format, drawing on the provided sources.
-
-
-
-\section{PECVD process control parameters}
+\paragraph{PECVD Process Control Parameters}
+The Plasma Enhanced Chemical Vapor Deposition (PECVD) process involves several critical parameters that must be carefully controlled to achieve the desired film properties and deposition characteristics. These parameters include:
 \begin{enumerate}
-    \item Temperature.
-    \item Deposition time.
-    \item Gas composition (precursors) and flow rate.
-    \item System pressure and reactant partial pressure.
-    \item RF power, frequency, and bias.
+    \item \textbf{Temperature:} The substrate temperature plays a crucial role in determining the film's quality, density, and adhesion. Lower temperatures are typically used in PECVD compared to other CVD methods, making it suitable for temperature-sensitive substrates.
+    \item \textbf{Deposition Time:} The duration of the deposition process directly affects the thickness of the deposited film. Longer deposition times result in thicker films, but excessive durations may lead to non-uniformity or other defects.
+    \item \textbf{Gas Composition (Precursors) and Flow Rate:} The choice of precursor gases and their flow rates determine the chemical composition of the deposited film. Precise control of the gas mixture is essential for achieving the desired stoichiometry and film properties.
+    \item \textbf{System Pressure and Reactant Partial Pressure:} The overall pressure in the deposition chamber, as well as the partial pressures of the reactant gases, influence the reaction kinetics and the uniformity of the film. Lower pressures generally improve film quality by reducing contamination.
+    \item \textbf{RF Power, Frequency, and Bias:} The radio frequency (RF) power and frequency control the plasma density and energy, which in turn affect the deposition rate and film properties. The RF bias applied to the substrate can influence the film's conformality and stress.
 \end{enumerate}
 
-\subsection{PECVD Pros and Cons}
-Pros:
+\paragraph{PECVD Advantages and Disadvantages}
+The PECVD technique offers several advantages and disadvantages, which must be considered when selecting it for specific applications.
+
+\textbf{Advantages:}
 \begin{itemize}
-    \item Lower temp. than $\text{LPCVD}$ (suitable for back-end processing)
-    \item High deposition rates
-\end{itemize}Cons:
+    \item \textbf{Lower Processing Temperatures:} PECVD operates at significantly lower temperatures compared to Low Pressure CVD (LPCVD), making it ideal for back-end processing and for substrates that cannot withstand high temperatures, such as those with pre-deposited metallization.
+    \item \textbf{High Deposition Rates:} PECVD achieves faster deposition rates compared to LPCVD, which can improve throughput and reduce manufacturing time.
+    \item \textbf{Good Step Coverage:} The plasma environment enables better conformality over complex topographies, making PECVD suitable for depositing films on high-aspect-ratio structures.
+\end{itemize}
+
+\textbf{Disadvantages:}
 \begin{itemize}
-    \item More complex tool to control and maintain
-    \item Poor quality of grown films (contamination, hydrogenation)
-    \item Plasma generates "soup" of perhaps unsavory chemicals
+    \item \textbf{Complexity of Equipment:} PECVD systems are more complex to operate and maintain due to the additional components required for plasma generation and control.
+    \item \textbf{Lower Film Quality:} The films deposited by PECVD often have lower quality compared to LPCVD films. This is due to potential contamination, hydrogen incorporation, and other impurities introduced during the plasma process.
+    \item \textbf{Chemical Byproducts:} The plasma environment generates a "soup" of reactive species, which may include undesirable or harmful byproducts. These byproducts can pose challenges for process control and environmental safety.
 \end{itemize}
 
 
-\section{Atomic Layer Deposition(ALD)}
-Atomic Layer Deposition (ALD) is a modified CVD process to manufacture conformal thin films. The process uses several gases led into the process chamber alternating. Each gas reacts in a self-limiting reaction at the surface with the first gas, causing the reaction to come to a standstill once the surfac Between the reactions, the chamber is purged with an inert gas, like nitrogen or argon.\\
-A specific example for an ALD process is the deposition of aluminum oxide, which can be realized with trimethylaluminum (TMA, $C_{3}H_{9}Al$) and water ($H_{2}O$).
-\section*{ALD Process Steps (Example: $Al_{2}O_{3}$)}
+\subsection{Atomic Layer Deposition(ALD)}
+Atomic Layer Deposition (ALD) is a modified CVD process used to manufacture conformal thin films. The process involves introducing several gases into the process chamber alternately. Each gas reacts in a self-limiting manner at the surface with the previously introduced gas, causing the reaction to stop once the surface is fully saturated. Between these reactions, the chamber is purged with an inert gas, such as nitrogen or argon.\\
+A specific example of an ALD process is the deposition of aluminum oxide, which can be achieved using trimethylaluminum (TMA, $C_{3}H_{9}Al$) and water ($H_{2}O$).
+\subsubsection{ALD Process Steps (Example: $Al_{2}O_{3}$)}
 \begin{enumerate}
     \item \textbf{First step}: elimination of hydrogen atoms bound to oxygen (e.g., due to environment humidity) at the wafer surface. The methyl groups ($CH_{3}$) of TMA react with the hydrogen to form methane ($CH_{4}$). The remaining molecules bond with the unsaturated oxygen. If these atoms are saturated, no more TMA molecules can react at the surface.
     \item \textbf{Second step}: The chamber is purged and subsequent water steam ($H_{2}O$) is led into the chamber. Every hydrogen atom of the $H_{2}O$ molecules reacts with the former deposited surface atoms to form methane, while the hydroxyl anion is bond to the aluminum atoms. This leaves new hydrogen atoms at the surface which can react in a subsequent step with TMA like in the beginning.
 \end{enumerate}
 
-\subsection{ALD Characteristics}
+\subsubsection{ALD Characteristics}
 \begin{itemize}
     \item Each cycle, including gas injection and pumping, takes few seconds.
     \item With ALD, even conformal 3D structures can be deposited very uniformly.
@@ -1316,7 +1334,7 @@ A specific example for an ALD process is the deposition of aluminum oxide, which
     \item Film thickness can be controlled very precisely by the number of cycles.
 \end{itemize}
 
-\section{Silicon Dioxide (CVD)}
+\subsection{Silicon Dioxide (CVD)}
 CVD silicon dioxide has worst electrical properties with respect to thermally grown oxide, but complementary applications. The reaction is:
 $$SiH_{4}+O_{2}\Rightarrow SiO_{2}+2H_{2}$$
 \begin{itemize}
@@ -1325,194 +1343,264 @@ $$SiH_{4}+O_{2}\Rightarrow SiO_{2}+2H_{2}$$
     \item \textbf{P, As or B doped oxides}: occasionally used as diffusion sources.
 \end{itemize}
 
-
 \subsubsection{Silicon Dioxide Deposition Methods Comparison}
-
-\begin{itemize}
-    \item \textbf{PECVD $\text{SiH}_{4}+\text{O}_{2}$}(max productivity, lowest quality)
-    \begin{itemize}
-        \item Deposition temp: $200^{\circ}\text{C}$
-        \item Composition: $\text{SiO}_{2}(\text{H})$
-        \item Thermal stability: Loses $\text{H}$
-        \item Dielectric Strength: $5 \times 10^{6}\ \text{V}/\text{cm}$
-        \item Etch Rate (100 $\text{H}_{2}\text{O}$: 1 $\text{HF}$): $400\ \dot{\text{A}}/\min$
-        \item Step coverage: Non-conformal
-    \end{itemize}
-
-    \item \textbf{LPCVD $\text{SiH}_{4}+\text{O}_{2}$}
-    \begin{itemize}
-        \item Deposition temp: $450^{\circ}\text{C}$
-        \item Composition: $\text{SiO}_{2}(\text{H})$
-        \item Thermal stability: Densifies
-        \item Dielectric Strength: $8 \times 10^{6}\ \text{V}/\text{cm}$
-        \item Etch Rate (100 $\text{H}_{2}\text{O}$: 1 $\text{HF}$): $60\ \dot{\text{A}}/\min$
-        \item Step coverage: Non-conformal
-    \end{itemize}
-
-    \item \textbf{LPCVD TEOS}
-    \begin{itemize}
-        \item Deposition temp: $700^{\circ}\text{C}$
-        \item Composition: $\text{SiO}_{2}(\text{C...})$
-        \item Thermal stability: Stable
-        \item Dielectric Strength: $10 \times 10^{6}\ \text{V}/\text{cm}$
-        \item Etch Rate (100 $\text{H}_{2}\text{O}$: 1 $\text{HF}$): $30\ \dot{\text{A}}/\min$
-        \item Step coverage: Conformal
-    \end{itemize}
-
-    \item \textbf{LPCVD $\text{SiCl}_{2}\text{H}_{2}+\text{N}_{2}\text{O}$}
-    \begin{itemize}
-        \item Deposition temp: $900^{\circ}\text{C}$
-        \item Composition: $\text{SiO}_{2}(\text{Cl})$
-        \item Thermal stability: Loses $\text{Cl}$
-        \item Dielectric Strength: $10 \times 10^{6}\ \text{V}/\text{cm}$
-        \item Etch Rate (100 $\text{H}_{2}\text{O}$: 1 $\text{HF}$): $30\ \dot{\text{A}}/\min$
-        \item Step coverage: Conformal
-    \end{itemize}
-
-    \item \textbf{Thermal oxidation}(benchmark, used as reference; max quality)
-    \begin{itemize}
-        \item Deposition temp: $1000^{\circ}\text{C}$
-        \item Composition: $\text{SiO}_{2}$
-        \item Thermal stability: Stable
-        \item Dielectric Strength: $11 \times 10^{6}\ \text{V}/\text{cm}$
-        \item Etch Rate (100 $\text{H}_{2}\text{O}$: 1 $\text{HF}$): $25\ \dot{\text{A}}/\min$
-        \item Step coverage: Conformal
-    \end{itemize}
-\end{itemize}
+\begin{table}[h]
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|l|c|c|c|c|c|c|}
+\hline
+\textbf{Method} & \textbf{Temp ($^{\circ}\text{C}$)} & \textbf{Composition} & \textbf{Thermal Stability} & \textbf{Dielectric Strength ($\text{V}/\text{cm}$)} & \textbf{Etch Rate ($\dot{\text{A}}/\min$)} & \textbf{Step Coverage} \\ \hline
+PECVD $\text{SiH}_{4}+\text{O}_{2}$ & 200 & $\text{SiO}_{2}(\text{H})$ & Loses $\text{H}$ & $5 \times 10^{6}$ & 400 & Non-conformal \\ \hline
+LPCVD $\text{SiH}_{4}+\text{O}_{2}$ & 450 & $\text{SiO}_{2}(\text{H})$ & Densifies & $8 \times 10^{6}$ & 60 & Non-conformal \\ \hline
+LPCVD TEOS & 700 & $\text{SiO}_{2}(\text{C...})$ & Stable & $10 \times 10^{6}$ & 30 & Conformal \\ \hline
+LPCVD $\text{SiCl}_{2}\text{H}_{2}+\text{N}_{2}\text{O}$ & 900 & $\text{SiO}_{2}(\text{Cl})$ & Loses $\text{Cl}$ & $10 \times 10^{6}$ & 30 & Conformal \\ \hline
+Thermal Oxidation & 1000 & $\text{SiO}_{2}$ & Stable & $11 \times 10^{6}$ & 25 & Conformal \\ \hline
+\end{tabular}%
+}
+\caption{Comparison of Silicon Dioxide Deposition Methods}
+\end{table}
 A lower HF etch rate means better film quality (denser film).
 
-\section{Polycrystalline Silicon ("Poly")}
+\subsection{Polycrystalline Silicon ("Poly")}
 \begin{itemize}
     \item Used as gate electrode in MOS devices (more affordable than Al, particularly for thin gate oxides). Also used for the fabrication of high resistivity resistors.
-    \item Process: LPCVD process at $600-650^{\circ}C \rightarrow$pyrolysis of silane reaction: $$SiH_{4}\rightarrow Si+2H_{2}(600^{\circ}C)$$.
+    \item Process: LPCVD process at $600-650^{\circ}C \rightarrow$pyrolysis of silane reaction: $$SiH_{4}\rightarrow Si+2H_{2}(600^{\circ}C)$$
     \item Can be doped by diffusion, implantation or in-situ doping (doping gases in the reaction mixture). Implantation is the usual choice for its low process temperature.
     \item \textbf{Grain size depends on deposition temperature; hotter deposition leads to larger grain structure.}
     \item Polysilicon can exhibit columnar or random small grain structures.
 \end{itemize}
-
 \section{PVD (Physical Vapor Deposition)}
-What does it mean physical? Is the type of bonding. Is a phenomena similar to vapor condensation on windows during winter.
-Physical Vapor Deposition$\rightarrow$Film growth is achieved by the accumulation (condensation) of a vapor onto a cooler substrate.\\ PVD involves two main steps: 
-    \begin{enumerate}
-        \item Evaporation
-        \item Sputtering
-    \end{enumerate}
-PVD is used mostly for metal layers or alloys.
+Physical Vapor Deposition (PVD) refers to a family of deposition techniques where film growth is achieved through the physical condensation of vaporized material onto a cooler substrate. The term "physical" emphasizes that the bonding and deposition processes are driven by physical phenomena, such as vapor condensation, rather than chemical reactions. This process is analogous to the condensation of water vapor on a cold window during winter.
 
-\section{PVD-Thermal Evaporation}
+PVD is widely used for depositing thin films of metals, alloys, and other materials. The two primary methods of PVD are:
+\begin{enumerate}
+    \item \textbf{Evaporation:} Material is vaporized by heating and then condenses on the substrate.
+    \item \textbf{Sputtering:} Material is ejected from a target by ion bombardment and then deposits on the substrate.
+\end{enumerate}
+
+PVD is particularly suitable for depositing metal layers or alloys due to its ability to achieve high purity and precise control over film thickness.
+
+\subsection{PVD-Thermal Evaporation}
+Thermal evaporation is one of the simplest and most widely used PVD techniques. It involves heating a source material to its evaporation point in a high-vacuum environment, allowing the vaporized atoms to travel to and condense on the substrate.
+
 \begin{center}
-    \includegraphics[width=0.4\linewidth]{Screenshot 2025-10-30 at 08.44.49.png}
+    \includegraphics[width=0.3\linewidth]{Screenshot 2025-10-30 at 08.44.49.png}
 \end{center}
-It's done inside a bell jar.
+
+Key characteristics of thermal evaporation include:
 \begin{itemize}
-    \item Requires low working pressure ($5\times10^{-5}$ Pa $\approx 5\times10^{-7}$ Torr; High vacuum condition, intermediate to epitaxy and low pressure.) to increase the \textbf{mean free path}. $\rightarrow$Deposition is directional and a line of sight deposition.
-    \item Deposition rate is determined by emitted flux and by geometry of the target and wafer holder.
-    \item It is faster than sputtering.
-    \item It is limited to certain materials, with relatively low melting point.
-    \item Wafers are placed upside down to reduce particulates.
-    \item A shutter is used for better timing.
+    \item \textbf{High Vacuum Environment:} The process requires a low working pressure ($5\times10^{-5}$ Pa $\approx 5\times10^{-7}$ Torr) to increase the \textbf{mean free path} of the vaporized atoms. This ensures that the deposition is directional and follows a line-of-sight trajectory.
+    \item \textbf{Deposition Rate:} The deposition rate is determined by the emitted flux of vaporized material and the geometry of the target and wafer holder.
+    \item \textbf{Material Limitations:} Thermal evaporation is limited to materials with relatively low melting points, as high-melting-point materials are difficult to vaporize efficiently.
+    \item \textbf{Orientation of Wafers:} Wafers are typically placed upside down to minimize particulate contamination during the process.
+    \item \textbf{Shutter Control:} A shutter is used to control the timing of deposition, ensuring precise film thickness.
 \end{itemize}
 
-\subsection{Conformality}
+\subsubsection{Conformality}
 \begin{itemize}
-    \item Because thermal evaporation is line of sight (like a point source), it results in shadowing, meaning steps are often NOT covered, they are not uniform.
-    \item Thickness depends on the angle between the surface and the incoming source flux.
-    \item PVD is characterized by a long mean free path and no surface migration, unlike CVD which exhibits rapid surface migration (thanks to the surface at high temperature, less dependent on the surface morphology).
+    \item \textbf{Line-of-Sight Deposition:} Thermal evaporation is inherently a line-of-sight process, meaning that the vaporized material travels in straight paths from the source to the substrate. This results in \textbf{shadowing effects}, where steps and complex topographies are not uniformly covered.
+    \item \textbf{Thickness Variation:} The thickness of the deposited film depends on the angle between the surface and the incoming source flux. Surfaces perpendicular to the flux receive the maximum deposition, while inclined or recessed surfaces receive less material.
+    \item \textbf{Comparison with CVD:} Unlike Chemical Vapor Deposition (CVD), which involves rapid surface migration of atoms, PVD relies on a long mean free path and exhibits minimal surface migration. This makes PVD less conformal than CVD.
 \end{itemize}
-\section{PVD-Thermal Evaporation}
-\subsection{Thermal Evaporation}
-The two primary evaporation techniques are Thermal and E-beam.
-In thermal evaporation, the source material is hosted in a \textbf{crucible} in which the heating current flows, and produces the vapor. Crucibles are made of different materials (W, Ta, Mo, C, etc.) to avoid contamination. Alternatively, the crucible can be made of a non-conductive refractory material (alumina, BN, etc.) with the shape of a small basket, heated by a spiral filament (W, Ta, etc.).\\High deposition rate is achievable, but care must be taken for the choice of the crucible.The shape of the crucible allows to use different materials, to achieve heating with Joule effect.\\Not every material can be evaporated (W is nearly impossible, Mo and Pt are very difficult for example).\\For high throughput with uniform thickness, a rotating planetary wafer holder hosting lots of wafers can be used.
+
+\subsection{PVD-Thermal Evaporation Techniques}
+Thermal evaporation can be achieved using two primary techniques: \textbf{Thermal Evaporation} and \textbf{E-beam Evaporation}.
+
+\subsubsection{Thermal Evaporation}
+In thermal evaporation, the source material is placed in a \textbf{crucible}, which is heated to vaporize the material. The heating current flows through the crucible, producing the vapor. Crucibles are made from materials such as tungsten (W), tantalum (Ta), molybdenum (Mo), or carbon (C) to avoid contamination. Alternatively, non-conductive refractory materials like alumina or boron nitride (BN) can be used as crucibles, heated by a spiral filament.
+
+\begin{itemize}
+    \item \textbf{High Deposition Rate:} Thermal evaporation can achieve high deposition rates, making it suitable for applications requiring thick films.
+    \item \textbf{Material Limitations:} Not all materials can be evaporated using this method. For example, tungsten (W) is nearly impossible to evaporate, while molybdenum (Mo) and platinum (Pt) are very difficult.
+    \item \textbf{Rotating Wafer Holder:} For high throughput and uniform thickness, a rotating planetary wafer holder can be used to ensure even deposition across multiple wafers.
+\end{itemize}
+
 \begin{center}
-    \includegraphics[width=0.7\linewidth]{Screenshot 2025-10-30 at 08.49.04.png}
+    \includegraphics[width=0.6\linewidth]{Screenshot 2025-10-30 at 08.49.04.png}
 \end{center}
 
-\subsection{E-beam Evaporation}
-\begin{center}
-    \includegraphics[width=0.5\linewidth]{Screenshot 2025-10-30 at 08.58.34.png}
-\end{center}
-Elecron beam or Electron gun.
-A filament is heated up to electron emission; electrons are accelerated and deviated thanks to a magnetic field to hit the material in a \textbf{liner} (crucible), causing evaporation.\\Liners are water cooled, preventing contamination from the liner (kept at low T) and the filament (magnetic deviation separates contaminants from electrons).Liners can host a greater amount of material, making long evaporation for thick films feasible. \\Many materials can be evaporated in sequence without breaking vacuum (liners are hosted in a rotating housing). This allows for multi-layers (with no air or moisture contamination) or alloys.\\High deposition rate (up to $0.5~\mu m/min$ for example), depending on the distance between the source and substrate.\\Materials like W, Mo, Pt, ... can be evaporated using E-beam. Even having high melting point.\\Example: Ti/Al/Au Ohmic Contacts, requiring an adhesion layer (e.g., $h_{Ti}=20~nm$) beneath the metal bulk ($h_{Al}=500~nm$), and a passivation layer ($h_{Au}=20nm$). Alternative adhesion layer materials include Cr and Ta.
-We do that because we're intrested in Al conductivity, but you are forced to put a multilayered substrate to exploit Al weaknesses (like oxidation).
-\\We use this tool because we need to put every element under vacuum, otherwise they'll be subject to oxidation (Ti will lose its adhesion properties).
-\\\\
-How do we do this process on many wafers? this concept is extendable to every process.
-For evaporation we'd like the same deposition rate. The solution is a Planetary Substrate Holder, in a sphere, every wafer tangent to that, and geometrically works! (believe me)\\
-We have a double rotation, see a video.
+\subsubsection{E-beam Evaporation}
+E-beam evaporation uses an \textbf{electron beam} to vaporize the source material. A heated filament emits electrons, which are accelerated and directed by a magnetic field to strike the material in a \textbf{liner} (crucible), causing it to evaporate.
 
-\section{PVD- Sputtering}
 \begin{center}
-    \includegraphics[width=0.5\linewidth]{Screenshot 2025-10-30 at 09.11.18.png}
+    \includegraphics[width=0.4\linewidth]{Screenshot 2025-10-30 at 08.58.34.png}
 \end{center}
-Sputtering is based on ion bombardment (uses plasma, usually $Ar^{+}$, to sputter the target, dislodging atoms which then travel through the vacuum chamber and condense as a thin film on wafers).\\Requires higher pressures than evaporation (1-100 mtorr), which carries possible greater contamination risks.\\Offers unlimited material selection and better deposition of alloys/compounds than evaporation, resulting in replication of the target composition in the deposited films.\\Provides excellent adhesion because adatoms are more energetic than in evaporation.\\It is more expensive than evaporation (due to necessary voltage).\\Glow discharges for sustainable plasma can be created with DC voltages or AC voltages (RF systems).
 
-\subsection{DC Sputtering}
+Key features of E-beam evaporation include:
+\begin{itemize}
+    \item \textbf{Water-Cooled Liners:} Liners are water-cooled to prevent contamination from the liner and filament. This ensures high-purity deposition.
+    \item \textbf{Sequential Evaporation:} Multiple materials can be evaporated in sequence without breaking vacuum, allowing for the deposition of multilayer films or alloys.
+    \item \textbf{High Deposition Rate:} E-beam evaporation can achieve deposition rates up to $0.5~\mu m/\text{min}$, depending on the distance between the source and substrate.
+    \item \textbf{Material Versatility:} High-melting-point materials like tungsten (W), molybdenum (Mo), and platinum (Pt) can be evaporated using this method.
+\end{itemize}
+
+\textbf{Example Application:} Ti/Al/Au Ohmic Contacts
+\begin{itemize}
+    \item A typical Ohmic contact structure consists of a thin adhesion layer (e.g., $h_{\text{Ti}} = 20~\text{nm}$) beneath the metal bulk ($h_{\text{Al}} = 500~\text{nm}$) and a passivation layer ($h_{\text{Au}} = 20~\text{nm}$).
+    \item Titanium (Ti) provides adhesion, aluminum (Al) offers excellent conductivity, and gold (Au) prevents oxidation.
+    \item The entire process is performed under vacuum to prevent oxidation and contamination.
+\end{itemize}
+
+\textbf{Uniform Deposition Across Multiple Wafers:}
+To achieve uniform deposition across multiple wafers, a \textbf{Planetary Substrate Holder} is used. This holder rotates the wafers in a spherical configuration, ensuring even exposure to the vapor flux. The double rotation mechanism ensures uniform thickness across all wafers.
+
+\subsection{PVD- Sputtering}
 \begin{center}
-    \includegraphics[width=0.5\linewidth]{Screenshot 2025-10-30 at 09.16.34.png}
+    \includegraphics[width=0.4\linewidth]{Screenshot 2025-10-30 at 09.11.18.png}
 \end{center}
-This is the simplest sputtering approach. The target material (cathode, negative potential) is eroded and deposits on the substrate (anode, ground or positive potential).  Several 100 volts between plates ignite the plasma discharge, and positive ions are accelerated towards the target.\\Sputtered atoms arrive at the substrate mostly as neutral atoms. The discharge is maintained as accelerated electrons continuously ionize new ions by collisions with the sputter gas.
+Sputtering is a physical vapor deposition (PVD) technique that relies on ion bombardment to dislodge atoms from a target material, which then travel through a vacuum chamber and condense as a thin film on the substrate. Typically, a plasma (usually $Ar^{+}$ ions) is used to bombard the target, causing atoms to be ejected. These atoms then travel in a straight-line trajectory to the substrate, where they deposit and form a thin film.
 
-\subsection{Sputtering Conformality}
+Key characteristics of sputtering include:
+\begin{itemize}
+    \item \textbf{Pressure Requirements:} Sputtering requires higher pressures (1-100 mtorr) compared to evaporation, which can increase the risk of contamination.
+    \item \textbf{Material Versatility:} Sputtering can deposit a wide range of materials, including metals, alloys, and compounds. It is particularly effective for depositing alloys and compounds because the composition of the target is replicated in the deposited film.
+    \item \textbf{Adhesion Quality:} Sputtered films exhibit excellent adhesion to the substrate due to the higher energy of the adatoms compared to evaporation.
+    \item \textbf{Cost:} Sputtering is generally more expensive than evaporation due to the higher voltages and more complex equipment required.
+    \item \textbf{Plasma Generation:} Glow discharges for sustaining the plasma can be created using either DC voltages or AC voltages (e.g., RF systems).
+\end{itemize}
+
+\subsubsection{DC Sputtering}
+\begin{center}
+    \includegraphics[width=0.4\linewidth]{Screenshot 2025-10-30 at 09.16.34.png}
+\end{center}
+DC sputtering is the simplest form of sputtering. In this method:
+\begin{itemize}
+    \item The target material (cathode) is connected to a negative potential, while the substrate (anode) is grounded or connected to a positive potential.
+    \item A high voltage (several hundred volts) is applied between the electrodes, creating an electric field that ionizes the sputtering gas (e.g., Argon).
+    \item Positive ions from the plasma are accelerated toward the negatively charged target, causing atoms to be ejected from the target surface.
+    \item These ejected atoms travel through the vacuum and deposit on the substrate.
+\end{itemize}
+
+Key features:
+\begin{itemize}
+    \item \textbf{Neutral Atoms:} The sputtered atoms are mostly neutral when they arrive at the substrate.
+    \item \textbf{Plasma Maintenance:} The discharge is sustained as accelerated electrons continuously ionize new ions by colliding with the sputtering gas.
+    \item \textbf{Limitations:} DC sputtering is limited to conductive target materials. Non-conductive materials cannot be sputtered effectively using DC sputtering due to charge buildup on the target surface.
+\end{itemize}
+
+\subsubsection{Sputtering Conformality}
 \begin{center}
     \includegraphics[width=0.4\linewidth]{Screenshot 2025-10-30 at 09.23.11.png}
 \end{center}
-The conformality (step coverage) of standard sputtering is geometrically limited by each surface's line of sight to the target, like evaporation. \\
-The difference is that in evaporation we have only one source, arriving in only one angle; in sputtering targets are generally large, each point is a source, and provide a wide range of arrival angles, (making it \textbf{more conformal than evaporation}).     \\Step coverage ($\eta$) is typically poor because the sticking factor of incoming species is $\sim 1$ (no surface diffusion). Step coverage worsens as deposition progresses because the top grows faster than the bottom. To improve step coverage, one can use CVD or heat the substrate to enhance surface diffusion.
+The conformality (step coverage) of sputtered films is influenced by the geometry of the target and the line-of-sight nature of the deposition process:
+\begin{itemize}
+    \item \textbf{Line-of-Sight Deposition:} Sputtered atoms travel in straight paths from the target to the substrate, leading to shadowing effects in high-aspect-ratio structures.
+    \item \textbf{Wide Arrival Angles:} Unlike evaporation, where atoms are emitted from a single point source, sputtering involves a large target area, resulting in a wider range of arrival angles. This makes sputtering more conformal than evaporation.
+    \item \textbf{Sticking Factor:} The sticking factor of incoming species is close to 1, meaning that atoms adhere to the surface upon impact without significant surface diffusion. This limits the ability to achieve uniform coverage in complex geometries.
+    \item \textbf{Improving Conformality:} To improve step coverage, techniques such as heating the substrate to enhance surface diffusion or using chemical vapor deposition (CVD) may be employed.
+\end{itemize}
 
-\subsection{RF Sputtering}
+\subsubsection{RF Sputtering}
 \begin{center}
     \includegraphics[width=0.5\linewidth]{Screenshot 2025-10-30 at 09.25.34.png}
 \end{center}
-For DC sputtering, the target electrode must be conductive; its necessary to find an alternative(with a dielectric we risk to have, after bombarding with positive ions, after a while we'll have a positive surface, so the positive ions become useless). 
-\\The top electrode is smaller, in this way we have a higher electric field on the top electrode. This creates a potential that pushes the ions to the top.$\rightarrow$ the bottom electrode is connected to the metal box(?).
-\\To sputter dielectric materials (non-conductive), an RF power discharge is used to avoid the accumulation of electric load (positive charge, $Ar^{+}$) on the cathode (target). Typically 13.56 MHz is capacitively coupled to the target. When frequencies are above 50 kHz, ions (heavy) can no longer follow the polarity switching, and electrons can neutralize positive charge buildup on each electrode during each half cycle, causing the plasma to bias positively with respect to both electrodes.\\
-RF is better for insulators, DC for conductive.
-
-\subsection{Magnetron Sputtering}
-Is an upgrade you can apply to both RF and DC.\\
-Premise: Standard plasma has a low ionization degree ($< 1\%$ of the atoms, is enough to be a powerful tool).
-\\To improve the ionization rate (with more ions sputtering rate is increased, even if working at lower pressure(better quality and lower contamination)), magnetic fields are applied (perpendicular to the electric field). These fields force electrons into helical (longer) paths close to the cathode, leading to a much higher ionization probability(highering the probability of the collision event).\\As a result, deposition rates increase by 10-100x.It allows for higher sputter rates at lower Argon pressures (down to 0.5 mTorr). A disadvantage is more inhomogeneous target erosion than a simple planar geometry. Nowadays the magnetic field is put behind the target.
-
-\subsection{Reactive Sputtering}
-Reactive sputtering is a solution to deposit dielectric materials using DC sputtering or to adjust stoichiometry of a deposited material.
-A metallic or semiconductor target (e.g., Si) is used, and a reactive gas ($O_{2}$ or $NH_{3}$) is employed in the plasma phase instead of Ar.
-Dielectric molecules ($SiO_{x}$ or $SiN_{x}$) are produced and deposit on the substrate.
+RF sputtering is used to deposit dielectric or non-conductive materials, which cannot be sputtered using DC sputtering. In RF sputtering:
 \begin{itemize}
-    \item \textbf{Non-Reactive Sputtering}: The sputtering gas is not incorporated into the film. Common choices are Ar, He, Ne, Kr, Xe, with Argon being the most popular.
-    \item \textbf{Reactive Sputtering}: The sputtering gas is incorporated into the film to form alloys like $Al_{2}O_{3}$, $Si_{x}N_{y}$, or $SiO_{2}$. Common choices are $O_{2}$, $N_{2}$, $NH_{3}$.
+    \item An RF power source (typically 13.56 MHz) is capacitively coupled to the target.
+    \item The alternating electric field prevents charge buildup on the target surface by allowing electrons to neutralize the positive charge during each half-cycle.
+    \item At frequencies above 50 kHz, heavy ions cannot follow the polarity switching, while electrons can, ensuring a stable plasma.
 \end{itemize}
 
+Key advantages:
+\begin{itemize}
+    \item \textbf{Dielectric Materials:} RF sputtering is ideal for depositing insulating materials such as $SiO_2$ and $Al_2O_3$.
+    \item \textbf{Plasma Stability:} The alternating electric field ensures a stable plasma, even for non-conductive targets.
+\end{itemize}
 
-\subsection{Ionized Sputtering (HDP Sputtering)}
-Is a modification to sputtering systems.\\In these systems, the depositing atoms themselves are ionized (50-85$\%$ ionized).\\Why? you want an absolutely non conformal deposition. To achieve this, you whant a vertical arriving angle. How? Tranforming the neutral molecule spattered to a charge.\\An RF coil around the plasma induces collisions in the plasma creating the ions.\\This process provides a narrow distribution of arrival angles which may be useful when filling or coating the bottom of a deep contact hole.
-Example: VIA is a hole in a dielectric layer that must be filled in with metal that works like a vertical interconnection between two metal layers.(In this way we have the lower electrical resistivity so the higher quality)
+\subsubsection{Magnetron Sputtering}
+Magnetron sputtering enhances the efficiency of the sputtering process by using magnetic fields to confine electrons near the target surface:
+\begin{itemize}
+    \item Magnetic fields are applied perpendicular to the electric field, forcing electrons into helical paths.
+    \item This increases the probability of ionizing collisions, leading to a higher ionization rate and increased sputtering efficiency.
+    \item Magnetron sputtering allows for higher deposition rates at lower pressures, reducing contamination risks.
+\end{itemize}
 
-\section{Electroplating – Electrodeposition-Galvanic Deposition}
+Key considerations:
+\begin{itemize}
+    \item \textbf{Higher Deposition Rates:} Deposition rates can be 10-100 times higher than standard sputtering.
+    \item \textbf{Lower Pressure:} Operating at lower pressures improves film quality.
+    \item \textbf{Target Erosion:} The magnetic field can cause uneven target erosion, requiring careful design of the target geometry.
+\end{itemize}
+
+\subsubsection{Reactive Sputtering}
+Reactive sputtering is used to deposit compound films by introducing a reactive gas into the sputtering chamber:
+\begin{itemize}
+    \item A metallic or semiconductor target is used, and a reactive gas (e.g., $O_2$, $N_2$, or $NH_3$) is introduced into the plasma.
+    \item The reactive gas reacts with the sputtered atoms to form a compound film (e.g., $SiO_2$, $SiN_x$, or $Al_2O_3$) on the substrate.
+\end{itemize}
+
+Types of sputtering:
+\begin{itemize}
+    \item \textbf{Non-Reactive Sputtering:} The sputtering gas (e.g., Ar) does not participate in the film formation.
+    \item \textbf{Reactive Sputtering:} The sputtering gas reacts with the target material to form a compound film.
+\end{itemize}
+
+\subsubsection{Ionized Sputtering (HDP Sputtering)}
+Ionized sputtering, also known as High-Density Plasma (HDP) sputtering, involves ionizing the sputtered atoms themselves:
+\begin{itemize}
+    \item An RF coil around the plasma induces additional collisions, ionizing the sputtered atoms.
+    \item The ionized atoms are directed toward the substrate using an electric field, ensuring a narrow distribution of arrival angles.
+    \item This technique is particularly useful for filling deep contact holes or vias with metal.
+\end{itemize}
+
+Example application:
+\begin{itemize}
+    \item Filling vias (vertical interconnections between metal layers) with metal to achieve low electrical resistivity and high-quality interconnects.
+\end{itemize}
+\section{Electroplating - Electrodeposition-Galvanic Deposition}
 \begin{center}
     \includegraphics[width=0.5\linewidth]{Screenshot 2025-11-04 at 11.47.28.png}
 \end{center}
-Electrodeposition is the oldest deposition technology, having been around for centuries. The simplest form requires a bath consisting of an electrolyte containing metal-ions, an electrode or substrate on which deposition is desired (cathode), a counter electrode (anode), and an external power supply.
-When a current flows through the electrolyte, cations move toward the cathode, and anions move towards the anode.
-\subsection{Processes}
+Electrodeposition, also known as electroplating or galvanic deposition, is one of the oldest and most widely used deposition technologies. It involves the deposition of a metal layer onto a conductive substrate through the use of an electrochemical process. This technique has been utilized for centuries and remains a cornerstone in various industrial and technological applications.
+
+The basic setup for electrodeposition consists of:
 \begin{itemize}
-    \item \textbf{Cathodic Processes}: species are reduced by transfer of electrons from an electrode to an ion.
-    $$Ni^{2+}(aq)+2e\Rightarrow Ni(s)$$
-    \item \textbf{Anodic Processes}: species are oxidized by transfer of electrons to an electrode from an ion.
-    $$Ni(s)\Rightarrow Ni^{2+}(aq)+2e$$
+    \item A bath containing an electrolyte solution with dissolved metal ions.
+    \item A cathode, which is the electrode or substrate where the metal deposition occurs.
+    \item An anode, which serves as the counter electrode.
+    \item An external power supply to drive the electrochemical reactions.
+\end{itemize}
+
+When an electric current is applied, cations (positively charged ions) in the electrolyte migrate toward the cathode, where they are reduced and deposited as a solid metal layer. Simultaneously, anions (negatively charged ions) move toward the anode, where oxidation reactions occur.
+
+\subsection{Processes}
+Electrodeposition involves two primary electrochemical processes:
+\begin{itemize}
+    \item \textbf{Cathodic Processes:} At the cathode, metal ions in the electrolyte gain electrons (reduction) and are deposited as a solid metal layer. For example:
+    $$Ni^{2+}(aq) + 2e^- \rightarrow Ni(s)$$
+    Here, nickel ions ($Ni^{2+}$) in the aqueous solution are reduced to form solid nickel ($Ni$) on the cathode surface.
+    
+    \item \textbf{Anodic Processes:} At the anode, the metal is oxidized, releasing metal ions into the electrolyte. For example:
+    $$Ni(s) \rightarrow Ni^{2+}(aq) + 2e^-$$
+    In this case, solid nickel from the anode is oxidized to form nickel ions ($Ni^{2+}$), which dissolve into the electrolyte.
 \end{itemize}
 
 \subsection{Characteristics and Applications}
+Electrodeposition offers several unique characteristics and advantages, making it suitable for a wide range of applications:
 \begin{itemize}
-    \item Various metals can be deposited (Au, Ni, Cu, etc.), but not all (may be expansive or dangerous).
-    \item It is\textbf{ fast }($\mu m/min$).
-    \item Thicknesses $> 100 \mu m$ are possible.
-    \item It needs a seed layer (the entire loop must be electrically conductive).
-    \item Electrodeposit can grow to connect isolated segments.
-    \item 3-D Structures can be formed.
-    \item The process relies on a patterned seed layer, involving the steps: Deposit Seed Layer (e.g., Cu seed layer PVD deposited) $\rightarrow$ Define Seed Layer \& Contact $\rightarrow$ Electroplate Material.
+    \item \textbf{Versatility:} A variety of metals can be deposited, including gold (Au), nickel (Ni), copper (Cu), and others. However, not all metals are suitable for electrodeposition due to factors such as cost, toxicity, or chemical reactivity.
+    \item \textbf{High Deposition Rate:} Electrodeposition is a fast process, with deposition rates typically in the range of micrometers per minute ($\mu m/\text{min}$).
+    \item \textbf{Thick Layers:} It is possible to deposit layers with thicknesses exceeding $100~\mu m$, making it ideal for applications requiring substantial material buildup.
+    \item \textbf{Seed Layer Requirement:} A conductive seed layer is essential for the process, as the entire electrochemical circuit must be electrically conductive. The seed layer provides the initial surface for metal deposition.
+    \item \textbf{Electrical Connectivity:} All parts of the substrate must be electrically connected to ensure uniform deposition. Isolated segments cannot be plated unless they are connected to the cathode.
+    \item \textbf{3D Structures:} Electrodeposition can be used to create complex three-dimensional structures, as the deposited material can conform to the shape of the substrate.
+    \item \textbf{Patterned Deposition:} The process relies on a patterned seed layer, which can be defined using photolithography or other masking techniques. The typical steps include:
+    \begin{enumerate}
+        \item \textbf{Deposit Seed Layer:} A thin conductive layer (e.g., copper) is deposited on the substrate using a technique such as PVD (Physical Vapor Deposition).
+        \item \textbf{Define Seed Layer and Contact:} The seed layer is patterned to define the areas where deposition will occur.
+        \item \textbf{Electroplate Material:} The desired metal is deposited onto the patterned seed layer through the electrodeposition process.
+    \end{enumerate}
 \end{itemize}
-The surface of the substrate MUST be \textbf{electrically conductive}. It's a mandatory requirement but not sufficient.
-They also MUST be \textbf{electrically connected}.
+
+\subsection{Key Considerations}
+For successful electrodeposition, the following conditions must be met:
+\begin{itemize}
+    \item The surface of the substrate must be \textbf{electrically conductive.} This is a mandatory requirement to allow the flow of current and the reduction of metal ions at the cathode.
+    \item The conductive areas of the substrate must be \textbf{electrically connected.} Isolated regions will not receive deposition unless they are part of the electrical circuit.
+    \item The electrolyte composition, temperature, and current density must be carefully controlled to achieve the desired deposition rate, uniformity, and material properties.
+\end{itemize}
+
+Electrodeposition is widely used in industries such as electronics, automotive, and jewelry for applications ranging from the fabrication of microelectronic interconnects to the decorative plating of consumer goods.
 
 \clearpage
 \chapter{Implantation}
