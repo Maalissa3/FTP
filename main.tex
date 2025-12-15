@@ -1603,93 +1603,107 @@ For successful electrodeposition, the following conditions must be met:
 Electrodeposition is widely used in industries such as electronics, automotive, and jewelry for applications ranging from the fabrication of microelectronic interconnects to the decorative plating of consumer goods.
 
 \clearpage
-\chapter{Implantation}
+\chapter{Doping-Implantation}
 \section{Silicon Doping}
-Adding parts/billion to parts/thousand of "dopants" to pure Si can change resistivity by 8 orders of magnitude!\\
-The key to building
-semiconductor devices lies in
-the ability to control the local
-doping and hence local
-electronic properties of a
-semiconductor crystal.
-\\
-Approximate definition of doping levels:
+Adding parts per billion to parts per thousand of "dopants" to pure silicon can drastically alter its resistivity, changing it by as much as 8 orders of magnitude! This remarkable property is the cornerstone of modern semiconductor technology. The ability to precisely control the local doping concentration and, consequently, the local electronic properties of a semiconductor crystal is what enables the fabrication of complex semiconductor devices.
+
+Doping levels are typically categorized as follows:
 
 \begin{itemize}
-    \item N\textsuperscript{--} or P\textsuperscript{--}: $10^{14}cm^{-3}<N_{D}$ or $N_{A}<10^{16}cm^{-3}$
-    \item N or P: $10^{16}cm^{-3}<N_{D}$ or $N_{A}<10^{18}cm^{-3}$
-    \item N\textsuperscript{+} or P\textsuperscript{+}: $10^{18}cm^{-3}<N_{D}$ or $N_{A}<10^{20}cm^{-3}$
-    \item N\textsuperscript{++} or P\textsuperscript{++}: $N_{D}$ or $N_{A}>10^{20}cm^{-3}$
-    \item $Si\#$ density: $5\times10^{22}cm^{-3}$
-    \item Intrinsic Si at RT: $n_{i}=1.45\times10^{10}cm^{-3}$
+    \item \textbf{N\textsuperscript{--} or P\textsuperscript{--} (Lightly Doped):} The doping concentration lies in the range $10^{14}~\text{cm}^{-3} < N_{D}$ or $N_{A} < 10^{16}~\text{cm}^{-3}$. This level of doping introduces a small number of charge carriers, resulting in relatively high resistivity.
+    \item \textbf{N or P (Moderately Doped):} The doping concentration is in the range $10^{16}~\text{cm}^{-3} < N_{D}$ or $N_{A} < 10^{18}~\text{cm}^{-3}$. This is the typical doping level for many semiconductor devices, providing a balance between conductivity and resistivity.
+    \item \textbf{N\textsuperscript{+} or P\textsuperscript{+} (Heavily Doped):} The doping concentration is in the range $10^{18}~\text{cm}^{-3} < N_{D}$ or $N_{A} < 10^{20}~\text{cm}^{-3}$. At this level, the material exhibits significantly enhanced conductivity due to the high density of charge carriers.
+    \item \textbf{N\textsuperscript{++} or P\textsuperscript{++} (Degenerately Doped):} The doping concentration exceeds $10^{20}~\text{cm}^{-3}$. In this regime, the material behaves almost like a metal, with extremely high conductivity and negligible resistivity.
+\end{itemize}
+$N_{D}$ and $N_{A}$ represent the donor and acceptor concentrations, respectively.
+
+For reference:
+\begin{itemize}
+    \item \textbf{Silicon Atomic Density:} The density of silicon atoms in a crystal lattice is approximately $5 \times 10^{22}~\text{cm}^{-3}$.
+    \item \textbf{Intrinsic Silicon at Room Temperature:} The intrinsic carrier concentration of silicon at room temperature is $n_{i} = 1.45 \times 10^{10}~\text{cm}^{-3}$. This is the baseline carrier concentration in pure, undoped silicon.
 \end{itemize}
 
 
-\section{Dopant Species: P-Type, N-Type}
-Typical Dopants (gives or takes an e\textsuperscript{--})
-Doping atoms generally must sit on substitutional sites to be electrically active. Doping levels: $10^{15}$ to $10^{20}atoms/cm^{3}$(Silicon has $5.2\times10^{22}atoms/cm^{3}$).
+\subsection{Dopant Species: P-Type, N-Type}
+Dopants are specific atoms introduced into a semiconductor material to modify its electrical properties. These atoms can either donate or accept electrons, thereby creating n-type or p-type regions in the material. For dopants to be electrically active, they must occupy substitutional sites in the crystal lattice. The typical doping levels range from $10^{15}$ to $10^{20}~\text{atoms}/\text{cm}^3$, compared to the atomic density of silicon, which is approximately $5.2 \times 10^{22}~\text{atoms}/\text{cm}^3$.
+
 \begin{itemize}
-    \item Donor Atoms (n-type):P, As, Sb, ...
-    \item Acceptor Atoms (p-type): B, Ga, Al
-    \item P, As and B most used thanks to the greater solubility in $Si(>5\cdot10^{20}cm^{-3})$
-    \item Unwanted Dopants: Au, Fe, Cu, Ni, ...
+    \item \textbf{Donor Atoms (n-type):} These atoms donate free electrons to the conduction band, increasing the material's conductivity. Common donor atoms include:
     \begin{itemize}
-        \item can ruin solid-state electronic devices
-        \item fast diffusers (high diffusivity)
+        \item Phosphorus (P)
+        \item Arsenic (As)
+        \item Antimony (Sb)
+    \end{itemize}
+    \item \textbf{Acceptor Atoms (p-type):} These atoms accept electrons, creating holes in the valence band, which act as positive charge carriers. Common acceptor atoms include:
+    \begin{itemize}
+        \item Boron (B)
+        \item Gallium (Ga)
+        \item Aluminum (Al)
+    \end{itemize}
+    \item \textbf{Preferred Dopants:} Phosphorus, arsenic, and boron are the most commonly used dopants due to their high solubility in silicon, which exceeds $5 \cdot 10^{20}~\text{cm}^{-3}$.
+    \item \textbf{Unwanted Dopants:} Certain elements, such as gold (Au), iron (Fe), copper (Cu), and nickel (Ni), are considered contaminants in semiconductor manufacturing. These elements can:
+    \begin{itemize}
+        \item Degrade the performance of solid-state electronic devices.
+        \item Diffuse rapidly through the silicon lattice, making them difficult to control.
     \end{itemize}
 \end{itemize}
-Doping is done to alter electrical, so physical, properties. Bus also Chemical!
 
-\section{Piezoresistive Pressure Sensor}
+Doping is a critical process not only for altering the electrical properties of semiconductors but also for influencing their physical and chemical characteristics.
+
+\subsection{Piezoresistive Pressure Sensor}
 \begin{center}
     \includegraphics[width=0.5\linewidth]{Screenshot 2025-11-04 at 12.13.31.png}
 \end{center}
-In the center there's a membrane that reacts to differential pressure. The translation of pressure to an electrical signal is done thanks to a piezoresitor, it works thanks to mechanical pressure, changing the resistance, having a voltage proportional to the differential of pressure. Doped Si is a piezoresistor. You can alter Electro-mechanical properties.
+A piezoresistive pressure sensor is a device that converts pressure into an electrical signal. At the core of the sensor is a thin silicon membrane that deforms under differential pressure. This deformation alters the resistance of a piezoresistor, which is a doped silicon region. The change in resistance is proportional to the applied pressure, allowing the sensor to generate a voltage signal that corresponds to the pressure differential.
 
-\section{Doping Parameters}
+Doped silicon is used as the piezoresistor because its electrical resistance changes predictably under mechanical stress. This property, known as the piezoresistive effect, is a direct result of the interaction between the mechanical and electrical properties of the doped material. By carefully controlling the doping concentration and distribution, the sensor's sensitivity and performance can be optimized.
 
-Aim of the doping model characterization parameters is the prediction of a minimum set of 3 doping process
+\subsection{Doping Parameters}
+The characterization of doping processes involves defining key parameters that allow for the prediction and control of the dopant distribution within the semiconductor. These parameters are essential for ensuring the desired electrical properties of the device.
+
 \begin{enumerate}
-    \item \textbf{Dopant Distribution}: $N(x)$ (or $C(x)$ depending on literature) $[atoms/cm^{3}]$ $$Q(t)=\int_{0}^{\infty}N(x,t)\cdot dx$$.
-    \item \textbf{Total Dose}: $Q(t)$ $[atoms/cm^{2}]$ $\rightarrow$ is the integral of the Distribution.
-    \item \textbf{Junction Depth} $\rightarrow x_{j}$ $[nm]$, $[\mu m]$ is the intersection of the profile $N(x,t)$ with the background concentration $N_{B}$ (or $C_{b}$), thus where $N(x,t)=N_{B}$.
+    \item \textbf{Dopant Distribution:} The dopant concentration as a function of depth, denoted as $N(x)$ or $C(x)$ (depending on the literature), is measured in $[\text{atoms}/\text{cm}^3]$. 
+
+    \item \textbf{Total Dose:} The total dose, $Q(t)$, is expressed in $[\text{atoms}/\text{cm}^2]$. It represents the cumulative number of dopant atoms introduced into the material and is a critical parameter for controlling the electrical characteristics of the doped region.
+    $$
+    Q(t) = \int_{0}^{\infty} N(x, t) \cdot dx
+    $$
+
+
+    \item \textbf{Junction Depth:} The junction depth, $x_j$, is the depth at which the dopant concentration equals the background doping concentration, $N_B$ (or $C_B$). Mathematically, this is defined as the point where:
+    $$
+    N(x, t) = N_B
+    $$
+    The junction depth is typically measured in nanometers ($\text{nm}$) or micrometers ($\mu\text{m}$) and is a key parameter for determining the electrical behavior of the device.
 \end{enumerate}
 
 \section{Ion Implantation}
 \begin{itemize}
-    \item The purpose: To introduce doping atoms/impurities in
-    substrates (e.g. silicon, GaAs, InP, SiC, diamond, ...)
-    \item An ion implanter tool generates an ionic beam of \textbf{controlled
-    species and energy}.
-    \item In case of doping, the beam is directed toward the substrate
-    scanning its surface to introduce the wanted quantity of
-    element.
+    \item \textbf{Purpose:} The primary goal of ion implantation is to introduce doping atoms or impurities into substrates such as silicon, GaAs, InP, SiC, or diamond. This process is fundamental in semiconductor device fabrication, as it allows precise control over the electrical properties of the material.
+    \item \textbf{Process Overview:} An ion implanter generates an ionic beam of controlled species and energy. This beam is directed toward the substrate, scanning its surface to introduce the desired quantity of dopant atoms. The process is highly controlled to ensure uniformity and precision.
 \end{itemize}
-You basically spray dopant everywhere, it will act on non-masked areas.
+
+In essence, ion implantation is akin to "spraying" dopant atoms onto the substrate, where they penetrate and modify the material's properties in non-masked areas.
+
 \begin{center}
     \includegraphics[width=0.5\linewidth]{Screenshot 2025-11-04 at 12.24.12.png}
 \end{center}
-The idea was proposed by Shockley in 1954, but used for
-mass production only after late 1970s.\\\\
-Electrostatically (through high potentials
-3 kV - 3 MV)
-accelerate ionized dopant atoms to velocities and energies that
-can implant dopants below the surface of the substrate:
 
+The concept of ion implantation was first proposed by Shockley in 1954. However, it was not until the late 1970s that the technique was widely adopted for mass production in the semiconductor industry.
+
+\subsection{Key Features of Ion Implantation}
 \begin{itemize}
-    \item process performed at low temperatures (room temperature -- $200^{\circ}C$)$\rightarrow$ can use photoresist as a mask (being cheaper)
-    \item instant-on and instant-off control
-    \item precise control of implanting current and charge allow for better control
-    of the implanted dose ($Q_{0}$) that can be monitored in situ
-    \item increased implant energies can penetrate thin films of materials
-    \item the peak of implanted dopant profiles are always below the surface
-    (buried)
-    \item mass separator allows each implanter to run multiple processes (B, P,
-    $BF_{2}$, As...)
-    \item ISSUE: needs to be followed by an anneal
+    \item \textbf{Energy Control:} Ions are electrostatically accelerated using high potentials (ranging from 3 kV to 3 MV). This allows precise control over the velocity and energy of the ions, enabling them to penetrate the substrate to specific depths.
+    \item \textbf{Low-Temperature Process:} The process is performed at low temperatures (room temperature to approximately $200^{\circ}C$), making it compatible with photoresist masks, which are cost-effective and easy to use.
+    \item \textbf{Instant Control:} The process offers instant-on and instant-off control, allowing for precise adjustments during implantation.
+    \item \textbf{Dose Control:} Implanting current and charge can be precisely controlled, enabling accurate monitoring of the implanted dose ($Q_{0}$) in real time.
+    \item \textbf{Penetration Capability:} High-energy implants can penetrate thin films of materials, making the technique versatile for various applications.
+    \item \textbf{Buried Profiles:} The peak concentration of implanted dopants is always located below the surface, creating buried profiles that are advantageous for certain device structures.
+    \item \textbf{Mass Separation:} The implanter's mass separator allows it to handle multiple dopant species (e.g., B, P, $BF_{2}$, As) in a single tool.
+    \item \textbf{Post-Implantation Annealing:} A critical step following implantation is annealing, which serves two purposes:
     \begin{itemize}
-        \item heal crystal damage (cause of the damage of the process)
-        \item activate dopant (put in substitutional sites from interstitial)
+        \item \textbf{Crystal Damage Repair:} The implantation process causes damage to the crystal lattice, which must be repaired to restore the material's properties.
+        \item \textbf{Dopant Activation:} Annealing moves dopant atoms from interstitial sites to substitutional sites in the lattice, enabling them to contribute to the material's electrical properties.
     \end{itemize}
 \end{itemize}
 
@@ -1697,277 +1711,367 @@ can implant dopants below the surface of the substrate:
 \begin{center}
     \includegraphics[width=0.5\linewidth]{Screenshot 2025-11-04 at 12.30.51.png}
 \end{center}
+An ion implanter consists of several key components, each playing a critical role in the implantation process:
 \begin{itemize}
-    \item Ion source: generates dopant ions by electron cascading from tungsten filament, magnet forces e\textsuperscript{--} into spiral paths.
-    \item Extraction region: pulls ions out of the source and focuses them toward the mass analyzer.
-    \item Mass analysis: used to filter out undesired ions, by tuning magnetic fields to allow a specific $m/q$ ratio to pass through.
-    \item Accelerator: accelerates ions (electric field) toward the wafers $(E=qV)$
-    \item Vacuum: need clean vacuum to reduce loss of ions through neutralization, scattering.
-    \item Deflector plate: bend to remove neutralized species $\rightarrow$ Being trapped by a Beam Trap.
-    \item Scanning system: x and y axis deflection plates are used to scan
-    the beam across the wafer to produce uniform implantation of
-    desired dose.
+    \item \textbf{Ion Source:} Generates dopant ions through electron cascading from a tungsten filament. A magnetic field forces electrons into spiral paths, enhancing ionization efficiency.
+    \item \textbf{Extraction Region:} Extracts ions from the source and focuses them toward the mass analyzer.
+    \item \textbf{Mass Analyzer:} Filters out undesired ions by tuning magnetic fields to allow only ions with a specific mass-to-charge ratio ($m/q$) to pass through.
+    \item \textbf{Accelerator:} Uses an electric field to accelerate ions toward the substrate. The energy imparted to the ions is determined by the applied voltage ($E = qV$).
+    \item \textbf{Vacuum System:} Maintains a clean vacuum environment to minimize ion loss due to neutralization or scattering.
+    \item \textbf{Deflector Plate:} Bends the ion beam to remove neutralized species, which are trapped by a beam trap.
+    \item \textbf{Scanning System:} Uses x and y-axis deflection plates to scan the beam across the wafer, ensuring uniform implantation of the desired dose.
 \end{itemize}
-Why we want to eliminate any neutral element? Because they're uncountable! Every ion carries one charge, to count the number of ions it's sufficient to measure the current.
 
-$$Q=\int_{0}^{T} \frac{I\cdot  dt}{n \cdot q\cdot  A}$$
-dose in ions $cm^{-2}$
-$\rightarrow$ measured by
-the integrated
-beam current.
+\textbf{Why Eliminate Neutral Species?} Neutral species are uncountable because they do not carry charge. Since each ion carries a single charge, the number of ions can be determined by measuring the current. This ensures precise dose control.
 
-\section{Gaussian approximation}
-At its heart Implantation is a random process$\rightarrow$
-Dopants follow a completely Gaussian distribution
+\subsection{Dose Calculation}
+The dose, which represents the total number of ions implanted per unit area, is a critical parameter in ion implantation. It is calculated using the following formula:
+$$
+Q = \int_{0}^{T} \frac{I \cdot dt}{n \cdot q \cdot A}
+$$
+where:
 \begin{itemize}
-    \item $x=$ depth from wafer surface ($\mu m$)
-    \item $N(x)$ or $C(x)=$ dopant distribution $=$ dopant concentration at depth x
-    \item $N_{p}$ or $C_{p}=$ peak dopant concentration
-    \item $Q=$ dose, total number of dopant ion implanted ($atoms/\mu m^{2}$)
-    \item $R_{p}=$ range of implant (or projected range), depth of highest concentration ($\mu m$) or average depth
-    \item Variance (Vertical Straggle (or projected straggle) $=$ standard deviation of concentration) $=\pm\Delta R_{p}$
-    \item Lateral Variance (Lateral Straggle (or transverse straggle) $=\pm\Delta R_{\perp}$) $\rightarrow$ produces also a lateral implantation
-    \item Gaussian asymmetry (Skewness)
+    \item $I$: The beam current, which indicates the number of ions per second in the beam.
+    \item $T$: The total implantation time, representing the duration over which the ions are implanted.
+    \item $n$: The number of charges per ion, which is typically 1 for singly charged ions.
+    \item $q$: The elementary charge, approximately $1.602 \times 10^{-19}~\text{C}$.
+    \item $A$: The area of the substrate being implanted, measured in $\text{cm}^2$ or $\mu\text{m}^2$.
 \end{itemize}
-$$N(r)=N_{p}exp-\frac{(r-R_{p})^{2}}{2\Delta{R_{p}}^{2}}$$
+This formula ensures precise control over the number of dopant ions introduced into the substrate, which is essential for achieving the desired electrical properties.
 
-Dose: $$Q=\int_{0}^{\infty}\frac{I\cdot dt}{n\cdot q\cdot A}=\int_{0}^{\infty}N(x)\cdot dx$$
-Projected range:$$R_{p}=\frac{\sum_{i}x_{i}}{N}$$
-Straggle $\rightarrow$ Order 2 moment:
-$$\Delta R_{p}=\sigma_{p}=\sqrt{\frac{\sum_{i}(x_{i}-R_{p})^{2}}{N}}$$
-Gaussian distribution:
-$$C(x)=\frac{Q}{\sqrt{2\pi}\sigma_{p}}exp(-\frac{(x-R_{p})^{2}}{2\sigma_{p}^{2}})=N(x)$$
+\subsection{Gaussian Approximation of Dopant Profiles}
+Ion implantation is inherently a stochastic process, leading to dopant distributions that can be approximated by a Gaussian profile. This approximation is widely used due to its simplicity and accuracy in describing the distribution of dopants within the substrate.
+
+Key parameters of the Gaussian profile include:
+\begin{itemize}
+    \item $x$: The depth from the wafer surface, typically measured in micrometers ($\mu\text{m}$).
+    \item $N(x)$ or $C(x)$: The dopant concentration at a specific depth $x$, expressed in $\text{atoms}/\text{cm}^3$.
+    \item $N_{p}$ or $C_{p}$: The peak dopant concentration, which occurs at the depth of the projected range ($R_{p}$).
+    \item $Q$: The total dose, representing the total number of implanted dopant ions per unit area, measured in $\text{atoms}/\mu\text{m}^2$.
+    \item $R_{p}$: The projected range, which is the depth at which the dopant concentration is highest or the average depth of the dopants.
+    \item $\Delta R_{p}$: The vertical straggle, representing the standard deviation of the dopant concentration in the vertical direction.
+    \item $\Delta R_{\perp}$: The lateral straggle, representing the lateral spread of the dopants due to scattering.
+    \item Skewness: A measure of the asymmetry of the Gaussian distribution, which can arise from non-ideal implantation conditions.
+\end{itemize}
+
+The Gaussian distribution is mathematically expressed as:
+$$
+N(x) = N_{p} \cdot \exp\left(-\frac{(x - R_{p})^{2}}{2 \Delta R_{p}^{2}}\right)= \frac{Q}{\sqrt{2\pi} \Delta R_{p}} \cdot \exp\left(-\frac{(x - R_{p})^{2}}{2 \Delta R_{p}^{2}}\right)
+$$
+This equation describes how the dopant concentration varies with depth, with the highest concentration occurring at $R_{p}$ and tapering off symmetrically on either side.
+
+\subsection{Dose and Range Calculations}
+The following calculations are essential for characterizing the dopant distribution:
+
+\begin{itemize}
+    \item \textbf{Dose:} The total dose is the integral of the dopant concentration over the entire depth:
+    $$
+    Q = \int_{0}^{\infty} N(x) \cdot dx
+    $$
+    This represents the total number of dopant atoms implanted per unit area.
+
+    \item \textbf{Projected Range:} The projected range is the average depth of the implanted dopants:
+    $$
+    R_{p} = \frac{\sum_{i} x_{i}}{N}
+    $$
+    where $x_{i}$ represents the depth of individual dopant atoms, and $N$ is the total number of dopant atoms.
+
+    \item \textbf{Straggle:} The vertical straggle quantifies the spread of the dopant distribution around the projected range:
+    $$
+    \Delta R_{p} = \sigma_{p} = \sqrt{\frac{\sum_{i} (x_{i} - R_{p})^{2}}{N}}
+    $$
+    This parameter is critical for understanding the uniformity of the dopant distribution.
+\end{itemize}
 
 \subsection{Projected Range and Straggle}
 \begin{center}
     \includegraphics[width=0.5\linewidth]{Screenshot 2025-11-04 at 12.57.41.png}
 \end{center}
-Heavy ions, shallower and more vertical gaussian.
-Light ions, deeper and wider distribution.
+
+\textbf{Key Observations:}
+\begin{itemize}
+    \item \textbf{Heavy Ions:} Heavy ions, such as arsenic (As), result in shallower implantation depths and more vertically concentrated Gaussian profiles. This is due to their higher mass, which reduces their penetration depth.
+    \item \textbf{Light Ions:} Light ions, such as boron (B), penetrate deeper into the substrate and exhibit wider distributions. Their lower mass allows them to travel further before coming to rest.
+\end{itemize}
+These observations are crucial for selecting the appropriate dopant species and implantation parameters for specific device requirements.
+
 
 \section{Implantation Control Parameters}
-
 \begin{itemize}
-    \item Ion Energy
+    \item \textbf{Ion Energy:}
     \begin{itemize}
-        \item controls the depth and shape of implant
-        \item affects amount of crystal damage created
+        \item Controls the depth and shape of the implanted dopant profile. Higher ion energy results in deeper penetration of ions into the substrate, while lower energy leads to shallower profiles.
+        \item Affects the amount of crystal damage created during implantation. Higher energy ions cause more significant lattice disruption, which may require more extensive annealing to repair.
     \end{itemize}
-    \item Dose
+    \item \textbf{Dose:}
     \begin{itemize}
-        \item control concentration $\rightarrow$ many device parameters
+        \item Determines the total number of dopant atoms introduced per unit area. The dose directly controls the dopant concentration, which in turn influences many device parameters such as threshold voltage and sheet resistance.
     \end{itemize}
-    \item Ion Species
+    \item \textbf{Ion Species:}
     \begin{itemize}
-        \item controls the type (n or p)
-        \item impacts profile depth and shape
+        \item Determines the type of doping (n-type or p-type) based on the choice of dopant atoms. For example, boron is used for p-type doping, while phosphorus or arsenic is used for n-type doping.
+        \item Impacts the depth and shape of the dopant profile due to differences in atomic mass and scattering behavior. Lighter ions like boron penetrate deeper, while heavier ions like arsenic create shallower profiles.
     \end{itemize}
-    \item Mask Shape (layout) and thickness
+    \item \textbf{Mask Shape (Layout) and Thickness:}
     \begin{itemize}
-        \item controls in-plane geometry of the implant
+        \item Defines the in-plane geometry of the implanted regions. The mask layout determines where the dopants are introduced and where they are blocked.
+        \item The thickness of the mask material must be sufficient to prevent ion penetration in masked areas, ensuring precise patterning.
     \end{itemize}
-    \item Annealing technique $\rightarrow$time and temperature
+    \item \textbf{Annealing Technique:}
+    \begin{itemize}
+        \item The choice of annealing method, along with the time and temperature parameters, is critical for activating the dopants and repairing crystal damage caused by implantation.
+        \item Annealing redistributes dopants to achieve the desired profile and ensures that dopant atoms occupy substitutional lattice sites, making them electrically active.
+    \end{itemize}
 \end{itemize}
 
-\section{Junction Depth (As Implanted)}
-Junction depth is the depth at which the concentration of
-implanted dopant atoms equals the substrate background
-concentration of dopant atoms.
-$$C(x_{j})=C_{b}\rightarrow C_{b}= background doping$$
-$$X_{j}=R_{p}\pm\sqrt{2}(\Delta R_{p})\sqrt{ln(\frac{C_{p}}{C_{b}})}$$
-where
-$$C_{p}=\frac{Q_{0}}{\sqrt{2\pi}(\Delta R_{p})}$$
-Note: $R_{p}$ and $\Delta R_{p}$ are tabulated for various dopants and
-materials
+\subsection{Junction Depth (As Implanted)}
+The junction depth is the depth at which the concentration of implanted dopant atoms equals the substrate's background doping concentration. This parameter is critical for defining the electrical characteristics of the device.
 
+\[
+C(x_{j}) = C_{b} \quad \rightarrow \quad C_{b} = \text{background doping concentration}
+\]
+
+The junction depth, $X_{j}$, can be calculated using the following formula:
+\[
+X_{j} = R_{p} \pm \sqrt{2} \cdot \Delta R_{p} \cdot \sqrt{\ln\left(\frac{C_{p}}{C_{b}}\right)}
+\]
+
+Where:
+\begin{itemize}
+    \item $R_{p}$: Projected range, representing the average depth of the implanted dopants.
+    \item $\Delta R_{p}$: Standard deviation of the dopant distribution (vertical straggle).
+    \item $C_{p}$: Peak dopant concentration, given by:
+    \[
+    C_{p} = \frac{Q_{0}}{\sqrt{2\pi} \cdot \Delta R_{p}}
+    \]
+    \item $Q_{0}$: Total implanted dose.
+    \item $C_{b}$: Background doping concentration of the substrate.
+\end{itemize}
+
+\textbf{Note:} The values of $R_{p}$ and $\Delta R_{p}$ are tabulated for various dopant species and substrate materials, making it easier to calculate the junction depth for specific implantation conditions.
+\begin{center}
+    \includegraphics[width=0.3\linewidth]{Screenshot 2025-12-15 at 23.33.03.png}
+\end{center}
 \section{Annealing - Activation}
-Annealing effects:
+Annealing is a critical thermal process used to repair damage caused by ion implantation and to activate dopants, enabling them to contribute to the electrical properties of the semiconductor. The process involves heating the substrate to specific temperatures to achieve the desired effects. Below are the key effects and classifications of annealing:
+
+\subsection{Effects of Annealing}
 \begin{itemize}
-    \item Electric activation: Atoms after implant are distributed casually in the crystalline lattice. To activate their dopant properties they need to be brought to substitutional position
-    \item Reorganize the atomic scale order
-    \item Side effect$\rightarrow$Diffusion of dopants and contaminants
+    \item \textbf{Electric Activation:} After ion implantation, dopant atoms are randomly distributed within the crystalline lattice, often occupying interstitial or other non-substitutional positions. To activate their dopant properties, these atoms must be moved to substitutional lattice sites, where they can effectively donate or accept charge carriers.
+    \item \textbf{Reorganization of Atomic Scale Order:} Ion implantation disrupts the crystalline structure of the substrate, creating defects and disorder. Annealing helps restore the atomic-scale order of the lattice, repairing damage and improving the material's structural integrity.
+    \item \textbf{Side Effect - Dopant and Contaminant Diffusion:} A side effect of annealing is the diffusion of dopants and contaminants within the substrate. This diffusion can alter the dopant profile, potentially impacting the device's performance. The extent of diffusion depends on the annealing temperature and duration.
 \end{itemize}
 
-The four thermal treatments are classified as:
+\subsection{Classification of Thermal Treatments}
+Annealing processes are classified based on the thermal equilibrium and heat transfer mechanisms involved. The four main types of thermal treatments are:
+
+\subsubsection{Isothermal Annealing}
+In isothermal annealing, the entire substrate maintains thermal equilibrium at every instant. Heat transfer is slow relative to the thermal constants of the substrate material. This category includes:
 \begin{itemize}
-    \item Isothermal Annealing: the whole substrate maintains thermal equilibrium at every instant (heat transfer is slow with respect to substrate material thermal constants).
-\begin{itemize}
-        \item Furnace based system $\rightarrow$Heat transfer mechanisms are dominated by heat conduction through environmental gas. Hours or minutes time scale process. Redistribution of dopant will be wider.
-        \item Rapid Thermal Process (or Rapid Thermal Annealing) $\rightarrow$lamps based system (thermal gradient $\sim$ $150^{\circ}C/s)$. Heat transfer mechanisms are dominated by  electromagnetic radiation. Seconds time scale process. Redistribution of dopant will be limited.
-    \end{itemize}
-    \item Adiabatic Annealing: thermal equilibrium is not maintained: heat transfer is faster then capability of substrate to dissipate energy.
+    \item \textbf{Furnace-Based Annealing:} 
     \begin{itemize}
-        \item E-beam anneal $\rightarrow$Heat transfer by radiation. Time scale of few seconds or ms.
-        \item Laser anneal $\rightarrow$ Heat transfer by radiation. Time scale of ms or ns.
+        \item Heat transfer is dominated by conduction through the surrounding gas environment.
+        \item The process typically occurs on a time scale of minutes to hours.
+        \item Due to the extended duration, dopant redistribution is more pronounced, leading to wider dopant profiles.
+    \end{itemize}
+    \item \textbf{Rapid Thermal Processing (RTP) or Rapid Thermal Annealing (RTA):}
+    \begin{itemize}
+        \item Heat transfer is dominated by electromagnetic radiation, typically from high-intensity lamps.
+        \item The thermal gradient is rapid, with heating rates of approximately $150^{\circ}\text{C}/\text{s}$.
+        \item The process occurs on a time scale of seconds, limiting dopant redistribution and preserving sharper dopant profiles.
     \end{itemize}
 \end{itemize}
+
+\subsubsection{Adiabatic Annealing}
+In adiabatic annealing, thermal equilibrium is not maintained. Heat transfer occurs faster than the substrate's ability to dissipate energy. This category includes:
+\begin{itemize}
+    \item \textbf{E-Beam Annealing:}
+    \begin{itemize}
+        \item Heat transfer is achieved through radiation from an electron beam.
+        \item The process occurs on a time scale of a few seconds to milliseconds.
+    \end{itemize}
+    \item \textbf{Laser Annealing:}
+    \begin{itemize}
+        \item Heat transfer is achieved through radiation from a laser.
+        \item The process occurs on a time scale of milliseconds to nanoseconds.
+        \item Laser annealing is particularly useful for achieving localized heating with minimal impact on surrounding areas.
+    \end{itemize}
+\end{itemize}
+
 \begin{center}
     \includegraphics[width=0.35\linewidth]{Screenshot 2025-11-04 at 13.52.43.png}
 \end{center}
 
+\subsection{Comparison of Annealing Techniques}
+The choice of annealing technique depends on the specific requirements of the application, such as the desired dopant profile, the extent of lattice damage, and the thermal budget of the process. Furnace annealing is suitable for processes requiring uniform heating over extended durations, while RTP and laser annealing are preferred for applications requiring rapid, localized heating with minimal dopant diffusion.
 \section{Channeling Ions Through Lattice}
-\begin{itemize}
-    \item In a monocrystalline material there is a significant probability that the implanted ions trajectory is aligned with crystallographic planes of low Miller indices (larger space). They results in a channel where ion is not subjected to nuclear scattering and the energy loss is mainly due to electronic interaction.
-    \item In this condition, the interatomic potential itself contributes to keep the ion in the direction of the channel $\rightarrow$ CHANNELING
-    \item The distance before the ion stop can be significantly larger then in the case of amorphous layer $\rightarrow$ results is $\sim 2\times$ increase in implant depth (no Gaussian distribution or better Gaussian distribution with exponential tail)
-\end{itemize}
+In a monocrystalline material, there is a significant probability that the trajectory of implanted ions aligns with crystallographic planes of low Miller indices (planes with larger interatomic spacing). These planes act as channels where the ions are less likely to undergo nuclear scattering, and the primary energy loss mechanism becomes electronic interaction.
+
+Under these conditions, the interatomic potential itself contributes to keeping the ion aligned with the channel, a phenomenon known as \textbf{channeling}.
+
+As a result of channeling, the distance an ion travels before stopping can be significantly larger than in the case of an amorphous layer. This leads to an approximately $2\times$ increase in the implant depth. The dopant profile deviates from a standard Gaussian distribution, often exhibiting an exponential tail due to the extended penetration of ions.
 
 \begin{center}
     \includegraphics[width=0.35\linewidth]{Screenshot 2025-11-04 at 13.55.15.png}
 \end{center}
 
 \subsection{Minimizing Channeling}
-\begin{itemize}
-    \item Implant into a damaged target (Ar\textsuperscript{+} pre-implantation to damage surface layers (how? using neutral ions- low energy, high dose))
-    \item Implant through an amorphous layer (Silicon Oxide).
-    \begin{itemize}
-        \item Not easy to implement in I.C. process flow
-    \end{itemize}
-    \item Implant in direction not aligned with crystal channels(Twist and or Tilt)-is the most used.
-\end{itemize}
-\subsubsection{Twist and or Tilt:}
-A tilt angle of $7^{\circ}-8^{\circ}$ was found to be effective for a large variety of implant conditions. \textbf{Shadowing} effects must be considered when tilt angle is set.
-A shifted or a bigger mask is not the solutions, because we may have problems with horizontal vertical lines.
+Channeling can lead to undesirable variations in the dopant profile, which may affect the performance and reliability of semiconductor devices. Several techniques can be employed to minimize channeling effects:
 
+\begin{itemize}
+    \item \textbf{Implant into a damaged target:} Pre-damage the surface layers of the substrate using a pre-implantation step with neutral ions (e.g., Ar\textsuperscript{+}) at low energy and high dose. The induced damage disrupts the crystalline structure, reducing the likelihood of channeling.
+    \item \textbf{Implant through an amorphous layer:} Introduce an amorphous layer, such as silicon oxide ($SiO_2$), on the substrate surface. The amorphous layer prevents ions from aligning with the crystalline channels. 
+    \begin{itemize}
+        \item While effective, this method is challenging to integrate into a standard integrated circuit (I.C.) process flow due to additional complexity and potential compatibility issues.
+    \end{itemize}
+    \item \textbf{Implant at an angle not aligned with crystal channels:} Adjust the implantation angle to avoid alignment with the crystal channels. This can be achieved by introducing a \textbf{twist} (rotation about the wafer's normal axis) and/or a \textbf{tilt} (rotation about an axis perpendicular to the wafer's normal axis).
+\end{itemize}
+
+\subsubsection{Twist and/or Tilt:}
+\begin{itemize}
+    \item A tilt angle of approximately $7^{\circ}-8^{\circ}$ has been found to be effective in minimizing channeling effects for a wide range of implantation conditions.
+    \item However, \textbf{shadowing} effects must be carefully considered when setting the tilt angle. Shadowing occurs when the mask edges block the ion beam, leading to incomplete implantation in certain areas.
+    \item Adjusting the mask size or position to mitigate shadowing is generally not a viable solution, as it may cause misalignment issues with horizontal and vertical features in the device layout.
+\end{itemize}
 \section{Sheet (or Square) Resistance}
+
+The concept of sheet resistance is widely used in the characterization of thin films, particularly in semiconductor and microelectronics applications. It provides a convenient way to describe the resistance of a thin film without requiring knowledge of its specific dimensions.
 
 $$R=\frac{\rho\cdot L}{A}=(\frac{\rho}{t})(\frac{L}{W})=R_{s}(\frac{L}{W}) \rightarrow R_{s}=(\frac{\rho}{t})=R_{\square}$$
 
+Where:
 \begin{itemize}
-    \item Resistance R [Ohm]
-    \item Resistivity $\rho$ [Ohm$\cdot$m]
-    \item Resistor Length L, Width W, Thickness t
-    \item Sheet Resistance $R_{s}$ [Ohm/square]
+    \item $R$: Resistance of the film, measured in Ohms [$\Omega$].
+    \item $\rho$: Resistivity of the material, measured in Ohm-meters [$\Omega \cdot \text{m}$].
+    \item $L$: Length of the resistor, measured in meters [m].
+    \item $W$: Width of the resistor, measured in meters [m].
+    \item $t$: Thickness of the film, measured in meters [m].
+    \item $R_{s}$: Sheet resistance, measured in Ohms per square [$\Omega/\square$].
     \begin{itemize}
-        \item square is unit less (the aspect ratio of the resistor)
+        \item The term "square" is unitless and refers to the aspect ratio of the resistor. It simplifies the resistance calculation for films of uniform thickness.
     \end{itemize}
 \end{itemize}
 
-
 \subsection{Sheet Resistance of an Implant}
-\begin{center}
-    \includegraphics[width=0.2\linewidth]{Screenshot 2025-11-07 at 18.02.12.png}
-\end{center}
+The sheet resistance of an implanted layer is determined by integrating the conductivity over the depth of the layer. The formula is given as:
+
 $$R_{s}=(\frac{\rho}{t})=\frac{1}{\int_{x_{\beta}}^{x_{j}}\sigma(x)\cdot dx}$$
 
-n-type: $\sigma(x)=q\cdot\mu(x)\cdot n(x)$
+Where:
+\begin{itemize}
+    \item $\sigma(x)$: Conductivity at depth $x$, measured in Siemens per meter [S/m].
+    \item $x_{\beta}$: Starting depth of the conductive layer.
+    \item $x_{j}$: Junction depth, where the dopant concentration equals the background doping concentration.
+\end{itemize}
 
-p-type: $\sigma(x)=q\cdot\mu(x)\cdot p(x)$
+For n-type materials:
+$$\sigma(x)=q\cdot\mu(x)\cdot n(x)$$
 
-$$R_{s}=\frac{1}{\int_{x_{0}}^{x_{/2}}q\cdot\mu(x)\cdot(N_{A,D}(x)-N_{B})\cdot dx}$$
+For p-type materials:
+$$\sigma(x)=q\cdot\mu(x)\cdot p(x)$$
 
-Numerical calculation is required since $\mu(x)$
-is concentration dependent
+Where:
+\begin{itemize}
+    \item $q$: Elementary charge ($1.602 \times 10^{-19}~\text{C}$).
+    \item $\mu(x)$: Mobility of charge carriers at depth $x$, measured in $\text{m}^2/\text{V}\cdot\text{s}$.
+    \item $n(x)$ or $p(x)$: Electron or hole concentration at depth $x$, measured in $\text{cm}^{-3}$.
+\end{itemize}
 
+The sheet resistance can be expressed as:
+$$R_{s}=\frac{1}{\int_{x_{j1}}^{x_{j2}}q\cdot\mu(x)\cdot(N_{A,D}(x)-N_{B})\cdot dx}$$
+
+Where:
+\begin{itemize}
+    \item $N_{A,D}(x)$: Acceptor or donor concentration at depth $x$.
+    \item $N_{B}$: Background doping concentration.
+\end{itemize}
+
+Since the mobility $\mu(x)$ is concentration-dependent, numerical methods are typically required to calculate the sheet resistance.
 
 \section{Implanting Through a Mask}
 
-Fraction Transmitted$=\frac{\int_{d}^{\infty}N(x)\cdot dx}{\int_{0}^{\infty}N(x)\cdot dx}$    $N(x)=N_{p}\cdot e^{-(\frac{x-R_{p}}{\Delta R_{p}\sqrt{2}})^{2}}$
+When ion implantation is performed through a mask, the fraction of dopants transmitted through the mask is given by:
 
-$$\int_{z}^{\infty}e^{-a\cdot u^{2}}\cdot du=\frac{1}{2}\sqrt{\frac{\pi}{a}}erfc(z\sqrt{a})\rightarrow \int_{z}^{\infty}N_{p}\cdot e^{-(\frac{x-R_{p}}{\Delta R_{p}\sqrt{2}})^{2}}\cdot du=N_{p}\Delta R_{p}\sqrt{\frac{\pi}{a}}erfc(\frac{z-R_{p}}{\Delta R_{p}\sqrt{2}})$$
-Resulting in:\\Fraction Transmitted$=\frac{1}{2}erfc(\frac{d-R_{p}}{\Delta R_{p}\sqrt{2}})$
+$$\text{Fraction Transmitted} = \frac{\int_{d}^{\infty}N(x)\cdot dx}{\int_{0}^{\infty}N(x)\cdot dx}$$
 
+Where:
+\begin{itemize}
+    \item $N(x)$: Dopant concentration at depth $x$, modeled as a Gaussian distribution.
+\end{itemize}
 
-\section{Masked Implantation}
+The Gaussian distribution is expressed as:
+$$N(x) = N_{p} \cdot e^{-\left(\frac{x-R_{p}}{\Delta R_{p}\sqrt{2}}\right)^{2}}$$
+
+Using the error function ($\text{erfc}$), the integral can be simplified:
+$$\int_{z}^{\infty}e^{-a\cdot u^{2}}\cdot du = \frac{1}{2}\sqrt{\frac{\pi}{a}}\text{erfc}(z\sqrt{a})$$
+
+Substituting into the formula:
+$$\int_{z}^{\infty}N_{p}\cdot e^{-\left(\frac{x-R_{p}}{\Delta R_{p}\sqrt{2}}\right)^{2}}\cdot dx = N_{p}\Delta R_{p}\sqrt{\frac{\pi}{2}}\text{erfc}\left(\frac{z-R_{p}}{\Delta R_{p}\sqrt{2}}\right)$$
+
+Resulting in:
+$$\text{Fraction Transmitted} = \frac{1}{2}\text{erfc}\left(\frac{d-R_{p}}{\Delta R_{p}\sqrt{2}}\right)$$
+
+\subsection{Masked Implantation}
 \begin{center}
     \includegraphics[width=0.35\linewidth]{Screenshot 2025-11-06 at 09.19.44.png}
 \end{center}
-May and Sze, 2004\\ Minimum thickness of $SiO_{2}$ (\textemdash), $Si_{3}N_{4}$ (- - - - ), and a
-photoresist (-------) to produce a masking effectiveness of 99.99\%. (....)=dopants in Si.
+The figure illustrates the minimum thickness of $SiO_{2}$ (solid line), $Si_{3}N_{4}$ (dashed line), and photoresist (dotted line) required to achieve a masking effectiveness of 99.99\%. The curves represent the effectiveness of these materials in blocking dopants during ion implantation.
 
 \section{Screen Oxides}
-\subsection{IMPLANTATION}
+\subsection{Implantation}
+Screen oxides are thin oxide layers used during ion implantation to protect the substrate and control the dopant profile. The oxide layer reduces channeling effects and minimizes surface damage.
+
 \begin{center}
     \includegraphics[width=0.5\linewidth]{Screenshot 2025-11-06 at 09.20.45.png}
 \end{center}
 
-\subsection{OXIDE ETCHING}
+\subsection{Oxide Etching}
+After implantation, the screen oxide is removed using an etching process to expose the substrate for subsequent processing steps.
+
 \begin{center}
     \includegraphics[width=0.2\linewidth]{Screenshot 2025-11-06 at 09.21.32.png}
 \end{center}
 
-\section{Silicon on insulators (SOI) wafers}
+\section{Silicon on Insulators (SOI) Wafers}
+SOI wafers are used to reduce parasitic capacitance and improve device performance. They consist of a thin silicon layer (device layer) on top of an insulating layer, typically $SiO_{2}$.
+
 \begin{center}
     \includegraphics[width=0.5\linewidth]{Screenshot 2025-11-06 at 09.04.13.png}
 \end{center}
-Silicon based devices are subjected to problems due to electrical parasitic elements connected to junctions capacitances. In GaAs these problems are minimized by using semi-isolant substrates (for example Cr doped).
 
-Two options:
+\subsection{Key Features}
 \begin{itemize}
-    \item Silicon on Sapphire (SOS) (older technology, seldom used today)
-    \item Silicon on Insulator (SOI), usually an $SiO_{2}$ film
+    \item \textbf{Device Layer Thickness:} Typically $\sim 2~\mu\text{m}$ for ICs but can be up to $100~\mu\text{m}$ for MEMS.
+    \item \textbf{Oxide Thickness:} Typically $\sim 0.5$ to $2~\mu\text{m}$.
+    \item \textbf{Cost:} Expensive, ranging from $\$100$ to $\$500$ per wafer.
 \end{itemize}
 
-SOI (Silicon-On-Insulator)
+\subsection{Fabrication Methods}
 \begin{itemize}
-    \item Fabricated with at least 3 different process
-    \begin{itemize}
-        \item SIMOX, BESOI, Smart-Cut\textsuperscript{\textregistered}
-    \end{itemize}
-    \item Specify the same criteria as with plain wafers
-    \begin{itemize}
-        \item Size, Orientation, Doping, Doping Level, Grade, etc.
-    \end{itemize}
-    \item Thickness of upper silicon (Device Layer)
-    \begin{itemize}
-        \item Typically $\sim 2~\mu m$ for ICs but can be up to $100~\mu m$ for MEMS
-    \end{itemize}
-    \item Thickness of oxide
-    \begin{itemize}
-        \item Typically $\sim 0.5$ to $2~\mu m$
-    \end{itemize}
-    \item Cost:
-    \begin{itemize}
-        \item Expensive: $\sim\$100$ to $\$500$ / wafer
-    \end{itemize}
+    \item \textbf{SIMOX (Separation by Implantation of Oxygen):} Involves implanting oxygen ions to create a buried oxide layer.
+    \item \textbf{BESOI (Bond and Etchback Silicon On Insulator):} Two wafers are bonded, and one is polished to create a thin device layer.
+    \item \textbf{Smart Cut:} Combines ion implantation and wafer bonding to transfer a thin silicon layer onto an insulating substrate.
 \end{itemize}
 
-\section{SIMOX}
+\subsubsection{SIMOX}
 \begin{center}
     \includegraphics[width=0.5\linewidth]{Screenshot 2025-11-06 at 09.22.12.png}
 \end{center}
-By the early 1990's, a new SOI method called Separation by Implantation of OXygen (SIMOX) had begun to gain acceptance because it could be made with nearly-standard processing equipment and there was at least one commercial supplier of the wafers.\\There are still current users of SIMOX wafers but increased device performance requirements and costs are forcing SIMOX out of the marketplace.
+SIMOX (Separation by IMplantation of OXygen) wafers are created by implanting oxygen ions into silicon, followed by annealing to form a buried oxide layer. By the early 1990s, SIMOX gained acceptance due to its compatibility with nearly-standard processing equipment and the availability of commercial suppliers. However, increased device performance requirements and costs have gradually reduced its market presence, though some users still rely on SIMOX wafers.
 
-
-\section{BESOI}
-
-A second method based on wafer bonding and thinning, called Bond and Etchback
-    Silicon On Insulator (BESOI), was also contending for the SOI market. In this
-    technique, two wafers are bonded together. One or both of the wafers has an
-    insulating oxide on the surface. After bonding, almost all of one wafer is polished away,
-    leaving a structure with a thin top silicon layer, a buried oxide and a full wafer below.
+\subsubsection{BESOI}
 \begin{center}
     \includegraphics[width=0.5\linewidth]{Screenshot 2025-11-06 at 09.23.18.png}
 \end{center}
+BESOI (Bond and Etchback Silicon On Insulator) involves bonding two wafers, one or both of which has an insulating oxide layer on the surface. After bonding, almost all of one wafer is polished away, leaving a structure with a thin top silicon layer, a buried oxide, and a full wafer below. This method was a contender for the SOI market alongside SIMOX.
 
-\section{Smart Cut}
-
-\begin{itemize}
-    \item Smart Cut is Soitec's proprietary technology, used to
-    manufacture the company's UNIBOND SOI wafers.
-    \item Based on two key techniques--ion implantation and
-    wafer bonding the process begins with two bulk
-    silicon wafers, one of which is reused to create a SOI
-    wafer later on.
-    \item The UNIBOND wafer is created by growing an oxide layer on one wafer
-    (Wafer A). This oxide layer subsequently forms the bulk-oxide (BOX)
-    layer of the SOI structure.
-    \item Ion implantation of high dose hydrogen ions through the oxide into the
-    underlying silicon forms a damage layer at the end of the ion's range.
-    \item Wafer A is bonded to Wafer B. Wafer A is then cut across the damage
-    plane (heat to break the layer off), and a thin layer of silicon is transferred
-    to Wafer B to form the SOI structure.
-    \item Finally, a CMP polish finishes the SOI surface to the original bulk-silicon
-    wafer specification.
-    \item H\textsuperscript{+} ion implantation acts as an atomic scalpel in the Smart Cut process,
-    enabling thin slices of monocrystalline film to be cut from a donor wafer
-    and transferred on top of a receiving wafer. The process provides optimal
-    usage of valuable material by placing the amount of materials needed for
-    electronic functionality on top of a very inexpensive support layer.
-\end{itemize}
+\subsubsection{Smart Cut}
 \begin{center}
     \includegraphics[width=0.5\linewidth]{Screenshot 2025-11-07 at 18.05.09.png}
 \end{center}
+Smart Cut is Soitec's proprietary technology used to manufacture UNIBOND SOI wafers. The process begins with two bulk silicon wafers, one of which is reused to create a SOI wafer later. An oxide layer is grown on one wafer (Wafer A), forming the buried oxide (BOX) layer of the SOI structure. High-dose hydrogen ion implantation through the oxide creates a damage layer at the ion's range.
+
+Wafer A is bonded to Wafer B, and Wafer A is then cut across the damage plane by applying heat to break the layer off. A thin silicon layer is transferred to Wafer B, forming the SOI structure. Finally, a CMP polish finishes the SOI surface to the original bulk-silicon wafer specification. Hydrogen ion implantation acts as an atomic scalpel, enabling thin slices of monocrystalline film to be cut and transferred efficiently, optimizing material usage.
 \clearpage
 \chapter{Wet $\&$ Dry Etching}
 
