@@ -1760,7 +1760,7 @@ N(x) = N_{p} \cdot \exp\left(-\frac{(x - R_{p})^{2}}{2 \Delta R_{p}^{2}}\right)=
 $$
 This equation describes how the dopant concentration varies with depth, with the highest concentration occurring at $R_{p}$ and tapering off symmetrically on either side.
 
-\subsection{Dose and Range Calculations}
+\subsubsection{Dose and Range Calculations}
 The following calculations are essential for characterizing the dopant distribution:
 
 \begin{itemize}
@@ -1783,7 +1783,7 @@ The following calculations are essential for characterizing the dopant distribut
     This parameter is critical for understanding the uniformity of the dopant distribution.
 \end{itemize}
 
-\subsection{Projected Range and Straggle}
+\subsubsection{Projected Range and Straggle}
 \begin{center}
     \includegraphics[width=0.5\linewidth]{Screenshot 2025-11-04 at 12.57.41.png}
 \end{center}
@@ -1979,35 +1979,26 @@ Where:
 
 The sheet resistance can be expressed as:
 $$R_{s}=\frac{1}{\int_{x_{j1}}^{x_{j2}}q\cdot\mu(x)\cdot(N_{A,D}(x)-N_{B})\cdot dx}$$
-
 Where:
 \begin{itemize}
     \item $N_{A,D}(x)$: Acceptor or donor concentration at depth $x$.
     \item $N_{B}$: Background doping concentration.
 \end{itemize}
-
 Since the mobility $\mu(x)$ is concentration-dependent, numerical methods are typically required to calculate the sheet resistance.
 
 \section{Implanting Through a Mask}
-
 When ion implantation is performed through a mask, the fraction of dopants transmitted through the mask is given by:
-
 $$\text{Fraction Transmitted} = \frac{\int_{d}^{\infty}N(x)\cdot dx}{\int_{0}^{\infty}N(x)\cdot dx}$$
-
 Where:
 \begin{itemize}
     \item $N(x)$: Dopant concentration at depth $x$, modeled as a Gaussian distribution.
 \end{itemize}
-
 The Gaussian distribution is expressed as:
 $$N(x) = N_{p} \cdot e^{-\left(\frac{x-R_{p}}{\Delta R_{p}\sqrt{2}}\right)^{2}}$$
-
 Using the error function ($\text{erfc}$), the integral can be simplified:
 $$\int_{z}^{\infty}e^{-a\cdot u^{2}}\cdot du = \frac{1}{2}\sqrt{\frac{\pi}{a}}\text{erfc}(z\sqrt{a})$$
-
 Substituting into the formula:
 $$\int_{z}^{\infty}N_{p}\cdot e^{-\left(\frac{x-R_{p}}{\Delta R_{p}\sqrt{2}}\right)^{2}}\cdot dx = N_{p}\Delta R_{p}\sqrt{\frac{\pi}{2}}\text{erfc}\left(\frac{z-R_{p}}{\Delta R_{p}\sqrt{2}}\right)$$
-
 Resulting in:
 $$\text{Fraction Transmitted} = \frac{1}{2}\text{erfc}\left(\frac{d-R_{p}}{\Delta R_{p}\sqrt{2}}\right)$$
 
@@ -2069,7 +2060,7 @@ BESOI (Bond and Etchback Silicon On Insulator) involves bonding two wafers, one 
 \begin{center}
     \includegraphics[width=0.5\linewidth]{Screenshot 2025-11-07 at 18.05.09.png}
 \end{center}
-Smart Cut is Soitec's proprietary technology used to manufacture UNIBOND SOI wafers. The process begins with two bulk silicon wafers, one of which is reused to create a SOI wafer later. An oxide layer is grown on one wafer (Wafer A), forming the buried oxide (BOX) layer of the SOI structure. High-dose hydrogen ion implantation through the oxide creates a damage layer at the ion's range.
+Smart Cut is Soitec's proprietary technology used to manufacture UNIBOND SOI wafers, based on two key techniques—ion implantation and wafer bonding. The process begins with two bulk silicon wafers, one of which is reused to create a SOI wafer later. An oxide layer is grown on one wafer (Wafer A), forming the buried oxide (BOX) layer of the SOI structure. High-dose hydrogen ion implantation through the oxide creates a damage layer at the ion's range.
 
 Wafer A is bonded to Wafer B, and Wafer A is then cut across the damage plane by applying heat to break the layer off. A thin silicon layer is transferred to Wafer B, forming the SOI structure. Finally, a CMP polish finishes the SOI surface to the original bulk-silicon wafer specification. Hydrogen ion implantation acts as an atomic scalpel, enabling thin slices of monocrystalline film to be cut and transferred efficiently, optimizing material usage.
 \clearpage
@@ -2770,7 +2761,7 @@ The use of electrodeposition enables significant design freedom, as free-standin
 
 The printing process is automated by real-time feedback of the deflection of the iontip. As a voxel reaches completion, the top side of the voxel interacts with the tip, deflecting the cantilever by a minute, measurable amount. This mechanism operates much like an Atomic Force Microscope (AFM) cantilever operating in contact-mode. Upon detection of the deflection, the tip is quickly retracted to a safe traveling height and moved to the next voxel coordinate.
 
-
+\end{document}
 \part{Cryogenic technology and Superconductivity} 
 \chapter{Introduction}
 

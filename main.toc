@@ -1,560 +1,252 @@
-\contentsline {part}{I\hspace {1em}Micro and Nano Technologies}{9}{}%
-\contentsline {chapter}{\numberline {1}Wafer Production and Monocrystals Growth}{10}{}%
-\contentsline {section}{\numberline {1.1}Monocrystals growth for miniatursed devices technology}{10}{}%
-\contentsline {section}{\numberline {1.2}Starting Material Purification}{10}{}%
-\contentsline {subsubsection}{Silicon Refining}{10}{}%
-\contentsline {subsection}{\numberline {1.2.1}Trichlorosilane (TCS) Production}{11}{}%
-\contentsline {subsubsection}{TCS Purification}{11}{}%
-\contentsline {subsection}{\numberline {1.2.2}Fractioned distillation}{11}{}%
-\contentsline {section}{\numberline {1.3}Electronic-Grade Silicon (EGS) Production}{11}{}%
-\contentsline {section}{\numberline {1.4}Czochralski Process (CZ)}{12}{}%
-\contentsline {subsection}{\numberline {1.4.1}Ingot Characteristics and Parts}{12}{}%
-\contentsline {subsection}{\numberline {1.4.2}Doping from the Melt}{12}{}%
-\contentsline {subsection}{\numberline {1.4.3}III-V Monocrystals Growth: Liquid Encapsulated CZ (LEC)}{13}{}%
-\contentsline {section}{\numberline {1.5}From Boule to Wafers}{13}{}%
-\contentsline {subsection}{\numberline {1.5.1}Ingot cropping}{13}{}%
-\contentsline {subsection}{\numberline {1.5.2}Ingot inspection}{13}{}%
-\contentsline {subsection}{\numberline {1.5.3}Shaping of ingot (Outer Diameter Grinding)}{13}{}%
-\contentsline {subsection}{\numberline {1.5.4}Flat(s) grinding}{13}{}%
-\contentsline {subsection}{\numberline {1.5.5}Ingot sawing (Wafer Slicing)}{13}{}%
-\contentsline {subsection}{\numberline {1.5.6}Edge grinding}{14}{}%
-\contentsline {subsection}{\numberline {1.5.7}Wafer lapping and grinding}{14}{}%
-\contentsline {subsection}{\numberline {1.5.8}Wafer polishing}{14}{}%
-\contentsline {subsection}{\numberline {1.5.9}Wafer cleaning}{14}{}%
-\contentsline {subsection}{\numberline {1.5.10}Laser marking for ID}{14}{}%
-\contentsline {section}{\numberline {1.6}Wafer Evolution and Advantages of Larger Diameters}{14}{}%
-\contentsline {subsection}{\numberline {1.6.1}Wafer Evolution}{14}{}%
-\contentsline {subsection}{\numberline {1.6.2}Advantages of Larger Diameter Wafers}{15}{}%
-\contentsline {chapter}{\numberline {2}Crystallography and crystalline defects}{16}{}%
-\contentsline {section}{\numberline {2.1}3 types of solids}{16}{}%
-\contentsline {subsection}{\numberline {2.1.1}Microstructure of electronic materials}{16}{}%
-\contentsline {section}{\numberline {2.2}Crystal structure}{16}{}%
-\contentsline {subsection}{\numberline {2.2.1}Cubic Crystal Structure}{16}{}%
-\contentsline {subsection}{\numberline {2.2.2}Silicon lattice (Diamond Structure)}{16}{}%
-\contentsline {subsubsection}{Zincoblend Structure}{18}{}%
-\contentsline {section}{\numberline {2.3}Miller indices}{18}{}%
-\contentsline {subsubsection}{General Procedure}{18}{}%
-\contentsline {subsection}{\numberline {2.3.1}Anisotropic Wet Etching and Surface Properties}{18}{}%
-\contentsline {section}{\numberline {2.4}Crystalline defects}{18}{}%
-\contentsline {subsection}{\numberline {2.4.1}Defects Classification}{19}{}%
-\contentsline {subsection}{\numberline {2.4.2}Point Defects}{19}{}%
-\contentsline {subsection}{\numberline {2.4.3}Line Defects: Edge Dislocation}{19}{}%
-\contentsline {subsection}{\numberline {2.4.4}Surface Defects}{19}{}%
-\contentsline {subsubsection}{Grain Boundaries}{19}{}%
-\contentsline {subsubsection}{Gemination}{19}{}%
-\contentsline {subsection}{\numberline {2.4.5}Volume Defects}{19}{}%
-\contentsline {chapter}{\numberline {3}Cleanroom Technology}{21}{}%
-\contentsline {section}{\numberline {3.1}Why Cleanroom Technology is Important}{21}{}%
-\contentsline {section}{\numberline {3.2}Sources of Contamination}{21}{}%
-\contentsline {subsection}{\numberline {3.2.1}Examples of Common Air Contaminants and Size (in microns)}{22}{}%
-\contentsline {section}{\numberline {3.3}Contamination Induced Problems}{22}{}%
-\contentsline {section}{\numberline {3.4}Classification Standards and Measurement}{22}{}%
-\contentsline {subsection}{\numberline {3.4.1}Classification Details (Fed. Std. 209 E)}{22}{}%
-\contentsline {section}{\numberline {3.5}Environmental Control and Airflow}{23}{}%
-\contentsline {subsection}{\numberline {3.5.1}Controlled Parameters}{23}{}%
-\contentsline {subsection}{\numberline {3.5.2}Airflow and Design}{23}{}%
-\contentsline {subsection}{\numberline {3.5.3}Cleanroom Air Filters}{23}{}%
-\contentsline {section}{\numberline {3.6}Cleanroom Clothing (Gowning)}{23}{}%
-\contentsline {section}{\numberline {3.7}Deionized Water (DI Water)}{24}{}%
-\contentsline {chapter}{\numberline {4}Introduction to Lithography}{25}{}%
-\contentsline {section}{\numberline {4.1}Masks and Alignment}{25}{}%
-\contentsline {subsection}{\numberline {4.1.1}Mask Generation}{25}{}%
-\contentsline {subsection}{\numberline {4.1.2}Alignment}{25}{}%
-\contentsline {section}{\numberline {4.2}Photoresist Components and Properties}{26}{}%
-\contentsline {subsection}{\numberline {4.2.1}Components}{26}{}%
-\contentsline {subsection}{\numberline {4.2.2}Properties: Polarity (Positive vs. Negative)}{26}{}%
-\contentsline {subsection}{\numberline {4.2.3}Properties: Resolution and Thickness}{26}{}%
-\contentsline {subsection}{\numberline {4.2.4}Properties: Sensitivity and Exposure Energy}{26}{}%
-\contentsline {subsection}{\numberline {4.2.5}Properties: Contrast ($\gamma $)}{26}{}%
-\contentsline {section}{\numberline {4.3}The Photolithography Process Flow}{27}{}%
-\contentsline {subsection}{\numberline {4.3.1}Wafer Preparation and Priming}{27}{}%
-\contentsline {subsection}{\numberline {4.3.2}Resist Spin-On Coating}{27}{}%
-\contentsline {subsection}{\numberline {4.3.3}Soft Bake}{28}{}%
-\contentsline {subsection}{\numberline {4.3.4}Resist Exposure}{28}{}%
-\contentsline {subsubsection}{Exposure Sources}{28}{}%
-\contentsline {subsubsection}{Exposure Tools}{29}{}%
-\contentsline {subsection}{\numberline {4.3.5}Post-Exposure Processing and Pattern Transfer}{29}{}%
-\contentsline {subsubsection}{Reflections and Standing Waves}{29}{}%
-\contentsline {subsubsection}{Fixing: Post Exposure Bake (PEB)}{30}{}%
-\contentsline {subsubsection}{Prevention: Antireflective Coatings (ARC)}{30}{}%
-\contentsline {subsection}{\numberline {4.3.6}Developing}{30}{}%
-\contentsline {subsection}{\numberline {4.3.7}Hard Bake}{30}{}%
-\contentsline {subsection}{\numberline {4.3.8}Pattern Transfer Methods}{30}{}%
-\contentsline {section}{\numberline {4.4}Models and Simulation}{31}{}%
-\contentsline {chapter}{\numberline {5}Silicon Oxidation}{32}{}%
-\contentsline {section}{\numberline {5.1}Thermal Oxidation of Silicon}{32}{}%
-\contentsline {section}{\numberline {5.2}Properties of Silicon Dioxide}{32}{}%
-\contentsline {section}{\numberline {5.3}How Does Silicon Oxidize?}{33}{}%
-\contentsline {subsection}{\numberline {5.3.1}Oxidation Occurs at the $\text {Si}-\text {SiO}_{2}$ Interface}{33}{}%
-\contentsline {subsection}{\numberline {5.3.2}Molecular Density Ratio of Oxide to Silicon}{33}{}%
-\contentsline {subsection}{\numberline {5.3.3}Oxidation Equipment}{34}{}%
-\contentsline {section}{\numberline {5.4}Key Variables in Oxidation}{34}{}%
-\contentsline {section}{\numberline {5.5}Modeling Thermal Oxidation of Silicon}{35}{}%
-\contentsline {subsection}{\numberline {5.5.1}Diffusion-Limited Process}{35}{}%
-\contentsline {subsection}{\numberline {5.5.2}Fick's First Law of Diffusion}{36}{}%
-\contentsline {subsection}{\numberline {5.5.3}Oxidation Growth Rate}{36}{}%
-\contentsline {subsection}{\numberline {5.5.4}General Relationship for Oxidation}{36}{}%
-\contentsline {section}{\numberline {5.6}Oxidation Graphs}{37}{}%
-\contentsline {subsection}{\numberline {5.6.1}Multiple Oxidations (Tracking $\tau $)}{37}{}%
-\contentsline {section}{\numberline {5.7}Growth Rate Regimes}{38}{}%
-\contentsline {subsection}{\numberline {5.7.1}Short-Time Regime (Reaction-Limited Growth)}{38}{}%
-\contentsline {subsection}{\numberline {5.7.2}Long-Time Regime (Diffusion-Limited Growth)}{38}{}%
-\contentsline {section}{\numberline {5.8}Rapid Thermal Oxidation (RTO)}{38}{}%
-\contentsline {chapter}{\numberline {6}Epitaxy, CVD, PVD, electroplating}{39}{}%
-\contentsline {section}{\numberline {6.1}Epitaxy}{39}{}%
-\contentsline {subsection}{\numberline {6.1.1}Conditions and Types}{39}{}%
-\contentsline {subsection}{\numberline {6.1.2}Classification by Mother Phase}{39}{}%
-\contentsline {subsection}{\numberline {6.1.3}Why is Epitaxy important?}{39}{}%
-\contentsline {subsection}{\numberline {6.1.4}Vapor Phase Epitaxy (VPE) / Chemical Vapor Deposition (CVD)}{40}{}%
-\contentsline {subsubsection}{VPE Details}{40}{}%
-\contentsline {subsubsection}{CVD Hazards}{40}{}%
-\contentsline {subsubsection}{VPE Reactors}{41}{}%
-\contentsline {subsection}{\numberline {6.1.5}Liquid Phase Epitaxy (LPE)}{41}{}%
-\contentsline {subsubsection}{LPE Reactor}{41}{}%
-\contentsline {subsection}{\numberline {6.1.6}Molecular Beam Epitaxy (MBE)}{41}{}%
-\contentsline {section}{\numberline {6.2}Chemical Vapor Deposition (CVD)}{42}{}%
-\contentsline {subsection}{\numberline {6.2.1}Acceptance Angle and Conformality (Non-Conformal Deposition)}{43}{}%
-\contentsline {subsection}{\numberline {6.2.2}Types of Chemical Vapor Deposition (CVD) Reactors}{43}{}%
-\contentsline {subsubsection}{Atmospheric Pressure CVD (APCVD)}{43}{}%
-\contentsline {subsubsection}{Low Pressure CVD (LPCVD)}{43}{}%
-\contentsline {subsubsection}{Plasma Enhanced CVD (PECVD)}{43}{}%
-\contentsline {paragraph}{Collision Processes:}{44}{}%
-\contentsline {paragraph}{Plasma Generation}{44}{}%
-\contentsline {paragraph}{PECVD Process Control Parameters}{44}{}%
-\contentsline {paragraph}{PECVD Advantages and Disadvantages}{45}{}%
-\contentsline {subsection}{\numberline {6.2.3}Atomic Layer Deposition(ALD)}{45}{}%
-\contentsline {subsubsection}{ALD Process Steps (Example: $Al_{2}O_{3}$)}{45}{}%
-\contentsline {subsubsection}{ALD Characteristics}{45}{}%
-\contentsline {subsection}{\numberline {6.2.4}Silicon Dioxide (CVD)}{46}{}%
-\contentsline {subsubsection}{Silicon Dioxide Deposition Methods Comparison}{46}{}%
-\contentsline {subsection}{\numberline {6.2.5}Polycrystalline Silicon ("Poly")}{46}{}%
-\contentsline {section}{\numberline {6.3}PVD (Physical Vapor Deposition)}{46}{}%
-\contentsline {subsection}{\numberline {6.3.1}PVD-Thermal Evaporation}{47}{}%
-\contentsline {subsubsection}{Conformality}{47}{}%
-\contentsline {subsection}{\numberline {6.3.2}PVD-Thermal Evaporation Techniques}{47}{}%
-\contentsline {subsubsection}{Thermal Evaporation}{47}{}%
-\contentsline {subsubsection}{E-beam Evaporation}{48}{}%
-\contentsline {subsection}{\numberline {6.3.3}PVD- Sputtering}{49}{}%
-\contentsline {subsubsection}{DC Sputtering}{49}{}%
-\contentsline {subsubsection}{Sputtering Conformality}{50}{}%
-\contentsline {subsubsection}{RF Sputtering}{50}{}%
-\contentsline {subsubsection}{Magnetron Sputtering}{51}{}%
-\contentsline {subsubsection}{Reactive Sputtering}{51}{}%
-\contentsline {subsubsection}{Ionized Sputtering (HDP Sputtering)}{51}{}%
-\contentsline {section}{\numberline {6.4}Electroplating - Electrodeposition-Galvanic Deposition}{52}{}%
-\contentsline {subsection}{\numberline {6.4.1}Processes}{52}{}%
-\contentsline {subsection}{\numberline {6.4.2}Characteristics and Applications}{52}{}%
-\contentsline {subsection}{\numberline {6.4.3}Key Considerations}{53}{}%
-\contentsline {chapter}{\numberline {7}Doping-Implantation}{54}{}%
-\contentsline {section}{\numberline {7.1}Silicon Doping}{54}{}%
-\contentsline {subsection}{\numberline {7.1.1}Dopant Species: P-Type, N-Type}{54}{}%
-\contentsline {subsection}{\numberline {7.1.2}Piezoresistive Pressure Sensor}{55}{}%
-\contentsline {subsection}{\numberline {7.1.3}Doping Parameters}{55}{}%
-\contentsline {section}{\numberline {7.2}Ion Implantation}{56}{}%
-\contentsline {subsection}{\numberline {7.2.1}Key Features of Ion Implantation}{56}{}%
-\contentsline {subsection}{\numberline {7.2.2}Implanter Components}{57}{}%
-\contentsline {subsection}{\numberline {7.2.3}Dose Calculation}{57}{}%
-\contentsline {subsection}{\numberline {7.2.4}Gaussian Approximation of Dopant Profiles}{57}{}%
-\contentsline {subsection}{\numberline {7.2.5}Dose and Range Calculations}{58}{}%
-\contentsline {subsection}{\numberline {7.2.6}Projected Range and Straggle}{58}{}%
-\contentsline {section}{\numberline {7.3}Implantation Control Parameters}{59}{}%
-\contentsline {subsection}{\numberline {7.3.1}Junction Depth (As Implanted)}{59}{}%
-\contentsline {section}{\numberline {7.4}Annealing - Activation}{60}{}%
-\contentsline {subsection}{\numberline {7.4.1}Effects of Annealing}{60}{}%
-\contentsline {subsection}{\numberline {7.4.2}Classification of Thermal Treatments}{60}{}%
-\contentsline {subsubsection}{Isothermal Annealing}{60}{}%
-\contentsline {subsubsection}{Adiabatic Annealing}{61}{}%
-\contentsline {subsection}{\numberline {7.4.3}Comparison of Annealing Techniques}{61}{}%
-\contentsline {section}{\numberline {7.5}Channeling Ions Through Lattice}{61}{}%
-\contentsline {subsection}{\numberline {7.5.1}Minimizing Channeling}{62}{}%
-\contentsline {subsubsection}{Twist and/or Tilt:}{62}{}%
-\contentsline {section}{\numberline {7.6}Sheet (or Square) Resistance}{62}{}%
-\contentsline {subsection}{\numberline {7.6.1}Sheet Resistance of an Implant}{63}{}%
-\contentsline {section}{\numberline {7.7}Implanting Through a Mask}{63}{}%
-\contentsline {subsection}{\numberline {7.7.1}Masked Implantation}{64}{}%
-\contentsline {section}{\numberline {7.8}Screen Oxides}{64}{}%
-\contentsline {subsection}{\numberline {7.8.1}Implantation}{64}{}%
-\contentsline {subsection}{\numberline {7.8.2}Oxide Etching}{64}{}%
-\contentsline {section}{\numberline {7.9}Silicon on Insulators (SOI) Wafers}{65}{}%
-\contentsline {subsection}{\numberline {7.9.1}Key Features}{65}{}%
-\contentsline {subsection}{\numberline {7.9.2}Fabrication Methods}{65}{}%
-\contentsline {subsubsection}{SIMOX}{65}{}%
-\contentsline {subsubsection}{BESOI}{66}{}%
-\contentsline {subsubsection}{Smart Cut}{66}{}%
-\contentsline {chapter}{\numberline {8}Wet $\&$ Dry Etching}{67}{}%
-\contentsline {section}{\numberline {8.1}Etching}{67}{}%
-\contentsline {section}{\numberline {8.2}Wet Etching}{67}{}%
-\contentsline {subsection}{\numberline {8.2.1}Steps in Wet Etching}{68}{}%
-\contentsline {section}{\numberline {8.3}Etchant properties}{68}{}%
-\contentsline {subsubsection}{Etch rate}{68}{}%
-\contentsline {subsubsection}{Selectivity to masking layer(s) and their availability.}{68}{}%
-\contentsline {subsubsection}{Anisotropy (crystal plane selectivity)}{69}{}%
-\contentsline {subsubsection}{Surface roughness}{69}{}%
-\contentsline {subsubsection}{Control of etch parameters (according for example to temperature, agitation conditions,...)}{69}{}%
-\contentsline {subsubsection}{Safety of reactant(s) and product(s)}{69}{}%
-\contentsline {subsubsection}{Cost (including disposal and fixed costs)}{69}{}%
-\contentsline {subsubsection}{Capacity for etch-stops (simply time controlled or concentration of the solution, doping level, doping dependant or electrochemical etch-stop)}{69}{}%
-\contentsline {section}{\numberline {8.4}Wet etching silicon ("HNA")}{69}{}%
-\contentsline {section}{\numberline {8.5}Anisotropically wet etching Silicon}{69}{}%
-\contentsline {subsection}{\numberline {8.5.1}Inorganic Alkaline Solutions (KOH)}{69}{}%
-\contentsline {section}{\numberline {8.6}HYDROFLUORIC ACID ($SiO_{2}$)}{70}{}%
-\contentsline {section}{\numberline {8.7}What is a Dry Etch?}{71}{}%
-\contentsline {subsubsection}{Why use Plasmas?}{71}{}%
-\contentsline {section}{\numberline {8.8}Vapor etching}{71}{}%
-\contentsline {subsection}{\numberline {8.8.1}HF-vapor phase etching}{71}{}%
-\contentsline {section}{\numberline {8.9}RF plasma-based dry etching}{72}{}%
-\contentsline {section}{\numberline {8.10}TODO:Types of Dry Etching}{72}{}%
-\contentsline {subsection}{\numberline {8.10.1}TODO:Reactive Ion Etching (RIE)}{72}{}%
-\contentsline {subsection}{\numberline {8.10.2}TODO:Inductively Coupled Plasma (ICP-RIE) Reactor}{73}{}%
-\contentsline {section}{\numberline {8.11}DRY ETCH CHEMISTRIES}{73}{}%
-\contentsline {section}{\numberline {8.12}TODO:Selectivity}{74}{}%
-\contentsline {section}{\numberline {8.13}TODO:Anisotropy in Dry Etching}{74}{}%
-\contentsline {subsection}{\numberline {8.13.1}TODO:ASPECT RATIO}{74}{}%
-\contentsline {section}{\numberline {8.14}Deep reactive ion etching (DRIE)$\rightarrow $Time multiplexed deep etching}{75}{}%
-\contentsline {chapter}{\numberline {9}Packaging}{76}{}%
-\contentsline {section}{\numberline {9.1}Packaging Process Flow}{76}{}%
-\contentsline {section}{\numberline {9.2}Steps in Packaging}{76}{}%
-\contentsline {subsubsection}{Die Separation and Handling}{76}{}%
-\contentsline {subsubsection}{Die Bonding and Interconnection}{76}{}%
-\contentsline {subsubsection}{Package Sealing (Encapsulation)}{76}{}%
-\contentsline {subsubsection}{Final Inspection}{77}{}%
-\contentsline {section}{\numberline {9.3}Functions of Packaging}{77}{}%
-\contentsline {section}{\numberline {9.4}Package Types}{77}{}%
-\contentsline {subsection}{\numberline {9.4.1}Types of First-Level Packages}{77}{}%
-\contentsline {subsubsection}{Through Hole Package}{77}{}%
-\contentsline {subsubsection}{Surface Mounted Package}{77}{}%
-\contentsline {subsubsection}{Pin Array Packages}{77}{}%
-\contentsline {section}{\numberline {9.5}Advanced Interconnection and Integration}{78}{}%
-\contentsline {subsection}{\numberline {9.5.1}Flip-Chip Bonding}{78}{}%
-\contentsline {subsection}{\numberline {9.5.2}Multi-Chip Modules (MCMs)}{78}{}%
-\contentsline {subsubsection}{Definitions}{78}{}%
-\contentsline {subsubsection}{Goals}{78}{}%
-\contentsline {subsubsection}{Structure}{78}{}%
-\contentsline {subsection}{\numberline {9.5.3}3D Packaging}{79}{}%
-\contentsline {subsubsection}{Advantages}{79}{}%
-\contentsline {subsubsection}{Through Silicon Vias (TSV)}{79}{}%
-\contentsline {chapter}{\numberline {10}Complementary Technologies}{80}{}%
-\contentsline {section}{\numberline {10.1}Bulk micromachining}{80}{}%
-\contentsline {subsection}{\numberline {10.1.1}Definition and Characteristics}{80}{}%
-\contentsline {subsection}{\numberline {10.1.2}Types of Bulk Micromachining}{80}{}%
-\contentsline {subsection}{\numberline {10.1.3}Bulk Micromachining Etching Techniques}{80}{}%
-\contentsline {subsection}{\numberline {10.1.4}Wet Etching}{80}{}%
-\contentsline {subsubsection}{Basic Wet Etching Procedure}{80}{}%
-\contentsline {subsubsection}{Vapour Etching}{81}{}%
-\contentsline {subsection}{\numberline {10.1.5}Dry (Plasma) Etching}{81}{}%
-\contentsline {subsubsection}{Plasma Etching Components}{81}{}%
-\contentsline {subsubsection}{Techniques}{81}{}%
-\contentsline {section}{\numberline {10.2}SPM Machining}{81}{}%
-\contentsline {subsection}{\numberline {10.2.1}Thermal Scanning Probe Lithography}{81}{}%
-\contentsline {subsection}{\numberline {10.2.2}Scanning Probe Metal 3D Printing}{81}{}%
-\contentsline {subsubsection}{The CERES System}{81}{}%
-\contentsline {subsubsection}{Voxel-Based Printing Process}{82}{}%
-\contentsline {subsubsection}{Design Freedom and Feedback}{82}{}%
-\contentsline {part}{II\hspace {1em}Cryogenic technology and Superconductivity}{83}{}%
-\contentsline {chapter}{\numberline {11}Introduction}{84}{}%
-\contentsline {section}{\numberline {11.1}Elements of classical thermodynamics}{84}{}%
-\contentsline {subsection}{\numberline {11.1.1}Microscopic vs. macroscopic points of view}{84}{}%
-\contentsline {subsection}{\numberline {11.1.2}Examples of intensive and extensive thermodynamic coordinates:}{84}{}%
-\contentsline {section}{\numberline {11.2}Thermodynamic systems}{85}{}%
-\contentsline {section}{\numberline {11.3}Thermodynamic transformations}{85}{}%
-\contentsline {section}{\numberline {11.4}The Laws of Thermodynamics}{85}{}%
-\contentsline {section}{\numberline {11.5}Thermal equilibrium}{85}{}%
-\contentsline {section}{\numberline {11.6}Zeroth Law -- Temperature}{85}{}%
-\contentsline {subsection}{\numberline {11.6.1}Heat}{86}{}%
-\contentsline {subsection}{\numberline {11.6.2}Work and Heat}{86}{}%
-\contentsline {section}{\numberline {11.7}First Law of Thermodynamics}{86}{}%
-\contentsline {section}{\numberline {11.8}Second Law of Thermodynamics}{86}{}%
-\contentsline {section}{\numberline {11.9}Third Law of Thermodynamics}{87}{}%
-\contentsline {section}{\numberline {11.10}Entropy}{87}{}%
-\contentsline {subsection}{\numberline {11.10.1}Entropy, thermodynamic definition}{87}{}%
-\contentsline {section}{\numberline {11.11}Principle of Increase of Entropy}{88}{}%
-\contentsline {subsection}{\numberline {11.11.1}Entropy: mathematical definition}{88}{}%
-\contentsline {subsection}{\numberline {11.11.2}Entropy and the Universe}{88}{}%
-\contentsline {subsection}{\numberline {11.11.3}Entropy: statistical definition}{88}{}%
-\contentsline {section}{\numberline {11.12}Enthalpy}{89}{}%
-\contentsline {subsection}{\numberline {11.12.1}Comparison of properties of the internal energy U and enthalpy H for a hydrostatic system (real and ideal gas)}{90}{}%
-\contentsline {chapter}{\numberline {12}The Thermodynamics of Refrigeration}{91}{}%
-\contentsline {section}{\numberline {12.1}Cryogenics}{91}{}%
-\contentsline {section}{\numberline {12.2}Historical development of refrigeration}{92}{}%
-\contentsline {section}{\numberline {12.3}Isentropic cooling}{93}{}%
-\contentsline {section}{\numberline {12.4}Use of a throttling process}{93}{}%
-\contentsline {section}{\numberline {12.5}Refrigerants}{95}{}%
-\contentsline {section}{\numberline {12.6}The throttling process}{96}{}%
-\contentsline {section}{\numberline {12.7}Enthalpy and throttling}{96}{}%
-\contentsline {section}{\numberline {12.8}Joule-Thomson expansion}{97}{}%
-\contentsline {section}{\numberline {12.9}Liquefaction of gases by the Joule-Thomson expansion}{98}{}%
-\contentsline {subsubsection}{Double-walled pipe}{99}{}%
-\contentsline {section}{\numberline {12.10}Coolers using turbo-expanders}{100}{}%
-\contentsline {section}{\numberline {12.11}Countercurrent heat exchangers -- calculating desirable dimensions}{100}{}%
-\contentsline {subsection}{\numberline {12.11.1}Calculation of pressure gradient}{101}{}%
-\contentsline {subsection}{\numberline {12.11.2}Calculation of heat transfer}{101}{}%
-\contentsline {subsection}{\numberline {12.11.3}Representative values for some gases}{101}{}%
-\contentsline {subsection}{\numberline {12.11.4}Required length}{101}{}%
-\contentsline {subsection}{\numberline {12.11.5}Methods of construction}{101}{}%
-\contentsline {chapter}{\numberline {13}Refrigeration machines}{103}{}%
-\contentsline {section}{\numberline {13.1}Coolers using regenerative heat exchangers}{103}{}%
-\contentsline {section}{\numberline {13.2}Stirling refrigerator cycle}{103}{}%
-\contentsline {section}{\numberline {13.3}Stirling cryocoolers}{103}{}%
-\contentsline {subsection}{\numberline {13.3.1}Split-cycle cooler}{104}{}%
-\contentsline {subsection}{\numberline {13.3.2}Special cryocoolers: High-power Stirling cryocoolers}{104}{}%
-\contentsline {subsection}{\numberline {13.3.3}Special cryocoolers for space}{104}{}%
-\contentsline {section}{\numberline {13.4}Gifford-McMahon cryocoolers}{105}{}%
-\contentsline {section}{\numberline {13.5}Pulse tube refrigerators}{105}{}%
-\contentsline {subparagraph}{GM-type PTR:}{105}{}%
-\contentsline {subparagraph}{Regenerator: issues}{106}{}%
-\contentsline {chapter}{\numberline {14}Properties of cryogenic fluids}{107}{}%
-\contentsline {section}{\numberline {14.1}Properties of Cryoliquids}{107}{}%
-\contentsline {section}{\numberline {14.2}Liquid Air, Liquid Oxygen, Liquid Nitrogen}{107}{}%
-\contentsline {subsection}{\numberline {14.2.1}Liquid Hydrogen}{107}{}%
-\contentsline {subsection}{\numberline {14.2.2}Liquid Helium: \textit {Some Properties of the Helium Isotopes}}{108}{}%
-\contentsline {subsection}{\numberline {14.2.3}Liquid Helium: \textit {Latent Heat of Evaporation and Vapour Pressure}}{108}{}%
-\contentsline {subsection}{\numberline {14.2.4}Liquid Helium: \textit {Specific Heat}}{109}{}%
-\contentsline {section}{\numberline {14.3}Liquid Helium: \textit {Transport Properties of Liquid $^4\text {He}$}}{110}{}%
-\contentsline {subsection}{\numberline {14.3.1}Thermal Conductivity}{110}{}%
-\contentsline {subsection}{\numberline {14.3.2}Viscosity and Superfluid Film Flow}{110}{}%
-\contentsline {chapter}{\numberline {15}Thermal Contact and Thermal Isolation}{112}{}%
-\contentsline {section}{\numberline {15.1}Heat transfer}{112}{}%
-\contentsline {subsection}{\numberline {15.1.1}Conduction of heat by a low-pressure gas}{112}{}%
-\contentsline {subsection}{\numberline {15.1.2}Heat transfer through solids}{112}{}%
-\contentsline {section}{\numberline {15.2}Radiation}{113}{}%
-\contentsline {section}{\numberline {15.3}Other causes of heat transfer}{115}{}%
-\contentsline {subsection}{\numberline {15.3.1}Joule heating}{115}{}%
-\contentsline {subsection}{\numberline {15.3.2}Gas adsorption/desorption}{115}{}%
-\contentsline {subsection}{\numberline {15.3.3}Inadequate anchoring of leads}{115}{}%
-\contentsline {subsection}{\numberline {15.3.4}He film creep and thermal oscillations}{115}{}%
-\contentsline {subsection}{\numberline {15.3.5}Mechanical vibrations}{115}{}%
-\contentsline {subsection}{\numberline {15.3.6}Electrical losses (induced currents)}{115}{}%
-\contentsline {section}{\numberline {15.4}Selection of the Material with the Appropriate Cryogenic Thermal Conductivity}{117}{}%
-\contentsline {section}{\numberline {15.5}Heat Switches}{117}{}%
-\contentsline {subsection}{\numberline {15.5.1}Gaseous Heat Switches}{117}{}%
-\contentsline {subsection}{\numberline {15.5.2}Mechanical Heat Switches}{118}{}%
-\contentsline {subsection}{\numberline {15.5.3}Superconducting Heat Switches}{118}{}%
-\contentsline {section}{\numberline {15.6}Thermal Boundary Resistance}{118}{}%
-\contentsline {subsection}{\numberline {15.6.1}Boundary Resistance Between Metals}{118}{}%
-\contentsline {subsection}{\numberline {15.6.2}Boundary Resistance Between Liquid Helium and Solids}{119}{}%
-\contentsline {chapter}{\numberline {16}${}^4\text {He}$ Cryostats and Cryogenic Technology}{120}{}%
-\contentsline {section}{\numberline {16.1}Key Technological Requirements and Challenges}{120}{}%
-\contentsline {section}{\numberline {16.2}Use of Liquid ${}^{4}\text {He}$ in Low-Temperature Equipment}{120}{}%
-\contentsline {subsection}{\numberline {16.2.1}Cool-Down Phase Efficiency}{120}{}%
-\contentsline {subsection}{\numberline {16.2.2}Precooling}{121}{}%
-\contentsline {subsection}{\numberline {16.2.3}Running Phase}{121}{}%
-\contentsline {section}{\numberline {16.3}Cryostat Types}{121}{}%
-\contentsline {subsection}{\numberline {16.3.1}Double-Walled Glass Dewars}{121}{}%
-\contentsline {subsection}{\numberline {16.3.2}Metal Dewars}{121}{}%
-\contentsline {subsection}{\numberline {16.3.3}He Gas-Flow Cryostats ($T > 4.2~\text {K}$)}{123}{}%
-\contentsline {subsection}{\numberline {16.3.4}Use of the Temperature Gradient Above the LHe Bath (Dipper Probes)}{123}{}%
-\contentsline {section}{\numberline {16.4}Cryostats for Variable Low Temperatures ($1.3~\text {K} \le T \le 4.2~\text {K}$)}{125}{}%
-\contentsline {subsection}{\numberline {16.4.1}Pumping on the Main ${}^{4}\text {He}$ Bath}{125}{}%
-\contentsline {subsection}{\numberline {16.4.2}Continuously Operating ${}^{4}\text {He}$ Evaporation Cryostat}{125}{}%
-\contentsline {section}{\numberline {16.5}Auxiliary Equipment}{125}{}%
-\contentsline {subsection}{\numberline {16.5.1}Storage Vessels}{125}{}%
-\contentsline {subsection}{\numberline {16.5.2}Transfer Tube}{125}{}%
-\contentsline {subsection}{\numberline {16.5.3}Level Detectors}{127}{}%
-\contentsline {chapter}{\numberline {17}${}^3He$ cryostats: refrigeration below 1K}{128}{}%
-\contentsline {section}{\numberline {17.1}Advantages and Disadvantages of $\text {}^3\text {He}$ Refrigeration}{128}{}%
-\contentsline {section}{\numberline {17.2}Types of $\text {}^3\text {He}$ Cryostats}{128}{}%
-\contentsline {subsection}{\numberline {17.2.1}Cryostats with External Pumps}{128}{}%
-\contentsline {subsection}{\numberline {17.2.2}Cryostats with Internal Adsorption Pumps}{129}{}%
-\contentsline {subsection}{\numberline {17.2.3}Example: $\text {}^3\text {He}$ Cryostat with Two Internal Adsorption Pumps}{130}{}%
-\contentsline {chapter}{\numberline {18}Dilution Refrigerator}{131}{}%
-\contentsline {section}{\numberline {18.1}The $^3\text {He}-^4\text {He}$ Dilution Refrigerator}{131}{}%
-\contentsline {subsection}{\numberline {18.1.1}Liquid $^3\text {He}-^4\text {He}$ Mixtures}{131}{}%
-\contentsline {subsection}{\numberline {18.1.2}Phase Diagram and Solubility}{131}{}%
-\contentsline {subsection}{\numberline {18.1.3}$^3\text {He}-^4\text {He}$ Mixtures as Quantum Liquids}{131}{}%
-\contentsline {section}{\numberline {18.2}Finite Solubility of $^3\text {He}$ in $^4\text {He}$}{133}{}%
-\contentsline {subsection}{\numberline {18.2.1}One $^3\text {He}$ Atom in Liquid $^4\text {He}$ ($x\approx 0$)}{133}{}%
-\contentsline {subsection}{\numberline {18.2.2}Many $^3\text {He}$ Atoms in Liquid $^4\text {He}$ ($x>0$)}{133}{}%
-\contentsline {section}{\numberline {18.3}Cooling Power of the Dilution Process}{134}{}%
-\contentsline {section}{\numberline {18.4}Osmotic Pressure}{134}{}%
-\contentsline {section}{\numberline {18.5}Realization of a $^3\text {He}–^4\text {He}$ Dilution Refrigerator}{136}{}%
-\contentsline {section}{\numberline {18.6}Properties of the Main Components of a $^3\text {He}–^4\text {He}$ Dilution Refrigerator:}{137}{}%
-\contentsline {subsection}{\numberline {18.6.1}Mixing Chamber}{137}{}%
-\contentsline {subsection}{\numberline {18.6.2}Still}{137}{}%
-\contentsline {subsection}{\numberline {18.6.3}Heat exchangers}{139}{}%
-\contentsline {subsubsection}{Simple Heat Exchangers}{139}{}%
-\contentsline {subsubsection}{Step Exchangers}{139}{}%
-\contentsline {subsubsection}{Minimum Temperature Calculation}{140}{}%
-\contentsline {section}{\numberline {18.7}Examples of $^3\text {He}–^4\text {He}$ Dilution Refrigerators}{141}{}%
-\contentsline {section}{\numberline {18.8}Developments}{141}{}%
-\contentsline {section}{\numberline {18.9}$^3\text {He}–^4\text {He}$ Dilution Refrigerator: Addendum: Example}{141}{}%
-\contentsline {subsection}{\numberline {18.9.1}Managing the heat budget of large-scale quantum computers based on superconducting circuits}{141}{}%
-\contentsline {subsection}{\numberline {18.9.2}Typical cabling for experiments with superconducting circuits}{143}{}%
-\contentsline {subsection}{\numberline {18.9.3}Sources of heat loads}{143}{}%
-\contentsline {subsubsection}{Passive load}{143}{}%
-\contentsline {subsubsection}{Active load}{144}{}%
-\contentsline {subsubsection}{Required signal levels}{144}{}%
-\contentsline {subsubsection}{Radiative load}{145}{}%
-\contentsline {subsection}{\numberline {18.9.4}Cabling and Thermalization}{145}{}%
-\contentsline {subsection}{\numberline {18.9.5}Total Heat Load Budget}{145}{}%
-\contentsline {subsection}{\numberline {18.9.6}Concluding Note}{146}{}%
-\contentsline {chapter}{\numberline {19}\textsuperscript {3}He solidification - Demagnetization - Others}{147}{}%
-\contentsline {section}{\numberline {19.1}Outline}{147}{}%
-\contentsline {section}{\numberline {19.2}TODO:Refrigeration by Solidification of Liquid \textsuperscript {3}He: Pomeranchuck Cooling}{147}{}%
-\contentsline {section}{\numberline {19.3}TODO:Refrigeration by Adiabatic Demagnetization of a Paramagnetic Salt}{148}{}%
-\contentsline {subsection}{\numberline {19.3.1}Phases (Electronic Demagnetization)}{148}{}%
-\contentsline {subsection}{\numberline {19.3.2}Paramagnetic Salts and Magnetic Refrigerators}{149}{}%
-\contentsline {section}{\numberline {19.4}TODO:Nuclear Adiabatic Demagnetization}{149}{}%
-\contentsline {subsection}{\numberline {19.4.1}Differences in Experimental Procedure (Nuclear vs. Electronic)}{150}{}%
-\contentsline {subsection}{\numberline {19.4.2}Interaction Between Conduction Electrons and Nuclei}{150}{}%
-\contentsline {subsection}{\numberline {19.4.3}Heat Leaks}{151}{}%
-\contentsline {section}{\numberline {19.5}TODO:Other techniques for refrigeration below 1 K}{151}{}%
-\contentsline {subsection}{\numberline {19.5.1}Tunnel Junction Cooling}{151}{}%
-\contentsline {subsection}{\numberline {19.5.2}Laser Cooling}{151}{}%
-\contentsline {subsection}{\numberline {19.5.3}Evaporative Cooling}{151}{}%
-\contentsline {section}{\numberline {19.6}TODO:Summary}{152}{}%
-\contentsline {chapter}{\numberline {20}Superconducting materials and technologies}{153}{}%
-\contentsline {section}{\numberline {20.1}TODO:Introduction to the phenomenology of superconductivity}{153}{}%
-\contentsline {subsection}{\numberline {20.1.1}Historical notes}{153}{}%
-\contentsline {subsection}{\numberline {20.1.2}Summary of the main properties of superconductors}{153}{}%
-\contentsline {section}{\numberline {20.2}TODO:Vortex dynamics, vortex pinning}{154}{}%
-\contentsline {section}{\numberline {20.3}TODO:Review on superconducting materials (relevant for applications) and preparation methods}{154}{}%
-\contentsline {subsection}{\numberline {20.3.1}Low-Temperature Superconductors (LTS): Nb, NbTi, $Nb_{3}Sn$}{155}{}%
-\contentsline {subsection}{\numberline {20.3.2}Magnesium diboride ($MgB_{2}$)}{155}{}%
-\contentsline {subsection}{\numberline {20.3.3}High-Temperature Superconductors (HTS) - cuprates: $YBa_{2}Cu_{3}O_{7-8}$ (YBCO)}{156}{}%
-\contentsline {section}{\numberline {20.4}Iron-based superconductors (IBS)}{156}{}%
-\contentsline {subsection}{\numberline {20.4.1}SC mechanism}{156}{}%
-\contentsline {subsection}{\numberline {20.4.2}Phase diagram and main properties}{157}{}%
-\contentsline {subsection}{\numberline {20.4.3}Critical magnetic fields}{157}{}%
-\contentsline {subsection}{\numberline {20.4.4}Material preparation}{157}{}%
-\contentsline {subsection}{\numberline {20.4.5}Wires and tapes}{157}{}%
-\contentsline {subsubsection}{Powder in tube}{157}{}%
-\contentsline {subsubsection}{Coated conductors}{158}{}%
-\contentsline {subsubsection}{Applications of IBS Wires and Tapes}{158}{}%
-\contentsline {section}{\numberline {20.5}Hints on Superconducting Film Deposition}{158}{}%
-\contentsline {section}{\numberline {20.6}Cryoelectronic devices}{158}{}%
-\contentsline {subsection}{\numberline {20.6.1}Power applications}{158}{}%
-\contentsline {section}{\numberline {20.7}TODO:state of the art}{159}{}%
-\contentsline {section}{\numberline {20.8}TODO:Material requirements}{159}{}%
-\contentsline {section}{\numberline {20.9}TODO:Substrate Requirements}{159}{}%
-\contentsline {section}{\numberline {20.10}Brief overview of applications of superconductivity}{159}{}%
-\contentsline {subsection}{\numberline {20.10.1}Electric Power}{159}{}%
-\contentsline {subsection}{\numberline {20.10.2}Transportation}{159}{}%
-\contentsline {subsection}{\numberline {20.10.3}Medical Imaging and Diagnostics}{159}{}%
-\contentsline {subsection}{\numberline {20.10.4}NMR Applications in Pharmaceuticals, Biotechnology, Genomics and Materials Science}{159}{}%
-\contentsline {subsection}{\numberline {20.10.5}Industrial Processing}{160}{}%
-\contentsline {subsection}{\numberline {20.10.6}High-Energy Physics and Other Areas of Research}{160}{}%
-\contentsline {subsection}{\numberline {20.10.7}Wireless Communications}{160}{}%
-\contentsline {subsection}{\numberline {20.10.8}Instrumentation, Sensors, Standards and Radar}{160}{}%
-\contentsline {subsection}{\numberline {20.10.9}Large-Scale Computing}{160}{}%
-\contentsline {subsection}{\numberline {20.10.10}TODO:Neuromorphic Computing}{160}{}%
-\contentsline {subsection}{\numberline {20.10.11}Renewable Energy}{160}{}%
-\contentsline {chapter}{\numberline {21}The Technology of Josephson Junctions}{161}{}%
-\contentsline {section}{\numberline {21.1}Josephsons Junctions:main concepts and phenomenology}{161}{}%
-\contentsline {subsection}{\numberline {21.1.1}The Josephson Effect: see the course "Quantum Condensed Matter Physics"}{161}{}%
-\contentsline {subsection}{\numberline {21.1.2}Josephson Equations}{161}{}%
-\contentsline {subsection}{\numberline {21.1.3}TODO:Energy in a Josephson Junction}{162}{}%
-\contentsline {subsection}{\numberline {21.1.4}Josephson Junction as Nonlinear Inductance}{162}{}%
-\contentsline {subsection}{\numberline {21.1.5}Hamiltonian of a Josephson Junction: see the course "Quantum Devices"}{162}{}%
-\contentsline {section}{\numberline {21.2}Current-Phase Relation and Junction Types}{162}{}%
-\contentsline {subsection}{\numberline {21.2.1}Different Types of Josephson Junctions: see the course "Quantum Condensed Matter Physics"}{162}{}%
-\contentsline {subsection}{\numberline {21.2.2}Microscopic Mechanisms (Proximity Effect and Andreev Reflection)}{163}{}%
-\contentsline {subsection}{\numberline {21.2.3}Micro-restrictions and Grain Boundaries}{163}{}%
-\contentsline {section}{\numberline {21.3}Revisiting the Current-Phase Relation (CPR)}{165}{}%
-\contentsline {subsubsection}{Andreev Bound States (ABS):}{165}{}%
-\contentsline {subsubsection}{Generalized Current-Phase Relation:}{165}{}%
-\contentsline {subsubsection}{Anisotropic Order Parameter Symmetry:}{165}{}%
-\contentsline {subsubsection}{Second Harmonic Contributions:}{165}{}%
-\contentsline {section}{\numberline {21.4}SFS Josephson Junctions: The $\pi $ Junction}{166}{}%
-\contentsline {subsubsection}{Spatial Oscillations of the Order Parameter}{166}{}%
-\contentsline {subsubsection}{The $\pi $ Junction State}{166}{}%
-\contentsline {subsubsection}{Spontaneous Current and Magnetic Flux}{166}{}%
-\contentsline {subsubsection}{Applications in Superconducting Qubits}{167}{}%
-\contentsline {section}{\numberline {21.5}More on the SFS Junctions}{167}{}%
-\contentsline {subsection}{\numberline {21.5.1}High Harmonics in SFS Junctions}{167}{}%
-\contentsline {subsection}{\numberline {21.5.2}The $\phi $ Junction}{168}{}%
-\contentsline {subsubsection}{Critical Currents of the $\phi $ Junction}{168}{}%
-\contentsline {section}{\numberline {21.6}The $\pi $-ring Tricrystal Experiment with d-wave Superconductors}{168}{}%
-\contentsline {subsubsection}{Phase Shift and Supercurrent Orientation}{168}{}%
-\contentsline {subsubsection}{Tricrystal Geometry and Half-Integer Flux Quantization}{168}{}%
-\contentsline {subsubsection}{Observation with Scanning SQUID Microscopy}{168}{}%
-\contentsline {section}{\numberline {21.7}TODO:Applications of $\pi $-JJs: $\pi $-SQUIDs and Beyond}{168}{}%
-\contentsline {subsubsection}{Self-Biasing $\pi $-SQUIDs}{168}{}%
-\contentsline {subsubsection}{Charge and Spin Transport in SFS Junctions}{169}{}%
-\contentsline {subsubsection}{Flip-Flopping Fractional Flux Quanta}{169}{}%
-\contentsline {subsubsection}{Toggle Flip-Flop (TFF)}{169}{}%
-\contentsline {subsubsection}{Applications in Superconducting Digital and Quantum Circuits}{169}{}%
-\contentsline {subsubsection}{Future Directions}{169}{}%
-\contentsline {section}{\numberline {21.8}Serial Junctions}{169}{}%
-\contentsline {subsubsection}{SFsFS and SIsFS Structures}{170}{}%
-\contentsline {subsubsection}{Complex Current-Phase Relation (CPR)}{170}{}%
-\contentsline {subsubsection}{Applications}{170}{}%
-\contentsline {section}{\numberline {21.9}Hybrid Josephson Junctions (Hybrid JJs)}{170}{}%
-\contentsline {subsubsection}{Superconducting Hybrid Devices}{170}{}%
-\contentsline {subsubsection}{Gate Voltage Control}{170}{}%
-\contentsline {subsubsection}{Emerging Materials and Layouts}{170}{}%
-\contentsline {subsubsection}{Advantages of Graphene and 2D Materials}{170}{}%
-\contentsline {section}{\numberline {21.10}The Resistively Shunted Junction (RSJ) Model}{171}{}%
-\contentsline {subsection}{\numberline {21.10.1}Tilted Washboard Potential}{171}{}%
-\contentsline {subsection}{\numberline {21.10.2}Thermal Activation and Macroscopic Quantum Tunneling}{171}{}%
-\contentsline {subsection}{\numberline {21.10.3}McCumber-Stewart Parameter}{171}{}%
-\contentsline {subsection}{\numberline {21.10.4}Temperature Dependence of $I_c$}{172}{}%
-\contentsline {subsection}{\numberline {21.10.5}Field Dependence of $I_c$}{172}{}%
-\contentsline {subsection}{\numberline {21.10.6}Josephson Penetration Depth $\lambda _J$}{172}{}%
-\contentsline {subsection}{\numberline {21.10.7}Spatial Distribution of the Current}{172}{}%
-\contentsline {subsection}{\numberline {21.10.8}Experimental Observations}{172}{}%
-\contentsline {section}{\numberline {21.11}The Evolution of Josephson Junction Technology}{172}{}%
-\contentsline {subsection}{\numberline {21.11.1}Early Developments: Soft Superconductors and Thermal Oxidation}{172}{}%
-\contentsline {subsection}{\numberline {21.11.2}Lead-Alloy Technology and Sputter-Oxidation}{172}{}%
-\contentsline {subsection}{\numberline {21.11.3}Transition to Rigid Superconductors: Nb and Artificial Barriers}{173}{}%
-\contentsline {subsection}{\numberline {21.11.4}Modern Multilayer SIS Thin-Film Junctions}{173}{}%
-\contentsline {subsection}{\numberline {21.11.5}Other Rigid Superconductors}{173}{}%
-\contentsline {section}{\numberline {21.12}High-Temperature Superconducting Junctions (HTS JJs)}{173}{}%
-\contentsline {subsection}{\numberline {21.12.1}YBa$_2$Cu$_3$O$_{7-x}$ (YBCO): The Most Studied HTS Compound}{173}{}%
-\contentsline {subsection}{\numberline {21.12.2}Challenges and Recent Progress}{173}{}%
-\contentsline {subsection}{\numberline {21.12.3}Unique Features of HTS JJs}{173}{}%
-\contentsline {section}{\numberline {21.13}Applications of Josephson Junctions}{173}{}%
-\contentsline {subsection}{\numberline {21.13.1}Voltage Metrology}{173}{}%
-\contentsline {subsection}{\numberline {21.13.2}Nano-JJs and Nano-SQUIDs}{173}{}%
-\contentsline {subsection}{\numberline {21.13.3}Future Directions}{173}{}%
-\contentsline {chapter}{\numberline {22}Quantum Bits with Josephson Junctions}{174}{}%
-\contentsline {section}{\numberline {22.1}Basics of Superconducting Quantum Circuits with Josephson Junctions}{174}{}%
-\contentsline {section}{\numberline {22.2}Qubit: The Quantum Bit}{174}{}%
-\contentsline {section}{\numberline {22.3}Physical Implementation of Qubits: Why Josephson-Junction Qubits?}{174}{}%
-\contentsline {section}{\numberline {22.4}Why is a nonlinear element needed?}{175}{}%
-\contentsline {section}{\numberline {22.5}Operating Conditions for Josephson-Junction Qubits}{175}{}%
-\contentsline {section}{\numberline {22.6}Applications of Josephson Junctions in Qubits}{175}{}%
-\contentsline {section}{\numberline {22.7}Quantizing Electrical Circuits}{175}{}%
-\contentsline {subsection}{\numberline {22.7.1}Classical Lagrangian for the Circuit}{175}{}%
-\contentsline {subsection}{\numberline {22.7.2}Generalized Coordinates and Momenta}{175}{}%
-\contentsline {subsection}{\numberline {22.7.3}Hamiltonian of the Circuit}{176}{}%
-\contentsline {subsection}{\numberline {22.7.4}Quantization}{176}{}%
-\contentsline {subsection}{\numberline {22.7.5}Examples of Josephson-Junction Qubits}{176}{}%
-\contentsline {subsubsection}{Charge Qubit:}{176}{}%
-\contentsline {subsubsection}{Flux Qubit:}{176}{}%
-\contentsline {section}{\numberline {22.8}Charge Qubit}{176}{}%
-\contentsline {section}{\numberline {22.9}Flux Qubit}{177}{}%
-\contentsline {section}{\numberline {22.10}Phase Qubit}{177}{}%
-\contentsline {section}{\numberline {22.11}The Transmon Qubit}{177}{}%
-\contentsline {subsubsection}{Key Features:}{177}{}%
-\contentsline {subsubsection}{Implementation:}{177}{}%
-\contentsline {subsubsection}{Fabrication Procedure:}{177}{}%
-\contentsline {subsubsection}{Advantages:}{178}{}%
-\contentsline {section}{\numberline {22.12}Extensions and Refinements of the Three Basic Josephson-Junction Qubits}{178}{}%
-\contentsline {subsection}{\numberline {22.12.1}Quantronium Qubit}{178}{}%
-\contentsline {subsection}{\numberline {22.12.2}Transmon Qubit}{178}{}%
-\contentsline {subsection}{\numberline {22.12.3}Fluxonium Qubit}{178}{}%
-\contentsline {subsection}{\numberline {22.12.4}Design Developments for Scaling Up}{178}{}%
-\contentsline {subsection}{\numberline {22.12.5}Novel Qubit Designs}{178}{}%
-\contentsline {subsection}{\numberline {22.12.6}Motivation for Improved Qubit Design}{179}{}%
-\contentsline {section}{\numberline {22.13}Example of a JJ Qubit Realization, Control, and Readout}{179}{}%
-\contentsline {subsection}{\numberline {22.13.1}Xmon Qubit capacitively coupled to a quarter-wave resonator for readout}{179}{}%
-\contentsline {subsubsection}{Design and Realization}{179}{}%
-\contentsline {subsubsection}{Equivalent Circuit}{179}{}%
-\contentsline {subsubsection}{Readout}{179}{}%
-\contentsline {subsection}{\numberline {22.13.2}Example of a JJ Tunable Qubit Realization, Control, and Readout}{179}{}%
-\contentsline {subsubsection}{Tunability}{179}{}%
-\contentsline {subsubsection}{Control}{179}{}%
-\contentsline {subsubsection}{Readout in the Dispersive Limit}{180}{}%
-\contentsline {section}{\numberline {22.14}Qubit Control with SFQ Pulses}{180}{}%
-\contentsline {subsubsection}{Advantages of SFQ Pulses:}{180}{}%
-\contentsline {subsubsection}{Implementation:}{180}{}%
-\contentsline {subsubsection}{Applications:}{180}{}%
-\contentsline {section}{\numberline {22.15}rf-SQUID Qubit}{180}{}%
-\contentsline {subsubsection}{Advantages:}{180}{}%
-\contentsline {subsubsection}{Limitations:}{180}{}%
-\contentsline {subsubsection}{Evolution:}{180}{}%
-\contentsline {section}{\numberline {22.16}TODO:Quantum Annealing and the D-Wave Quantum Annealer}{181}{}%
-\contentsline {subsection}{\numberline {22.16.1}Principles of Quantum Annealing}{181}{}%
-\contentsline {subsection}{\numberline {22.16.2}D-Wave Quantum Annealers}{181}{}%
-\contentsline {subsection}{\numberline {22.16.3}Fabrication and Technology}{181}{}%
-\contentsline {subsection}{\numberline {22.16.4}Applications of Quantum Annealing}{181}{}%
+\contentsline {part}{I\hspace {1em}Micro and Nano Technologies}{5}{}%
+\contentsline {chapter}{\numberline {1}Wafer Production and Monocrystals Growth}{6}{}%
+\contentsline {section}{\numberline {1.1}Monocrystals growth for miniatursed devices technology}{6}{}%
+\contentsline {section}{\numberline {1.2}Starting Material Purification}{6}{}%
+\contentsline {subsubsection}{Silicon Refining}{6}{}%
+\contentsline {subsection}{\numberline {1.2.1}Trichlorosilane (TCS) Production}{7}{}%
+\contentsline {subsubsection}{TCS Purification}{7}{}%
+\contentsline {subsection}{\numberline {1.2.2}Fractioned distillation}{7}{}%
+\contentsline {section}{\numberline {1.3}Electronic-Grade Silicon (EGS) Production}{7}{}%
+\contentsline {section}{\numberline {1.4}Czochralski Process (CZ)}{8}{}%
+\contentsline {subsection}{\numberline {1.4.1}Ingot Characteristics and Parts}{8}{}%
+\contentsline {subsection}{\numberline {1.4.2}Doping from the Melt}{8}{}%
+\contentsline {subsection}{\numberline {1.4.3}III-V Monocrystals Growth: Liquid Encapsulated CZ (LEC)}{9}{}%
+\contentsline {section}{\numberline {1.5}From Boule to Wafers}{9}{}%
+\contentsline {subsection}{\numberline {1.5.1}Ingot cropping}{9}{}%
+\contentsline {subsection}{\numberline {1.5.2}Ingot inspection}{9}{}%
+\contentsline {subsection}{\numberline {1.5.3}Shaping of ingot (Outer Diameter Grinding)}{9}{}%
+\contentsline {subsection}{\numberline {1.5.4}Flat(s) grinding}{9}{}%
+\contentsline {subsection}{\numberline {1.5.5}Ingot sawing (Wafer Slicing)}{9}{}%
+\contentsline {subsection}{\numberline {1.5.6}Edge grinding}{10}{}%
+\contentsline {subsection}{\numberline {1.5.7}Wafer lapping and grinding}{10}{}%
+\contentsline {subsection}{\numberline {1.5.8}Wafer polishing}{10}{}%
+\contentsline {subsection}{\numberline {1.5.9}Wafer cleaning}{10}{}%
+\contentsline {subsection}{\numberline {1.5.10}Laser marking for ID}{10}{}%
+\contentsline {section}{\numberline {1.6}Wafer Evolution and Advantages of Larger Diameters}{10}{}%
+\contentsline {subsection}{\numberline {1.6.1}Wafer Evolution}{10}{}%
+\contentsline {subsection}{\numberline {1.6.2}Advantages of Larger Diameter Wafers}{11}{}%
+\contentsline {chapter}{\numberline {2}Crystallography and crystalline defects}{12}{}%
+\contentsline {section}{\numberline {2.1}3 types of solids}{12}{}%
+\contentsline {subsection}{\numberline {2.1.1}Microstructure of electronic materials}{12}{}%
+\contentsline {section}{\numberline {2.2}Crystal structure}{12}{}%
+\contentsline {subsection}{\numberline {2.2.1}Cubic Crystal Structure}{12}{}%
+\contentsline {subsection}{\numberline {2.2.2}Silicon lattice (Diamond Structure)}{12}{}%
+\contentsline {subsubsection}{Zincoblend Structure}{14}{}%
+\contentsline {section}{\numberline {2.3}Miller indices}{14}{}%
+\contentsline {subsubsection}{General Procedure}{14}{}%
+\contentsline {subsection}{\numberline {2.3.1}Anisotropic Wet Etching and Surface Properties}{14}{}%
+\contentsline {section}{\numberline {2.4}Crystalline defects}{14}{}%
+\contentsline {subsection}{\numberline {2.4.1}Defects Classification}{15}{}%
+\contentsline {subsection}{\numberline {2.4.2}Point Defects}{15}{}%
+\contentsline {subsection}{\numberline {2.4.3}Line Defects: Edge Dislocation}{15}{}%
+\contentsline {subsection}{\numberline {2.4.4}Surface Defects}{15}{}%
+\contentsline {subsubsection}{Grain Boundaries}{15}{}%
+\contentsline {subsubsection}{Gemination}{15}{}%
+\contentsline {subsection}{\numberline {2.4.5}Volume Defects}{15}{}%
+\contentsline {chapter}{\numberline {3}Cleanroom Technology}{17}{}%
+\contentsline {section}{\numberline {3.1}Why Cleanroom Technology is Important}{17}{}%
+\contentsline {section}{\numberline {3.2}Sources of Contamination}{17}{}%
+\contentsline {subsection}{\numberline {3.2.1}Examples of Common Air Contaminants and Size (in microns)}{18}{}%
+\contentsline {section}{\numberline {3.3}Contamination Induced Problems}{18}{}%
+\contentsline {section}{\numberline {3.4}Classification Standards and Measurement}{18}{}%
+\contentsline {subsection}{\numberline {3.4.1}Classification Details (Fed. Std. 209 E)}{18}{}%
+\contentsline {section}{\numberline {3.5}Environmental Control and Airflow}{19}{}%
+\contentsline {subsection}{\numberline {3.5.1}Controlled Parameters}{19}{}%
+\contentsline {subsection}{\numberline {3.5.2}Airflow and Design}{19}{}%
+\contentsline {subsection}{\numberline {3.5.3}Cleanroom Air Filters}{19}{}%
+\contentsline {section}{\numberline {3.6}Cleanroom Clothing (Gowning)}{19}{}%
+\contentsline {section}{\numberline {3.7}Deionized Water (DI Water)}{20}{}%
+\contentsline {chapter}{\numberline {4}Introduction to Lithography}{21}{}%
+\contentsline {section}{\numberline {4.1}Masks and Alignment}{21}{}%
+\contentsline {subsection}{\numberline {4.1.1}Mask Generation}{21}{}%
+\contentsline {subsection}{\numberline {4.1.2}Alignment}{21}{}%
+\contentsline {section}{\numberline {4.2}Photoresist Components and Properties}{22}{}%
+\contentsline {subsection}{\numberline {4.2.1}Components}{22}{}%
+\contentsline {subsection}{\numberline {4.2.2}Properties: Polarity (Positive vs. Negative)}{22}{}%
+\contentsline {subsection}{\numberline {4.2.3}Properties: Resolution and Thickness}{22}{}%
+\contentsline {subsection}{\numberline {4.2.4}Properties: Sensitivity and Exposure Energy}{22}{}%
+\contentsline {subsection}{\numberline {4.2.5}Properties: Contrast ($\gamma $)}{22}{}%
+\contentsline {section}{\numberline {4.3}The Photolithography Process Flow}{23}{}%
+\contentsline {subsection}{\numberline {4.3.1}Wafer Preparation and Priming}{23}{}%
+\contentsline {subsection}{\numberline {4.3.2}Resist Spin-On Coating}{23}{}%
+\contentsline {subsection}{\numberline {4.3.3}Soft Bake}{24}{}%
+\contentsline {subsection}{\numberline {4.3.4}Resist Exposure}{24}{}%
+\contentsline {subsubsection}{Exposure Sources}{24}{}%
+\contentsline {subsubsection}{Exposure Tools}{25}{}%
+\contentsline {subsection}{\numberline {4.3.5}Post-Exposure Processing and Pattern Transfer}{25}{}%
+\contentsline {subsubsection}{Reflections and Standing Waves}{25}{}%
+\contentsline {subsubsection}{Fixing: Post Exposure Bake (PEB)}{26}{}%
+\contentsline {subsubsection}{Prevention: Antireflective Coatings (ARC)}{26}{}%
+\contentsline {subsection}{\numberline {4.3.6}Developing}{26}{}%
+\contentsline {subsection}{\numberline {4.3.7}Hard Bake}{26}{}%
+\contentsline {subsection}{\numberline {4.3.8}Pattern Transfer Methods}{26}{}%
+\contentsline {section}{\numberline {4.4}Models and Simulation}{27}{}%
+\contentsline {chapter}{\numberline {5}Silicon Oxidation}{28}{}%
+\contentsline {section}{\numberline {5.1}Thermal Oxidation of Silicon}{28}{}%
+\contentsline {section}{\numberline {5.2}Properties of Silicon Dioxide}{28}{}%
+\contentsline {section}{\numberline {5.3}How Does Silicon Oxidize?}{29}{}%
+\contentsline {subsection}{\numberline {5.3.1}Oxidation Occurs at the $\text {Si}-\text {SiO}_{2}$ Interface}{29}{}%
+\contentsline {subsection}{\numberline {5.3.2}Molecular Density Ratio of Oxide to Silicon}{29}{}%
+\contentsline {subsection}{\numberline {5.3.3}Oxidation Equipment}{30}{}%
+\contentsline {section}{\numberline {5.4}Key Variables in Oxidation}{30}{}%
+\contentsline {section}{\numberline {5.5}Modeling Thermal Oxidation of Silicon}{31}{}%
+\contentsline {subsection}{\numberline {5.5.1}Diffusion-Limited Process}{31}{}%
+\contentsline {subsection}{\numberline {5.5.2}Fick's First Law of Diffusion}{32}{}%
+\contentsline {subsection}{\numberline {5.5.3}Oxidation Growth Rate}{32}{}%
+\contentsline {subsection}{\numberline {5.5.4}General Relationship for Oxidation}{32}{}%
+\contentsline {section}{\numberline {5.6}Oxidation Graphs}{33}{}%
+\contentsline {subsection}{\numberline {5.6.1}Multiple Oxidations (Tracking $\tau $)}{33}{}%
+\contentsline {section}{\numberline {5.7}Growth Rate Regimes}{34}{}%
+\contentsline {subsection}{\numberline {5.7.1}Short-Time Regime (Reaction-Limited Growth)}{34}{}%
+\contentsline {subsection}{\numberline {5.7.2}Long-Time Regime (Diffusion-Limited Growth)}{34}{}%
+\contentsline {section}{\numberline {5.8}Rapid Thermal Oxidation (RTO)}{34}{}%
+\contentsline {chapter}{\numberline {6}Epitaxy, CVD, PVD, electroplating}{35}{}%
+\contentsline {section}{\numberline {6.1}Epitaxy}{35}{}%
+\contentsline {subsection}{\numberline {6.1.1}Conditions and Types}{35}{}%
+\contentsline {subsection}{\numberline {6.1.2}Classification by Mother Phase}{35}{}%
+\contentsline {subsection}{\numberline {6.1.3}Why is Epitaxy important?}{35}{}%
+\contentsline {subsection}{\numberline {6.1.4}Vapor Phase Epitaxy (VPE) / Chemical Vapor Deposition (CVD)}{36}{}%
+\contentsline {subsubsection}{VPE Details}{36}{}%
+\contentsline {subsubsection}{CVD Hazards}{36}{}%
+\contentsline {subsubsection}{VPE Reactors}{37}{}%
+\contentsline {subsection}{\numberline {6.1.5}Liquid Phase Epitaxy (LPE)}{37}{}%
+\contentsline {subsubsection}{LPE Reactor}{37}{}%
+\contentsline {subsection}{\numberline {6.1.6}Molecular Beam Epitaxy (MBE)}{37}{}%
+\contentsline {section}{\numberline {6.2}Chemical Vapor Deposition (CVD)}{38}{}%
+\contentsline {subsection}{\numberline {6.2.1}Acceptance Angle and Conformality (Non-Conformal Deposition)}{39}{}%
+\contentsline {subsection}{\numberline {6.2.2}Types of Chemical Vapor Deposition (CVD) Reactors}{39}{}%
+\contentsline {subsubsection}{Atmospheric Pressure CVD (APCVD)}{39}{}%
+\contentsline {subsubsection}{Low Pressure CVD (LPCVD)}{39}{}%
+\contentsline {subsubsection}{Plasma Enhanced CVD (PECVD)}{39}{}%
+\contentsline {paragraph}{Collision Processes:}{40}{}%
+\contentsline {paragraph}{Plasma Generation}{40}{}%
+\contentsline {paragraph}{PECVD Process Control Parameters}{40}{}%
+\contentsline {paragraph}{PECVD Advantages and Disadvantages}{41}{}%
+\contentsline {subsection}{\numberline {6.2.3}Atomic Layer Deposition(ALD)}{41}{}%
+\contentsline {subsubsection}{ALD Process Steps (Example: $Al_{2}O_{3}$)}{41}{}%
+\contentsline {subsubsection}{ALD Characteristics}{41}{}%
+\contentsline {subsection}{\numberline {6.2.4}Silicon Dioxide (CVD)}{42}{}%
+\contentsline {subsubsection}{Silicon Dioxide Deposition Methods Comparison}{42}{}%
+\contentsline {subsection}{\numberline {6.2.5}Polycrystalline Silicon ("Poly")}{42}{}%
+\contentsline {section}{\numberline {6.3}PVD (Physical Vapor Deposition)}{42}{}%
+\contentsline {subsection}{\numberline {6.3.1}PVD-Thermal Evaporation}{43}{}%
+\contentsline {subsubsection}{Conformality}{43}{}%
+\contentsline {subsection}{\numberline {6.3.2}PVD-Thermal Evaporation Techniques}{43}{}%
+\contentsline {subsubsection}{Thermal Evaporation}{43}{}%
+\contentsline {subsubsection}{E-beam Evaporation}{44}{}%
+\contentsline {subsection}{\numberline {6.3.3}PVD- Sputtering}{45}{}%
+\contentsline {subsubsection}{DC Sputtering}{45}{}%
+\contentsline {subsubsection}{Sputtering Conformality}{46}{}%
+\contentsline {subsubsection}{RF Sputtering}{46}{}%
+\contentsline {subsubsection}{Magnetron Sputtering}{47}{}%
+\contentsline {subsubsection}{Reactive Sputtering}{47}{}%
+\contentsline {subsubsection}{Ionized Sputtering (HDP Sputtering)}{47}{}%
+\contentsline {section}{\numberline {6.4}Electroplating - Electrodeposition-Galvanic Deposition}{48}{}%
+\contentsline {subsection}{\numberline {6.4.1}Processes}{48}{}%
+\contentsline {subsection}{\numberline {6.4.2}Characteristics and Applications}{48}{}%
+\contentsline {subsection}{\numberline {6.4.3}Key Considerations}{49}{}%
+\contentsline {chapter}{\numberline {7}Doping-Implantation}{50}{}%
+\contentsline {section}{\numberline {7.1}Silicon Doping}{50}{}%
+\contentsline {subsection}{\numberline {7.1.1}Dopant Species: P-Type, N-Type}{50}{}%
+\contentsline {subsection}{\numberline {7.1.2}Piezoresistive Pressure Sensor}{51}{}%
+\contentsline {subsection}{\numberline {7.1.3}Doping Parameters}{51}{}%
+\contentsline {section}{\numberline {7.2}Ion Implantation}{52}{}%
+\contentsline {subsection}{\numberline {7.2.1}Key Features of Ion Implantation}{52}{}%
+\contentsline {subsection}{\numberline {7.2.2}Implanter Components}{53}{}%
+\contentsline {subsection}{\numberline {7.2.3}Dose Calculation}{53}{}%
+\contentsline {subsection}{\numberline {7.2.4}Gaussian Approximation of Dopant Profiles}{53}{}%
+\contentsline {subsubsection}{Dose and Range Calculations}{54}{}%
+\contentsline {subsubsection}{Projected Range and Straggle}{54}{}%
+\contentsline {section}{\numberline {7.3}Implantation Control Parameters}{55}{}%
+\contentsline {subsection}{\numberline {7.3.1}Junction Depth (As Implanted)}{55}{}%
+\contentsline {section}{\numberline {7.4}Annealing - Activation}{56}{}%
+\contentsline {subsection}{\numberline {7.4.1}Effects of Annealing}{56}{}%
+\contentsline {subsection}{\numberline {7.4.2}Classification of Thermal Treatments}{56}{}%
+\contentsline {subsubsection}{Isothermal Annealing}{56}{}%
+\contentsline {subsubsection}{Adiabatic Annealing}{57}{}%
+\contentsline {subsection}{\numberline {7.4.3}Comparison of Annealing Techniques}{57}{}%
+\contentsline {section}{\numberline {7.5}Channeling Ions Through Lattice}{57}{}%
+\contentsline {subsection}{\numberline {7.5.1}Minimizing Channeling}{58}{}%
+\contentsline {subsubsection}{Twist and/or Tilt:}{58}{}%
+\contentsline {section}{\numberline {7.6}Sheet (or Square) Resistance}{58}{}%
+\contentsline {subsection}{\numberline {7.6.1}Sheet Resistance of an Implant}{59}{}%
+\contentsline {section}{\numberline {7.7}Implanting Through a Mask}{59}{}%
+\contentsline {subsection}{\numberline {7.7.1}Masked Implantation}{60}{}%
+\contentsline {section}{\numberline {7.8}Screen Oxides}{60}{}%
+\contentsline {subsection}{\numberline {7.8.1}Implantation}{60}{}%
+\contentsline {subsection}{\numberline {7.8.2}Oxide Etching}{60}{}%
+\contentsline {section}{\numberline {7.9}Silicon on Insulators (SOI) Wafers}{61}{}%
+\contentsline {subsection}{\numberline {7.9.1}Key Features}{61}{}%
+\contentsline {subsection}{\numberline {7.9.2}Fabrication Methods}{61}{}%
+\contentsline {subsubsection}{SIMOX}{61}{}%
+\contentsline {subsubsection}{BESOI}{62}{}%
+\contentsline {subsubsection}{Smart Cut}{62}{}%
+\contentsline {chapter}{\numberline {8}Wet $\&$ Dry Etching}{63}{}%
+\contentsline {section}{\numberline {8.1}Etching}{63}{}%
+\contentsline {section}{\numberline {8.2}Wet Etching}{63}{}%
+\contentsline {subsection}{\numberline {8.2.1}Steps in Wet Etching}{64}{}%
+\contentsline {section}{\numberline {8.3}Etchant properties}{64}{}%
+\contentsline {subsubsection}{Etch rate}{64}{}%
+\contentsline {subsubsection}{Selectivity to masking layer(s) and their availability.}{64}{}%
+\contentsline {subsubsection}{Anisotropy (crystal plane selectivity)}{65}{}%
+\contentsline {subsubsection}{Surface roughness}{65}{}%
+\contentsline {subsubsection}{Control of etch parameters (according for example to temperature, agitation conditions,...)}{65}{}%
+\contentsline {subsubsection}{Safety of reactant(s) and product(s)}{65}{}%
+\contentsline {subsubsection}{Cost (including disposal and fixed costs)}{65}{}%
+\contentsline {subsubsection}{Capacity for etch-stops (simply time controlled or concentration of the solution, doping level, doping dependant or electrochemical etch-stop)}{65}{}%
+\contentsline {section}{\numberline {8.4}Wet etching silicon ("HNA")}{65}{}%
+\contentsline {section}{\numberline {8.5}Anisotropically wet etching Silicon}{65}{}%
+\contentsline {subsection}{\numberline {8.5.1}Inorganic Alkaline Solutions (KOH)}{65}{}%
+\contentsline {section}{\numberline {8.6}HYDROFLUORIC ACID ($SiO_{2}$)}{66}{}%
+\contentsline {section}{\numberline {8.7}What is a Dry Etch?}{67}{}%
+\contentsline {subsubsection}{Why use Plasmas?}{67}{}%
+\contentsline {section}{\numberline {8.8}Vapor etching}{67}{}%
+\contentsline {subsection}{\numberline {8.8.1}HF-vapor phase etching}{67}{}%
+\contentsline {section}{\numberline {8.9}RF plasma-based dry etching}{68}{}%
+\contentsline {section}{\numberline {8.10}TODO:Types of Dry Etching}{68}{}%
+\contentsline {subsection}{\numberline {8.10.1}TODO:Reactive Ion Etching (RIE)}{68}{}%
+\contentsline {subsection}{\numberline {8.10.2}TODO:Inductively Coupled Plasma (ICP-RIE) Reactor}{69}{}%
+\contentsline {section}{\numberline {8.11}DRY ETCH CHEMISTRIES}{69}{}%
+\contentsline {section}{\numberline {8.12}TODO:Selectivity}{70}{}%
+\contentsline {section}{\numberline {8.13}TODO:Anisotropy in Dry Etching}{70}{}%
+\contentsline {subsection}{\numberline {8.13.1}TODO:ASPECT RATIO}{70}{}%
+\contentsline {section}{\numberline {8.14}Deep reactive ion etching (DRIE)$\rightarrow $Time multiplexed deep etching}{71}{}%
+\contentsline {chapter}{\numberline {9}Packaging}{72}{}%
+\contentsline {section}{\numberline {9.1}Packaging Process Flow}{72}{}%
+\contentsline {section}{\numberline {9.2}Steps in Packaging}{72}{}%
+\contentsline {subsubsection}{Die Separation and Handling}{72}{}%
+\contentsline {subsubsection}{Die Bonding and Interconnection}{72}{}%
+\contentsline {subsubsection}{Package Sealing (Encapsulation)}{72}{}%
+\contentsline {subsubsection}{Final Inspection}{73}{}%
+\contentsline {section}{\numberline {9.3}Functions of Packaging}{73}{}%
+\contentsline {section}{\numberline {9.4}Package Types}{73}{}%
+\contentsline {subsection}{\numberline {9.4.1}Types of First-Level Packages}{73}{}%
+\contentsline {subsubsection}{Through Hole Package}{73}{}%
+\contentsline {subsubsection}{Surface Mounted Package}{73}{}%
+\contentsline {subsubsection}{Pin Array Packages}{73}{}%
+\contentsline {section}{\numberline {9.5}Advanced Interconnection and Integration}{74}{}%
+\contentsline {subsection}{\numberline {9.5.1}Flip-Chip Bonding}{74}{}%
+\contentsline {subsection}{\numberline {9.5.2}Multi-Chip Modules (MCMs)}{74}{}%
+\contentsline {subsubsection}{Definitions}{74}{}%
+\contentsline {subsubsection}{Goals}{74}{}%
+\contentsline {subsubsection}{Structure}{74}{}%
+\contentsline {subsection}{\numberline {9.5.3}3D Packaging}{75}{}%
+\contentsline {subsubsection}{Advantages}{75}{}%
+\contentsline {subsubsection}{Through Silicon Vias (TSV)}{75}{}%
+\contentsline {chapter}{\numberline {10}Complementary Technologies}{76}{}%
+\contentsline {section}{\numberline {10.1}Bulk micromachining}{76}{}%
+\contentsline {subsection}{\numberline {10.1.1}Definition and Characteristics}{76}{}%
+\contentsline {subsection}{\numberline {10.1.2}Types of Bulk Micromachining}{76}{}%
+\contentsline {subsection}{\numberline {10.1.3}Bulk Micromachining Etching Techniques}{76}{}%
+\contentsline {subsection}{\numberline {10.1.4}Wet Etching}{76}{}%
+\contentsline {subsubsection}{Basic Wet Etching Procedure}{76}{}%
+\contentsline {subsubsection}{Vapour Etching}{77}{}%
+\contentsline {subsection}{\numberline {10.1.5}Dry (Plasma) Etching}{77}{}%
+\contentsline {subsubsection}{Plasma Etching Components}{77}{}%
+\contentsline {subsubsection}{Techniques}{77}{}%
+\contentsline {section}{\numberline {10.2}SPM Machining}{77}{}%
+\contentsline {subsection}{\numberline {10.2.1}Thermal Scanning Probe Lithography}{77}{}%
+\contentsline {subsection}{\numberline {10.2.2}Scanning Probe Metal 3D Printing}{77}{}%
+\contentsline {subsubsection}{The CERES System}{77}{}%
+\contentsline {subsubsection}{Voxel-Based Printing Process}{78}{}%
+\contentsline {subsubsection}{Design Freedom and Feedback}{78}{}%
