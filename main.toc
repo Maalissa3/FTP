@@ -234,8 +234,8 @@
 \contentsline {subsection}{\numberline {9.5.1}Flip-Chip Bonding}{74}{}%
 \contentsline {subsection}{\numberline {9.5.2}Multi-Chip Modules (MCMs)}{74}{}%
 \contentsline {subsubsection}{Definitions}{74}{}%
-\contentsline {subsubsection}{Goals}{74}{}%
-\contentsline {subsubsection}{Structure}{74}{}%
+\contentsline {subsubsection}{Goals}{75}{}%
+\contentsline {subsubsection}{Structure}{75}{}%
 \contentsline {subsection}{\numberline {9.5.3}3D Packaging}{75}{}%
 \contentsline {subsubsection}{Advantages}{75}{}%
 \contentsline {subsubsection}{Through Silicon Vias (TSV)}{75}{}%

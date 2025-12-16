@@ -2473,34 +2473,27 @@ Electrical contact is made through an array of connections on the underside of t
     \item \textbf{PGA (Pin Grid Array)} or Column Package: Pin array where contacts are pins.
     \item \textbf{BGA (Ball Grid Array)}: Pin array where contacts are solder balls.
 \end{itemize}
-
+\begin{center}
+    \includegraphics[width=0.7\linewidth]{List-of-IC-Package-Types-700x348.png}
+\end{center}
 \section{Advanced Interconnection and Integration}
 
 \subsection{Flip-Chip Bonding}
 The flip-chip method is an alternative to wire bonding where the chip is inverted (flipped) and connected directly to the substrate using solder bumps.\\
 In this method, instead of using long gold wires, small pin contacts are utilized to establish electrical connections between the chip and the substrate. These pin contacts are directly bonded to the solder bumps on the chip, providing a compact and efficient interconnection. This approach reduces parasitic inductance and resistance, improving the overall electrical performance of the package.
-\begin{figure}[htbp]
-  \centering
-  \framebox{\parbox{0.8\textwidth}{\centering
-    \vspace{1cm}
-    \textbf{Figure Placeholder: Flip-Chip Bonding Diagrams and Phase Diagram} \\
-    \small\textit{Diagrams showing the structure of a flip-chip bond (contact to active region, passivation, solderable layer) and the tin-lead alloy phase diagram (Figure 6.3) with the $183^{\circ}\text{C}$ eutectic composition.}
-    \vspace{1cm}
-  }}
-  \caption{Illustration of Flip-Chip bonding structure and the $\text{Pb}:\text{Sn}$ phase diagram.}
-  \label{fig:flip_chip}
-\end{figure}
+\begin{center}
+    \includegraphics[width=0.3\linewidth]{Screenshot 2025-12-16 at 14.50.30.png}
+\end{center}
 
 The $\text{Pb}:\text{Sn}$ alloy system is critical for many solder processes. The phase diagram (Figure 6.3) shows a eutectic composition at $61.9\% \text{ Sn}$ melting at $183^{\circ}\text{C}~(362^{\circ}\text{F})$.
-
 \subsection{Multi-Chip Modules (MCMs)}
-The need for high density, high performance, and cost-effectiveness has spurred the development of Multi-Chip Modules (MCMs)(today called SiP). MCMs enable the integration of different chips with varied functions into a mini substrate, instead of inserting individual packages onto a large PCB (also known as second level package).
+The need for high density, high performance, and cost-effectiveness has sped up the development and use of Multi-Chip Modules (MCMs). MCMs enable the integration of different chips with varied functions into a mini substrate, instead of inserting individual packages onto a large PCB (also known as second-level package).
 
 \subsubsection{Definitions}
-An MCM can be defined in a couple of ways:
+A Multi-Chip Module (MCM) can be defined in a couple of ways:
 \begin{itemize}
     \item A structure consisting of two or more integrated circuits electrically connected to a common circuit base and interconnected by conductors in that base.
-    \item A structure in which a \textbf{packaging efficiency} of greater than $30\%$ is achieved. \textbf{Packaging efficiency} is the ratio of silicon die area to printed circuit board area. This definition implies a particular technology that allows chips to be packed closely together.
+    \item A structure in which a \textbf{packaging efficiency} of greater than $30\%$ is achieved. \textbf{Packaging efficiency} is determined by the ratio of silicon die area to printed circuit board area. This definition implies a particular technology that allows chips to be packed closely together.
 \end{itemize}
 
 \subsubsection{Goals}
@@ -2515,17 +2508,6 @@ The basic idea behind developing MCM technology is to decrease the average spaci
 \subsubsection{Structure}
 An MCM substrate can be composed of different layers, and their number depends on the MCM technology used. These layers provide all the interconnections between the different mounted ICs.
 
-\begin{figure}[htbp]
-  \centering
-  \framebox{\parbox{0.8\textwidth}{\centering
-    \vspace{1cm}
-    \textbf{Figure Placeholder: Multi-Chip Module Structures} \\
-    \small\textit{Diagrams showing a generic MCM package with chips attached via Wire Interconnection and Flip-chip bonding, resting on a multilayer substrate with terminals for Second Level Connection.}
-    \vspace{1cm}
-  }}
-  \caption{Structure of a typical Multi-Chip Module (MCM) showing first and second level connections.}
-  \label{fig:mcm_structure}
-\end{figure}
 
 \subsection{3D Packaging}
 As a result, 3D packaging technology has evolved as a natural progression from the 2D packaging technology (MCMs).\\
@@ -2541,17 +2523,9 @@ As the requirements for high performance systems continually increase, even MCM 
 \subsubsection{Through Silicon Vias (TSV)}
 TSV via diameters typically range from $5~\mu \text{m}$ to several tens of $\mu \text{m}$. They provide vertical electrical connections through the chip.
 
-\begin{figure}[htbp]
-  \centering
-  \framebox{\parbox{0.8\textwidth}{\centering
-    \vspace{1cm}
-    \textbf{Figure Placeholder: 3D Packaging Diagrams} \\
-    \small\textit{Diagram showing stacked dies (e.g., ASIC and MEMS die) interconnected using Through Via Connection (TSV) for high-density, low-profile packaging.}
-    \vspace{1cm}
-  }}
-  \caption{Conceptual diagram of 3D Packaging utilizing Through Silicon Vias (TSV).}
-  \label{fig:3d_packaging}
-\end{figure}
+\begin{center}
+    \includegraphics[width=0.5\linewidth]{Screenshot 2025-12-16 at 14.58.47.png}
+\end{center}
 \clearpage
 \chapter{Complementary Technologies}
 
