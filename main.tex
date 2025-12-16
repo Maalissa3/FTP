@@ -1605,36 +1605,28 @@ Electrodeposition is widely used in industries such as electronics, automotive, 
 \clearpage
 \chapter{Doping-Implantation}
 \section{Silicon Doping}
-Adding parts per billion to parts per thousand of "dopants" to pure silicon can drastically alter its resistivity, changing it by as much as 8 orders of magnitude! This remarkable property is the cornerstone of modern semiconductor technology. The ability to precisely control the local doping concentration and, consequently, the local electronic properties of a semiconductor crystal is what enables the fabrication of complex semiconductor devices.
+Doping is the process of introducing specific atoms, called dopants, into a semiconductor material to modify its electrical properties. This process is the cornerstone of modern semiconductor technology, enabling precise control over the local electronic properties of a semiconductor crystal. By altering the doping concentration, the resistivity of silicon can be changed by as much as 8 orders of magnitude.
 
-Doping levels are typically categorized as follows:
-
+\subsection{Doping Levels}
+Doping levels are categorized as follows:
 \begin{itemize}
-    \item \textbf{N\textsuperscript{--} or P\textsuperscript{--} (Lightly Doped):} The doping concentration lies in the range $10^{14}~\text{cm}^{-3} < N_{D}$ or $N_{A} < 10^{16}~\text{cm}^{-3}$. This level of doping introduces a small number of charge carriers, resulting in relatively high resistivity.
-    \item \textbf{N or P (Moderately Doped):} The doping concentration is in the range $10^{16}~\text{cm}^{-3} < N_{D}$ or $N_{A} < 10^{18}~\text{cm}^{-3}$. This is the typical doping level for many semiconductor devices, providing a balance between conductivity and resistivity.
-    \item \textbf{N\textsuperscript{+} or P\textsuperscript{+} (Heavily Doped):} The doping concentration is in the range $10^{18}~\text{cm}^{-3} < N_{D}$ or $N_{A} < 10^{20}~\text{cm}^{-3}$. At this level, the material exhibits significantly enhanced conductivity due to the high density of charge carriers.
-    \item \textbf{N\textsuperscript{++} or P\textsuperscript{++} (Degenerately Doped):} The doping concentration exceeds $10^{20}~\text{cm}^{-3}$. In this regime, the material behaves almost like a metal, with extremely high conductivity and negligible resistivity.
-\end{itemize}
-$N_{D}$ and $N_{A}$ represent the donor and acceptor concentrations, respectively.
-
-For reference:
-\begin{itemize}
-    \item \textbf{Silicon Atomic Density:} The density of silicon atoms in a crystal lattice is approximately $5 \times 10^{22}~\text{cm}^{-3}$.
-    \item \textbf{Intrinsic Silicon at Room Temperature:} The intrinsic carrier concentration of silicon at room temperature is $n_{i} = 1.45 \times 10^{10}~\text{cm}^{-3}$. This is the baseline carrier concentration in pure, undoped silicon.
+    \item \textbf{N\textsuperscript{--} or P\textsuperscript{--} (Lightly Doped):} $10^{14}~\text{cm}^{-3} < N_{D}$ or $N_{A} < 10^{16}~\text{cm}^{-3}$. Results in relatively high resistivity.
+    \item \textbf{N or P (Moderately Doped):} $10^{16}~\text{cm}^{-3} < N_{D}$ or $N_{A} < 10^{18}~\text{cm}^{-3}$. Provides a balance between conductivity and resistivity.
+    \item \textbf{N\textsuperscript{+} or P\textsuperscript{+} (Heavily Doped):} $10^{18}~\text{cm}^{-3} < N_{D}$ or $N_{A} < 10^{20}~\text{cm}^{-3}$. Results in significantly enhanced conductivity.
+    \item \textbf{N\textsuperscript{++} or P\textsuperscript{++} (Degenerately Doped):} $N_{D}$ or $N_{A} > 10^{20}~\text{cm}^{-3}$. The material behaves almost like a metal.
 \end{itemize}
 
-
-\subsection{Dopant Species: P-Type, N-Type}
-Dopants are specific atoms introduced into a semiconductor material to modify its electrical properties. These atoms can either donate or accept electrons, thereby creating n-type or p-type regions in the material. For dopants to be electrically active, they must occupy substitutional sites in the crystal lattice. The typical doping levels range from $10^{15}$ to $10^{20}~\text{atoms}/\text{cm}^3$, compared to the atomic density of silicon, which is approximately $5.2 \times 10^{22}~\text{atoms}/\text{cm}^3$.
+\subsection{Dopant Species: P-Type and N-Type}
+Dopants are specific atoms introduced into a semiconductor to create n-type or p-type regions. For dopants to be electrically active, they must occupy substitutional sites in the crystal lattice. Typical doping levels range from $10^{15}$ to $10^{20}~\text{atoms}/\text{cm}^3$, compared to silicon's atomic density of $5.2 \times 10^{22}~\text{atoms}/\text{cm}^3$.
 
 \begin{itemize}
-    \item \textbf{Donor Atoms (n-type):} These atoms donate free electrons to the conduction band, increasing the material's conductivity. Common donor atoms include:
+    \item \textbf{Donor Atoms (n-type):} Donate free electrons to the conduction band. Examples:
     \begin{itemize}
         \item Phosphorus (P)
         \item Arsenic (As)
         \item Antimony (Sb)
     \end{itemize}
-    \item \textbf{Acceptor Atoms (p-type):} These atoms accept electrons, creating holes in the valence band, which act as positive charge carriers. Common acceptor atoms include:
+    \item \textbf{Acceptor Atoms (p-type):} Accept electrons, creating holes in the valence band. Examples:
     \begin{itemize}
         \item Boron (B)
         \item Gallium (Ga)
@@ -2063,38 +2055,95 @@ BESOI (Bond and Etchback Silicon On Insulator) involves bonding two wafers, one 
 Smart Cut is Soitec's proprietary technology used to manufacture UNIBOND SOI wafers, based on two key techniques—ion implantation and wafer bonding. The process begins with two bulk silicon wafers, one of which is reused to create a SOI wafer later. An oxide layer is grown on one wafer (Wafer A), forming the buried oxide (BOX) layer of the SOI structure. High-dose hydrogen ion implantation through the oxide creates a damage layer at the ion's range.
 
 Wafer A is bonded to Wafer B, and Wafer A is then cut across the damage plane by applying heat to break the layer off. A thin silicon layer is transferred to Wafer B, forming the SOI structure. Finally, a CMP polish finishes the SOI surface to the original bulk-silicon wafer specification. Hydrogen ion implantation acts as an atomic scalpel, enabling thin slices of monocrystalline film to be cut and transferred efficiently, optimizing material usage.
+
 \clearpage
 \chapter{Wet $\&$ Dry Etching}
-
 \section{Etching}
 \begin{itemize}
-    \item Etching is the process in which unwanted areas of films/bulk are removed
+    \item Etching is a fundamental process in microfabrication where unwanted areas of films or bulk material are selectively removed to create desired patterns or structures.
     \begin{itemize}
-        \item Dissolve them in a wet chemical solution \textbf{WET ETCHING}
-        \item React them with gases (thermal or plasma) to form volatile products $\rightarrow$ \textbf{DRY ETCHING}
+        \item This can be achieved by dissolving the material in a liquid chemical solution, a process known as \textbf{WET ETCHING}.
+        \item Alternatively, the material can be reacted with gases (either thermally or in a plasma) to form volatile products that are removed, a process referred to as \textbf{DRY ETCHING}.
     \end{itemize}
-    \item Photoresist protects areas which are to remain.
-\item In some cases a "hard mask", usually patterned layers of $SiO_{2}$ or $Si_{3}N_{4}$, but also metals (Cr, Al, ...), is used
+    \item To protect areas that are not to be etched, a layer of \textbf{photoresist} is typically applied and patterned. This acts as a mask during the etching process.
+    \item In some cases, a more durable \textbf{hard mask} is used instead of or in addition to the photoresist. Hard masks are usually made of materials like $SiO_{2}$, $Si_{3}N_{4}$, or metals such as chromium (Cr) or aluminum (Al). These are employed when:
     \begin{itemize}
-        \item When the etch selectivity to photoresist is low
-        \item Etching environment causes resist to delaminate
+        \item The etch selectivity to photoresist is low, meaning the etching process would also attack the photoresist.
+        \item The etching environment is harsh and may cause the photoresist to delaminate or degrade.
     \end{itemize}
 \end{itemize}
 
-Wet: Usually acid bath.
+\subsection{Wet Etching}
 \begin{itemize}
-    \item Reactions occur at liquid-solid interface.
-    \item Immersion - whole wafer placed in etch bath.
-    \item Spray- chemicals sprayed onto wafer on a spinning chuck.
-    \item Chemical mechanical polishing (CMP)
+    \item Wet etching typically involves immersing the wafer in an acid or chemical bath that reacts with the exposed material to dissolve it.
+    \item The reactions occur at the liquid-solid interface, and the process can be carried out in different ways:
+    \begin{itemize}
+        \item \textbf{Immersion Etching:} The entire wafer is submerged in the etching solution.
+        \item \textbf{Spray Etching:} Chemicals are sprayed onto the wafer, which is often mounted on a spinning chuck to ensure uniform coverage.
+        \item \textbf{Chemical Mechanical Polishing (CMP):} Combines chemical etching with mechanical abrasion to achieve planarization or selective material removal.
+    \end{itemize}
 \end{itemize}
 
-Dry: Usually a plasma
+\subsection{Dry Etching}
 \begin{itemize}
-    \item Plasma or Reactive Ion Etching (RIE)
-    \item Reactions occur at gas-solid interface.
-    \item Gaseous by-products are required for dry etching.
+    \item Dry etching typically uses a plasma or reactive ion etching (RIE) process, where the material is removed by chemical reactions at the gas-solid interface.
+    \item The etching process relies on the formation of gaseous by-products, which are then evacuated from the chamber. This ensures that the etched material is effectively removed.
+    \item Dry etching is particularly useful for achieving high anisotropy (directional etching), making it ideal for creating vertical sidewalls in microstructures.
 \end{itemize}
+\section{Etchant Properties}
+
+When selecting or evaluating an etchant for a specific application, several key properties must be considered to ensure the process is effective, controlled, and repeatable. These properties include etch rate, selectivity, anisotropy, surface roughness, control of parameters, safety, cost, and the capacity for etch-stops.
+
+\subsubsection{Etch Rate}
+The etch rate is a critical parameter that defines the speed at which material is removed, typically measured in micrometers per minute ($\mu m/\text{min}$). The etch rate depends on several factors:
+\begin{itemize}
+    \item The specific etchant and the material being etched.
+    \item The concentration and mixing of the etchant solution.
+    \item The temperature of the etchant bath.
+    \item The material layout and geometry.
+\end{itemize}
+The etch rate often follows an Arrhenius relationship, where the rate increases exponentially with temperature. It is essential to control and repeat the etch rate to ensure consistent results. Excessively fast etching can make the process difficult to control, leading to non-uniformity and potential damage to the underlying layers.
+
+\subsubsection{Selectivity to Masking Layers and Their Availability}
+Selectivity is the ability of the etchant to preferentially remove the target material while minimizing the etching of other layers, such as the masking layer or underlying films. Since etching also affects the mask and substrate, the etch time must be carefully calculated to avoid excessive damage.
+
+\begin{itemize}
+    \item \textbf{Film-to-Mask Selectivity:} The ratio of the etch rate of the film to the etch rate of the masking layer. A high selectivity value is needed to minimize linewidth resolution loss.
+    $$S_{f:m} = \frac{R_{\text{film}}}{R_{\text{mask}}}$$
+    \item \textbf{Film-to-Underlying Film Selectivity:} The ratio of the etch rate of the film to the etch rate of the underlying layer. A high selectivity value is required to minimize overetch material loss.
+    $$S_{f:u} = \frac{R_{\text{film}}}{R_{\text{under}}}$$
+\end{itemize}
+
+\subsubsection{Anisotropy (Crystal Plane Selectivity)}
+Anisotropy refers to the directional dependence of the etch rate, which is particularly relevant when etching monocrystalline materials. For example, potassium hydroxide (KOH) has a relative etch rate of approximately 40:30:1 for the \textless 110\textgreater, \textless 100\textgreater, and \textless 111\textgreater\ crystal planes, respectively. These relative rates can vary significantly with temperature and other process conditions. Anisotropy is a critical parameter for achieving precise geometries and well-defined sidewalls in microfabrication.
+
+\subsubsection{Surface Roughness}
+The surface roughness of the etched material is an important consideration, as it can affect the performance and reliability of the final device. The choice of etchant, etching conditions, and material properties all influence the resulting surface roughness.
+
+\subsubsection{Control of Etch Parameters}
+The etching process must be carefully controlled to achieve the desired results. Key parameters to monitor and adjust include:
+\begin{itemize}
+    \item Temperature of the etchant solution.
+    \item Agitation conditions to ensure uniform etching.
+    \item Concentration and replenishment of the etchant.
+\end{itemize}
+Precise control of these parameters ensures repeatability and minimizes variability in the etching process.
+
+\subsubsection{Safety of Reactants and Products}
+The safety of the etching process is paramount. Both the reactants and the by-products of the etching reaction must be evaluated for toxicity, reactivity, and environmental impact. Proper handling, storage, and disposal procedures must be followed to ensure the safety of personnel and compliance with regulations.
+
+\subsubsection{Cost (Including Disposal and Fixed Costs)}
+The cost of the etching process includes both fixed costs (e.g., equipment) and variable costs (e.g., chemicals, disposal). Disposal costs are often the most significant expense, as they are calculated based on the volume of waste generated. Minimizing waste and optimizing the etching process can help reduce overall costs.
+
+\subsubsection{Capacity for Etch-Stops}
+Etch-stops are mechanisms that halt the etching process at a specific point to prevent overetching. These can be achieved through:
+\begin{itemize}
+    \item Time-controlled etching, where the process is stopped after a predetermined duration.
+    \item Concentration-controlled etching, where the etchant is depleted to a point where etching slows or stops.
+    \item Doping-dependent etch-stops, where the etch rate varies based on the doping level of the material.
+    \item Electrochemical etch-stops, which use an applied voltage to selectively halt etching in specific regions.
+\end{itemize}
+The choice of etch-stop method depends on the material, etchant, and desired precision of the process.
 
 \section{Wet Etching}
 \begin{center}
@@ -2103,395 +2152,237 @@ Dry: Usually a plasma
 \begin{center}
     \includegraphics[width=0.3\linewidth]{Screenshot 2025-11-06 at 09.34.59.png}
 \end{center}
-\textbf{Isotropic} etchants (e.g. HNA) give rounded profiles
+Wet etching is a process where the material is removed by immersing the substrate in a liquid chemical solution. The etchant reacts with the exposed material, dissolving it and leaving behind the desired pattern. Wet etching can be classified into two main types based on the etching profile: isotropic and anisotropic.
+
+\textbf{Isotropic} etchants, such as HNA (a mixture of hydrofluoric acid, nitric acid, and acetic acid), etch the material uniformly in all directions, resulting in rounded profiles. This type of etching is:
 \begin{itemize}
-    \item best to use with large geometries, when sidewall slope does not matter, and to undercut the mask
-    \item quick, easy, cheap
+    \item Best suited for applications with large geometries where the sidewall slope does not matter.
+    \item Useful for undercutting the mask material.
+    \item Quick, easy, and cost-effective.
 \end{itemize}
-\textbf{Anisotropic} etchants (e.g. KOH, TMAH, EDP) etch preferably \textless 100\textgreater\ planes and slow down markedly on \textless 111\textgreater\ crystal planes of silicon
+
+\textbf{Anisotropic} etchants, such as KOH (potassium hydroxide), TMAH (tetramethylammonium hydroxide), and EDP (ethylene diamine pyrocatechol), preferentially etch certain crystallographic planes of silicon, such as the \textless 100\textgreater\ planes, while etching much slower on the \textless 111\textgreater\ planes. This type of etching is:
 \begin{itemize}
-    \item best for making small gaps and vertical sidewalls (or sidewalls with a precise angulation)
-    \item typically more costly
+    \item Ideal for creating small gaps and vertical sidewalls or sidewalls with precise angulation.
+    \item Typically more expensive and requires more precise control.
 \end{itemize}
-You obtain etching with a specific angle, see the image, based on the plane
+
+The resulting etching angle depends on the crystallographic orientation of the silicon substrate, as shown in the accompanying image.
+
 \subsection{Steps in Wet Etching}
+The wet etching process typically involves the following steps:
 \begin{itemize}
-    \item Etching station
-    \item Rinsing(Washing) Station (Probably the most critical step for some devices)
-    \item Drying Station
+    \item \textbf{Etching Station:} The substrate is immersed in the etching solution, where the material is selectively removed.
+    \item \textbf{Rinsing (Washing) Station:} The substrate is thoroughly rinsed to remove any residual etchant. This step is critical for ensuring the quality of certain devices.
+    \item \textbf{Drying Station:} The substrate is dried to prevent watermarks or contamination.
 \end{itemize}
-\begin{center}    \includegraphics[width=0.5\linewidth]{Screenshot 2025-11-06 at 09.41.17.png}
+\begin{center}    
+    \includegraphics[width=0.5\linewidth]{Screenshot 2025-11-06 at 09.41.17.png}
 \end{center}
-Mechanical agitation required to keep fresh etching solution in contact with wafer surface.\\
-Surfactant added to promote wetting and remove/inhibit by-product gasses clinging to wafer ($H_{2}$ usually).
+Mechanical agitation is often required to ensure that fresh etching solution is in constant contact with the wafer surface. Surfactants are added to promote wetting and to remove or inhibit by-product gases, such as hydrogen ($H_{2}$), that may cling to the wafer surface.
 
-\section{Etchant properties}
-\subsubsection{Etch rate} Depends on the etchant and the material that is been etched; but also:
+\subsection{Wet Etching Silicon ("HNA")}
+The HNA etching solution is a mixture of nitric acid ($HNO_{3}$) and hydrofluoric acid (HF), often diluted with water or acetic acid ($CH_{3}COOH$). The etching process involves the following steps:
 \begin{itemize}
-    \item rate of material removal ($\mu m/min$)
-    \item function of concentration, mixing, temperature, material, layout, ...
-    \item Arrhenius relationship
+    \item $HNO_{3}$ oxidizes silicon, forming a silicon dioxide ($SiO_{2}$) layer.
+    \item HF removes the $SiO_{2}$ layer, exposing fresh silicon for further oxidation.
+    \item The process repeats, resulting in the removal of silicon.
 \end{itemize}
-Must be controlled and repeatable. Also the movement must be controlled: if too fast, it's more difficult to control.
-\subsubsection{Selectivity to masking layer(s) and their availability.}When you perform etching, you what to etch ONLY the target material (ideally). Because will also etch the mask and the underlying layer, you must calculate the necessary time to avoid that.
+Key characteristics of HNA etching:
 \begin{itemize}
-    \item relative (ratio) of the etch rate of the film to the mask, substrate, or another film
-    \item trade off etch rate and selectivity
+    \item High $HNO_{3}$:HF ratio leads to etching limited by oxide removal.
+    \item Low $HNO_{3}$:HF ratio leads to etching limited by oxide formation.
+    \item Acetic acid is preferred over water for dilution, as it prevents $HNO_{3}$ dissociation.
+    \item The etching process is fully isotropic.
 \end{itemize}
-Film:Mask Selectivity
-$$S_{f:m}=\frac{R_{film}}{R_{mask}}$$ High value needed to minimize linewidth resolution loss
-\\Film:Underlying Film Selectivity
-$$S_{f:u}=\frac{R_{film}}{R_{under}}$$
-High value needed to minimize overetch material loss
-\subsubsection{Anisotropy (crystal plane selectivity)} Is a parameter you consider only when etching a monocrystalline material.
-For example KOH has a relative etch rate of 40:30:1 respect to \textless 110\textgreater, \textless 100\textgreater\ and \textless 111\textgreater\ crystal planes (relative rates can dramatically change with temperature,
-\subsubsection{Surface roughness}
-\subsubsection{Control of etch parameters (according for example to
-temperature, agitation conditions,...)}
-\subsubsection{Safety of reactant(s) and product(s)}
-\subsubsection{Cost (including disposal and fixed costs)}Disposal is usually the higher cost, since is calculated on volume!
-\subsubsection{Capacity for etch-stops (simply time controlled or concentration of the solution, doping level, doping dependant or electrochemical etch-stop)}
+\begin{center}    
+    \includegraphics[width=0.5\linewidth]{Screenshot 2025-11-15 182046.png}
+\end{center}
+Reference: H. Robbins and B. Schwartz, “Chemical Etching of Silicon II, the System HF, $HNO_{3}$, $H_{2}O$, and $HC_{2}H_{3}O_{2}$”, J. Electrochem. Soc., v. 107, p. 108 (1960).
 
-\section{Wet etching silicon ("HNA")}
+\subsection{Anisotropically Wet Etching Silicon}
+\subsubsection{Inorganic Alkaline Solutions (KOH)}
+Potassium hydroxide (KOH) is a commonly used anisotropic etchant for silicon. Key characteristics include:
 \begin{itemize}
-    \item mixture of nitric ($HNO_{3}$) and hydrofluoric (HF) acids
-    \item $HNO_{3}$ oxidizes Si, HF removes $SiO_{2}$, repeat...
-    \item high $HNO_{3}$: HF ratio (etch limited by oxide removal)
-    \item low $HNO_{3}$: HF ratio (etch limited by oxide formation)
-    \item dilute with water or acetic acid ($CH_{3}COOH$)
-    \item acetic acid is preferred because it prevents $HNO_{3}$ disassociation
-    \item \textbf{fully isotropic}
+    \item KOH pellets are dissolved in water, and the reaction produces hydrogen gas ($H_{2}$).
+    \item It is the quickest silicon anisotropic etchant but is less controllable compared to other etchants.
+    \item Not compatible with microelectronics (e.g., CMOS processes).
+    \item $SiO_{2}$ and $Si_{3}N_{4}$ are used as masking materials, as photoresist will not survive, and oxide is attacked slowly.
+    \item The setup is simple, typically involving a hot plate, Pyrex beaker, and stirrer. Stirring improves roughness by eliminating $H_{2}$ bubbles.
+    \item High concentrations are needed to limit roughness.
+    \item The etch rate is approximately $1~\mu m/\text{min}$ but strongly depends on the solution concentration and temperature (typically used around $80^{\circ}\text{C}$).
 \end{itemize}
-
-\begin{center}    \includegraphics[width=0.5\linewidth]{Screenshot 2025-11-15 182046.png}
+The etch rate of silicon in KOH depends on the crystallographic plane (anisotropy) and temperature:
+\begin{center}    
+    \includegraphics[width=0.4\linewidth]{Screenshot 2025-11-15 182805.png}
 \end{center}
-H. Robbins and B. Schwartz, “Chemical Etching of Silicon II, the System HF, $HNO_{3}$, $H_{2}O$, and $HC_{2}H_{3}O_{2}$”, J. Electrochem. Soc., v. 107, p. 108 (1960)
+\begin{center}    
+    \includegraphics[width=0.4\linewidth]{Screenshot 2025-11-15 182948.png}
+\end{center}
+KOH also etches silicon oxide slowly, providing good selectivity.
 
-\section{Anisotropically wet etching Silicon}
-\subsection{Inorganic Alkaline Solutions (KOH)}
-
+\subsection{Hydrofluoric Acid (HF) for $SiO_{2}$ Etching}
+Hydrofluoric acid (HF) is a selective etchant for silicon dioxide ($SiO_{2}$) and does not etch silicon. Key characteristics include:
 \begin{itemize}
-    \item KOH pellets dissolved in water (reaction produces $H_{2}$)
-    \item The quickest silicon anisotropic etchant, but also the less controllable
-    \item Not compatible with Microelectronics (CMOS -in particular)
-    \item $SiO_{2}$ $Si_{3}N_{4}$ (better) used as masking materials (resist will not survive, oxide is attacked slowly)
-    \item Simple set-up: hot plate, Pyrex becker and stirrer (improve roughness eliminating $H_{2}$
-    \item High concentrations are needed to limit roughness
-    \item Etch rate $\approx 1~\mu m/min$, but strongly dependent on solution concentration and temperature (typically used around $80^{\circ}C$)
-\end{itemize}
-Etch rate of Si in KOH depends on crystallographic plane (anisotropy)
-\begin{center}    \includegraphics[width=0.4\linewidth]{Screenshot 2025-11-15 182805.png}
-\end{center}
-Etch rate of Si in KOH depends on temperature
-\begin{center}    \includegraphics[width=0.4\linewidth]{Screenshot 2025-11-15 182948.png}
-\end{center}
-KOH etch slòwly silicon oxide (selectivity)
-\begin{center}    \includegraphics[width=0.4\linewidth]{Screenshot 2025-11-15 182948.png}
-\end{center}
-
-\section{HYDROFLUORIC ACID ($SiO_{2}$)}
-\begin{itemize}
-    \item Selective (room temperature)
+    \item \textbf{Selectivity:} HF etches $SiO_{2}$ but not silicon. However, it will also attack aluminum.
+    \item \textbf{Etch Rate:} The rate depends strongly on concentration:
     \begin{itemize}
-        \item etches $SiO_{2}$ and not Si
-        \item will also attack Al
+        \item Maximum rate: 49\% HF (“concentrated”) $\sim>2~\mu m/\text{min}$.
+        \item Controlled rate: 5 to 50:1 (“timed”) $\sim<0.1~\mu m/\text{min}$.
+        \item The etch rate is not linear at high concentrations.
     \end{itemize}
-    \item Rate depends strongly on concentration
+    \item \textbf{Safety:} HF is extremely dangerous:
     \begin{itemize}
-        \item maximum: 49\% HF (“concentrated”) $\sim>2~\mu m/min$
-        \item controlled: 5 to 50:1 (“timed”) $\sim<0.1~\mu m/min$
-        \item etch rate is not linear with high concentration
+        \item It is not a strong acid (check the pH of your HF etch).
+        \item It is deceptive in appearance, resembling water.
+        \item It penetrates the skin and attacks slowly, targeting bones.
     \end{itemize}
-    \item Dangerous!
-    \begin{itemize}
-        \item not a strong acid (check the pH of your HF etch)
-        \item deceptive (looks just like water)
-        \item penetrates skin (adsorption) and attacks slowly
-        \item will target bones
-    \end{itemize}
-    \item Etch Geometry:
-    \begin{itemize}
-        \item completely isotropic (used to undercut / release)
-    \end{itemize}
-    \item Buffering with $NH_{4}F$ keeps pH constant (a buffer agent maintains narrow range of pH during life of etch bath) and thus stabilizes etch rate (even lowering it)
+    \item \textbf{Etch Geometry:} HF etching is completely isotropic and is often used to undercut or release structures.
+    \item \textbf{Buffered HF (BOE):} Buffering with ammonium fluoride ($NH_{4}F$) keeps the pH constant, stabilizing the etch rate and lowering it if needed.
 \end{itemize}
-\textbf{BOE (Buffered Oxide Etch) or BHF (Buffered HF)}
+\textbf{BOE (Buffered Oxide Etch)} or \textbf{BHF (Buffered HF)} is commonly used for controlled etching of $SiO_{2}$.
 
 \section{What is a Dry Etch?}
+Dry etching is a process where material is removed from a substrate using gaseous or vapor-phase reactants. Unlike wet etching, which uses liquid chemicals, dry etching relies on gases that are often ionized to create reactive species. These reactive species chemically or physically interact with the exposed material, leading to its removal. Dry etching is broadly categorized into two types: plasma-based and non-plasma-based etching.
+
+\subsection{Why Use Plasmas in Dry Etching?}
+Plasmas are widely used in dry etching due to their unique advantages:
 \begin{itemize}
-    \item In wet etchants, the etch reactants come from a liquid source
-    \item In dry etchants, the etch reactants come from a gas or vapor-phase source and are typically ionized (atoms or ions from the gas are the reactive species that etch the exposed film)$\rightarrow$ 2 kinds of dry etches: plasma and non-plasma based
+    \item \textbf{Lower Temperature Reactions:} Plasmas enable chemical reactions to occur at lower temperatures compared to thermally driven processes. This is particularly useful in Plasma-Enhanced Chemical Vapor Deposition (PECVD) and other low-temperature applications.
+    \item \textbf{Directional Processing:} Plasmas can provide directionality to the etching process, allowing for anisotropic etching, which is essential for creating vertical sidewalls in microstructures.
+    \item \textbf{Versatility:} The ability to control multiple parameters, such as gas composition, pressure, and RF power, provides higher versatility in achieving desired etch profiles and selectivity.
 \end{itemize}
 
-\subsubsection{Why use Plasmas?}
+\subsection{Vapor Etching}
+Vapor etching is a non-plasma, isotropic dry-etch process that uses vapor-phase reactants to remove material. One of the most common vapor etchants is xenon difluoride ($XeF_{2}$), which is particularly effective for silicon etching.
+
 \begin{itemize}
-    \item Perform reactions at lower temperatures than thermally driven reactions $\rightarrow$ PECVD
-    \item Can provide directionality of processing.
-    \item Several more parameters to play with to obtain desired properties $\rightarrow$ higher versatility
+    \item \textbf{High Selectivity:} $XeF_{2}$ exhibits very high selectivity for silicon over materials like aluminum, silicon dioxide ($SiO_{2}$), phosphosilicate glass (PSG), silicon nitride ($Si_{3}N_{4}$), and photoresist.
+    \item \textbf{Etch Rate:} The etch rate is generally fast, ranging from $1-3~\mu m/\text{min}$, making it suitable for rapid material removal.
+    \item \textbf{Reaction:} The chemical reaction for silicon etching is:
+    $$2XeF_{2} + Si \rightarrow 2Xe + SiF_{4}$$
+    \item \textbf{Surface Roughness:} While $XeF_{2}$ is highly selective, the etched surfaces can be quite rough, which may limit its use in applications requiring smooth finishes.
+    \item \textbf{Safety Concerns:} $XeF_{2}$ reacts with water, including moisture in the air, to form xenon (Xe) and hydrofluoric acid (HF). HF is a safety hazard and can also unintentionally etch $SiO_{2}$.
 \end{itemize}
 
+\subsubsection{HF Vapor Phase Etching}
+HF vapor etching is another non-plasma dry etching technique used for applications like surface micromachining and SOI-MEMS. The HF vapor etcher typically consists of a reaction cell, a heated wafer holder, and an electronic control unit. HF vapor is generated passively from a small liquid reservoir, requiring only about 60-80 ml of liquid HF. This method is particularly useful for dicing-free release and structure thinning. Safety is a critical concern when working with HF, and specialized equipment is designed to maximize operator safety.
 
-\section{Vapor etching}
 
-\begin{itemize}
-    \item A nonplasma, isotropic dry-etch process for silicon is possible using $XeF_{2}$ and provides very high selectivity for aluminum, silicon dioxide, PSG, silicon nitride, and photoresist.
-    \item These properties make it an extremely useful etchant, although the etched surfaces produced are quite rough.
-    \item In a bell-jar setup run at 1 torr, $XeF_{2}$ can be sublimed from its solid form at room temperature and this etch has excellent selectivity with respect to CMOS process layers.
-\end{itemize}
-$$2XeF_{2}+Si\rightarrow 2Xe+SiF_{4}$$
-\begin{itemize}
-    \item The heat generated by this exothermic reaction may adversely affect some microstructures. An important concern is that $XeF_{2}$ reacts with water (even moisture in air) to form Xe and HF (the latter can also unintentionally etch silicon dioxide in addition to being a safety hazard).
-    \item Etch rates are generally $1-3~\mu m/min$ (FAST !!!)
-\end{itemize}
+\subsection{Types of Dry Etching Processes}
 
-\subsection{HF-vapor phase etching}
-The HF vapor etcher consists of a reaction cell and heated wafer holder, in addition to an electronic control unit. HF vapor is generated passively from a small liquid reservoir at the bottom of the reaction cell. Only a minimal amount of about 60-80 ml of liquid HF is required. The HF Vapor Etcher Basic is perfectly adapted for R\&D work in surface micromachining, SOI-MEMS, for dicing-free release, structure thinning, and many other applications\\
-Safety is an important issue when working with HF. AMMT's engineers have designed this easy-to-use and straight forward etching system with a maximum of security including special.
-\section{RF plasma-based dry etching}
+Dry etching processes can be categorized based on their mechanisms and applications. Below are the main types:
+
+\subsubsection{RF Plasma-Based Dry Etching}
+
+Plasma etching is an isotropic process that relies primarily on chemical reactions between the plasma-generated reactive species and the material being etched. It is highly selective, meaning it can etch the target material while leaving other materials relatively unaffected. However, due to its isotropic nature, it is less suitable for applications requiring high aspect ratios or vertical sidewalls.
+Plasma-based dry etching uses radio frequency (RF) energy to ionize gases, creating a plasma that facilitates the etching process. The steps involved are:
 \begin{itemize}
-    \item Chamber is evacuated
-    \item Chamber is filled with gas(es)
-    \item RF energy is applied to a pair of electrodes
-    \item Applied energy accelerates electrons increasing kinetic energy
-    \item Electrons collide with neutral gas molecules, forming ions and more electrons
-    \item Steady state is reached (plasma); ionization recombination
+    \item The chamber is evacuated to create a vacuum.
+    \item The chamber is filled with etching gases.
+    \item RF energy is applied to electrodes, accelerating electrons and increasing their kinetic energy.
+    \item High-energy electrons collide with neutral gas molecules, forming ions and additional electrons.
+    \item A steady-state plasma is established, balancing ionization and recombination processes.
 \end{itemize}
 
-
+\paragraph{RF Plasma Characteristics}
 \begin{itemize}
-    \item RF: Frequencies (typically 13.56 MHz)
-\begin{itemize}
-    \item Electrons oscillating in the glow region acquire enough energy to cause ionization (the alternating potential polarity affects the electrons, sending them into an oscillatory path).
-    \item Gas ions are too massive to respond to the high-frequency field (ions, being much heavier and therefore slower, don't keep up with the alternating field).
-\end{itemize}
-    \item Similar to PECVD except that etch gas is used instead of precursor gas.
-    \item Etching is isotropic and selective due to the strong chemical component.
+    \item \textbf{Frequency:} RF frequencies, typically 13.56 MHz, are used to sustain the plasma.
+    \item \textbf{Electron Behavior:} Electrons oscillate in the glow region, gaining enough energy to cause ionization. The alternating potential polarity affects the electrons, sending them into oscillatory paths.
+    \item \textbf{Ion Behavior:} Gas ions, being much heavier, do not respond to the high-frequency field, allowing for controlled ion bombardment of the substrate.
+    \item \textbf{Etch Profile:} Plasma etching is generally isotropic and selective due to its strong chemical component.
 \end{itemize}
 
 \begin{table}
     \centering
     \begin{tabular}{c|c}
-        Neutral Molecules at a density of & $10e16/cm^{3}$ \\
-       Radicals&$10e14/cm^{3}$\\
-       Electrons& $10e8/cm^{3}$\\
-Positive ions & $10e8/cm^{3}$
+        \textbf{Species in Plasma} & \textbf{Typical Density ($\text{cm}^{-3}$)} \\
+        \hline
+        Neutral Molecules & $10^{16}$ \\
+        Radicals & $10^{14}$ \\
+        Electrons & $10^{8}$ \\
+        Positive Ions & $10^{8}$ \\
     \end{tabular}
-    \caption{Content of typical plasma}
+    \caption{Typical Plasma Composition}
 \end{table}
 
-\section{TODO:Types of Dry Etching}
+\subsubsection{Reactive Ion Etching (RIE)}
+RIE combines both physical and chemical etching mechanisms. It uses a plasma to generate reactive species for chemical etching while simultaneously applying an electric field to accelerate ions toward the substrate. This results in a directional etching process, making it suitable for creating features with vertical sidewalls. RIE is fairly selective and is widely used in microfabrication.
 
-Neutral
+\subsubsection{Deep Reactive Ion Etching (DRIE)}
+Deep Reactive Ion Etching (DRIE) is a highly anisotropic etching process used to create deep, high-aspect-ratio structures in silicon. The process alternates between an isotropic etching step (using gases like $SF_6$) and a passivation step (using gases like $C_4F_8$) to protect the sidewalls. This time-multiplexed process, also known as Time Multiplexed Deep Etching (TMDE) or the Bosch process, enables the creation of vertical sidewalls and is ideal for MEMS applications. DRIE achieves high aspect ratios while maintaining good selectivity and anisotropy.
 
-Volatile product
-
-Neutral Ion
-$+$
-
-Neutral Ion
-$+$
-
-Volatile product
-
-Volatile product
-
-Chemical PLASMA
-isotropic, chemical, selective
-
-Ion-enhanced energetic RIE
-directional, physical \& chemical, fairly selective
-
-DRIE
-Like RIE, but high Aspect Ratio is the target
-
-Ion-enhanced inhibitor
-
-Inhibitor
-
-e
-
-\subsection{TODO:Reactive Ion Etching (RIE)}
-
-TOP ELECTRODE
-
-N
-
-PLASMA
-
-$R^{\bullet}$
-
-Si wafer
-
-BOTTOM ELECTRODE
-
-ion bombardment
-
-$|+$
-
-\begin{itemize}
-    \item in both plasma etching and RIE feed- gas composition produces the reactive species necessary for etching
-\end{itemize}
-chemistry tends to be isotropic
-
-ion bombardment of surfaces generates the anisotropy in plasma assisted pattern transfer
-
-damage
-
-surface damage
-
-Examples of using Electric Fields for Enhanced Sidewall Abruptness (Anisotropy) in a Plasma Etch System
-
-Mask Material
-
-15KU
-
-H10.866
-
-NRC, IMS
-
-InP etched by CAIBE
-
-0000
-
-12.8KX 25X0 WD 00000 200001
-201
-
-Low Electric Field
-
-5 $\mu m$
-
-High Electric Field
-
-\subsection{TODO:Inductively Coupled Plasma (ICP-RIE) Reactor}
-
-101
-
-00
-
-Inductive coil
-
-$\sim$
-
-RF generator
-
-Two RF power generators to control ion energy and ion density separately
-
-Plasma chamber
-
-Dielectric window
-
-Electromagnet
-
-Biased wafer chuck
-
-FIGURE 16.21 Inductively-Coupled Plasma Etch
-
-Dual plasma source:
-
-Bias RF generator
-
-$\sim$
-
-Redrawn from Y. Lii, "Etching," ULSI Technology, ed. by C. Chang and S. Sze (New York: McGraw-Hill, 1996), p. 351.
-
-Operating pressure \textgreater 5 mTorr and \textless 60 mTorr
-
-\begin{itemize}
-    \item Top RF current (typically 13.56 MHz) generates an opposite inductive current in the plasma which sustains the discharge
-    \item Bottom RF power (typically 13.56 MHz) is responsible for ion bombardment
-    \item Advanced etcher for (poly)silicon etching and aluminum etching
-\end{itemize}
-$+$
-
-RIE
-
-Top one (ICP RF power) generates high-density plasma, determines ion density/current.
-
-Bottom one (CCP RF power) generates bias voltage like regular RIE, determines ion energy.
-
-00
-
-ICP
-
-13,56 MHz
-
-13,56 MHz
-
-13,56 MHz
-
-\section{DRY ETCH CHEMISTRIES}
-\begin{center}
-    \begin{tabular}{|l|l|}
-        \hline
-        Material & Etch Gases \\
-        \hline
-        Si, $SiO_{2}$, $Si_{3}N_{4}$ & $CF_{4}$, $SF_{6}$, $CHF_{3}$ $NF_{3}$ \\
-        Si & $Cl_{2}$, $CCl_{2}F_{2}$ \\
-        SiC & $CF_{4}$ $SF_{6}$, $CHF_{3}$ \\
-        Al & $BCl_{3}$, $CCl_{4}$, $SiCl_{4}$, $Cl_{2}$ \\
-        Organics & $O_{2},O_{2}+CF_{4}$ \\
-        Other: (W, Ta, Mo, ...) & $CF_{4}$ \\
-        \hline
-    \end{tabular}
-\end{center}
-
-\section{TODO:Selectivity}
-\begin{center}
-    \includegraphics[width=0.6\textwidth]{Screenshot 2025-11-20 at 08.41.22.png}
-\end{center}
-\begin{itemize}
-    \item $CF_{4}$ plasmas processes can be used to etch Si selectively to $SiO_{2}$ and $SiO_{2}$ selectively to Si
-\end{itemize}
-
-Addition of $H_{2}$ or $O_{2}$ enhances etch rates of one film over the other
-\begin{itemize}
-    \item Small additions of $O_{2}$ enhances Si etch rate more than $SiO_{2}$ etch rate
-    \item Addition of $H_{2}$ decreases Si etch rate more than $SiO_{2}$ etch rate
-\end{itemize}
-Addition of small amount of $O_{2}$ in $CF_{4}$ plasma greatly increases Si etch rate.\\
-Reactions between $O_{2}$ and $CF_{4}$ increase F concentration in the plasma (thanks to $CO_{2}$ generation).
-
-Hydrogen reacts with fluorine forming HF in the gas phase (which slightly increase etching of $SiO_{2}$.
-
-This removes F from the plasma (hydrogen scavenges F atoms).
-Si etch rate nearly 0 at 40\% $H_{2}$ (while $SiO_{2}$ remains nearly constant)
-
-The only etch rate that is being modified is the chemical, no physycal component is touched. The only way to change the physical component is by changing the voltage.
-
-\section{TODO:Anisotropy in Dry Etching}
-
-$$\frac{x}{z}=\frac{R_{x}}{R_{z}}$$
-
-\begin{itemize}
-    \item When $H_{2}$ is added to $CF_{4}$, the etch rate (isotropic) of Si is decreased(lowering chemical component)
-    \item When bias is applied, the etch rate (anisotropic) is increased(enhance the physical component)
-    \item By combining these two effects, a good anisotropic etch can be achieved
-\end{itemize}
-Useful when you have to transfer small portions.
-
-\subsection{TODO:ASPECT RATIO}
-
-$$Aspect Ratio =\frac{Height}{Width}$$
-
-
-\section{Deep reactive ion etching (DRIE)$\rightarrow$Time multiplexed deep etching}
 \begin{center}
     \includegraphics[width=0.5\textwidth]{Screenshot 2025-11-20 at 08.54.47.png}
 \end{center}
+
+\paragraph{Process Steps}
 \begin{itemize}
-    \item The etching step uses $SF_{6}$ with a substrate bias of 5 to 30 V so that the cations generated in the plasma are accelerated nearly vertically into the substrate being etched.
-    \item After etching for a short time, the polymerization process is started. A mixture of $C_{4}F_{8}$ (high C/F ratio) and argon is used and all exposed surfaces (side walls and horizontal surfaces) are coated with a \textbf{Teflonlike} (polymerized $CF_{2})$ polymer layer approximately 50 nm thick.
-    \item If ion bombardment, due to a small applied bias voltage, is used during the polymerization step, the formation of polymer on the \textbf{horizontal} surfaces can essentially be prevented, and can also be eliminated if formed.
-    \item The etching step is then repeated, and the polymer deposited on the horizontal surfaces is rapidly moved due to the ion bombardment and the presence of reactive fluorine radicals.
+    \item \textbf{Etching Step:} Sulfur hexafluoride ($SF_{6}$) is used as the etching gas. A substrate bias of 5 to 30 V accelerates cations generated in the plasma nearly vertically into the substrate, creating an anisotropic etch profile.
+    \item \textbf{Passivation Step:} A mixture of octafluorocyclobutane ($C_{4}F_{8}$) and argon is introduced. This deposits a thin, Teflon-like polymer layer (polymerized $CF_{2}$) approximately 50 nm thick on all exposed surfaces, including sidewalls and horizontal surfaces.
+    \item \textbf{Directional Bombardment:} During the passivation step, a small bias voltage prevents polymer formation on horizontal surfaces. Any polymer deposited on horizontal surfaces is removed by ion bombardment.
+    \item \textbf{Repeat Etching:} The etching step is repeated, removing the polymer from horizontal surfaces and deepening the trench while preserving the passivated sidewalls.
 \end{itemize}
-Summarizing:
+
+\paragraph{Sequential Steps in TMDE}
 \begin{enumerate}
-    \item Start
-    \item Isotropic $SF_{6}$ Etch With Anisotropic Bombardment
-    \item Isotropic Polymer Formation with $C_{4}F_{8}$
-    \item $SF_{6}$ Etch Again
+    \item \textbf{Start:} The masking material (photoresist or silicon dioxide) is patterned on the substrate.
+    \item \textbf{Etching:} An isotropic $SF_{6}$ etch with anisotropic ion bombardment creates a shallow trench.
+    \item \textbf{Passivation:} A protective fluorocarbon film is deposited everywhere using $C_{4}F_{8}$.
+    \item \textbf{Etching Again:} The fluorocarbon film is removed from horizontal surfaces by directional ion bombardment, and another shallow trench is etched.
 \end{enumerate}
-Showing the sequential steps during TMDE. In (a) the masking material (photoresist or silicon dioxide) has been patterned. During the etch step in (b), a shallow, isotropic trench is formed. In the subsequent passivation step (c), a protective fluorocarbon film is deposited everywhere. During the next etch step (d), the fluorocarbon film is removed from all horizontal surfaces by directional ion bombardment, and another shallow trench is formed.
+
+\paragraph{Illustration of TMDE Steps}
+\begin{itemize}
+    \item (a) The masking material is patterned.
+    \item (b) During the etch step, a shallow, isotropic trench is formed.
+    \item (c) In the passivation step, a protective fluorocarbon film is deposited everywhere.
+    \item (d) During the next etch step, the fluorocarbon film is removed from horizontal surfaces, and another shallow trench is formed.
+\end{itemize}
+
+\subsection{Dry Etch Chemistries}
+The choice of etch gases depends on the material being etched. Common chemistries include:
+\begin{center}
+    \begin{tabular}{|l|l|}
+        \hline
+        \textbf{Material} & \textbf{Etch Gases} \\
+        \hline
+        Silicon ($Si$), $SiO_{2}$, $Si_{3}N_{4}$ & $CF_{4}$, $SF_{6}$, $CHF_{3}$, $NF_{3}$ \\
+        Silicon ($Si$) & $Cl_{2}$, $CCl_{2}F_{2}$ \\
+        Silicon Carbide ($SiC$) & $CF_{4}$, $SF_{6}$, $CHF_{3}$ \\
+        Aluminum ($Al$) & $BCl_{3}$, $CCl_{4}$, $SiCl_{4}$, $Cl_{2}$ \\
+        Organics & $O_{2}$, $O_{2} + CF_{4}$ \\
+        Other Metals (W, Ta, Mo, ...) & $CF_{4}$ \\
+        \hline
+    \end{tabular}
+\end{center}
+
+\subsection{Selectivity in Dry Etching}
+Selectivity is the ability to etch one material preferentially over another. For example:
+\begin{itemize}
+    \item $CF_{4}$ plasmas can etch silicon selectively over $SiO_{2}$, and vice versa.
+    \item Adding small amounts of $O_{2}$ to $CF_{4}$ enhances the etch rate of silicon more than $SiO_{2}$. Reactions between $O_{2}$ and $CF_{4}$ increase the fluorine ($F$) concentration in the plasma due to the generation of $CO_{2}$, which significantly increases the silicon etch rate.
+    \item Adding $H_{2}$ to $CF_{4}$ decreases the etch rate of silicon more than $SiO_{2}$. Hydrogen reacts with fluorine to form HF in the gas phase, which scavenges fluorine atoms from the plasma. This reduces the silicon etch rate, while the $SiO_{2}$ etch rate remains nearly constant.
+    \item At 40\% $H_{2}$ in $CF_{4}$, the silicon etch rate is nearly zero, while the $SiO_{2}$ etch rate remains unaffected.
+\end{itemize}
+\begin{center}
+    \includegraphics[width=0.5\linewidth]{Screenshot 2025-12-16 at 14.24.22.png}
+\end{center}
+
+\subsection{Anisotropy in Dry Etching}
+Anisotropy refers to the directionality of the etching process. It is quantified as:
+$$\text{Anisotropy} = \frac{R_{z}}{R_{x}}$$
+where $R_{z}$ is the vertical etch rate and $R_{x}$ is the lateral etch rate. By adjusting parameters like RF power and gas composition, a balance between isotropic and anisotropic etching can be achieved.
+
+\subsection{Aspect Ratio}
+The aspect ratio is defined as:
+$$\text{Aspect Ratio} = \frac{\text{Height}}{\text{Width}}$$
+High aspect ratios are desirable for creating deep, narrow features in microstructures.
+\begin{center}
+    \includegraphics[width=0.5\linewidth]{1-Figure1-1.png}
+\end{center}
+
+
 
 \clearpage
 \chapter{Packaging}
