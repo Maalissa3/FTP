@@ -2527,106 +2527,315 @@ TSV via diameters typically range from $5~\mu \text{m}$ to several tens of $\mu 
     \includegraphics[width=0.5\linewidth]{Screenshot 2025-12-16 at 14.58.47.png}
 \end{center}
 \clearpage
+
 \chapter{Complementary Technologies}
+\section{Bulk Micromachining}
+Bulk micromachining is a fundamental technique in microfabrication that involves the selective removal of the "bulk" substrate to create suspended three-dimensional structures. This method is widely used due to its simplicity and effectiveness, especially for applications requiring relatively large masses. Below are the key characteristics and techniques associated with bulk micromachining:
 
-\section{Bulk micromachining}
-Bulk micromachining is a foundational technique in micro-electro-mechanical systems (MEMS) fabrication.
-
-\subsection{Definition and Characteristics}
-Bulk micromachining involves the selective removal of the "bulk" substrate material to release suspended three-dimensional structures.
 \begin{itemize}
-    \item It is the most common micromachining technique and was one of the first to be developed, with initial experiments dating back to the 1970s for the fabrication of micro pressure sensors.
-    \item While it is generally less versatile and offers lower resolution compared to surface micromachining, it allows for the fabrication of structures with relatively "big" mass.
+    \item \textbf{Selective Removal:} The process focuses on removing specific portions of the substrate while leaving other areas intact to form the desired microstructures.
+    \item \textbf{Historical Significance:} Bulk micromachining is one of the earliest micromachining techniques, with its first applications dating back to the 1970s for the fabrication of micro pressure sensors.
+    \item \textbf{Advantages:} It allows for the creation of structures with significant mass, which is not feasible with surface micromachining.
+    \item \textbf{Limitations:} Compared to surface micromachining, bulk micromachining offers less versatility and lower resolution.
 \end{itemize}
-
-\subsection{Types of Bulk Micromachining}
-This technique is broadly categorized based on the side of the wafer being etched:
-\begin{itemize}
-    \item Front-Side Bulk Micromachining
-    \item Back-Side Bulk Micromachining
-\end{itemize}
-
-Typical resulting structures include square membranes, heating resistors, thermopiles, and piezoresistors. The process often involves layers of materials such as $Si_{3}N_{4}$, $SiO_{2}$, and the Silicon (Si) substrate, with typical dimensions in the $100\,\mu\text{m}$ to $500\,\mu\text{m}$ range.
-\label{chap:bulk_micromachining}
-
-
+\begin{center}
+    \includegraphics[width=0.3\linewidth]{41563_2004_Article_BFnmat1058_Fig2_HTML.jpg}
+\end{center}
 \subsection{Bulk Micromachining Etching Techniques}
+Bulk micromachining relies on various etching techniques to achieve the desired structures. These techniques include:
 
-The removal of the bulk substrate can be achieved through various etching methods.
-
-\subsection{Wet Etching}
-
-Wet etching involves submerging the substrate in a liquid chemical bath.
-
-\subsubsection{Basic Wet Etching Procedure}
-The procedure follows these basic steps:
-\begin{enumerate}
-    \item The target material is masked with a protective material (e.g., $SiO_{2}$ or $Si_{3}N_{4}$ are commonly used etch masks).
-    \item The structure is submerged in an acid bath.
-    \item The exposed target material is completely removed.
-    \item The process often results in slight undercutting beneath the mask material.
-\end{enumerate}
-
-\subsubsection{Vapour Etching}
-Vapour etching is a form of chemical etching where the etchant is in the gas phase. A common example is the use of Xenon Difluoride ($\text{XeF}_{2}$) for silicon etching.
-
-The key chemical reactions include:
-\begin{align*}
-    2\text{XeF}_{2} + \text{Si} &\rightarrow 2\text{Xe} + \text{SiF}_{4} \\
-    \text{SiO}_{2} + 4\text{HF} &\rightarrow \text{SiF}_{4} + 2\text{H}_{2}\text{O}
-\end{align*}
-
-\subsection{Dry (Plasma) Etching}
-
-Dry etching, or plasma etching, utilizes chemically reactive species generated in a plasma state. This technique is typically performed inside a vacuum chamber.
-
-\subsubsection{Plasma Etching Components}
-The general setup for plasma etching, such as in a Reactive Ion Etching (RIE) system, includes:
+\subsubsection{Wet Etching}
+Wet etching is a chemical process that involves the use of liquid etchants to remove material from the substrate. The key steps in wet etching are as follows:
 \begin{itemize}
-    \item Top and bottom electrodes
-    \item A vacuum pump to maintain the low-pressure environment
-    \item A source for etching gases
-    \item An RF power source to generate and maintain the plasma
-    \item Cooling (e.g., water) to regulate the temperature
+    \item \textbf{Masking:} The substrate is coated with a protective material (mask) to define the areas to be etched.
+    \item \textbf{Submersion:} The substrate is submerged in an acid bath or other chemical solution that acts as the etchant.
+    \item \textbf{Etching Process:} The exposed areas of the substrate react with the etchant and are dissolved.
+    \item \textbf{Undercutting:} Due to the isotropic nature of wet etching, slight undercutting may occur beneath the mask, which can affect the precision of the etched structures.
 \end{itemize}
 
-\subsubsection{Techniques}
-The two most prominent dry etching techniques are:
+\subsubsection{Vapor Etching}
+Vapor etching is a dry etching process that uses vapor-phase reactants to remove material. It is highly selective and isotropic. The chemical reactions involved include:
 \begin{itemize}
-    \item \textbf{RIE (Reactive Ion Etching):} Provides a balance of chemical and physical etching, resulting in good anisotropy.
-    \item \textbf{DRIE (Deep Reactive Ion Etching):} A highly anisotropic process capable of etching deep, vertical structures in silicon, often utilizing the Bosch process.
+    \item \textbf{Reaction with Silicon:} Xenon difluoride ($\text{XeF}_{2}$) reacts with silicon to form xenon gas and silicon tetrafluoride:
+    \[
+        2\text{XeF}_{2} + \text{Si} \rightarrow 2\text{Xe} + \text{SiF}_{4}
+    \]
+    \item \textbf{Reaction with Silicon Dioxide:} Hydrofluoric acid ($\text{HF}$) reacts with silicon dioxide to form silicon tetrafluoride and water:
+    \[
+        \text{SiO}_{2} + 4~\text{HF} \rightarrow \text{SiF}_{4} + 2~\text{H}_{2}\text{O}
+    \]
+    \item \textbf{Process Characteristics:} Vapor etching is particularly useful for applications requiring high selectivity and minimal damage to surrounding materials.
 \end{itemize}
 
-\section{SPM Machining}
-Scanning Probe Microscopy (SPM) techniques are highly versatile and offer ultra-high resolution capabilities for both additive and subtractive manufacturing at the nanoscale.
+\subsubsection{Plasma Etching Process}
+Plasma etching is a versatile technique that uses ionized gases to remove material from the substrate. The process involves:
+\begin{itemize}
+    \item \textbf{Electrode Configuration:} The etching chamber is equipped with top and bottom electrodes to generate the plasma.
+    \item \textbf{Gas Introduction:} Specific etching gases are introduced into the chamber to react with the target material.
+    \item \textbf{Vacuum Environment:} A vacuum pump maintains a low-pressure environment to sustain the plasma.
+    \item \textbf{RF Power Source:} A radio frequency (RF) power source ionizes the gases, creating a plasma that facilitates the etching process.
+    \item \textbf{Etching Techniques:}
+    \begin{itemize}
+        \item \textbf{Reactive Ion Etching (RIE):} Combines chemical and physical etching mechanisms to achieve anisotropic profiles.
+        \item \textbf{Deep Reactive Ion Etching (DRIE):} A specialized technique for creating deep, high-aspect-ratio structures, commonly used in MEMS fabrication.
+    \end{itemize}
+    \item \textbf{Etch Depths:} Plasma etching can achieve depths ranging from a few micrometers to several hundred micrometers, depending on the process parameters.
+\end{itemize}
 
-\subsection{Thermal Scanning Probe Lithography}
-Thermal Scanning Probe Lithography (t-SPL) is a method that uses a heated AFM tip to locally modify a polymer resist layer, allowing for the patterning of features with nanometer resolution.
+\subsection{Etch Stop technique}
+\subsubsection{P++ Etch Stop}
+In silicon, heavily boron-doped regions exhibit significantly slower etch rates, making them effective etch stops. Key characteristics include:
+\begin{itemize}
+    \item \textbf{Selective Etching:} EDP (ethylene diamine pyrocatechol) is the most selective etchant for boron-doped silicon. The etch rate decreases by a factor of 100 as the boron concentration increases from $10^{19}~\text{atoms}/\text{cm}^{3}$ to $10^{20}~\text{atoms}/\text{cm}^{3}$, which is near the solid solubility limit of boron in silicon.
+    \item \textbf{Applications:} This technique is widely used to create thin membranes and other structures with well-defined thicknesses.
+\end{itemize}
 
-\subsection{Scanning Probe Metal 3D Printing}
+\subsubsection{Electrochemical Etch Stop}
+Electrochemical etch-stop techniques utilize the anodic passivation properties of silicon to achieve selective etching. The process involves:
+\begin{itemize}
+    \item \textbf{Passivation:} At certain potentials, silicon forms an anodic oxide layer that stops etching, effectively passivating the surface.
+    \item \textbf{Reverse Biased p-n Junction:} The technique combines anodic passivation with a reverse-biased p-n junction to achieve high selectivity between p-type and n-type silicon.
+    \item \textbf{Electrical Configuration:} A positive voltage is applied to the n-type silicon via an ohmic contact, while the p-type silicon is connected to the etch solution through a counter electrode (usually platinum).
+    \item \textbf{Etch Stop:} Once the p-type silicon is completely removed, the n-type silicon becomes exposed to the etch solution. Under anodic bias, the n-type silicon passivates, halting the etching process.
+\end{itemize}
 
-Scanning Probe Metal 3D Printing, particularly demonstrated by the CERES system, enables true additive manufacturing with submicron resolution.
+The electrochemical etch-stop process is one of the most cost-effective and precise techniques for fabricating thin, monocrystalline silicon membranes. It requires:
+\begin{itemize}
+    \item A reliable wafer holder to protect the n-type backside of the wafer and provide electrical contact.
+    \item A potentiostat to maintain the reverse bias and monitor the current over time.
+\end{itemize}
 
-\subsubsection{The CERES System}
-The CERES system, developed by Exaddon AG, performs direct 3D printing of metal under ambient conditions. The system is capable of building complex structures through an additive manufacturing process.
+\section{Surface Micromachining}
+Surface micromachining is a critical technique in microfabrication that focuses on the deposition and etching of thin films to create intricate microstructures. This method is particularly advantageous for applications requiring high resolution and the ability to fabricate complex geometries. Unlike bulk micromachining, which involves removing large portions of the substrate, surface micromachining relies on the precise manipulation of thin films deposited on the substrate.
 
-\subsubsection{Voxel-Based Printing Process}
-The metal printing process is voxel-based, where voxels are elementary three-dimensional blocks.
-\begin{enumerate}
-    \item \textbf{Setup:} A small printing nozzle, called an iontip (a type of cantilever), is immersed in a supporting electrolyte bath.
-    \item \textbf{Flow:} A precisely regulated air pressure pushes a liquid containing metal ions through a microchannel inside the iontip. The liquid flow is highly controlled, reaching rates as low as femtoliters per second.
-    \item \textbf{Deposition:} At the end of the microchannel, the ion-containing liquid is released onto the print surface. The dissolved metal ions are then electrodeposited into solid metal atoms.
-    \item \textbf{Structure Building:} Stacked in a layer-by-layer sequence at defined coordinates, these voxels form the desired 2D or 3D geometry.
-\end{enumerate}
+\begin{itemize}
+    \item Surface micromachining utilizes planar technologies to fabricate suspended microstructures. This involves depositing thin films on the bulk substrate and selectively etching specific areas to create the desired structures.
+    \item While the technology is more complex compared to bulk micromachining, it offers greater versatility and flexibility in design.
+    \item The process introduces the concepts of a \textbf{structural layer} (the layer that forms the functional part of the device) and a \textbf{sacrificial layer} (a temporary layer that is removed to release the structural layer).
+    \item Surface micromachining typically allows for better resolution and more efficient use of the substrate surface compared to bulk micromachining.
+    \item However, the thickness of devices and cavities created using this technique is limited to the micron scale. As a result, surface micromachining is not suitable for fabricating high structures or devices requiring large masses.
+    \item A significant challenge in surface micromachining is the \textbf{stiction problem}, where microstructures stick to the substrate due to capillary forces during the drying process.
+\end{itemize}
 
+\subsection{Surface vs. Bulk Micromachining}
+\begin{center}
+    \includegraphics{images.jpeg}
+\end{center}
+Surface micromachining differs from bulk micromachining in several key aspects:
+\begin{itemize}
+    \item \textbf{Bulk Micromachining:} This technique involves the removal of large portions of the substrate to create structures. It is suitable for applications requiring high masses or thick structures.
+    \item \textbf{Surface Micromachining:} This method focuses on the deposition and etching of thin films to create suspended microstructures. It is more versatile and allows for higher resolution but is limited in terms of structure thickness and mass.
+\end{itemize}
 
+\subsection{Typical Devices Realized by Surface Micromachining}
+Surface micromachining is commonly used to fabricate devices with suspended structures, such as cantilevers, membranes, and beams. These devices often require the removal of the sacrificial layer to release the structural layer. To facilitate this process:
+\begin{itemize}
+    \item \textbf{Etch Holes:} Etch holes are incorporated into the design to reduce the time required for removing the sacrificial layer underneath large-area structures. These holes allow the etchant to access and dissolve the sacrificial layer more efficiently.
+\end{itemize}
 
-\subsubsection{Design Freedom and Feedback}
-The use of electrodeposition enables significant design freedom, as free-standing structures and $90^\circ$ overhanging angles are feasible without the need for support structures.
+\section{Criteria for selecting materials and etching solutions}
+When selecting materials and etching solutions for microfabrication processes, several critical criteria must be considered to ensure optimal performance and compatibility. These criteria include:
 
-The printing process is automated by real-time feedback of the deflection of the iontip. As a voxel reaches completion, the top side of the voxel interacts with the tip, deflecting the cantilever by a minute, measurable amount. This mechanism operates much like an Atomic Force Microscope (AFM) cantilever operating in contact-mode. Upon detection of the deflection, the tip is quickly retracted to a safe traveling height and moved to the next voxel coordinate.
+\begin{itemize}
+    \item \textbf{Selectivity:}
+    \begin{itemize}
+        \item The etching solution must exhibit a high selectivity, meaning the etch rate on the sacrificial layer should be significantly higher than the etch rate on the structural layer. This ensures that the structural layer remains intact and undamaged during the etching process.
+    \end{itemize}
+    \item \textbf{Etch Rate:}
+    \begin{itemize}
+        \item The etching solution should have a rapid etch rate on the sacrificial layer. A faster etch rate reduces the overall etching time, improving process efficiency and minimizing the risk of prolonged exposure to the etchant, which could lead to unintended damage or degradation.
+    \end{itemize}
+    \item \textbf{Deposition Temperature:}
+    \begin{itemize}
+        \item In certain applications, it is essential to maintain a low overall processing temperature. This is particularly important for processes that involve integration with temperature-sensitive components, such as CMOS circuits or biological materials, where high temperatures could cause damage or alter material properties.
+    \end{itemize}
+    \item \textbf{Intrinsic Stress of the Structural Layer:}
+    \begin{itemize}
+        \item The structural layer must exhibit low intrinsic stress to ensure that it remains flat and stable after the release process. High stress in the structural layer can lead to warping, deformation, or mechanical failure, which would compromise the functionality of the final device.
+    \end{itemize}
+    \item \textbf{Surface Smoothness:}
+    \begin{itemize}
+        \item Surface smoothness is a critical factor for applications that require high optical quality or precision. A smooth surface minimizes scattering and ensures optimal performance in optical and other high-precision applications.
+    \end{itemize}
+\end{itemize}
+
+\subsection{Evaporation Drying}
+The transition of a liquid to a gas phase, known as evaporation drying, presents significant challenges at the micro-scale. During this process, capillary forces can exert substantial stress on microstructures, leading to deformation or adhesion to the substrate. This phenomenon, often referred to as stiction, is particularly problematic for delicate microstructures with high aspect ratios. The capillary forces arise due to the surface tension of the liquid as it evaporates, creating a pulling effect that can cause adjacent structures to come into contact. Once in contact, these structures may adhere to each other or to the substrate, resulting in permanent deformation or failure of the microdevice.
+
+\begin{center}
+    \includegraphics[width=0.5\linewidth]{Screenshot 2025-12-16 at 15.39.33.png}
+\end{center}
+
+\subsection{Release Stiction}
+Stiction, or the adhesion of microstructures to the substrate or to each other, is a critical issue during the drying phase of microfabrication processes. This adhesion is primarily caused by capillary forces exerted by the drying rinse solution. As the liquid evaporates, the surface tension pulls the microstructures downward, leading to potential stiction. The specific adhesion mechanisms depend on the surface properties of the materials involved:
+\begin{itemize}
+    \item \textbf{Van der Waals Forces:} These forces are the primary cause of stiction for hydrophobic surfaces. They arise due to the interaction of instantaneous dipoles between molecules.
+    \item \textbf{Hydrogen Bonding:} For hydrophilic surfaces, hydrogen bonding is the dominant adhesion mechanism. This occurs when hydrogen atoms form bonds with electronegative atoms like oxygen or nitrogen on the surface.
+\end{itemize}
+The critical question during the drying process is whether the microdevices will successfully release from the substrate or remain adhered due to stiction.
+
+\subsubsection{Strategies to Mitigate Stiction}
+To address the challenges posed by stiction, several strategies can be employed to reduce its occurrence and impact:
+\begin{itemize}
+    \item \textbf{Reduce Adhesion Area:} By minimizing the contact area between the microstructure and the substrate, the likelihood of stiction can be significantly reduced. This can be achieved by incorporating dimples or bumps into the design of the microstructures.
+    \item \textbf{Integrate Supporting Microstructures:} Adding supporting features can increase the tolerance of microstructures to capillary forces. Examples include microfuses or sacrificial supporting layers made of photoresist, which provide temporary support during the drying process.
+    \item \textbf{Sublimation Drying:} This technique involves freezing the liquid and then transitioning it directly from the solid phase to the gas phase, bypassing the liquid phase. This eliminates capillary forces and reduces the risk of stiction.
+    \item \textbf{Supercritical $\text{CO}_{2}$ Drying:} In this method, the liquid is replaced with supercritical carbon dioxide, which has no surface tension. This prevents the formation of capillary forces during drying.
+    \item \textbf{Vapor Phase Etching:} This process uses vapor-phase chemicals to etch away the sacrificial layer, avoiding the use of liquid solutions and thereby eliminating capillary forces.
+\end{itemize}
+
+\section{Wafer Bonding}
+Wafer bonding is a fundamental technology in the field of microfabrication, enabling the joining of two or more wafers to create intricate and complex microstructures and systems. This technique is indispensable for applications that require the integration of thick or multi-level systems, such as microfluidic circuits and advanced mechanical systems like sensors and actuators. Additionally, wafer bonding plays a crucial role in the packaging of sensors and micromechanical structures at the wafer level, ensuring their protection and functionality.
+
+\begin{itemize}
+    \item Facilitates the creation of thick or multi-level systems (multi-wafer stacks), which are essential for:
+    \begin{itemize}
+        \item Microfluidic circuits and systems.
+        \item Complex mechanical systems, including sensors, motors, and other devices.
+    \end{itemize}
+    \item Enables the packaging of sensors and micromechanical structures at the wafer level, providing a robust and reliable solution for integration.
+\end{itemize}
+
+\subsection{Classifying Wafer Bonding}
+Wafer bonding can be categorized based on the mechanisms and techniques used to achieve the bond. The primary classifications include:
+\begin{itemize}
+    \item \textbf{Heat-Assisted Bonding:}
+    \begin{itemize}
+        \item Includes methods such as Fusion Bonding, Eutectic Bonding, and Glass Frit Bonding.
+    \end{itemize}
+    \item \textbf{Electrical Field-Assisted Bonding:}
+    \begin{itemize}
+        \item Anodic Bonding is a prominent example of this category.
+    \end{itemize}
+    \item \textbf{Chemistry-Assisted Bonding:}
+    \begin{itemize}
+        \item Adhesive Bonding falls under this category.
+    \end{itemize}
+\end{itemize}
+The general process of wafer bonding typically involves three main steps:
+\begin{itemize}
+    \item \textbf{Surface Preparation:} This step is critical as the quality of the bond is highly dependent on the surface conditions. Ensuring that the surfaces are clean, flat, and free from contamination or particles is essential. For instance, a $1~\mu\text{m}$ particle can cause a void as large as $1~\text{cm}$ in diameter when bonding $8~\text{in.}$ wafers.
+    \item \textbf{Contacting:} The wafers are brought into intimate contact under controlled conditions to initiate the bonding process.
+    \item \textbf{Annealing:} The bonded wafers are subjected to thermal treatment to strengthen and stabilize the bond.
+\end{itemize}
+
+\subsection{Fusion (or Direct) Bonding}
+Fusion bonding, also known as direct bonding, is a technique that involves the joining of polished surfaces of wafers without the use of intermediate layers. Key characteristics include:
+\begin{itemize}
+    \item Applicable to $\text{Si}/\text{Si}$, $\text{Si}/\text{SiO}_{2}$, or $\text{SiO}_{2}/\text{SiO}_{2}$ bonding.
+    \item The process begins by bringing cleaned and polished wafer surfaces into intimate contact at room temperature.
+    \item A stable and permanent bond is formed by applying a large external force and/or subjecting the wafers to high temperatures.
+    \item The result is a nearly perfect, high-strength bond that is suitable for demanding applications.
+\end{itemize}
+
+\begin{center}
+    \includegraphics[width=0.35\linewidth]{41598_2024_57379_Fig1_HTML.png}
+\end{center}
+
+\subsection{Anodic Bonding}
+Anodic bonding, also known as field-assisted glass-silicon sealing, is a process that enables the bonding of silicon to glass at relatively low temperatures. The key steps and characteristics of anodic bonding are as follows:
+\begin{itemize}
+    \item The surfaces to be bonded must have a surface roughness of less than $0.1~\mu\text{m}$ to ensure close mating.
+    \item The wafers are assembled and heated on a hot plate to a temperature between $400$ and $500\text{\textdegree}\text{C}$, which is significantly lower than the temperatures required for fusion bonding.
+    \item A DC voltage, typically in the range of several hundred volts, is applied across the assembly, with the silicon wafer being positive relative to the glass.
+    \item The bonding process begins under the negative electrode and spreads across the surface. No external force is required.
+    \item The mechanism involves the migration of mobile ions (e.g., $\text{Na}^{+}$ or $\text{K}^{+}$) in the glass. These ions are attracted to the negative electrode, leaving behind a space charge layer that creates an electric field. This field pulls the surfaces into intimate contact, forming a strong bond.
+    \item The bonding process is irreversible, and the resulting structures are held together by a chemical bond.
+\end{itemize}
+\begin{center}
+    \includegraphics[width=0.35\linewidth]{978-0-387-48998-8_1_Part_Fig40_HTML.png}
+\end{center}
+
+\subsection{Glass Frit Bonding}
+Glass frit bonding is a versatile technique that uses a low-melting-point glass layer as an intermediate bonding layer. This method is particularly useful for applications where high temperatures or voltages are not feasible. Key features include:
+\begin{itemize}
+    \item Enables bonding or sealing at relatively low temperatures (as low as $160\text{\textdegree}\text{C}$) without the need for high voltages, metals, or adhesives.
+    \item The glass frit material can be patterned to achieve localized and selective bonding.
+    \item Inorganic glass frits require higher temperatures ($300$-$600\text{\textdegree}\text{C}$) but provide better sealing properties.
+    \item The process can accommodate slight surface curvatures, roughness, and even surface topologies, such as conductive traces or interconnects, by reflowing the glass.
+    \item The resulting bond is weaker compared to fusion or anodic bonding but is sufficient for many applications.
+    \item Glass frit bonding is compatible with various material combinations, including $\text{Si}$-$\text{Si}$, $\text{Si}$-$\text{SiO}_{2}$, $\text{Pyrex}$-$\text{Quartz}$, and others.
+    \item The sealing achieved can be hermetic, making it suitable for applications requiring airtight enclosures.
+\end{itemize}
+\begin{center}
+    \includegraphics[width=0.4\linewidth]{4-Figure3-1.png}
+\end{center}
+
+\section{Replication Techniques}
+\subsection{Micro-Injection Molding}
+Micro-injection molding is a replication technique that offers significantly higher throughput compared to hot embossing. This method is widely used for the mass production of microstructures due to its efficiency and scalability.
+\subsection{Micro-Injection Moulding}
+Micro-injection moulding is a replication technique used to reproduce many pieces from a mould insert.
+
+Thermoplastics, such as PMMA, PVC, and ABS, are common materials used in micro-injection. Metal powders and ceramic powders mixed in polymers can also be injected and sintered to form metallic or ceramic parts.
+
+Aspect ratios up to 100 and lateral precision down to $0.5~\mu\mathrm{m}$ can be achieved. Surface roughness depends on the quality of the mould insert, but can be as small as $50~\mathrm{nm}$.
+
+Micro-injection moulding is a variation of conventional injection moulding, adapted to produce pieces of extremely small feature size.
+
+To be able to fill features with aspect ratio above 10, the temperature of the mould insert and holder must be particularly well controlled.
+
+The polymer is injected with a typical pressure ranging from 500 to 2000 bars into the mould cavity, which is previously evacuated through a vacuum pump.
+
+Demoulding often requires special handling or the addition of mould release compounds into the polymer mix.
+
+\subsection{Hot-Embossing}
+Hot-embossing is a replication process that involves the use of heat and pressure to transfer microstructures onto a substrate. Common materials used in hot-embossing include:
+\begin{itemize}
+    \item PMMA (Polymethylmethacrylate): A transparent thermoplastic with excellent optical properties.
+    \item POM (Polyoxymethylene Acetal): Known for its high stiffness and low friction.
+    \item PC (Polycarbonate): A durable material with high impact resistance and optical clarity.
+    \item PVDF (Polyvinylidene Fluoride): A highly non-reactive and pure thermoplastic fluoropolymer.
+    \item PSU (Polyethersulfone): A high-performance thermoplastic with excellent thermal and mechanical properties.
+\end{itemize}
+
+\subsection{($\text{in}$-$\text{situ}$) Casting}
+The ($\text{in}$-$\text{situ}$) casting technique involves the following steps:
+\begin{itemize}
+    \item A high-resolution mold is created using thick resist materials such as $\text{SU}$-$8$ or through processes like LIGA.
+    \item $\text{Polydimethylsiloxane}$ ($\text{PDMS}$), a soft and flexible silicone material, is poured onto the mold.
+    \begin{itemize}
+        \item $\text{PDMS}$ is known for its ability to conform to surface features with high fidelity.
+        \item The material undergoes heat curing, which can range from room temperature ($\text{RT}$) to over $150\text{\textdegree}\text{C}$. The curing time varies from $24~\text{hours}$ to as little as $10~\text{minutes}$ depending on the conditions.
+    \end{itemize}
+    \item Once cured, the $\text{PDMS}$ is simply peeled off from the mold.
+    \begin{itemize}
+        \item This process allows for the reproduction of sub-micron features at a low cost.
+    \end{itemize}
+\end{itemize}
+
+\subsubsection{PDMS Properties:}
+$\text{PDMS}$ exhibits a range of properties that make it highly suitable for microfabrication:
+\begin{itemize}
+    \item It is a silicone elastomer available in a variety of viscosities.
+    \item $\text{PDMS}$ is flexible, with a Young’s modulus of approximately $1~\text{MPa}$, making it easy to mold.
+    \item As an elastomer, it conforms to surfaces over large areas.
+    \item It is chemically inert and optically transparent in the $300$-$1100~\text{nm}$ wavelength range.
+    \item $\text{PDMS}$ has low surface energy, allowing it to bond reversibly or permanently to other surfaces.
+    \item It seals effectively to flat and clean surfaces, making it ideal for microfluidic applications.
+    \item The material is durable, reusable, and exhibits low thermal expansion.
+    \item It is biocompatible, even suitable for use as a food additive.
+    \item $\text{PDMS}$ is permeable to gases and solvents but impermeable to liquid water.
+    \item It does not produce particulates, is environmentally safe, and is highly transparent.
+    \item $\text{PDMS}$ is commercially available under the Dow Corning brand.
+\end{itemize}
+
+\section{Global Planarization-Chemical Mechanical Polishing}
+\begin{itemize}
+    \item Chemical Mechanical Polishing ($\text{CMP}$) is an essential process in the field of microfabrication, primarily aimed at achieving global planarization of substrates. This process is critical for ensuring the uniformity and precision required in advanced semiconductor manufacturing and other microfabrication applications.
+    \item $\text{CMP}$ operates by combining both mechanical and chemical forces in a synergistic manner. The mechanical aspect involves the physical abrasion of the wafer surface using a polishing pad and abrasive particles, while the chemical aspect involves the use of reactive chemicals in the slurry to selectively weaken and remove specific materials.
+    \item During the $\text{CMP}$ process, the wafer is mounted on a carrier and pressed against a rotating polishing pad. A controlled load force is applied to the back of the wafer to ensure consistent contact with the pad. Both the polishing pad and the wafer are counter-rotated to enhance the uniformity of the material removal process.
+    \item A slurry, which is a mixture of abrasive particles and reactive chemicals, is continuously introduced between the wafer and the polishing pad. The abrasive particles in the slurry facilitate the mechanical removal of material, while the reactive chemicals selectively etch the surface, enhancing the overall planarization efficiency.
+    \item The primary goal of $\text{CMP}$ is to achieve a highly uniform and planar surface across the entire wafer. This uniformity is crucial for subsequent fabrication steps, such as lithography and etching, where surface irregularities can lead to defects and reduced device performance.
+    \item $\text{CMP}$ is widely used for planarizing various materials, including oxides, metals, and dielectrics, and is a key enabler for the fabrication of advanced integrated circuits, multi-level interconnects, and other high-precision microstructures.
+\end{itemize}
+\begin{center}
+    \includegraphics[width=0.3\linewidth]{3-s2.0-B9781437735147100303-f30-03-9781437735147.jpg}
+\end{center}
 
 \end{document}
+
+
 \part{Cryogenic technology and Superconductivity} 
 \chapter{Introduction}
 

@@ -240,19 +240,30 @@
 \contentsline {subsubsection}{Advantages}{75}{}%
 \contentsline {subsubsection}{Through Silicon Vias (TSV)}{75}{}%
 \contentsline {chapter}{\numberline {10}Complementary Technologies}{76}{}%
-\contentsline {section}{\numberline {10.1}Bulk micromachining}{76}{}%
-\contentsline {subsection}{\numberline {10.1.1}Definition and Characteristics}{76}{}%
-\contentsline {subsection}{\numberline {10.1.2}Types of Bulk Micromachining}{76}{}%
-\contentsline {subsection}{\numberline {10.1.3}Bulk Micromachining Etching Techniques}{76}{}%
-\contentsline {subsection}{\numberline {10.1.4}Wet Etching}{76}{}%
-\contentsline {subsubsection}{Basic Wet Etching Procedure}{76}{}%
-\contentsline {subsubsection}{Vapour Etching}{77}{}%
-\contentsline {subsection}{\numberline {10.1.5}Dry (Plasma) Etching}{77}{}%
-\contentsline {subsubsection}{Plasma Etching Components}{77}{}%
-\contentsline {subsubsection}{Techniques}{77}{}%
-\contentsline {section}{\numberline {10.2}SPM Machining}{77}{}%
-\contentsline {subsection}{\numberline {10.2.1}Thermal Scanning Probe Lithography}{77}{}%
-\contentsline {subsection}{\numberline {10.2.2}Scanning Probe Metal 3D Printing}{77}{}%
-\contentsline {subsubsection}{The CERES System}{77}{}%
-\contentsline {subsubsection}{Voxel-Based Printing Process}{78}{}%
-\contentsline {subsubsection}{Design Freedom and Feedback}{78}{}%
+\contentsline {section}{\numberline {10.1}Bulk Micromachining}{76}{}%
+\contentsline {subsection}{\numberline {10.1.1}Bulk Micromachining Etching Techniques}{76}{}%
+\contentsline {subsubsection}{Wet Etching}{76}{}%
+\contentsline {subsubsection}{Vapor Etching}{77}{}%
+\contentsline {subsubsection}{Plasma Etching Process}{77}{}%
+\contentsline {subsection}{\numberline {10.1.2}Etch Stop technique}{77}{}%
+\contentsline {subsubsection}{P++ Etch Stop}{77}{}%
+\contentsline {subsubsection}{Electrochemical Etch Stop}{77}{}%
+\contentsline {section}{\numberline {10.2}Surface Micromachining}{78}{}%
+\contentsline {subsection}{\numberline {10.2.1}Surface vs. Bulk Micromachining}{78}{}%
+\contentsline {subsection}{\numberline {10.2.2}Typical Devices Realized by Surface Micromachining}{79}{}%
+\contentsline {section}{\numberline {10.3}Criteria for selecting materials and etching solutions}{79}{}%
+\contentsline {subsection}{\numberline {10.3.1}Evaporation Drying}{79}{}%
+\contentsline {subsection}{\numberline {10.3.2}Release Stiction}{80}{}%
+\contentsline {subsubsection}{Strategies to Mitigate Stiction}{80}{}%
+\contentsline {section}{\numberline {10.4}Wafer Bonding}{80}{}%
+\contentsline {subsection}{\numberline {10.4.1}Classifying Wafer Bonding}{81}{}%
+\contentsline {subsection}{\numberline {10.4.2}Fusion (or Direct) Bonding}{81}{}%
+\contentsline {subsection}{\numberline {10.4.3}Anodic Bonding}{81}{}%
+\contentsline {subsection}{\numberline {10.4.4}Glass Frit Bonding}{82}{}%
+\contentsline {section}{\numberline {10.5}Replication Techniques}{82}{}%
+\contentsline {subsection}{\numberline {10.5.1}Micro-Injection Molding}{82}{}%
+\contentsline {subsection}{\numberline {10.5.2}Micro-Injection Moulding}{82}{}%
+\contentsline {subsection}{\numberline {10.5.3}Hot-Embossing}{83}{}%
+\contentsline {subsection}{\numberline {10.5.4}($\text {in}$-$\text {situ}$) Casting}{83}{}%
+\contentsline {subsubsection}{PDMS Properties:}{83}{}%
+\contentsline {section}{\numberline {10.6}Global Planarization-Chemical Mechanical Polishing}{84}{}%
